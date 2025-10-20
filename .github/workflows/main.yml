@@ -1,0 +1,52 @@
+name: Update bitblock mirror
+
+# Нужно дать права на запись в содержимое репо (для пуша)
+permissions:
+  contents: write
+
+on:
+  schedule:
+    # каждые 2 дня в 03:00 UTC
+    - cron: '0 3 */2 * *'
+  workflow_dispatch: {} # возможность запускать вручную
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - id: fetch_upstream
+        name: Fetch upstream bitblock
+        run: |
+          set -euo pipefail
+          OUTDIR=main
+          mkdir -p "$OUTDIR"
+          TMPFILE=$(mktemp)
+          echo "Downloading upstream..."
+          curl -fsSL "https://easylist-downloads.adblockplus.org/bitblock.txt" -o "$TMPFILE" || (echo "download failed" && exit 1)
+          if [ ! -f "$OUTDIR/bitblock.txt" ]; then
+            mv "$TMPFILE" "$OUTDIR/bitblock.txt"
+            echo "changed=1" >> $GITHUB_OUTPUT
+          else
+            if ! cmp -s "$TMPFILE" "$OUTDIR/bitblock.txt"; then
+              mv "$TMPFILE" "$OUTDIR/bitblock.txt"
+              echo "changed=1" >> $GITHUB_OUTPUT
+            else
+              rm "$TMPFILE"
+              echo "changed=0" >> $GITHUB_OUTPUT
+            fi
+          fi
+
+      - name: Commit & push if changed
+        if: steps.fetch_upstream.outputs.changed == '1'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add main/bitblock.txt
+          git commit -m "Update bitblock.txt: $(date -u +"%Y-%m-%d %H:%M UTC")"
+          git push origin HEAD:main
