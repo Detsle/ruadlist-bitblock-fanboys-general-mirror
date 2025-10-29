@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: B824Xfmi53IwzHxxqlyeTw
-! Version: 202510270331
+! Checksum: l34AftjpeaxBVw2cx8+lSA
+! Version: 202510290331
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 27 Oct 2025 03:31 UTC
+! Last modified: 29 Oct 2025 03:31 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1571,6 +1571,7 @@ neva.today##.material_vk_comments
 tagilcity.ru##.matter-after > .typo-class
 atas.info,bel.ru##.matter-after > div > .font-bold
 56orb.ru,atas.info,bel.ru,gorod55.ru,inkazan.ru,karelinform.ru,kubanpress.ru,kursdela.biz,mkset.ru,muksun.fm,nashgorod.ru,newizv.ru,newkhakasiya.online,newsnn.ru,newstracker.ru,novostivolgograda.ru,prmira.ru,properm.ru,rosbalt.ru,rostovgazeta.ru,tagilcity.ru,transsibinfo.com,udm-info.ru,vostokmedia.com,zr.media#?#.matter-after > div:-abp-has(> div[class^="Subscribe_subscribe_"])
+regnum.ru##.max-promo-link
 volodymyrets.city##.mc-burger-social
 baltanews.city,barnews.city,bilopillia.city,bilyayivka.city,chernihiv.city,chortkiv.city,dobronews.city,drohobych.city,energodar.city,fastivnews.city,gylyajpole.city,hadiach.city,haisyn.city,hlukhiv.city,horodok.city,izmacity.com,kagarlyk.city,kalushnews.city,kalynivka.city,kavun.city,kitsman.city,konotop.city,kremenets.city,kuma.city,lozova.city,mltpl.city,netishyn.city,nikopol.city,nizhyn.city,novakahovka.city,novograd.city,nsirogozy.city,oretsk.city,pereiaslav.city,petropavlivka.city,popasnaya.city,primorka.city,rakhiv.city,sarnynews.city,shostkanews.city,skadovsk.city,slavuta.city,starkon.city,susidy.city,svatove.city,thegard.city,tira.city,troyitske.city,volnovakha.city,volodymyrets.city,yuzhkanews.city,zhmerynka.city,zoloto.city##.mc-item-share
 volodymyrets.city##.mc-page-share
@@ -3509,6 +3510,7 @@ _userbar_$image
 ||borgan.ru^$third-party
 ||browser-update.org^$third-party
 ||c.evidon.com/geo/country.js
+||cbox.*/box/$third-party,domain=~multikonline1.ru|~tukero.org|~vprognoze.ru
 ||cdn.enkod.ru/script/enpop.min.js
 ||cdn.onesignal.com/sdks/OneSignalSDK.js$third-party
 ||cdn.uxfeedback.ru^*widget.js
@@ -4227,7 +4229,6 @@ _app_promo$domain=7themes.su|wallscloud.net
 ||business-gazeta.ru/js/components/has-cookie.js
 ||calc.ru/include/check_subscription.php
 ||calltouch.ru/*/static/img/sklogo.
-||cbox.*/box/$third-party,domain=~multikonline1.ru|~tukero.org
 ||cdn.eapteka.ru/local/react/build/static/*/loyaltyProgramm.
 ||cdn.jsdelivr.net/npm/sweetalert$script,domain=220vk.com
 ||cdn.tnt-online.ru/masha_layer/index.html
@@ -6449,6 +6450,7 @@ hideogenius.com#?#[id^="oframevideoplayer"] > pjsdiv:-abp-has(> pjsdiv:-abp-cont
 fraza.com#?#[itemprop="articleBody"] > div:-abp-has(a[href^="https://news.google.com/publications/"])
 vk-smi.ru##[itemprop="articleBody"] ~ .text-center
 itsider.com.ua,mmr.net.ua##[itemtype="https://schema.org/WPAdBlock"] > a[href][target="_blank"]
+kolesa.ru##[ng-controller="SubscribeController"]
 shadowcore.ru##[onclick="showBoosty();"]
 diets.ru##[onclick^="closeDailyRecipesPopup"],form[class^="dayrecipes"]
 rshb.ru#?#[role="dialog"]:-abp-has(> div > div > p > [href="/pd-policy#cookie"])
@@ -7368,6 +7370,7 @@ mail.yandex.ru,mail.yandex.*###js-mail-layout-content-header > .message-list-ban
 mail.yandex.ru,mail.yandex.*##div#js-layout-inner[class^="PageLayout-m__main--"][id="js-layout-inner"] ~ div[style*="overscroll-behavior: none;"]
 ||dzen.ru/zen-partner/$third-party
 ||livejournal.com/*_*_*_*_*_*_*_*_*_$xmlhttprequest
+||mail.yandex.*/u2709/$script,~third-party
 ||ok.ru/web-api/*/hobby/getMailRuHobbyFeedScriptSrc$domain=mail.ru
 ||ya.ru/portal/feed?
 ||yandex-realty.naydex.net^$script
@@ -18797,7 +18800,7 @@ tmstor.es#@#.top_social
 swingliteracy.com#@#.tve_social_items
 nothiefsallowed.com#@#.twitter-timeline
 google.com#@#SHARE-BUTTON
-geki-cine.jp,heiwa-9inday.jp,hypnosismic-anime.com,mamodan-plus.clony.co.jp,monsterhunternow.belugacpn.jp,ufret.jp#@#a[href^="https://twitter.com/intent/tweet?"]
+geki-cine.jp,heiwa-9inday.jp,hypnosismic-anime.com,idolmaster-official.jp,mamodan-plus.clony.co.jp,monsterhunternow.belugacpn.jp,ufret.jp#@#a[href^="https://twitter.com/intent/tweet?"]
 petsmart.com#@#a[href^="https://www.facebook.com/sharer/sharer.php"]
 playswellwithbutter.com#@#a[href^="https://www.pinterest.com/pin/create/button/"]
 ! *** easylist:fanboy-addon/fanboy_social_allowlist.txt ***
