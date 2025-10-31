@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: l34AftjpeaxBVw2cx8+lSA
-! Version: 202510290331
+! Checksum: 8OK7rlS+9RSYr/YqiW3wcA
+! Version: 202510310331
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 29 Oct 2025 03:31 UTC
+! Last modified: 31 Oct 2025 03:31 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1124,7 +1124,7 @@ superjob.ru##.f-test-option-Podelitsya
 makler.md##.fFoc
 allfight.ru##.f_social
 littleone.com##.f_socico
-arminfo.info,dnl.dn.ua,it-here.ru,nnovosti.info##.fa-facebook
+arminfo.info,che.cn.ua,dnl.dn.ua,it-here.ru,nnovosti.info##.fa-facebook
 dnl.com.ua##.fa-facebook-square
 dnl.dn.ua##.fa-instagram
 arminfo.info##.fa-pinterest
@@ -1832,6 +1832,7 @@ iphones.ru##.postpage_telega
 kraj.by##.preheader-social
 kurkul.com##.prices-widget
 planetazdorovo.ru##.product-detail-share
+metro-cc.ru##.product-page-social
 onliner.by##.project-navigation__link_secondary
 friday.ru##.project-social
 dorama.land,doramaland.plus##.promo-btn
@@ -3071,6 +3072,7 @@ daily.afisha.ru##div[class^="SocialPlate_Container"]
 atas.info,bel.ru##div[class^="Socials"]
 metaratings.ru##div[class^="Socials_"]
 newizv.ru##div[class^="Socials_socials"]
+rg.ru##div[class^="StoryContentMainShare_root_"]
 start.rt.ru##div[class^="StyledFooterInfoBlockSocialIcons-"]
 atas.info,bel.ru,metaratings.ru##div[class^="Subscribe_subscribe"]
 news.finance.ua##div[class^="Subscriptions"]
@@ -4786,6 +4788,7 @@ vk.com###old_browser_wrap
 fontanka.ru###onesignal-promt-target div[style^="max-height:"] > div[style^="max-height:"] > div:last-child
 fontanka.ru###onesignal-promt-target div[style^="max-height:"] > div[style^="max-height:"] > nav > div > div:last-child
 flashscore.com.ua,flashscore.ru.com,flashscore.ua,flashscorekz.com,livescore.in,soccerstand.com###onetrust-consent-sdk
+che.cn.ua#?##ot-right .ot-mod-outer:-abp-has(#SinoptikInformer)
 overclockers.ru#?##otherPageContent > #comments ~ .ui > .column:-abp-has(.divided > .material-near-feed)
 overclockers.ru###otherPageContent > .ui > .column > .divided
 autoclub-cerato.ru###outer_forum
@@ -5484,6 +5487,7 @@ grad.ua##.footer-g-play
 gordonua.com##.footer-hide-tablet
 championat.com,championat.ru##.footer-icons
 teleportal.ua##.footer-links > a[href*="/app"]
+metro-cc.ru##.footer-main__contacts-block:nth-of-type(2) ~ .footer-main__contacts-block
 domashniy.ru##.footer-media-app
 unian.info,unian.net,unian.ua##.footer-menu__app
 liveresult.ru##.footer-nav > .container-fluid > .row a[href*="apps"]
@@ -5843,6 +5847,7 @@ myfin.by##.own-services-promo
 probiv.in,probiv.one##.p-body-inner > [class*="notice"]
 cnc3018.ru#?#.p-body-sidebar > .block:-abp-has(> .block-container > .block-body > iframe[src*="://yoomoney.ru"])
 cabinet.tax.gov.ua##.p-toast-top-right [role="alert"]
+online.metro-cc.ru##.padding-from-footer.overflow-hidden:empty
 hightech.fm##.page-content__news-links
 ficbook.net##.page-footer-apps
 kp.kg,kp.kz,kp.md,kp.ru##.page-footer_subscribe
@@ -5946,6 +5951,7 @@ shazoo.ru##.promo-button
 hotline.ua##.promo-list-item
 cont.ws##.promo-posts
 klerk.ru##.promoTop-promotion
+metro-cc.ru##.promobanners-middle
 24smi.org##.promocode-logo
 domru.ru##.promslider
 peers.tv##.pronoslide
@@ -6250,6 +6256,7 @@ aliexpress.ru##.top-banner-container
 34.ua##.top-banner-wrapper
 primpogoda.ru##.top-bar-section > .right
 overclockers.ru##.top-scroll
+metro-cc.ru##.top-stretched-banner
 kinorium.com##.topMenu__pro-button
 solidbank.ru##.topTextBar
 stb.ua,teleportal.ua##.top_b_container
@@ -6350,6 +6357,7 @@ livesport.ru##.zz_cars_twin
 0calc.es,0calc.fr,0calc.in,0calc.ru,0rechner.de,nu.nl,web2.0calc.com,web2.0calc.ru##[action="/cookieconsent"]
 mbclub.ru##[alt="Клубный сервис"]
 lelang.su##[alt="Пожертвовать"]
+metro-cc.ru##[analytics_banner_name]
 fosshub.com##[aria-label="Advertisement"]
 ixbt.com##[aria-label="cookieconsent"]
 point.md##[aria-label="scroll to top button"]
