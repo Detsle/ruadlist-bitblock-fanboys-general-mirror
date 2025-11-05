@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: mLmv917lg8+sHWGir9cE+w
-! Version: 202511030331
+! Checksum: kXLW9qcDXABqQzZhx3eR9g
+! Version: 202511050331
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 03 Nov 2025 03:31 UTC
+! Last modified: 05 Nov 2025 03:31 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -2405,7 +2405,7 @@ report.az##.subs-in-social
 rau.ua##.subs-social
 soccer365.com.ua,soccer365.ru##.subscr
 allgoodmood.ru,gdeichto.ru,kulturologia.ru,stopcor.org##.subscribe
-risu.ua,rozetked.me,today.ua##.subscribe-block
+news.ru,risu.ua,rozetked.me,today.ua##.subscribe-block
 crimea-news.com##.subscribe-email
 sports.ru##.subscribe-feed
 oxu.az##.subscribe-single-block
@@ -2590,6 +2590,7 @@ mentoday.ru,techinsider.ru,thevoicemag.ru##.vertical-video__share-button
 sport.ua##.viber
 1plus1.video##.video-comments
 ren.tv##.video-player__sharing
+regnum.ru##.video-share-wrapper
 vesti.ru##.video_top_inner
 gdz-raketa.ru##.vidget
 rusvesna.su#?#.view-header > span:-abp-has(> b > [href*="://web.telegram.org"])
