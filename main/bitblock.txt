@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: kXLW9qcDXABqQzZhx3eR9g
-! Version: 202511050331
+! Checksum: cIiXwf2ky+Um2tNgPUo5Bw
+! Version: 202511070322
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 05 Nov 2025 03:31 UTC
+! Last modified: 07 Nov 2025 03:22 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -2049,7 +2049,7 @@ defence-ua.com##.sidebar > div:first-child + h2
 cikavosti.com##.sidebar noindex > [href^="https://cikavosti.com/goto/"]
 androidinsider.ru,appleinsider.ru,hi-news.ru##.sidebar-banner-telegram
 1plus1.ua##.sidebar-banners__instagram
-anitokyo.tv#?#.sidebar-block:-abp-has(> header > .soc-vk)
+anitokyo.tv,anitokyo1.top#?#.sidebar-block:-abp-has(> header > .soc-vk)
 oxu.az##.sidebar-bottom
 t.ks.ua#?#.sidebar-box:-abp-has(> div > div > ul > .facebook)
 ryfma.com#?#.sidebar-card:-abp-has(> .content > .header:-abp-contains(Мы в соц.сетях))
@@ -2140,7 +2140,7 @@ vikna.tv##.soc-media
 fakty.com.ua##.soc-media-footer
 psm7.com##.soc-mob-menu
 oka.fm##.soc-search-block > a[href][target="blank"]
-anitokyo.tv##.soc-share
+anitokyo.tv,anitokyo1.top##.soc-share
 okna.ua##.soc-share-block-wrapper
 soccer.ru##.soc-subcribe
 dnepr.info##.soc-tabs-js
@@ -2670,7 +2670,6 @@ actual.today##.widget_thechampfollow
 vgr.by##.widget_true_social_icon_link_widget
 spacegid.com##.widget_uaf_sc_widget
 mkset.ru##.widgets
-lurkmore.wtf##.wikishare_toolbox
 agrarii-razom.com.ua#?#.with-header:-abp-has(> .content > .fb-page)
 vinnitsa.info##.with-static-logo a.MuiLink-underlineNone[target="_blank"]
 detstrana.ru##.with_share
@@ -3465,7 +3464,7 @@ porjati.net##form[action="http://feedburner.google.com/fb/a/mailverify"]
 /images/ubars/*
 /jquery.smartbanner.$domain=~1-ofd.ru|~blog.kaspersky.kz|~blog.kaspersky.ru|~gov.ru|~kaspersky.co.in|~kaspersky.co.uk|~kaspersky.co.za|~kaspersky.com|~kaspersky.com.au|~kaspersky.com.br|~kaspersky.com.cn|~kaspersky.com.tr|~kaspersky.de|~kaspersky.es|~kaspersky.fr|~kaspersky.it|~kaspersky.nl|~kaspersky.ru|~mirage.ru|~mosigra.ru|~mts.ru|~promelec.ru
 /js/pushsubscribe.js
-/light_chat/*$domain=~anitokyo.tv|~asilmedia.org|~coop-land.ru|~freetp.org|~freetp.ru|~lenov.ru|~online-fix.me
+/light_chat/*$domain=~anitokyo.tv|~anitokyo1.top|~asilmedia.org|~coop-land.ru|~freetp.org|~freetp.ru|~lenov.ru|~online-fix.me
 /livejournal.png$domain=~livejournal.com
 /mchat/*$domain=~electric-house.ru|~naruto-base.su|~partizzan1941.ucoz.ru|~stalkerportaal.ru
 /metric.$image
@@ -5128,6 +5127,7 @@ allsoft.ru##.b-popup-overlay_subscription
 takiedela.ru##.b-post__help
 vc.ru##.b-push-subscribe-wrapper
 podolyaka.ru##.b-r > .commentsin ~ *
+booksreed.ru,electrobooks.ru,novkniga.ru,skanbooks.ru##.b-r--after_content > noindex
 kingisepp-today.ru,xn----etbbecbrbp5ahkja1ae7v.xn--p1ai##.b-side-col-vip-ks
 siliconrus.com##.b-sidebar-block-adv-bottom
 sobaka.ru##.b-sidebar-widget--subscribe
@@ -6710,6 +6710,7 @@ start.rt.ru##div[class^="StyledHeader-"] > canvas
 rg.ru##div[class^="Subscribe_formSub"]
 premium.mts.ru##div[class^="ToastRoot_wrapper_"]
 meduza.io##div[class^="TopBar-"][class*="root"]
+rg.ru##div[class^="Umbrella_newsletterSubscribe_"]
 stopgame.ru#?#div[class^="_content"] > p:-abp-has(> a[href*="boosty"])
 tribuna.com##div[class^="_footer__apps"]
 stopgame.ru##div[class^="_podcast-container_"]
@@ -6771,6 +6772,7 @@ ctc.ru##div[data-cy="cookie-concent"]
 stolichki.ru##div[data-hint="app"]
 avito.ru##div[data-key^="promoWidget"]
 avito.ru##div[data-marker="standard-banner"]
+avito.ru##div[data-marker^="top-notification/"]
 santehnika-online.ru##div[data-name="FooterCookieAgreement"]
 lemanapro.ru##div[data-qa="cookie-notification"]
 hh.ru##div[data-qa="cookies-policy-informer"]
@@ -18736,6 +18738,7 @@ nbcnews.com#@#.article_share
 thetoc.gr#@#.authorSocial
 gofile.io#@#.bi-share
 engage.it#@#.block-social
+slideshare.net#@#.button-social
 forum.figma.com,share.notizie.it#@#.category-share
 2001online.com#@#.entry-social
 accounts.motorsport.com#@#.facebook-block
@@ -18892,7 +18895,6 @@ playswellwithbutter.com#@#a[href^="https://www.pinterest.com/pin/create/button/"
 ! Generichide
 @@||archiveteam.org^$generichide
 @@||docs.qq.com^$generichide
-@@||flattr.com^$generichide
 @@||fontawesome.com^$generichide
 @@||github.com^$generichide
 @@||github.io^$generichide
