@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 4M7NPZZXSI/bdIfgwJ0+cw
-! Version: 202511130331
+! Checksum: zvXezJ1y4pHCtx2tDQUC/g
+! Version: 202511150321
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 13 Nov 2025 03:31 UTC
+! Last modified: 15 Nov 2025 03:21 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -2539,6 +2539,7 @@ zanmsk.ru##.top-bar-menu
 iblitzmods.ru##.top-bar-socials
 polissia.news##.top-header
 vesti42.ru##.top-icons-wrapper
+burninghut.ru##.top-menu__share
 oblast-te.com.ua##.top-social-area
 ru-an.info##.top-ss,.top-sss
 founder.ua##.topBar_social
@@ -2802,6 +2803,7 @@ spot.uz##[data-target="share-dropdown"]
 youla.ru##[data-test-component="SocialShare"]
 kp.kg,kp.kz,kp.md,kp.ru##[data-test-id="Menu_MenuSocials"]
 adme.media##[data-test-id="join-us"]
+banki.ru##[data-test="flexbox"] > div[data-test="tooltip"]:nth-child(2)
 fontanka.ru##[data-test="report-news"] > div > div > ul
 116.ru,14.ru,161.ru,164.ru,173.ru,178.ru,26.ru,29.ru,35.ru,43.ru,45.ru,48.ru,51.ru,53.ru,56.ru,59.ru,60.ru,63.ru,68.ru,71.ru,72.ru,74.ru,76.ru,86.ru,89.ru,93.ru,chita.ru,e1.ru,ircity.ru,izh1.ru,mgorsk.ru,msk1.ru,ngs.ru,ngs22.ru,ngs24.ru,ngs42.ru,ngs55.ru,ngs70.ru,nn.ru,sochi1.ru,sterlitamak1.ru,tolyatty.ru,ufa1.ru,v1.ru,vladivostok1.ru,voronezh1.ru,ya62.ru##[data-test="themes-line"] a[href][target="_blank"]
 eurosport.ru##[data-testid="share-icons"]
@@ -4742,6 +4744,7 @@ fishki.net###lemur-promo
 styanulo.net###lenta
 rarog.livejournal.com###lenta-top > .entryunit--feedpromo
 lifehacker.ru###lh-push-app
+banki.ru###lightbox-container > div[style^="font-size: initial; word-break: initial;"]
 livejournal.com###ljlive
 superhimik.com###login_popup
 rintor.org###logo > .banner
@@ -5131,7 +5134,7 @@ allsoft.ru##.b-popup-overlay_subscription
 takiedela.ru##.b-post__help
 vc.ru##.b-push-subscribe-wrapper
 podolyaka.ru##.b-r > .commentsin ~ *
-booksreed.ru,electrobooks.ru,lit-web.net,litruso.ru,my-lib.ru,novkniga.ru,skanbooks.ru,x-libri.ru##.b-r--after_content > noindex
+bookdream.ru,booksreed.ru,electrobooks.ru,lit-web.net,litruso.ru,my-lib.ru,novkniga.ru,skanbooks.ru,x-libri.ru##.b-r--after_content > noindex
 kingisepp-today.ru,xn----etbbecbrbp5ahkja1ae7v.xn--p1ai##.b-side-col-vip-ks
 siliconrus.com##.b-sidebar-block-adv-bottom
 sobaka.ru##.b-sidebar-widget--subscribe
@@ -6403,6 +6406,7 @@ onlinemschool.com##[class^="oms_gp"]
 podarkus.ru##[class^="styles-module_footer_"] > [class^="styles-module_right_"]
 livejournal.com##[cookies-alert]
 postimees.ee##[custom-classes^="structured-content__block--coma"]
+epicentrk.ua##[data-advertising-listing-list]
 friday.ru##[data-block-closer-storage="cookie"]
 tretyakovgallery.ru##[data-block-closer-target="cookie"]
 sports.ru##[data-control="Common.WebpushSubscribe"]
@@ -6941,6 +6945,7 @@ forexsystemsru.com##tr > .sidebar
 forums.overclockers.ru##tr > td[valign="top"][width="100%"] ~ td[style^="max-width"]
 benzclub.ru##tr > td[valign="top"][width="245"]
 kion.ru##ui-web-alert
+epicentrk.ua##ul > li[data-test-small-card] ~ li:not([data-test-small-card])
 shiza-project.com##ul[class*="transparent-btns"]
 wildberries.ru,wildberries.*##.fixed-block__cookies
 !
@@ -6998,6 +7003,7 @@ wildberries.ru,wildberries.*##.fixed-block__cookies
 ! Kinopoisk
 www.kinopoisk.ru###editorial-format-block + div[style^="min-width:"][style*="1px"]
 www.kinopoisk.ru###person-filmography-graph ~ div a[class*="style_buttonPlus"]
+www.kinopoisk.ru###streaming-promo-block + [style^="min-width:"][style*="1px"]
 www.kinopoisk.ru###trailer-promo-block + [style^="min-width:"][style*="1px"]
 www.kinopoisk.ru##.film-object-card__offer-text
 www.kinopoisk.ru##.kinopoisk-header-search-form__suggest-container > div[class*="styles_noTabs"]
