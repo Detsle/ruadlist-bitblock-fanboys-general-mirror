@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: zvXezJ1y4pHCtx2tDQUC/g
-! Version: 202511150321
+! Checksum: uRgp8ItJlF1uHrBDX8sTMw
+! Version: 202511170331
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 15 Nov 2025 03:21 UTC
+! Last modified: 17 Nov 2025 03:31 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1016,7 +1016,6 @@ club.dns-shop.ru##.club-sidebar__footer-social
 pravda.com.ua##.club_banner
 timeweb.com##.cm-banner-article-telegram
 timeweb.com##.cm-banner-aside-telegram
-mobiltelefon.ru##.cnt_followers
 glavnoe.net,infotime.co##.code-block > div > p
 7dniv.rv.ua##.code-block-5[style*="clear:"]
 iguides.ru##.col > .i-box__horizontal.article-horizontal
@@ -1215,6 +1214,7 @@ bazar.bike##.footer-content > .container > .row > div > div[class="footer-col ro
 3ddd.ru##.footer-content a[target="_blank"] > img
 kinonavigator.ru##.footer-element[title^="Наш"]
 footballhub.ua##.footer-heading
+wroom.ru##.footer-icon
 bez-smenki.ru##.footer-item--social
 comboplayer.ru#?#.footer-item:-abp-has(> .footer-item__socials)
 tnt-online.ru##.footer-join
@@ -4213,6 +4213,7 @@ _app_promo$domain=7themes.su|wallscloud.net
 ||amedia.online/1.$image
 ||androidphone.su/wp-content/themes/ribbon/game$object
 ||api.1plus1.video/*/recommendation_projects/
+||api.acquisition-gwe.plus.kinopoisk.ru/api/*/offers$xmlhttprequest,domain=www.kinopoisk.ru
 ||api.vp.rambler.ru/api/v*/records/byFilter|$xmlhttprequest
 ||apihost.ru/js/function.js|$script,domain=apihost.ru
 ||assets.teinon.net/assets/dist/5112.$domain=ficbook.net
@@ -4309,6 +4310,8 @@ _app_promo$domain=7themes.su|wallscloud.net
 ||google.ru/async/*&async=encoded_cache_key$xmlhttprequest,domain=google.ru
 ||gorod.dp.ua/js/cookie.js
 ||gramma.ru/include/dcpy.js
+||graphql.kinopoisk.ru/graphql/?operationName=HdShowcase$xmlhttprequest,domain=www.kinopoisk.ru
+||graphql.kinopoisk.ru/graphql/?operationName=StreamingSelection$xmlhttprequest,domain=www.kinopoisk.ru
 ||habrastorage.org/getpro/habr/branding/$image,domain=habr.com
 ||hawaii-kirillovka.com/misc/js/please.js
 ||hdzona.com/forum/logo.jpg
@@ -4671,6 +4674,7 @@ docs-python.ru###donate-row
 archive.org###donate_banner
 anime-joy.ru,animejoy.ru,animejoy.site###donateb
 stratege.ru###donation
+banki.ru###download-app-banner
 turbobit.net###download-top-note
 forums.drom.ru###dromRightCol
 chehov-vid.ru###e-mail_subsc
@@ -7827,6 +7831,7 @@ prom.ua#@#img[alt="facebook"]
 /webpush.js
 /webpush.min.js
 /webpush_register.php
+/webpush_service-worker.js
 /webPushNotifications.js
 /wonderpush-loader.min.js
 /wonderpush.js
