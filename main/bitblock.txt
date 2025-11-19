@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: uRgp8ItJlF1uHrBDX8sTMw
-! Version: 202511170331
+! Checksum: 80ijc1NbMintFwvFSIxWeA
+! Version: 202511190331
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 17 Nov 2025 03:31 UTC
+! Last modified: 19 Nov 2025 03:31 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -3231,6 +3231,7 @@ tverlife.ru#?#h5:-abp-contains(/поделись/i)
 mignews.com#?#h6:-abp-contains(/мы на facebook|поделиться/i)
 zenit-fk.ru##h6[class="posts__title text-center mb-4"]
 libertycity.net,libertycity.ru##header > div[class^="fon"]
+ura.news##header a[href^="https://max.ru/"]
 tvc.ru##header nav > a[class*=" bg-icon-"][target="_blank"]
 armeniasputnik.am,sputnik-abkhazia.info,sputnik-abkhazia.ru,sputnik-georgia.com,sputnik-georgia.ru,sputnik-news.ee,sputnik-ossetia.com,sputnik-ossetia.ru,sputnik-tj.com,sputnik.az,sputnik.by,sputnik.kg,sputnik.kz,sputnik.md,sputniknews-uz.com,sputniknews.cn,sputniknews.com,sputniknews.gr##iframe[src*="/files/tgparser/"]
 me3.com.ua##iframe[src*="/plugins/likebox."]
@@ -6001,6 +6002,7 @@ glavred.info,glavred.net##.read-also-slider
 rbc.ua,telegraf.in.ua##.read-in-google
 rbc.ru,sportrbc.ru##.read-more-pro
 dengi.ua,glavcom.ua##.read-us
+letidor.ru,motor.ru,quto.ru,secretmag.ru,wmj.ru##.readMore
 news-r.ru##.read_news
 vmo24.ru##.readall
 intex-press.by##.readalso
@@ -7702,7 +7704,7 @@ myshared.ru#@#.ya-share2_inited
 @@||rublacklist.net/wp-content/themes/rublacklist/images/$domain=rublacklist.net
 @@||savevideo.me/images/services/$image,domain=savevideo.me
 @@||sberometer.ru/images/google-play.$image,domain=sberometer.ru
-@@||st.top100.ru/top100/top100.js|$script,domain=ferra.ru|gazeta.ru|letidor.ru|moslenta.ru|motor.ru|passion.ru|quto.ru|wmj.ru
+@@||st.top100.ru/top100/top100.js|$script,domain=ferra.ru|gazeta.ru|indicator.ru|letidor.ru|moslenta.ru|motor.ru|passion.ru|quto.ru|secretmag.ru|wmj.ru
 @@||stat.radar.imgsmail.ru/*=honeypot_fake_$image,domain=e.mail.ru
 @@||static.tacdn.com/components/dist/social.share-cta.*.js|$script,domain=tripadvisor.ru
 @@||static1.1tv.ru/resources/jquery.smartbanner.js$script,domain=1tv.ru
