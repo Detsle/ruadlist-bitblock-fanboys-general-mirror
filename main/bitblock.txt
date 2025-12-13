@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ito2E5MMwoq8t1BwJtnBMw
-! Version: 202512110342
+! Checksum: pLIXej4vhiX0Ar5N1tgISA
+! Version: 202512130331
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 11 Dec 2025 03:42 UTC
+! Last modified: 13 Dec 2025 03:31 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -2464,6 +2464,7 @@ banki.ua##.telegatestbox
 bfm.ru,business-gazeta.ru,city-n.ru,fakty.ua,frankmedia.ru,gordonua.com,gorodkiev.com.ua,hvylya.net,kinogo.biz,kinoukr.com,meteonova.ru,mi100.info,novostivmire.com,sakhaday.ru,seralityt.online,serialstuts.online,sfera.fm,sport.ua,uaserials.com,uaserials.film,usionline.com,vseseriipodriad.ru,zaborona.com,zn.ua##.telegram
 rsload.net,securitylab.ru,spot.uz,uatv.ua##.telegram-block
 anifap.com,anifap.xyz,proglib.io##.telegram-btn
+km.ru##.telegram-button
 informburo.kz##.telegram-card
 online-knigi.com##.telegram-chanel
 1kr.ua##.telegram-chat
@@ -6644,7 +6645,7 @@ texterra.ru##body > .mfp-bg
 texterra.ru##body > .mfp-wrap
 tut.by##body > .toster-popup
 3dnews.ru##body > .ui-corner-all.ui-widget
-vseinstrumenti.ru##body > [data-tooltip="wrapper"]
+vseinstrumenti.ru##body > [data-tooltip="wrapper"][class*="-has-close_"]
 chastnik-m.ru##body > a[href*="block=bg"]
 rubryka.com##body > a[href="https://www.facebook.com/ecorubric"]
 root-nation.com##body > a[href] > img[src*="banner"]
@@ -7381,6 +7382,7 @@ tv.yandex.ru,tv.yandex.*##.tv-teaser
 ya.ru,yandex.*#?#.dist-overlay__popup
 ya.ru,yandex.*#?#.simple-popup__overlay_shown
 ya.ru,yandex.*#?#.simple-popup__overlay_shown_true
+yandex.ru,yandex.*##.discovery-home-component
 yandex.ru,yandex.*##.map-controls__additional-button a[href^="https://yandex."][style*="-promo-button-"]
 yandex.ru,yandex.*##.map-controls__bottom-extension-slot
 yandex.ru,yandex.*##[class^="AppLayoutCommon_overlay_"] ~ section#dialogs
@@ -20189,7 +20191,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||repost.us^$third-party
 ||research.net^$third-party
 ||reviewability.com^$third-party
-||riddle.com/embed/$domain=evoke.ie
+||riddle.com/embed/$domain=evoke.ie|mentalfloss.com
 ||rightmessage.com^$third-party
 ||rokt.com^$third-party
 ||royapp.com^$third-party
