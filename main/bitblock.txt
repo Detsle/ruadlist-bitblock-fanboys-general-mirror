@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: +VvF5HBPmrKsKnNNsAhnWg
-! Version: 202512150351
+! Checksum: Bkk4k4F65GF7TFENwDe3JQ
+! Version: 202512170341
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 15 Dec 2025 03:51 UTC
+! Last modified: 17 Dec 2025 03:41 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -4512,7 +4512,7 @@ _app_promo$domain=7themes.su|wallscloud.net
 ||subscriptions.rambler.ru/
 ||superjob.ru/fstc/desktop/assets/background_*.png
 ||t.me/uanewsstream/$domain=ua.news
-||tapochek.net/yagirlyanda
+||tapochek.net/misc/js/girlyanda.js
 ||techinsider.ru/_nuxt/spec-project/$subdocument
 ||telvanil.ru^$third-party
 ||tempr.email/cookieConsent.
@@ -4613,7 +4613,6 @@ videovegas.ru###agreement_cookie
 rshb.ru###alert.bottom
 naruto-brand.ru#?##allEntries > div[id^="entryID"]:-abp-has(a[href][target="_blank"])
 ok.ru###anonymPageContent > div[data-promo]
-tapochek.net###aposnow
 enthub.it###app > .bottom-20:last-child
 mamba.ru#?##app section:-abp-has(> div[class] > form#closeCookieBanner)
 vk.com###app_container_outer + div[style]
@@ -4733,6 +4732,7 @@ animevost.one,animevost.org,animevost.top,vost.pw###fraind a
 the-mafia.net###free-ua-block
 nashaplaneta.net###fullarea[onclick*="calendar"],#aviacalendar
 afishasakhcom.ru,autosakhcom.ru,aviasakhcom.ru,biletsakhcom.ru,bookingsakhcom.ru,domsakhcom.ru,edasakhcom.ru,iasakh.com,looksakhcom.ru,marketsakhcom.ru,medsakhcom.ru,newsakh.com,pogodasakhcom.ru,rabotasakhcom.ru,sakh.com,sakh.name,sakhalin.biz,sakhalin.info,sakhalin.tv,travelsakhcom.ru###g-footer-notice
+animix.lol###garland
 wikihow.com###gdpr
 football.ua,korrespondent.net,kp.ua###gdpr-disclaimer
 realt.by###gdpr-portal-root
@@ -4949,6 +4949,8 @@ serveradmin.ru###text-html-widget-13
 serveradmin.ru###text-html-widget-25
 diets.ru,myjane.ru###thirdclick_message
 prk.city###timfm_top
+tapochek.net###toggle-garland
+tapochek.net###toggle-snow
 proufu.ru###top
 geniusmarketing.me###top-banner
 24tv.ua###top-revive-buttons
@@ -5160,7 +5162,6 @@ gagadget.com##.b-magicblock
 temaretik.com##.b-modal-aligner
 tolknews.ru##.b-news_aggr
 unn.com.ua##.b-notice-msg
-tapochek.net##.b-page_newyear
 allsoft.ru##.b-popup-overlay_subscription
 takiedela.ru##.b-post__help
 vc.ru##.b-push-subscribe-wrapper
@@ -6516,7 +6517,6 @@ kingisepp-today.ru,xn----etbbecbrbp5ahkja1ae7v.xn--p1ai##[title="appstore"]
 kingisepp-today.ru,xn----etbbecbrbp5ahkja1ae7v.xn--p1ai##[title="googleplay"]
 aniu.ru##a.help.sempai
 vc.ru##a.sidebar-item[href^="/courses"]
-dtf.ru##a.sidebar-item[href^="/pay"]
 video.matchtv.ru##a.vjs-link[href^="https://matchtv.ru/subscriptions"]
 mywebpc.ru##a[alt="donate"]
 doramaland.plus##a[class^="banner-preview-"]
@@ -6600,7 +6600,6 @@ thebell.io##app-inoagent-banner
 sports.ru#?#article > .news-item__content > p:-abp-has(a[href^="https://specials.sports.ru/"])
 sports.ru#?#article > .news-item__content > p:-abp-has(a[href^="https://trbna.co/"])
 animaunt.org##article > .sub-info > .button
-dtf.ru#?#article > figure:-abp-has(> .block-wrapper__content a[href]:-abp-contains(пополнить Steam))
 it-actual.ru##article > footer > div[class]:not(.post-ratings)
 anitube.in.ua##article > noindex
 www.ukr.net#?#article > section:-abp-has(> div > div > a[href*="://drive.google.com/"])
@@ -7439,9 +7438,9 @@ e.mail.ru,octavius.mail.ru##div[class*="layout"] .promo-block-letter
 dzen.ru##div[class^="article-"][class*="-placeholder__root"]
 mail.ru##div[class^="tg"][class*="-wrapper_"]
 mail.ru##div[id^="mailru"]
-mail.*##.tv-widget > [class^="vk-video"]
-mail.*##.tv-widget > [class^="vk-video"] {remove:true;}
-mail.yandex.ru,mail.yandex.*###js-mail-layout-content-header > .message-list-banner-portal + div:not([class*="message"]):not(:last-child)
+mail.*##.tv-widget [class^="vk-video"]
+mail.*##.tv-widget [class^="vk-video"] {remove:true;}
+mail.yandex.ru,mail.yandex.*##[id^="js-mail-layout-content-header"] > .message-list-banner-portal + div:not([class*="message"]):not(:last-child)
 mail.yandex.ru,mail.yandex.*##div#js-layout-inner[class^="PageLayout-m__main--"][id="js-layout-inner"] ~ div[style*="overscroll-behavior: none;"]
 translate.yandex.ru,translate.yandex.*##.side-block > div
 ||dzen.ru/zen-partner/$third-party
@@ -8418,7 +8417,6 @@ mobi24.net#@#a[href^="https://www.mobi24.net/"]
 -follow-icons.
 -follow-us-icons.
 -followicons.
--share-bar/$~stylesheet
 -share-buttons2.
 -share-buttons3/$~stylesheet
 -share-sprite-
