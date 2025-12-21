@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: maoYyjjn/7Yqn89ihF7cUA
-! Version: 202512190341
+! Checksum: 4JEZU06ybxwICwd/RQqraA
+! Version: 202512210341
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 19 Dec 2025 03:41 UTC
+! Last modified: 21 Dec 2025 03:41 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -732,6 +732,7 @@ bst.bratsk.ru##.article ~ .block > .title-medium-container
 ichip.ru##.article-action
 ctrana.one,strana.news,strana.one,strana.today,stranaua.media,u-news.com.ua##.article-afterbody
 delfi.lv##.article-body .shadow
+5.ua#?#.article-body > p:-abp-has(> a[href^="https://whatsapp.com/channel/"])
 tvc.ru#?#.article-body > p:-abp-has(> strong > a[href^="https://t.me/"])
 lifehacker.ru##.article-card-actions__share
 xn--90aivcdt6dxbc.xn--p1ai##.article-detail__share
@@ -4395,6 +4396,7 @@ _app_promo$domain=7themes.su|wallscloud.net
 ||market.yandex.*/api/footer-subscription?
 ||matchtv.ru/api/v*/banners?$xmlhttprequest
 ||mds.yandex.net/get-bstor/$domain=www.kinopoisk.ru
+||mds.yandex.net/get-market-adv/
 ||mediametrics.ru/js/reports-
 ||meta.ua/*/popup.$script,stylesheet
 ||money.yandex.ru^$domain=stratege.ru
@@ -5106,6 +5108,7 @@ vm.ru##.article--subscribes
 abw.by##.article-banner
 360tv.news#?#.article-body > div:-abp-has(> [href^="https://news.google.com/publications/"])
 androidinsider.ru##.article-body > p > code.large-text
+5.ua#?#.article-body > ul:-abp-has(> li > a[href^="https://www.patreon.com/"])
 championat.com,championat.ru##.article-content > .external-article
 itorrents-igruha.net,itorrents-igruha.org#?#.article-film:-abp-has(> center > div > a:-abp-contains(/зарабатывай|предложени|рандом/i))
 nn.by##.article-footer-cell .btn
@@ -7359,6 +7362,7 @@ market.yandex.ru,market.yandex.*##.n-entrypoint-carousel
 market.yandex.ru,market.yandex.*##[data-apiary-widget-id$="recommendationRoll"]
 market.yandex.ru,market.yandex.*##[data-apiary-widget-id*="/footer/appPromoLoader"]
 market.yandex.ru,market.yandex.*##[data-apiary-widget-name*="@monetize/HeroBanner"]
+market.yandex.ru,market.yandex.*##[data-apiary-widget-name="@monetize/RecomMediaAdv"]
 market.yandex.ru,market.yandex.*##[data-apiary-widget-name^="@marketfront/HeroBanner"]
 market.yandex.ru,market.yandex.*##[data-auto="banner-ad-label"]
 market.yandex.ru,market.yandex.*##[id="/content/footer/appPromoLoader"]
@@ -18805,6 +18809,7 @@ forum.figma.com,share.notizie.it#@#.category-share
 accounts.motorsport.com#@#.facebook-block
 flugzeugbilder.de#@#.fb-footer
 the-dharmawangsa.com#@#.fb-widget
+bot.targethunter.ru#@#.fb_sidebar
 autoplus.fr,mixcloud.com#@#.follow-text
 freesvg.org,giro.com,rainn.org#@#.footer-social
 kioskpolis.pl#@#.footer__socials
