@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: /TNRroFA62JFxnTaPJrv5w
-! Version: 202512310341
+! Checksum: C0SIUIQSt4ch+hCmuA9bbA
+! Version: 202601010351
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 31 Dec 2025 03:41 UTC
+! Last modified: 01 Jan 2026 03:51 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -2117,7 +2117,7 @@ itc.ua,latuaitalia.ru##.sn
 rebenok.by##.sn-share-img-links
 itc.ua##.sn-widget
 piter.tv##.snet-links
-1tulatv.ru,anistar.org,astar.bz,gamer-info.com,help-wifi.com,intex-press.by,online-star.org,online-stars.org,planetanovosti.com,tourpom.ru,vokrugsveta.ru##.soc
+1tulatv.ru,anistar.org,astar.bz,gamer-info.com,help-wifi.com,intex-press.by,online-star.org,online-stars.org,planetanovosti.com,regions.ru,tourpom.ru,vokrugsveta.ru##.soc
 vesti.kz##.soc > .h
 arpal.ua##.soc-aside
 povarenok.ru##.soc-bl-wrap
@@ -2209,6 +2209,7 @@ keenetic.ru,patrol.police.gov.ua,speka.ua##.social-btn
 nikopolnews.net,unian.info,unian.net,unian.ua##.social-btn-bottom
 gismeteo.ru##.social-btns-wrapper
 gamestatus.info,wotpack.ru##.social-button
+regions.ru##.social-button-desktop
 66.ru,aforismo.ru,bst.bratsk.ru,click-or-die.ru,coolotvet.ru,football.ua,gizchina.net,gmk.center,kulturologia.ru,mse02.ru,om1.ru,pay-day.ru,publy.ru,tehnobzor.ru,tribun.com.ua##.social-buttons
 freehat.cc##.social-buttons > * > *
 bfm.ru##.social-buttons > a
@@ -20257,6 +20258,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||techbeat.com/wp-content/custom-php/$third-party
 ||thelovebucks.com^$third-party
 ||theoutplay.com^$third-party
+||timesprayer.today/widget_frame.php
 ||timez.ai/widgets/$third-party
 ||tinker.com^$third-party
 ||tippola.com^$third-party
