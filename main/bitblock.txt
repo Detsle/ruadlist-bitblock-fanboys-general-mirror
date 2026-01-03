@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: C0SIUIQSt4ch+hCmuA9bbA
-! Version: 202601010351
+! Checksum: Al0JFEK6ixt4RF5Y6CSQ8Q
+! Version: 202601030341
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 01 Jan 2026 03:51 UTC
+! Last modified: 03 Jan 2026 03:41 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -3194,6 +3194,7 @@ stratege.ru##div[style="text-align: center;"] > a[href="https://vk.com/strateger
 stratege.ru##div[style="text-align: center;"] > a[href^="https://t.me/"]
 samelectric.ru#?#div[style="text-align: center;"]:-abp-has(> a[href="https://vk.com/samelectric"])
 novoruskino.net##div[style="text-align: right;"] > [color="red"]
+krivbass.city##div[style^="background-color: #f3f3f3; padding: 30px; text-align: center; margin-bottom: 30px"]
 gagadget.com#?#div[style^="background:"]:-abp-has(> a[href^="https://t.me/"])
 povarenok.ru##div[style^="background:url(/i/okbg.jpg)"]
 povarenok.ru##div[style^="background:url(/i/vkbg.gif)"]
@@ -3675,7 +3676,6 @@ _userbar_$image
 ##.agree-cookie-wrap
 ##.alert-cookies
 ##.app.blog-post-page > #layout > #main-container > a[href*="utm_"][href*="campai"][target="_blank"]
-##.b-cookie-notification
 ##.b-head-universal-wrapper
 ##.b-noncontext-banner
 ##.b-policy-info
@@ -8190,7 +8190,7 @@ prom.ua#@#img[alt="facebook"]
 ||bildirnet.com^$third-party
 ||braze.com^$third-party
 ||cappushino.com^$third-party
-||cdn.p-n.io/pushly-sw.min.js
+||cdn.p-n.io^$third-party
 ||cdn.qgr.ph^$third-party
 ||cdn.qgraph.io^$third-party
 ||centrnotify.com^$third-party
