@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: zeZ52bPGMUmkwydGMnn+bA
-! Version: 202601050401
+! Checksum: AXfS5DjMJJ8UAoQhnQ+txA
+! Version: 202601070341
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 05 Jan 2026 04:01 UTC
+! Last modified: 07 Jan 2026 03:41 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -641,6 +641,7 @@ shadowcore.ru###tg-btn
 flcksbr.top,flicksbar.fun,flicksbar.info,flicksbar.mom###tgWrapper
 navkolokino.com###the_share
 disqus.com###thread-share-bar
+angarsk-38.ru###top-header > .container > a > img
 gk-press.if.ua###top-widgets > .widget_text
 track24.ru###trackingFormShare
 free-max.ru###tt_social
@@ -1857,7 +1858,6 @@ infoselection.ru##.pull-right.brands
 xn--90aivcdt6dxbc.xn--p1ai##.push-social
 odnaminyta.com##.py-6 > h3,.py-6 > h3 + .flex
 nya.sh##.q > .bottom
-yoomoney.ru##.qa-social-icons
 muzland.es,muzland.info,muzland.ru##.qrating
 thequestion.ru##.question-share
 thequestion.ru##.question__answers-info-share
@@ -2231,7 +2231,7 @@ bragazeta.ru,hronikers.com##.social-icon
 deita.ru##.social-icons-bar > a
 sports.ru##.social-icons-big.likes
 1news.com.ua,d1.ua,flightsim.su,newxboxone.ru##.social-icons-item
-tenews.org.ua##.social-icons-row
+cvnews.cv.ua,ifnews.org.ua,lvnews.org.ua,rvnews.rv.ua,tenews.org.ua,uanews.org.ua##.social-icons-row
 vgorode.ua##.social-img
 rfpl.org##.social-index
 livemaster.ru##.social-like-banner
@@ -2242,7 +2242,7 @@ mybrazz.club,prokazan.ru##.social-lines
 overclockers.ru##.social-link
 polissia.news##.social-link a[rel="nofollow"]
 nv.ua##.social-link-circle
-animelayer.ru,astera.ru,autostadt.su,b-glife.ru,babla.ru,belkagomel.by,bidbaits.ru,bigkyiv.com.ua,bio-lessons.ru,cyberscore.live,delfi.lt,delfi.lv,domodedovoriamo.ru,dostyp.com.ua,energyfm.ru,glavnoe.in.ua,gmk.center,gtavicecity.ru,interfax.com.ua,intermedia.ru,klinriamo.ru,kolomnariamo.ru,korolevriamo.ru,krasnogorskriamo.ru,kulturologia.ru,lada.kz,likefm.ru,lubertsyriamo.ru,minprom.ua,mukachevo.net,mytischiriamo.ru,news24.in.ua,novadoba.com.ua,odessamedia.net,podolskriamo.ru,podolyaka.com,podolyaka.ru,poebuilds.ru,radiozenit.ru,recept.ua,reporter64.ru,reutovriamo.ru,riamo.ru,riamobalashiha.ru,ruwiki.ru,schelkovoriamo.ru,sergposadriamo.ru,serpuhovriamo.ru,snob.ru,solnechnogorskriamo.ru,sportarena.ua,sportkp.ru,sports.ru,sq.com.ua,te.ua,the-geek.ru,theageoffootball.com,theblueprint.ru,tvcenter.ru,tvr.by,utyug.info,varianty.lviv.ua,varta1.com.ua,vashsad.ua,vsezdorovo.com,warhead.su,wotpack.ru,zazloo.ru,zhukovskiyriamo.ru##.social-links
+animelayer.ru,astera.ru,autostadt.su,b-glife.ru,babla.ru,belkagomel.by,bidbaits.ru,bigkyiv.com.ua,bio-lessons.ru,cyberscore.live,delfi.lt,delfi.lv,domodedovoriamo.ru,dostyp.com.ua,energyfm.ru,glavnoe.in.ua,gmk.center,gtavicecity.ru,interfax.com.ua,intermedia.ru,klinriamo.ru,kolomnariamo.ru,korolevriamo.ru,krasnogorskriamo.ru,kulturologia.ru,lada.kz,likefm.ru,lubertsyriamo.ru,minprom.ua,mukachevo.net,mytischiriamo.ru,news24.in.ua,novadoba.com.ua,odessamedia.net,podolskriamo.ru,podolyaka.com,podolyaka.ru,poebuilds.ru,radiozenit.ru,recept.ua,reporter64.ru,reutovriamo.ru,riamo.ru,riamobalashiha.ru,ruwiki.ru,schelkovoriamo.ru,sergposadriamo.ru,serpuhovriamo.ru,snob.ru,solnechnogorskriamo.ru,sportarena.ua,sportkp.ru,sports.ru,sq.com.ua,te.ua,the-geek.ru,theageoffootball.com,theblueprint.ru,tvcenter.ru,tvr.by,utyug.info,varianty.lviv.ua,varta1.com.ua,vashsad.ua,vsezdorovo.com,warhead.su,wotpack.ru,zakarpatpost.net,zazloo.ru,zhukovskiyriamo.ru##.social-links
 agroreview.com##.social-links a[href^="http"]
 mybrazz.club##.social-links-left
 azbyka.ru##.social-links__tg
@@ -2366,7 +2366,7 @@ dailylviv.com##.socmeregi
 dni24.com##.socmob
 dostfilms.info,dostfilms.site,enovosty.com##.socnet
 kinodroid.net##.socpri,.socpri ~ *
-siniy-ekran.ru##.socs
+comments.ua,siniy-ekran.ru##.socs
 kluch.media##.socs-div-pr
 1yar.tv,amedia.online,partnerkin.com##.socseti
 topnews.ru##.socsite
@@ -2803,6 +2803,7 @@ esports.ru##[data-name="footer/socials"]
 kufar.by##[data-name^="share-button"]
 stopgame.ru##[data-plugins="share"]
 sheensay.ru##[data-pr^="Поделиться"]
+yoomoney.ru##[data-qa="social-icons"]
 livejournal.com##[data-rd-type="rd-post-view-social"]
 ozon.ru##[data-replace-layout-path] > [data-replace-layout-path]:first-child ~ div:last-child > div:only-child > button.undefined
 tsn.ua##[data-share-container]
@@ -5139,6 +5140,7 @@ pimpletv.ru##.articles_i
 shazoo.ru##.aside > .grid
 sports.ru#?#.aside-news-list__item:-abp-has(a[href^="https://trbna.co/"])
 profinance.ru##.askbuttontextbox
+comments.ua##.atlanta
 rlsnet.ru##.attention-modal
 speka.ua##.author-card__controls
 lolz.guru##.axsBackground
@@ -6021,7 +6023,6 @@ ukr.media##.push_btn
 vc.ru##.push_offer
 24tv.ua##.pwa-install-banner
 aeza.net##.qHRoC
-yoomoney.ru##.qa-gdpr
 boxrec.com##.qc-cmp2-container
 cash.rbc.ru##.quote__notice
 advetime.ru##.randomtext_widget
@@ -6214,6 +6215,7 @@ interfax.com.ua##.subscribe-us
 24tv.ua##.subscribe-wrap
 tulasmi.ru##.subscribe-wrapper
 openmedia.io##.subscribePopUp
+obozrevatel.com##.subscribePopup_wrapper
 in-dmitrov.ru,in-domodedovo.ru,in-istra.ru,in-kolomna.ru,in-korolev.ru,in-narofominsk.ru,in-reutov.ru,in-schelkovo.ru,in-vidnoe.ru,in-voskresensk.ru,inbalashikha.ru,inchehov.ru,inchernogolovka.ru,indolgoprud.ru,indubnacity.ru,inegorievsk.ru,inelgorsk.ru,inelstal.ru,infryazino.ru,inhimkicity.ru,inivanteevka.ru,inkashira.ru,inklincity.ru,inkotelniki.ru,inkrasnoarmeisk.ru,inkrasnogorsk.ru,inkrasnoznamensk.ru,inlobnya.ru,inlosinopetrovsk.ru,inlotoshino.ru,inlubertsy.ru,inluhovitsy.ru,inlytkarino.ru,inmozhaisk.ru,inmytishchi.ru,innoginsk.ru,inodintsovo.ru,inorehovo.ru,inozery.ru,inpavposad.ru,inpodolsk.ru,inprotvino.ru,inpushchino.ru,inpushkino.ru,inramenskoe.ru,inroshal.ru,inruza.ru,insergposad.ru,inserprud.ru,inserpuhov.ru,inshahovskoe.ru,inshatura.ru,insolnechnogorsk.ru,instupino.ru,intaldom.ru,involokolamsk.ru,inzaraisk.ru,inzheldor.ru,inzhukovskiy.ru,inzvenigorod.ru##.subscribe[id]
 kurkul.com##.subscribe_block
 qrz.ru##.subscribe_box
@@ -7086,7 +7088,6 @@ www.kinopoisk.ru##div[class^="styles_watchOnlineBlock"] > div:not([class])
 www.kinopoisk.ru##div[class^="styles_watchOnlineBlock"] > div[class=""]
 www.kinopoisk.ru##div[class^="styles_watchOnlineBlock"] > div[class^="styles_subscription"]
 www.kinopoisk.ru##div[class^="styles_watchOnlineDescription"]
-www.kinopoisk.ru##div[class^="styles_watchingServices"]
 www.kinopoisk.ru##footer > div[class][data-tid]
 www.kinopoisk.ru##footer[class*="styles_withPromotionBlock"] > div[class]:first-child
 www.kinopoisk.ru##header a[href*="utm_campai"]
@@ -7395,6 +7396,7 @@ ya.ru,yandex.*#?#.simple-popup__overlay_shown_true
 yandex.ru,yandex.*##.discovery-home-component
 yandex.ru,yandex.*##.map-controls__additional-button a[href^="https://yandex."][style*="-promo-button-"]
 yandex.ru,yandex.*##.map-controls__bottom-extension-slot
+yandex.ru,yandex.*##[class^="AppLayoutCommon_overlay_"] ~ section#dialogs > [aria-modal="false"]
 yandex.ru,yandex.*##body[class*="_map-"] div[id^="Y-A-"][style^="position"]
 yandex.ru,yandex.*##button[class^="AppPromo_container_"]
 yandex.ru,yandex.*##div[class^="App"][class*="promo"]
@@ -18885,7 +18887,7 @@ medialeaks.ru#@#.social-widgets
 keepa.com#@#.socialButtons
 kuriertczewski.pl#@#.social_header
 jobdetails.nestle.com#@#.socialbutton
-comicsands.com#@#.sticky-share
+advocate.com,comicsands.com#@#.sticky-share
 40ton.net#@#.td-post-sharing-top
 tmstor.es#@#.top_social
 swingliteracy.com#@#.tve_social_items
