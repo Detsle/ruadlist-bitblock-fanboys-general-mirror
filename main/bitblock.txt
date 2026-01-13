@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: koG+5e0xcv2uSM6Pc/JfEg
-! Version: 202601110351
+! Checksum: s1FUNHJk1R9weIow5FO7KQ
+! Version: 202601130341
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 11 Jan 2026 03:51 UTC
+! Last modified: 13 Jan 2026 03:41 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -5133,6 +5133,7 @@ armeniasputnik.am,sputnik-abkhazia.info,sputnik-abkhazia.ru,sputnik-georgia.com,
 rbc.ru,sportrbc.ru##.article__inline-item
 tsargrad.tv##.article__meta-links
 mk.ru##.article__subscription
+radiosputnik.ru#?#.article__text:-abp-has(> em > a[href*="t.me/"])
 www.ogorod.ru##.article_bottom_divider
 kinoafisha.info##.article_footer_more > .article_channels
 simhost.org##.article_subscrblock
@@ -19965,6 +19966,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ! fanboy_annoyance_thirdparty.txt
 ||1worldonline.com^$third-party
 ||24smi.org^$third-party
+||506.io^$third-party
 ||a.mailmunch.co/app/$script,third-party
 ||actionbutton.co^$third-party
 ||activehosted.com^$third-party
@@ -20060,6 +20062,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||freetellafriend.com^$third-party
 ||frizbit.com^$third-party
 ||fwix.com^$third-party
+||gameball.co^$third-party
 ||gatherup.com^$third-party
 ||georiot.com^$third-party
 ||getbeamer.com^$third-party
