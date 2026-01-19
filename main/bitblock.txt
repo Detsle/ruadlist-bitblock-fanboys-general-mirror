@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 4hf7SJRm9rd6d99YZNqvGQ
-! Version: 202601170341
+! Checksum: eBzDWED7tyEDxxIq4Dm83Q
+! Version: 202601190351
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 17 Jan 2026 03:41 UTC
+! Last modified: 19 Jan 2026 03:51 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -5289,7 +5289,6 @@ forbes.ua##.c-header-subscribe
 usmall.ru##.c-kuki-bar
 hromadske.ua##.c-menu__support
 apteka-april.ru##.c-notice.hasButton
-ria.com##.c-notifier-container
 focus.ua##.c-post__channel
 sports.ru##.c-read-also
 delo.ua##.c-special-list
@@ -5877,6 +5876,7 @@ culture.ru##.notify-bar
 yk-news.kz##.notify-block
 holodilnik.ru##.notify-layer--cookie
 gorodkirov.ru,navigator-kirov.ru##.notifycation
+kinogo.ec,kinogo.luxury,kinogo.mu##.notino
 piluli.ru##.notiny
 smartpress.by##.noty_layout
 doramaland.plus##.now-ru-banner
@@ -6048,6 +6048,7 @@ xcom-shop.ru##.recommend-to-buy
 iz.ru##.recommendation-block > div > div
 iz.ru##.recommendation-block-header
 championat.com,championat.ru##.recommender-block
+kinogo.ec,kinogo.luxury,kinogo.mu##.reg-ad
 c-s.net.ua##.reg_mess_bg
 usba.com.ua##.region-footer > [id^="block-nasikontakti"] > .field > p ~ *
 rayon.in.ua##.region-header__form
@@ -6410,6 +6411,7 @@ kaifolog.ru##.yandexh,.yandexh + .atextbox
 yesasia.ru##.yesasia_subscribe
 bfm.ru##.youtube
 liga.net##.youtube-block
+kinogo.ec,kinogo.luxury,kinogo.mu##.zplata
 livesport.ru##.zz_cars_twin
 0calc.es,0calc.fr,0calc.in,0calc.ru,0rechner.de,nu.nl,web2.0calc.com,web2.0calc.ru##[action="/cookieconsent"]
 mbclub.ru##[alt="Клубный сервис"]
