@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: eBzDWED7tyEDxxIq4Dm83Q
-! Version: 202601190351
+! Checksum: ypD09tLJTdE4wD9ikMNfzw
+! Version: 202601210351
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 19 Jan 2026 03:51 UTC
+! Last modified: 21 Jan 2026 03:51 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -155,6 +155,7 @@ _vkontakte.png
 ##.quiz-block-result-share-buttons
 ##.rt_share
 ##.share-panel
+##.shareUs
 ##.sharebutton_tg
 ##.smiletagging-button
 ##.soc-box
@@ -1268,7 +1269,6 @@ domodedovoriamo.ru,klinriamo.ru,kolomnariamo.ru,korolevriamo.ru,krasnogorskriamo
 ytronews.ru#?#.footer__column:-abp-has(> ul > li > [href^="https://vk.com/"])
 fishki.net##.footer__follow-us
 newsland.com##.footer__head-socials
-anilover.net##.footer__icons
 iphones.ru##.footer__line-menu_social
 onlinetrade.ru##.footer__linksline__smo
 praca.by#?#.footer__menu > .menu__items:-abp-has(> .social-networks-portal)
@@ -2433,7 +2433,6 @@ hi-tech.ua,itmed.org,ural56.ru##.subscriptions
 mistosumy.com,mynizhyn.com,pechera.info##.subsrciption-news
 animelist.lol,cartoonka.art,looktoon.lol,tvcool.lol##.subtg
 animelist.lol,cartoonka.art,looktoon.lol,tvcool.lol##.subvk
-www.goha.ru##.superlink
 tv2.today##.t-news-page__social-wrapper
 tv2.today##.t-social
 ekabu.ru##.t-social-container_top
@@ -3805,6 +3804,10 @@ ru##[data-ns-portal] div[class^="mobileApps_"]
 ~whatsapp.com##a[href^="whatsapp://send"]
 ##app-cookie-consent-popup
 ##body #cookie-policy
+##body:not(Kinogo) #dle-content .notino
+##body:not(Kinogo) #dle-content .reg-ad
+##body:not(Kinogo) #dle-content [id^="uniq-"][class][style]
+##body:not(Kinogo) .notino
 ##cookies-gdpr
 ##div[class^="app_gdpr"]
 ##div[data-cookie-notification]
@@ -3992,15 +3995,6 @@ ru##[data-ns-portal] div[class^="mobileApps_"]
 ||webdiscover.ru^$third-party
 ||widget.onlinetv.ru^
 ||www.rb.ru^$third-party
-!
-! - Фреймы twitch.tv с автозапуском, только для ABP, в uBO работает disableAutoplay
-!#if ext_abp
-goha.ru##.twitch-tile__overlay
-gameinside.ua,igromania.ru,kanobu.ru,www.goha.ru##iframe[src*="player.twitch.tv/?channel="][src*="autoplay=true"]
-rbkgames.com##iframe[src^="https://player.twitch.tv?autoplay=true"][src*="rbkgames"]
-||player.twitch.tv/?autoplay=true&channel=rbkgames$subdocument,domain=rbkgames.com
-||player.twitch.tv/?channel=*&autoplay=true$subdocument,domain=gameinside.ua|igromania.ru|kanobu.ru|www.goha.ru
-!#endif
 !
 ! - Прочее --------------------------------------------------------------------
 ||101widgets.com^$third-party
@@ -4668,7 +4662,6 @@ aeroexpress.ru###coockiesInfoOuter
 genesis-mining.ru,gopractice.ru,inscience.news,life.com.by,proglib.io###cookie
 gazprombank.ru###cookie-accept
 cian.ru,eva.ru###cookie-agreement
-1000sovetov.ru,svpressa.ru###cookie-bar
 besplatka.ua###cookie-bottom
 hibiny.ru,nn.ru###cookie-consent
 finam.ru###cookie-consent-popup
@@ -5876,7 +5869,6 @@ culture.ru##.notify-bar
 yk-news.kz##.notify-block
 holodilnik.ru##.notify-layer--cookie
 gorodkirov.ru,navigator-kirov.ru##.notifycation
-kinogo.ec,kinogo.luxury,kinogo.mu##.notino
 piluli.ru##.notiny
 smartpress.by##.noty_layout
 doramaland.plus##.now-ru-banner
@@ -5913,7 +5905,6 @@ bus.vse42.ru##.panel.news-block
 mult-fan.tv##.panel_vipka
 overclockers.ua##.patreon
 bykvu.com##.patreon-box
-www.goha.ru##.pegi
 todotech20.com##.penci-wrap-gprd-law
 home.bank,homecredit.ru,viva64.com##.personal-data-confirm
 sberbank.ru##.personal-data-warning
@@ -6048,7 +6039,6 @@ xcom-shop.ru##.recommend-to-buy
 iz.ru##.recommendation-block > div > div
 iz.ru##.recommendation-block-header
 championat.com,championat.ru##.recommender-block
-kinogo.ec,kinogo.luxury,kinogo.mu##.reg-ad
 c-s.net.ua##.reg_mess_bg
 usba.com.ua##.region-footer > [id^="block-nasikontakti"] > .field > p ~ *
 rayon.in.ua##.region-header__form
@@ -6411,7 +6401,6 @@ kaifolog.ru##.yandexh,.yandexh + .atextbox
 yesasia.ru##.yesasia_subscribe
 bfm.ru##.youtube
 liga.net##.youtube-block
-kinogo.ec,kinogo.luxury,kinogo.mu##.zplata
 livesport.ru##.zz_cars_twin
 0calc.es,0calc.fr,0calc.in,0calc.ru,0rechner.de,nu.nl,web2.0calc.com,web2.0calc.ru##[action="/cookieconsent"]
 mbclub.ru##[alt="Клубный сервис"]
@@ -6872,7 +6861,6 @@ psy-music.ru##div[style*="tranceshop.ru"]
 zfilm-hd.org,zfilm1977.site,zfilme-hd1.site,zhinka.tv##div[style=" background-color: #fff; padding: 10px; margin-top: 15px; border: solid 3px #ea7468; "]
 price.ua##div[style="font-size:x-large;text-align:center;margin:10px;background-color:#ffe6e6"]
 kirov-portal.ru#?#div[style]:-abp-has(> div[style] > a[href="/news/akcii/"])
-gamer-mods.ru##div[style^="height:"][style*="gamer-mods.ru/Noviygod"][style*=".gif"]
 outlook.live.com##div[tabindex][role="region"][aria-label] > div + div > div > .ms-FocusZone ~ div[class]:not([role]) > button
 youla.ru#?#div[width="0.25"]:-abp-has(> div > a[href*=".com/"][href*="/app"][title][target="_blank"])
 socportal.info##div[x-lazyload*="g-ytsubscribe"]
