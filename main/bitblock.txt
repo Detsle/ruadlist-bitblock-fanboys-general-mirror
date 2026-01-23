@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ypD09tLJTdE4wD9ikMNfzw
-! Version: 202601210351
+! Checksum: FaamX7fnnQKuefGgAZKe+g
+! Version: 202601230351
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 21 Jan 2026 03:51 UTC
+! Last modified: 23 Jan 2026 03:51 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1463,7 +1463,7 @@ sc2tv.ru##.index-social
 krymr.com##.infgraphicsAttach
 media.az##.info-section__social
 topradio.me##.info__social
-anime-bit.pro,anime-bit.su##.infoblock
+anime-bit.ru##.infoblock
 cyberleninka.ru#?#.infoblock > .half > .title:-abp-contains(Поделиться)
 u-tv.ru##.informer
 howdyho.net#?#.inner > .default:-abp-has(> div > #vk_groups)
@@ -1510,7 +1510,7 @@ rbc.ru##.l-col-right .poll__wrapper
 nim.ru##.last.one_fourth
 forum.finance.ua#?#.lastnewszag:-abp-has([href*="facebook.com"])
 eadaily.com##.latest-block > .side-announcement
-anime-bit.pro,anime-bit.su#?#.layer_box_center_blocks_right:-abp-has(> #vk_groups)
+anime-bit.ru#?#.layer_box_center_blocks_right:-abp-has(> #vk_groups)
 www.goha.ru##.layout-footer-body__socials-icon
 nta.ua##.leave-comment
 asienda.ru##.left-socials
@@ -4987,7 +4987,6 @@ vk.com##.CatalogBlock__header_promo_banners
 kaktus.media##.CompanyArticles
 raiffeisen.ru##.CookieDialog
 apteka.ru##.CookieNotify
-myshows.me##.CookiesPopup
 i.ua##.Disclaimer
 forbes.ru##.DnvB1
 smpbank.ru##.E_KUV0ozvj
@@ -7574,7 +7573,6 @@ vichatter.net#@#.Twitter
 old.kurs.com.ua#@#.arrow_up
 kakprosto.ru#@#.article-social
 relax-fm.ru#@#.back-top
-ariom.ru#@#.back2top
 change.org,fotostrana.ru#@#.btn-fb
 fotostrana.ru#@#.btn-gp
 kino.video,tasix.me#@#.btn-share
@@ -19350,7 +19348,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ###back-top
 ###back-top-btn
 ###back-top-top
-###back2top
 ###backToTopButton
 ###backToTop_RT
 ###back_to_top_now
@@ -19561,7 +19558,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.back-top-btn
 ##.back-top-top
 ##.back-top_button
-##.back2top
 ##.backToTop
 ##.backToTopButton
 ##.backToTopIcon
