@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: FaamX7fnnQKuefGgAZKe+g
-! Version: 202601230351
+! Checksum: KHL6JJkCwrxxqA0QMV+OIw
+! Version: 202601250401
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 23 Jan 2026 03:51 UTC
+! Last modified: 25 Jan 2026 04:01 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1494,7 +1494,6 @@ nn.ru##.js-ngs-share-button
 drive2.ru##.js-page .offer .c-share__label
 focus.ua##.js-post-share
 interesnoevmire.ru,ladyclub.org##.js-share-link
-gdespaces.com,gdespaces.net,spac.me,spac.run,spac.wtf,spac1.com,spac1.net,spac1.org,spaces-blogs.com,spaces.im,spcs-files.xyz,spcs.bio,spcs.me,spcs.network,spcs.pro,spcs.reviews,spcs.social,strip2.club,strip2.in,strip2.xxx,usersporn.com##.js-share_buttons
 xcom-shop.ru##.js-sidebar-social-link
 rbc.ru##.js-social-likes
 vlast.kz##.js-subscribe
@@ -1657,6 +1656,7 @@ gageno.ru##.navbar-btn
 finecooking.ru##.navbar-fixed-bottom
 gageno.ru##.navbar-header > div[style="margin-left:10px"]
 poltavske.tv##.navbar-nav > li > a[target="_blank"]
+qafqazinfo.az##.navbar-nav > li > a[target="_blank"] > img[src$=".png"]
 allbasketball.org##.navbar-nav-social
 cq.ru##.navbar__socials
 cta.ru##.navbar_top_smm
@@ -2208,7 +2208,7 @@ nikopolnews.net,unian.info,unian.net,unian.ua##.social-btn-bottom
 gismeteo.ru##.social-btns-wrapper
 gamestatus.info,wotpack.ru##.social-button
 regions.ru##.social-button-desktop
-66.ru,aforismo.ru,bst.bratsk.ru,click-or-die.ru,coolotvet.ru,football.ua,gizchina.net,gmk.center,kulturologia.ru,mse02.ru,om1.ru,pay-day.ru,publy.ru,tehnobzor.ru,tribun.com.ua##.social-buttons
+66.ru,aforismo.ru,bst.bratsk.ru,click-or-die.ru,coolotvet.ru,football.ua,gizchina.net,gmk.center,kulturologia.ru,mse02.ru,om1.ru,pay-day.ru,publy.ru,qafqazinfo.az,tehnobzor.ru,tribun.com.ua##.social-buttons
 freehat.cc##.social-buttons > * > *
 bfm.ru##.social-buttons > a
 1tv.ru##.social-buttons-compact
@@ -3239,6 +3239,7 @@ obukhiv.info#?#footer div:-abp-has(> a[href*="://t.me/"])
 eda.ru#?#footer div:-abp-has(> div > [title="vkontakte"])
 fontanka.ru#?#footer div:nth-child(5):-abp-has([href^="https://vk.com/fontanka"])
 yap.ru,yaplakal.com##form[method="POST"] + .row4[style="padding:6px;"][align="center"]
+google-cloud.services,spac.me,spaces.im,spcs.bio,strip2.co,strip2.*,usersporn.com##.js-share_buttons
 om1.ru#?#h1:-abp-contains(/в соцсетях/)
 format.kr.ua#?#h2:-abp-contains(/Под.литися|П.дпишись/)
 bigmir.net#?#h2:-abp-contains(Мы в соцсетях)
@@ -3806,6 +3807,8 @@ ru##[data-ns-portal] div[class^="mobileApps_"]
 ##body #cookie-policy
 ##body:not(Kinogo) #dle-content .notino
 ##body:not(Kinogo) #dle-content .reg-ad
+##body:not(Kinogo) #dle-content .underPlayer::after
+##body:not(Kinogo) #dle-content .video-block-strip
 ##body:not(Kinogo) #dle-content [id^="uniq-"][class][style]
 ##body:not(Kinogo) .notino
 ##cookies-gdpr
@@ -4607,7 +4610,6 @@ mlyn.by###acceptСookie
 vk.com,vk.ru###achievement_game.page_block
 wefilms.ru###adfoxPromo
 ficbook.net###adultCoverWarning
-aliexpress.ru###ae-ru-privacy-banner
 bancaintesa.ru###agreement
 videovegas.ru###agreement_cookie
 rshb.ru###alert.bottom
@@ -4617,7 +4619,6 @@ enthub.it###app > .bottom-20:last-child
 mamba.ru#?##app section:-abp-has(> div[class] > form#closeCookieBanner)
 vk.com###app_container_outer + div[style]
 terrikon.com###appeal
-gdespaces.com,gdespaces.net,spac.me,spac.run,spac.wtf,spac1.com,spac1.net,spac1.org,spaces-blogs.com,spaces.im,spcs-files.xyz,spcs.bio,spcs.me,spcs.network,spcs.pro,spcs.reviews,spcs.social,strip2.club,strip2.in,strip2.xxx,usersporn.com###apps_widget
 intex-press.by###article > blockquote
 novayagazeta.ru#?##article-body div:-abp-has(> div > div > [placeholder])
 theins.ru#?##articleContainer > div:-abp-has(form [name="email"])
@@ -5500,7 +5501,7 @@ drive.ru##.feedsub
 aniliberty.top,anilibria.top#?#.ff-body + .v-card:-abp-has(> a[href="https://live.vkvideo.ru/anilibria"])
 amurmedia.ru,chitamedia.su,eaomedia.ru,kamchatkamedia.ru,magadanmedia.ru,nakhodka.media,peterburgmedia.ru,priamurmedia.ru,primamedia.ru,sakhalinmedia.ru,ulanmedia.ru,ussurmedia.ru,yakutiamedia.ru##.finanse
 codes.com.ua##.fixed-bottom
-skidkaonline.ru##.fixed-tabs
+skidkaonline.by,skidkaonline.ru##.fixed-tabs
 autopilot.ru,kommersant.ru##.fixed_bottom
 kisameev.ru##.fixed_cookie
 nalog.ru##.fixed_shortcut_vc
@@ -6297,7 +6298,6 @@ uteka.ru##.toasts_bottom
 zona.media##.tools__support_container
 zombie-film.club##.top-alert
 professorweb.ru##.top-banner
-aliexpress.ru##.top-banner-container
 34.ua##.top-banner-wrapper
 primpogoda.ru##.top-bar-section > .right
 overclockers.ru##.top-scroll
@@ -6411,7 +6411,6 @@ point.md##[aria-label="scroll to top button"]
 bbc.com##[aria-labelledby="recommendations-heading"]
 bbc.com##[aria-labelledby^="message-banner-"]
 rutube.ru##[class*="Player"] div[class*="disclaimer"]
-aliexpress.ru##[class*="PrivacyPolicyBanner"]
 stopcor.org##[class*="TopLine_donate"]
 dtf.ru,vc.ru##[class*="comments"][class*="always"]
 v-variant.com.ua##[class*="donate"]
@@ -6884,6 +6883,8 @@ timeweb.cloud##footer ~ div[class^="core--"]
 agents.media##footer-columns
 msfree.su##form[action^="https://msfree.su/donaties/"]
 1yar.tv##form[name="subscribe"]
+google-cloud.services,spac.me,spaces.im,spcs.bio,strip2.co,strip2.*,usersporn.com###apps_widget
+google-cloud.services,spac.me,spaces.im,spcs.bio,strip2.co,strip2.*,usersporn.com###top_info_block
 itechua.com,uamotors.com.ua#?#h4:-abp-has(> span a[href^="https://news.google.com/publications/"])
 hdrezka.*,rezka.*##.b-dwnapp
 hdrezka.*,rezka.*##.b-tophead__subscribe-dropdown
@@ -7623,8 +7624,6 @@ the-zomb.com#@#.sig
 ecigtalk.ru#@#.signature img
 gazetaby.com,gazetaby.info,gazetaby.media#@#.site-social
 comunicart.ru#@#.soc-fb
-gdespaces.com,gdespaces.net,spac.me,spac.run,spac.wtf,spac1.com,spac1.net,spac1.org,spaces-blogs.com,spaces.im,spcs-files.xyz,spcs.bio,spcs.me,spcs.network,spcs.pro,spcs.reviews,spcs.social,strip2.club,strip2.in,strip2.xxx,usersporn.com#@#.soc-link
-gdespaces.com,gdespaces.net,spac.me,spac.run,spac.wtf,spac1.com,spac1.net,spac1.org,spaces-blogs.com,spaces.im,spcs-files.xyz,spcs.bio,spcs.me,spcs.network,spcs.pro,spcs.reviews,spcs.social,strip2.club,strip2.in,strip2.xxx,usersporn.com#@#.soc-links
 acomics.ru,appledevelopers.ru,chess-online.com,citilink.ru,detector.media,dns-shop.ru,europaplus.ru,goha.ru,in-the-fog.ru,liga.net,logitech.com,mts.ru,popsci.com,rambler.ru,rosbalt.ru,signin.ebay.com,strana-krovi.com,strava.com,tampermonkey.net,technopoint.ru,tkbbank.ru#@#.social
 kai-gebel.com#@#.social-bar
 kai-gebel.com#@#.social-bar-bottom
@@ -7787,6 +7786,8 @@ livelib.ru,livemaster.ru,soccer.ru,vichatter.net#@#a[title="Twitter"]
 livemaster.ru#@#a[title="ВКонтакте"]
 anilib.moe,anilib.one,anilib.top,anilibria.iss.one,anilibria.tv,xn--80aacbuczbw9a6a.xn--p1ai#@#div[id^="vk_comments"]
 jcross-world.ru#@#div[id^="vk_group"]
+google-cloud.services,spac.me,spaces.im,spcs.bio,strip2.co,strip2.*,usersporn.com#@#.soc-link
+google-cloud.services,spac.me,spaces.im,spcs.bio,strip2.co,strip2.*,usersporn.com#@#.soc-links
 kinokopilka.pro#@#img[alt="Twitter"]
 prom.ua#@#img[alt="facebook"]
 !
@@ -8288,6 +8289,7 @@ prom.ua#@#img[alt="facebook"]
 ||signaly.co^$third-party
 ||snrcdn.net^$third-party
 ||spacepush.ru^$third-party
+||surveymonkey.com/fides.js
 ||system-notify.app^$third-party
 ||ternairsoftware.com/publicwebpush/
 ||titanpush.com.br^$third-party
