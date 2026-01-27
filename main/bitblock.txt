@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: KHL6JJkCwrxxqA0QMV+OIw
-! Version: 202601250401
+! Checksum: Qe7aQm+PdN18n95FZyvQ3A
+! Version: 202601270341
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 25 Jan 2026 04:01 UTC
+! Last modified: 27 Jan 2026 03:41 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -428,6 +428,8 @@ rutv.ru###btns
 ipicture.ru###buton
 animespirit.tv###buttonvk
 stanislaw.ru###channels-icons
+questtime.net###cmts-vk-title
+questtime.net###cmts_vk
 glianec.com#?##col-right > .bl-middle2:-abp-has(> h4:contains(/facebook/))
 mos-holidays.ru###comment-tabs > .ui-tabs-nav > li ~ li
 nbnews.com.ua###comments[data-type="facebook"]
@@ -2832,6 +2834,7 @@ msfree.su,xenforo.info##[data-widget-definition="share_page"]
 esp8266.ru,yougame.biz##[data-widget-key="forum_overview_share_page"]
 alau.kz##[data-widget_type="image.default"] ~ [data-widget_type="vinazine-block-title.default"]
 alau.kz##[data-widget_type="image.default"] ~ [data-widget_type="vinazine-block-title.default"] + [data-widget_type="html.default"]
+questtime.net##[href="/vk.html"]
 fastpic.org##[id*="footer"] a[href*="twitter.com"]
 sovkusom.ru##[id^="essbsocialfanscounterwidget"]
 growhow.in.ua##[id^="instagram-feed-widget"]
@@ -4339,6 +4342,7 @@ _app_promo$domain=7themes.su|wallscloud.net
 ||gramma.ru/include/dcpy.js
 ||graphql.kinopoisk.ru/graphql/?operationName=HdShowcase$xmlhttprequest,domain=www.kinopoisk.ru
 ||graphql.kinopoisk.ru/graphql/?operationName=StreamingSelection$xmlhttprequest,domain=www.kinopoisk.ru
+||habr.com/effect/a|$xmlhttprequest
 ||habrastorage.org/getpro/habr/branding/$image,domain=habr.com
 ||hawaii-kirillovka.com/misc/js/please.js
 ||hdzona.com/forum/logo.jpg
@@ -7403,6 +7407,7 @@ yandex.ru,yandex.*##footer > [class^="AppFooterLinks_links_"] > div:last-child
 !#if ext_abp
 e.mail.ru,octavius.mail.ru#@##app-canvas .layout__overflow-container > .advert-column
 e.mail.ru,octavius.mail.ru#@##app-canvas .layout__overflow-container > .slot
+mail.ru###grid .widget__container .tgbv-wrapper
 mail.ru###grid:not(.grid) .widget__container ~ .widget__container > div:not([class*=" "])
 cloud.mail.ru#?##react-modals:-abp-has(a[href^="https://vk.cc/"])
 dzen.ru###ya-dist
@@ -7414,7 +7419,7 @@ ya.ru##.body__feed-wrapper
 e.mail.ru,octavius.mail.ru#@#.layer-sent-page__banner
 e.mail.ru,octavius.mail.ru##.layer-sent-page__banner [class]
 e.mail.ru,octavius.mail.ru##.layout__column-wrapper > .react-async
-e.mail.ru,octavius.mail.ruu##.layout__column_right-indented
+e.mail.ru,octavius.mail.ru##.layout__column_right-indented
 e.mail.ru,octavius.mail.ru##.layout__letter-content > .react-async
 e.mail.ru,octavius.mail.ru#@#.letter-list-item-adv
 mail.ru#@#.mailru-visibility-check
@@ -7422,6 +7427,7 @@ dzen.ru#?#.mg-grid__item_type_card:-abp-has(> div[class*="loader_animated"])
 dzen.ru#?#.news-app__heading:-abp-has(> h1:-abp-contains(Реклама))
 mail.ru#@#.tgb-wrapper
 mail.ru#@#.tgbv-wrapper
+mail.ru#@#.trb_taboola
 dzen.ru##.video-card-ads
 e.mail.ru,octavius.mail.ru#?#.vkuiPopoutRoot:-abp-has(a[href^="https://vk.cc/"])
 mail.ru##.widget-uber-wrapper
@@ -7444,7 +7450,7 @@ dzen.ru##div[class*="column_myTarget"]
 e.mail.ru,octavius.mail.ru##div[class*="layout"] .letter-list-item-adv
 e.mail.ru,octavius.mail.ru##div[class*="layout"] .promo-block-letter
 dzen.ru##div[class^="article-"][class*="-placeholder__root"]
-mail.ru##div[class^="tg"][class*="-wrapper_"]
+mail.ru##div[class^="tg"][class*="-wrapper "]
 mail.ru##div[id^="mailru"]
 mail.*##.tv-widget [class^="vk-video"]
 mail.*##.tv-widget [class^="vk-video"] {remove:true;}
