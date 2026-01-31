@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: +TQjhF6Okdt606mQvLv8dA
-! Version: 202601290412
+! Checksum: Cvu1xSU9TpjAa+c65ueSEg
+! Version: 202601310412
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 29 Jan 2026 04:12 UTC
+! Last modified: 31 Jan 2026 04:12 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -515,6 +515,7 @@ newsmsk.com###newsljbut
 infocar.ua###nsocials
 anilib.moe,anilib.one,anilib.top,anilibria.iss.one,anilibria.tv###oframeanilibriaPlayer > pjsdiv[style*="top: 31px;"]
 anilib.moe,anilib.one,anilib.top,anilibria.iss.one,anilibria.tv###oframeanilibriaPlayer path[d="M10.5227503,12.3484128 L10.5227503,9.30339401 C5.53658648,9.11950898 2.53480989,11.3896981 0,13.9125305 C0,7.91592519 5.22696877,3.19271536 10.5227503,3.1398601 L10.5227503,0.117647059 L18.0035818,6.23302993 L10.5227503,12.3484128 Z"]
+kinogo.media,obrut.show###oframeplayer > pjsdiv[style*="top: 32.5px;"]
 darklibria.it###oframeplayer > pjsdiv[style^="position: absolute; left:"][style*="px; top: 25px; opacity: 1"]
 darklibria.it###oframeplayer path[d^="M5.5662845,8.26248366 C5.5662845,8.31742532"]
 www.onliner.by###onliner-catalog-purchases .b-main-page-tabs__list > .b-main-page-tabs__item + [class]
@@ -6675,6 +6676,8 @@ diets.ru,gameguru.ru,kulina.ru,wotsite.net##body > noindex
 mobiset.ru##body > noindex > #clickDiv
 forum.ru-board.com##body > p[align="center"]
 pb.wtf,pirat.one,piratbit.fun,piratbit.org,piratbit.top##body > span[style*="background"]
+vk.com##body.anonym div[class^="vkitFooterBanner"]
+vk.com##body.anonym div[class^="vkitTwoColumnLayoutNarrow__root"] > div > section:has(.vkuiHorizontalCell__host)
 instagram.com#?#body[style="overflow: hidden;"] > #react-root ~ div[class*=" "][class$=" "][role="presentation"]:-abp-has(div:-abp-contains(Войдите, чтобы продолжить))
 kak-prosto.net##br + br
 kp.ru##button[data-background-color="blue"][data-is-small-on-mobile]
@@ -7388,6 +7391,8 @@ market.yandex.ru,market.yandex.*##div[data-zone-name="plusPromo"]
 market.yandex.ru,market.yandex.*##div[data-zone-name="promoSection"]
 market.yandex.ru,market.yandex.*##div[data-zone-name="vendorProductLinePromo"]
 market.yandex.ru,market.yandex.*#?#.SerpLayout > [id*="serpLayout"]:-abp-has(> [data-apiary-widget-name] > [data-zone-name="madvIncut"])
+meteum.ai,yandex.ru,yandex.*##div[class^="AppPromo"][class*="_container_"]
+meteum.ai,yandex.ru,yandex.*##footer > [class^="AppFooterLinks_links_"] > div:last-child
 metrika.yandex.ru,metrika.yandex.*##body > .metrika-app
 taxi.yandex.ru,taxi.yandex.*##.BannerGo__wrap
 taxi.yandex.ru,taxi.yandex.*##.Promotion
@@ -7406,8 +7411,6 @@ yandex.ru,yandex.*##button[class^="AppPromo_container_"]
 yandex.ru,yandex.*##div[class^="App"][class*="promo"]
 yandex.ru,yandex.*##div[class^="AppInfoModal"]
 yandex.ru,yandex.*##div[class^="AppLeftPanelPromos_bottomLinks_"]
-yandex.ru,yandex.*##div[class^="AppPromo"][class*="_container_"]
-yandex.ru,yandex.*##footer > [class^="AppFooterLinks_links_"] > div:last-child
 !#if ext_abp
 e.mail.ru,octavius.mail.ru#@##app-canvas .layout__overflow-container > .advert-column
 e.mail.ru,octavius.mail.ru#@##app-canvas .layout__overflow-container > .slot
@@ -7528,6 +7531,9 @@ www.google.*##^script:has-text(cookieUpdateConsentUrl)
 forum.ru-board.*##body:style(padding-top: 0 !important)
 market.yandex.*##div[data-zone-name="morda_context"] > div > div:nth-child(-n+2) > div[data-tid] > div[class] > div[class]:not([data-tid]) > div[class]:not([data-tid]):first-child + div:style(width: inherit !important)
 market.yandex.*##div[data-zone-name="morda_context"] > div > div:nth-child(-n+2) > div[data-tid] > div[class] > div[class]:not([data-tid]) > div[class]:not([data-tid]):first-child:style(padding-right: unset !important; width: inherit !important; max-width: 100% !important)
+vk.*##body.anonym > #box_layer_bg:style(display: none !important)
+vk.*##body.anonym > #box_layer_wrap.scroll_fix_wrap:has(> #box_layer [aria-modal="true"][role="dialog"] .vkuiButton__in):style(display: none !important)
+vk.*##body.anonym[style*="overflow:"]:style(overflow-y: auto !important)
 www.kinopoisk.*##div[class^="styles_sidebarContainer_"] > div[style^="position: sticky; top:"]:style(top: 0 !important)
 www.kinopoisk.*##header[style*="--header-height:"][style*="px"] > .header-navigation:style(margin-top: 0 !important)
 www.kinopoisk.*##header[style*="--header-height:"][style*="px"] > div > img:style(display: none !important)
@@ -20365,6 +20371,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||carchat24.com/inpagechat/audio/$media
 ||carrotquest.app/sounds/
 ||cdn-widget.callpage.io/build/sounds/
+||cdnapps.avada.io/faq/sounds/
 ||channel.io/plugin/$media
 ||chat.octadesk.services/embed/static/media/$media
 ||chatango.com/pcache/sounds/
