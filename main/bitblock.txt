@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: QsX97z8t9q1zyg/g5FVM9Q
-! Version: 202602070412
+! Checksum: jzp98SepRHi0+OFyXPkz7w
+! Version: 202602090441
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 07 Feb 2026 04:12 UTC
+! Last modified: 09 Feb 2026 04:41 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -581,7 +581,6 @@ beztarakanov.ru###sin-mid-left-soc
 rebenok.by###sn-block-right
 gidonline.eu###soc
 vchaspik.ua###soc-img-content-bottom
-7days2die.info###socIcons
 uaprom.info###soc_buttons
 materinstvo.ru###soc_icons_top
 amurmedia.ru,angarskmedia.ru,chitamedia.su,chukotkamedia.ru,eaomedia.ru,irkutskmedia.ru,kamchatkamedia.ru,krasnodarmedia.su,krasnoyarskmedia.ru,magadanmedia.ru,nakhodka.media,novostirostov.ru,omskmedia.su,peterburgmedia.ru,priamurmedia.ru,primadonna.media,primamedia.ru,sakhalinmedia.ru,sevastopolmedia.ru,sochimedia.su,stavropol.media,stolicamedia.ru,ulanmedia.ru,ussurmedia.ru,yakutiamedia.ru###soc_invites_block
@@ -607,7 +606,6 @@ rusplt.ru###social_top_fix
 100filmov.net###socialbut
 uploads.ru###socialize
 80-e.ru,infocar.ua###socials
-7days2die.info###sociconsFooter
 autoclub-cerato.ru###socio_0
 autoclub-cerato.ru###socio_1
 ghall.com.ua###socmedia
@@ -1460,7 +1458,6 @@ whl.khl.ru##.iconbar > .icons > a[href*="khl.ru/"] ~ a:not([href*="khl.ru/"] )
 autopilot.ru,kommersant.ru,myweekend.ru##.iconbox__item--share
 mobiledevice.ru##.icons_bar_placeholder
 sonix.tk##.iconsinit
-nabazare.blogspot.ru,spam-club.blogspot.com,spam-club.blogspot.ru##.ikonz-social
 life.pravda.com.ua#?#.img-wrap:-abp-has(> div > [href^="https://bit.ly"])
 dizelyator.ru##.imgsoc
 incrypted.com##.incrypted-post-author__socials
@@ -2036,6 +2033,7 @@ naked-science.ru##.shesht-social-sharing-block
 orakul.com##.show-social
 xn----7sbbeeptbfadjdvm5ab9bqj.xn--p1ai##.shr-txt
 sibnet.ru##.sibnet-footer__social
+torrents-soft.ru#?#.sid > .card:-abp-has(> center > a[href^="https://vk.com/"])
 weaponland.ru##.side > .bookmark
 foto.ua##.side-banner-social
 newdeaf.top##.side-bc > a#ng-padding[target="_blank"]
@@ -2360,7 +2358,7 @@ chasdiy.org##.socials__wrapper
 1ul.ru##.socials_start
 kerchinfo.com##.socialst
 actualcomment.ru##.socialtabs
-footballhd.ru,nabazare.blogspot.ru,spam-club.blogspot.com,spam-club.blogspot.ru##.socialtop
+footballhd.ru##.socialtop
 carsweek.ru##.socic
 zaks.ru##.socicons
 oane.ws##.socidiv
@@ -2377,7 +2375,7 @@ dostfilms.info,dostfilms.site,enovosty.com##.socnet
 kinodroid.net##.socpri,.socpri ~ *
 comments.ua,siniy-ekran.ru##.socs
 kluch.media##.socs-div-pr
-1yar.tv,amedia.online,partnerkin.com##.socseti
+1yar.tv,amd.online,partnerkin.com##.socseti
 topnews.ru##.socsite
 kamchatinfo.com##.soctop
 parlament.ua##.soliale-networks-header
@@ -2393,7 +2391,7 @@ kinofilm.co##.sp_insta
 blackwot.ru,ukrhealth.net,weukraine.tv##.spc-social
 pixelinform.com,sysidka.com##.spc-social-block
 slavinfo.dn.ua##.sppb-addon-social-media
-amedia.online##.srochno
+amd.online##.srochno
 dfm.ru,maximum.ru,rusradio.ru##.ss-block
 openmedia.io##.ss-ic
 maximum.ru##.ss_block
@@ -3486,7 +3484,7 @@ hcdn.online##.vjs-share-button
 khl.ru##.vjs-share-control
 list-org.com##.vk
 list-org.com##.vkl
-24smi.org,electric-house.ru,givekey.ru,nabazare.blogspot.ru,ph4.ru,raskraska.com,ru-skript.ru,spam-club.blogspot.com,spam-club.blogspot.ru,www.kinopoisk.ru##.ya-share2
+24smi.org,electric-house.ru,givekey.ru,ph4.ru,raskraska.com,ru-skript.ru,www.kinopoisk.ru##.ya-share2
 audioportal.su,audioskazki.net,html-template.ru,rustreams.ru##.yashare-auto-init
 fishki.net##[data-social]
 mk.ru,raskraska.com,spec-komp.com##div[id^="vk_groups"]
@@ -6128,7 +6126,6 @@ pikabu.ru##.sidebar-block-links__footer
 rempc.by##.sidebar-block.banner
 pikabu.ru##.sidebar-block_no-padding
 raenza.ru#?#.sidebar-island:-abp-has(> .heading-primary:-abp-contains(реклама))
-torrent-club.net##.sidebar-primary
 podillyanews.com##.sidebar-weather
 volyninfo.com#?#.sidebar-widget:-abp-has(> .textwidget > #SinoptikInformer)
 newsroom.kh.ua#?#.sidebar-widget:-abp-has(> div .button-contactForm)
@@ -7863,6 +7860,7 @@ prom.ua#@#img[alt="facebook"]
 /onesignalfix.js
 /OneSignalSDKUpdaterWorker.js
 /OneSignalSDKWorker.js
+/partytown-sw.js
 /perfecty-push-sdk.min.js
 /plugins/tfnotifier-wp/swloader.php
 /push-notification.js
@@ -19015,6 +19013,7 @@ playswellwithbutter.com#@#a[href^="https://www.pinterest.com/pin/create/button/"
 ! *** easylist:fanboy-addon/fanboy_annoyance_general_block.txt ***
 ! fanboy_annoyance_general_block.txt
 /1-popupally-pro-code.js
+/akam-sw.js
 /amp-apester-
 /arscode-ninja-popups/*$~stylesheet
 /copy_text.js
