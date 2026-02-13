@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: p4twiOu2kBtWEQ9vdeO9jw
-! Version: 202602110441
+! Checksum: H6hMvej8GqlQw31zxTdBXA
+! Version: 202602130431
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 11 Feb 2026 04:41 UTC
+! Last modified: 13 Feb 2026 04:31 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -468,6 +468,7 @@ silver.ru###footer > .right > div + div ~ a
 gadgetstyle.com.ua#?##footer > div[class^="foot-widget"]:-abp-has(.su-button-center)
 hitfm.ru###footer a[target="_blank"][class*="fa-"]
 brestcity.com###footer font > div[align="center"] ~ div[align="center"]
+yapolitic.ru###footer-soc
 beztarakanov.ru###footer4
 gidonline2.com###friend
 vcrti.com.ua###gk-newsletter-popup
@@ -1886,6 +1887,7 @@ inforeactor.ru##.read_telegram
 dyvys.info##.readmoreinchat
 mgazeta.com##.readus
 zn.ua##.recent-events
+lenta.ru##.redline
 dnl.com.ua#?#.region-before-comments > div:-abp-has(> div > .ya-share2)
 knijky.ru##.region-content > #block-system-main ~ .block
 rusvesna.su##.region-extra2 > .block > div > table
@@ -2615,6 +2617,7 @@ mentoday.ru,techinsider.ru,thevoicemag.ru##.vertical-video__like-button
 mentoday.ru,techinsider.ru,thevoicemag.ru##.vertical-video__share-button
 sport.ua##.viber
 1plus1.video##.video-comments
+yapolitic.ru##.video-opis-knop
 ren.tv##.video-player__sharing
 regnum.ru##.video-share-wrapper
 vesti.ru##.video_top_inner
@@ -4456,6 +4459,7 @@ _app_promo$domain=7themes.su|wallscloud.net
 ||pogoda.by/assets/static/main_page_modal_banner/
 ||pogoda.kurs.com.ua^*/informer
 ||politarena.org.ua/reclama/
+||polls-media.t-static.ru/polls/prod/widget/latest/widget.js
 ||pravda.ru/js/core/copy.js
 ||pravo.ru/*/bottom_popup.js
 ||primamediamts.servicecdn.ru/media/js/accept-cookies.js
@@ -4840,7 +4844,7 @@ forum-windows.net###ntf
 friday.ru###offers
 doramafox.club###okno5
 kinodema.com###okno[href]
-vk.com###old_browser_wrap
+vk.com,vk.ru,vkvideo.ru###old_browser_wrap
 fontanka.ru###onesignal-promt-target div[style^="max-height:"] > div[style^="max-height:"] > div:last-child
 fontanka.ru###onesignal-promt-target div[style^="max-height:"] > div[style^="max-height:"] > nav > div > div:last-child
 flashscore.com.ua,flashscore.ru.com,flashscore.ua,flashscorekz.com,livescore.in,soccerstand.com###onetrust-consent-sdk
@@ -6999,7 +7003,6 @@ benzclub.ru##tr > td[valign="top"][width="245"]
 kion.ru##ui-web-alert
 epicentrk.ua##ul > li[data-test-small-card] ~ li:not([data-test-small-card])
 shiza-project.com##ul[class*="transparent-btns"]
-vk.com,vk.ru,vkvideo.ru##vk-video-player div[class^="PauseSuggestionsSlider"]
 wildberries.ru,wildberries.*##.fixed-block__cookies
 !
 ! 4pda.to (ранее 4pda.ru)
@@ -7471,6 +7474,7 @@ mail.*##.tv-widget [class^="vk-video"] {remove:true;}
 mail.yandex.ru,mail.yandex.*##[id^="js-mail-layout-content-header"] > .message-list-banner-portal + div:not([class*="message"]):not(:last-child)
 mail.yandex.ru,mail.yandex.*##div#js-layout-inner[class^="PageLayout-m__main--"][id="js-layout-inner"] ~ div[style*="overscroll-behavior: none;"]
 translate.yandex.ru,translate.yandex.*##.side-block > div
+vk.com,vk.ru,vkvideo.ru##vk-video-player div[class^="PauseSuggestionsSlider"]
 ||dzen.ru/zen-partner/$third-party
 ||livejournal.com/*_*_*_*_*_*_*_*_*_$xmlhttprequest
 ||mail.yandex.*/u2709/$script,~third-party
@@ -18871,11 +18875,12 @@ bitly.com,knivesout.jp#@#.share-btn
 ida2at.com#@#.share-holder
 app.degoo.com#@#.share-icon-container
 pornhub.com#@#.share-link-container
-baidu.com,findagrave.com#@#.share-list
+baidu.com,findagrave.com,locataire.dossierfacile.logement.gouv.fr#@#.share-list
 deezer.com#@#.share-message
 podbean.com#@#.share-podcast
-osf.io#@#.share-row
+locataire.dossierfacile.logement.gouv.fr,osf.io#@#.share-row
 inman.com,simpletax.ca#@#.share-section
+locataire.dossierfacile.logement.gouv.fr#@#.share-title
 am800cklw.com#@#.share-tools
 card.discover.com#@#.share-widget
 ranking.sanrio.co.jp#@#.shareButtons
