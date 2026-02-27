@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 6hWxSr3ayvgcSIRyGPnHTA
-! Version: 202602250431
+! Checksum: mWxIamrZyMU/p24xxxOkhg
+! Version: 202602270421
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 25 Feb 2026 04:31 UTC
+! Last modified: 27 Feb 2026 04:21 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1387,7 +1387,6 @@ tulapressa.ru##.header-left_space-link
 gordonua.com#?#.header-menu > .header-menu__item:-abp-has(> nav > ul > li > .telegram-h)
 tv-gubernia.ru##.header-mlinks
 uazmi.org##.header-nav-bottom
-turkrutv.net,turkrutv84.com##.header-promo
 penza-press.ru##.header-row__social
 pravdatutnews.com##.header-sma
 tulapressa.ru##.header-soc
@@ -2346,7 +2345,7 @@ blokino.org##.socialknopka
 novosti.dn.ua##.sociall
 glianec.com,rebenok.by##.sociallike
 electrotests.ru,tests24.su##.socialmedia
-101.ru,acmc.ua,agents.media,avtovzglyad.ru,bitcoinmagazine.ua,cherkasy.live,comedy-radio.ru,dumka.media,edyna.media,forbes.kz,fraza.com,gotennis.ru,infox.ru,kanaldim.tv,korrespondent.net,ku66.ru,kurs.if.ua,lifehacker.ru,mgazeta.com,mi100.info,mos-holidays.ru,muz-tv.ru,nashbryansk.ru,nevnov.ru,new-magazine.ru,nsp.ru,overclockers.ua,paperpaper.ru,podillyanews.com,poltava.ua,realnoevremya.ru,regnum.ru,relax-fm.ru,report.az,retail.ru,rezka.biz,rozetked.me,securitymedia.org,sknews.net,speka.ua,stopcor.org,teleprogramma.org,thegirl.ru,tvoemisto.tv,uatv.ua,virtualbrest.ru,womanhit.ru##.socials
+101.ru,acmc.ua,agents.media,avtovzglyad.ru,bitcoinmagazine.ua,cherkasy.live,comedy-radio.ru,dumka.media,edyna.media,forbes.kz,fraza.com,gotennis.ru,infox.ru,kanaldim.tv,korrespondent.net,ku66.ru,kurs.if.ua,lifehacker.ru,mgazeta.com,mi100.info,mos-holidays.ru,muz-tv.ru,nashbryansk.ru,nevnov.ru,new-magazine.ru,nsp.ru,overclockers.ua,paperpaper.ru,podillyanews.com,poltava.ua,realnoevremya.ru,regnum.ru,relax-fm.ru,report.az,retail.ru,rezka.biz,rozetked.me,securitymedia.org,sknews.net,speka.ua,stopcor.org,teleprogramma.org,thegirl.ru,turkrutv.net,tvoemisto.tv,uatv.ua,virtualbrest.ru,womanhit.ru##.socials
 73online.ru##.socials > div > a[rel="nofollow"]
 kinonews.ru##.socials > ul
 gotennis.ru##.socials-a
@@ -3161,7 +3160,7 @@ sportsdaily.ru##div[class^="news__channels_"]
 uaspectr.com##div[class^="post-sharing"]
 forklog.com##div[class^="post_bottom_socials"]
 nachasi.com##div[class^="post_subscribe"]
-turkrutv.net,turkrutv84.com##div[class^="promo-links"]
+turkrutv.net##div[class^="promo-links"]
 rutube.ru##div[class^="raichu-player-controls-top-module__shareWrapper"]
 kino-live8.biz#?#div[class^="right"] div[class^="ramka"]:-abp-has(#vk_groups)
 cybersport.ru##div[class^="share"]
@@ -4556,7 +4555,7 @@ _app_promo$domain=7themes.su|wallscloud.net
 ||track24.ru/newyear/
 ||tranceshop.ru^$image,domain=psy-music.ru
 ||tsargrad.tv/js/fly-news.js
-||turkrutv*/static/player_img_*.webp|$image
+||turkrutv*/static/lk_feb.webp|$image
 ||tut.by/push/
 ||tvz.im/video/promo.
 ||twister.lifehacker.ru^$domain=~twister.lifehacker.ru
@@ -4689,7 +4688,6 @@ galas.te.ua###content > table
 7ya.ru###content_container > div[class*="specprojects"]
 aeroexpress.ru###coockiesInfoOuter
 genesis-mining.ru,gopractice.ru,inscience.news,life.com.by,proglib.io###cookie
-gazprombank.ru###cookie-accept
 cian.ru,eva.ru###cookie-agreement
 besplatka.ua###cookie-bottom
 hibiny.ru,nn.ru###cookie-consent
@@ -5883,7 +5881,7 @@ qna.habr.com##.notices-container
 cnews.ru,cubiq.ru,inforesist.org##.notification
 speedtest.net##.notification-container
 paypal.com##.notification-cookie
-turkrutv.net,turkrutv84.com##.notification-live
+turkrutv.net##.notification-live
 pik.net.ua##.notification-news-btn
 vgtimes.ru##.notification.game_review_ask
 jaguar.ru,landrover.ru,landrover.ua##.notificationBars
@@ -6161,7 +6159,6 @@ sportmaster.ru##.sm-cookie-agreement-old
 blackwot.ru##.smart-head-row .ts-button
 gorodrabot.ru##.snippet_advertising
 pikabu.ru##.snowflakes-container
-turkrutv.net,turkrutv84.com##.snowing-header
 porodakoshki.ru##.socialer-popup-overlay
 riafan.ru##.socials_block-wrapper
 soft.sibnet.ru##.soft-footer__subscribe
@@ -7212,6 +7209,7 @@ e.mail.ru,octavius.mail.ru##div[class*="layout"] .promo-block-letter
 mail.ru##div[class*="recommendation-link-container"]
 cloud.mail.ru##div[class^="AsidePromoModal__root"]
 cloud.mail.ru,doc.mail.ru##div[class^="Snackbars__root"]
+cloud.mail.ru##div[class^="TrialPromo__root-"]
 cloud.mail.ru##div[class^="ViewerHeader__marketingPromoButton"]
 otvet.mail.ru##div[class^="_SnackbarManagerWrapper_"]
 vkplay.ru##div[class^="_popupContainer_"]
