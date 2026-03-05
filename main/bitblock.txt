@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: jyUzMQCxiT7a07+Q4ub3AQ
-! Version: 202603030421
+! Checksum: wi6a7462Ry6p6E93hPnttA
+! Version: 202603050411
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 03 Mar 2026 04:21 UTC
+! Last modified: 05 Mar 2026 04:11 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1042,6 +1042,7 @@ amurmedia.ru,angarskmedia.ru,chitamedia.su,chukotkamedia.ru,eaomedia.ru,irkutskm
 disqus.com##.comment__share
 krymr.com,radiosvoboda.org##.comments--fb
 stopcor.org#?#.comments:-abp-has(> .fb-comments)
+9tv.co.il##.communic_group
 retail.ru##.communication__shared
 price.ua##.community
 varianty.lviv.ua##.connect
@@ -1971,7 +1972,7 @@ filmstvclub.net##.serial-socials
 chudesniesovetiki.site##.sgwindow_socialicons
 online-mult.net##.sh_pt
 zi.ua##.shar-title
-024.by,1743.ru,1prime.ru,4pda.to,allnews.kz,amurmedia.ru,angarskmedia.ru,belarus-news.by,bibliofond.ru,bigkyiv.com.ua,brovary.net.ua,businessman.ru,chehov-vid.ru,chitamedia.su,chukotkamedia.ru,chytomo.com,city-n.ru,currenttime.tv,dentalmagazine.ru,disgustingmen.com,doramax.org,dron.media,dzr.by,eaomedia.ru,edimdoma.ru,europaplus.ru,fixygen.ua,gameguru.ru,goha.ru,govoritmoskva.ru,grodnonews.by,gts.tv,hdkinoteatr.com,hitfm.ru,inforesist.org,interior.ru,irkutskmedia.ru,izhlife.ru,kamchatkamedia.ru,karaosha.ru,kinorium.com,kirov.online,krasnodarmedia.su,krasnoyarskmedia.ru,kravira.by,krymr.com,ktv-ray.ru,kurgan.ru,kurs.com.ua,m24.ru,magadanmedia.ru,maximum.ru,metaratings.ru,mlyn.by,mos-holidays.ru,most.tv,multiurok.ru,mydocx.ru,nakhodka.media,native-english.ru,nauka.ua,naukatv.ru,navigator-kirov.ru,nii-rf.ru,novostiplanety.ru,novostirostov.ru,ntsk.ru,obozrevatel.com,omskmedia.su,online-timer.ru,orki.ru,orsk.ru,ostro.org,overclockers.ua,parlament.ua,peterburgmedia.ru,pkzsk.info,point.md,priamurmedia.ru,primadonna.media,primamedia.ru,prokuzbass.ru,rbc.ua,ria.ru,roskomsvoboda.org,runews24.ru,rusonline.org,sakhalinmedia.ru,sdamgia.ru,sevastopolmedia.ru,sfera.fm,sharij.net,sinkovskoe.ru,skillbox.ru,sochimedia.su,sport-tv.by,sq.com.ua,stavropol.media,stolicamedia.ru,studopedia.su,sverhestestvennoe.club,svoboda.org,syl.ru,tele.ru,tet.tv,topradio.me,tutu.ru,tvzvezda.ru,u-tv.ru,ukr.net,ukraina.ru,ulanmedia.ru,upl.uz,ussurmedia.ru,varianty.lviv.ua,vellisa.ru,vgtimes.ru,vlast.kz,voxpopuli.kz,vringe.com,vz.ru,walkingdead.club,yakutiamedia.ru##.share
+024.by,1743.ru,1prime.ru,4pda.to,allnews.kz,amurmedia.ru,angarskmedia.ru,belarus-news.by,bibliofond.ru,bigkyiv.com.ua,brovary.net.ua,businessman.ru,chehov-vid.ru,chitamedia.su,chukotkamedia.ru,chytomo.com,city-n.ru,currenttime.tv,dentalmagazine.ru,disgustingmen.com,doramax.org,dron.media,dzr.by,eaomedia.ru,edimdoma.ru,europaplus.ru,fixygen.ua,gameguru.ru,goha.ru,govoritmoskva.ru,grodnonews.by,gts.tv,hdkinoteatr.com,hitfm.ru,inforesist.org,interior.ru,irkutskmedia.ru,izhlife.ru,kamchatkamedia.ru,karaosha.ru,kinorium.com,kirov.online,krasnodarmedia.su,krasnoyarskmedia.ru,kravira.by,krymr.com,ktv-ray.ru,kurgan.ru,kurs.com.ua,m24.ru,magadanmedia.ru,maximum.ru,mlyn.by,mos-holidays.ru,most.tv,multiurok.ru,mydocx.ru,nakhodka.media,native-english.ru,nauka.ua,naukatv.ru,navigator-kirov.ru,nii-rf.ru,novostiplanety.ru,novostirostov.ru,ntsk.ru,obozrevatel.com,omskmedia.su,online-timer.ru,orki.ru,orsk.ru,ostro.org,overclockers.ua,parlament.ua,peterburgmedia.ru,pkzsk.info,point.md,priamurmedia.ru,primadonna.media,primamedia.ru,prokuzbass.ru,rbc.ua,ria.ru,roskomsvoboda.org,runews24.ru,rusonline.org,sakhalinmedia.ru,sdamgia.ru,sevastopolmedia.ru,sfera.fm,sharij.net,sinkovskoe.ru,skillbox.ru,sochimedia.su,sport-tv.by,sq.com.ua,stavropol.media,stolicamedia.ru,studopedia.su,sverhestestvennoe.club,svoboda.org,syl.ru,tele.ru,tet.tv,topradio.me,tutu.ru,tvzvezda.ru,u-tv.ru,ukr.net,ukraina.ru,ulanmedia.ru,upl.uz,ussurmedia.ru,varianty.lviv.ua,vellisa.ru,vgtimes.ru,vlast.kz,voxpopuli.kz,vringe.com,vz.ru,walkingdead.club,yakutiamedia.ru##.share
 my.kaspersky.com##.share > :not(.share-link)
 liwihelp.com##.share > a[onclick*="sharer"]
 milknews.ru##.share-aside
@@ -3068,6 +3069,7 @@ rg.ru##div[class*="EditorialHeader_contact"]
 mir24.tv##div[class*="InfoRowSocials"]
 igromania.ru,kanobu.ru##div[class*="ShareLinks_share"]
 ati.su##div[class*="SocialButtons"]
+dzen.ru##div[class*="StoryHead-desktop__controls"] > div:first-child:not([class])
 rg.ru##div[class*="Video"][class*="_share"]
 matchtv.ru##div[class*="WidgetArticle__share"]
 mir24.tv##div[class*="__share__"]
@@ -3119,11 +3121,10 @@ tribuna.com##div[class^="SharedSocialButtons"]
 tass.ru##div[class^="SocialLinks_wrapper"]
 daily.afisha.ru##div[class^="SocialPlate_Container"]
 atas.info,bel.ru##div[class^="Socials"]
-metaratings.ru##div[class^="Socials_"]
 newizv.ru##div[class^="Socials_socials"]
 rg.ru##div[class^="StoryContentMainShare_root_"]
 start.rt.ru##div[class^="StyledFooterInfoBlockSocialIcons-"]
-atas.info,bel.ru,metaratings.ru##div[class^="Subscribe_subscribe"]
+atas.info,bel.ru##div[class^="Subscribe_subscribe"]
 news.finance.ua##div[class^="Subscriptions"]
 tribuna.com##div[class^="_footer__social-media"]
 tribuna.com##div[class^="_shared-socia-buttons"]
@@ -3315,6 +3316,11 @@ rbc.ru#?#main > article > [class^="stroke-"]:-abp-has(> div a[href^="https://t.m
 ura.news##main > div button[type="button"]:first-child > span:not(:only-child)
 ura.news#?#main > div div ul > li:-abp-has([alt^="Подписаться на нас"])
 market.yandex.ru,market.yandex.*##[data-autotest-social-name]
+metarating.com.ua,meta-ratings.kz,metaratings.ru,metaratings.*##div[class^="AuthorSocials-module-"]
+metarating.com.ua,meta-ratings.kz,metaratings.ru,metaratings.*##div[class^="PromoMenu-module-"] > a[target="_blank"]
+metarating.com.ua,meta-ratings.kz,metaratings.ru,metaratings.*##div[class^="Share-module-"]
+metarating.com.ua,meta-ratings.kz,metaratings.ru,metaratings.*##div[class^="Socials-module-"]
+metarating.com.ua,meta-ratings.kz,metaratings.ru,metaratings.*##div[class^="Subscribe-module-"]
 proxima.net.ua##nav .text-center .dropdown-toggle
 ixbt.com##nav > .grid > .lg\:inline-flex
 www.ixbt.com##nav div[class^="menu-"] ~ div.hidden
@@ -6577,7 +6583,6 @@ ichip.ru##a[href="/rek/"]
 kp.by,kp.kg,kp.kz,kp.md,kp.ru##a[href="/subscribe/periodical/"]
 dracon-zet.ru##a[href="/zakaz-reklamy/"]
 lostfilm.download,lostfilm.life,lostfilm.one,lostfilm.pro,lostfilm.space,lostfilm.today,lostfilm.tv,lostfilm.tw,lostfilm.uno,lostfilm.win,lostfilmtv.site,lostfilmtv.uno,lostfilmtv2.site,lostfilmtv3.site,lostfilmtv5.site##a[href="http://adverti.me"]
-cq.ru##a[href="https://cq.ru/steam-pay"]
 esports.ru##a[href="https://esports.ru/popolnienie-steam-v-rossii/"]
 lifeha.ru##a[href="https://lifeha.ru/besplatnye-materialy"]
 lifeha.ru##a[href="https://lifeha.ru/kursi-pro"]
@@ -6731,7 +6736,6 @@ kp.kg,kp.kz,kp.md,kp.ru#?#div[class]:-abp-has(> div[class] > div[class] > input[
 delfi.ee##div[class^="C-modal"]
 ainews.kz##div[class^="Confirm_root"]
 litres.ru##div[class^="CookieAcceptPopup_container"]
-metaratings.ru##div[class^="CookieAllowance"]
 ati.su##div[class^="CookieBanner"]
 yamal-media.ru##div[class^="CookieBanner_"]
 mos.ru##div[class^="CookieBanner_container_"]
@@ -6951,6 +6955,7 @@ bbc.com#?#main[role="main"] > figure:-abp-has(> div img[alt*="рассылк"]) 
 bbc.com#?#main[role="main"] > figure:-abp-has(> div img[alt*="рафика"])
 bbc.com#?#main[role="main"] > figure:-abp-has(> div img[alt*="рафика"]) + div
 bbc.com#?#main[role="main"] > figure:-abp-has(> div img[alt*="рафика"]) + div + figure
+metarating.com.ua,meta-ratings.kz,metaratings.ru,metaratings.*##ul[class*="mobileApps"]
 mvideo.ru##mvid-cookie-notification
 ixbt.com##nav a[href^="https://ixbt.shop"]
 zoom.cnews.ru##noindex > .article_insert
@@ -7001,7 +7006,6 @@ benzclub.ru##tr > td[valign="top"][width="245"]
 kion.ru##ui-web-alert
 epicentrk.ua##ul > li[data-test-small-card] ~ li:not([data-test-small-card])
 shiza-project.com##ul[class*="transparent-btns"]
-wildberries.ru,wildberries.*##.fixed-block__cookies
 !
 ! 4pda.to (ранее 4pda.ru)
 !#if ext_abp
@@ -18819,7 +18823,7 @@ smbc-comics.com#@##sharebar
 statoquotidiano.it#@##sidebar-social
 cnbc.com#@##social-buttons-transporter
 vitruvianthing.com#@##social2
-marktplaats.nl#@##socialButtons
+marktplaats.nl,mijnaegonpensioen.nl#@##socialButtons
 archiveofourown.org#@##social_media
 tweetgen.com#@##tweetContainer
 nicovideo.jp#@#.FollowButton
