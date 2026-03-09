@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ipB0zUQmFfaS4YaADSydOQ
-! Version: 202603070401
+! Checksum: rmX9M5vnBxjCX/SQ7MLxAA
+! Version: 202603090431
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 07 Mar 2026 04:01 UTC
+! Last modified: 09 Mar 2026 04:31 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -2793,6 +2793,7 @@ mash.ru##[class^="styles_socials_"]
 skam.online##[class^="telegram"]
 tengrinews.kz##[class^="tn-social-"]
 drive2.ru##[data-action="share.share"]:not([data-target="drive"])
+bryansknovosti.ru,novozybkov.su##[data-alias="Справа"] .textwidget > [align="center"] > [href*="?p="] ~ a
 psychologies.ru##[data-autogoal-click*="PROMO"]
 xn--80aaae1cn1aw5e.xn--p1ai##[data-bazooka]
 teleport2001.ru##[data-block-plugin-id="system_menu_block:social"]
@@ -3464,7 +3465,6 @@ fishki.net##.content__figure__share__social
 kakprosto.ru##.content__share
 fatcatslim.ru##.entry-share
 porjati.net##.fb-like
-rusprofile.ru##.footer-social
 ictv.ua##.footer_social
 kg-portal.ru##.fp-share
 woman365.ru##.main__content-share-btns
@@ -4670,7 +4670,6 @@ notfilm.ru###bot_panel
 only-paper.ru###bottomInfoBar
 freemake.com###bottombar
 pickupforum.ru###branding
-vgtimes.ru###bspromo
 cat-a-cat.net###cat
 ok-pressa.ru###cerezsorgula
 radiobells.com###chrome_badge
@@ -6408,7 +6407,6 @@ losst.pro,te4h.ru##.wp_subscribe
 1jazz.ru##.wptpa_cvr_wrapper
 culture.ru##.wrap-top-promo-block
 sports.ru##.write-post
-vgtimes.ru##.write_gr.show
 svoboda.org#?#.wsw__embed:-abp-has(> .infgraphicsAttach > div[id^="GR-"] > a[href^="https://news.google.com/publications/"])
 facebook.com##.x1u8a7rm
 playground.ru##.xmass-bg
@@ -7785,14 +7783,13 @@ myshared.ru#@#.ya-share2_inited
 @@||rublacklist.net/wp-content/themes/rublacklist/images/$domain=rublacklist.net
 @@||savevideo.me/images/services/$image,domain=savevideo.me
 @@||sberometer.ru/images/google-play.$image,domain=sberometer.ru
-@@||st.top100.ru/top100/top100.js|$script,domain=comments.rambler.ru|ferra.ru|gazeta.press|gazeta.ru|indicator.ru|letidor.ru|moslenta.ru|motor.ru|passion.ru|quto.ru|secretmag.ru|wmj.ru
+@@||st.top100.ru/top100/top100.js|$script,domain=comments.rambler.ru|ferra.ru|gazeta.press|gazeta.ru|indicator.ru|lenta.ru|letidor.ru|moslenta.ru|motor.ru|passion.ru|quto.ru|secretmag.ru|wmj.ru
 @@||stat.radar.imgsmail.ru/*=honeypot_fake_$image,domain=e.mail.ru
 @@||static.tacdn.com/components/dist/social.share-cta.*.js|$script,domain=tripadvisor.ru
 @@||static1.1tv.ru/resources/jquery.smartbanner.js$script,domain=1tv.ru
 @@||talon.by/squeeze/$domain=talon.by
 @@||trinixy.ru/engine/classes/min/index.php$script,domain=trinixy.ru
 @@||unn.com.ua/images/social/*.gif$domain=unn.com.ua
-@@||vgtimes.ru/img/gplus.png|
 @@||vk.com/images/btns.png$domain=app.tbn.ru
 @@||vk.com/images/icons/video_play_$third-party,image
 @@||vk.com/share.php?$third-party,domain=postila.ru
@@ -18881,6 +18878,7 @@ youtube.com#@#.share-bar
 advego.com,figshare.com#@#.share-block
 gala.fr#@#.share-bottom
 bitly.com,knivesout.jp#@#.share-btn
+search.brave.com#@#.share-button-wrapper
 ida2at.com#@#.share-holder
 app.degoo.com#@#.share-icon-container
 dagbladet.no,seher.no#@#.share-icons-bottom
