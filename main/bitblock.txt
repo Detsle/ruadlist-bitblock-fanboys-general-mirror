@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: rmX9M5vnBxjCX/SQ7MLxAA
-! Version: 202603090431
+! Checksum: X3G/j4au+7aRx3kuA4HqFQ
+! Version: 202603110411
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 09 Mar 2026 04:31 UTC
+! Last modified: 11 Mar 2026 04:11 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1011,7 +1011,8 @@ hromadske.ua##.c-subscribe-links
 smotret-anime.online#?#.card > .card-content:-abp-has(> .m-translation-view__share)
 yandex.by,yandex.kz,yandex.ru,yandex.uz##.card-footer-view__social-links
 burninghut.ru##.card-footer__share-container
-rbc.ru,rbclifemedia.ru#?#.card-wrapper:has(> p > a[href^="https://t.me/"])
+rbc.ru,rbclifemedia.ru#?#.card-wrapper:has(> p a[href^="https://max.ru/"])
+rbc.ru,rbclifemedia.ru#?#.card-wrapper:has(> p a[href^="https://t.me/"])
 dltv.org#?#.card:-abp-has(> .card__body > .socials)
 softportal.com#?#.cardPageLinks > .Menu2ETd:-abp-has(> a[onclick^="showShare"])
 dltv.org##.card__title-social
@@ -1540,6 +1541,7 @@ imenie-home.ru,vamrecipes.ru##.likes-block_center
 autosiga.ru##.likes-block_right
 foma.ru##.likes-fixed
 calc.ru##.likes_block
+it-world.ru##.line-logo__social
 alexua.tv##.line-topbutton
 uaspectr.com##.link__telegram
 kanaldim.tv,uatv.ua##.link_to_telegram
@@ -1585,6 +1587,7 @@ neva.today##.material_vk_comments
 tagilcity.ru##.matter-after > .typo-class
 atas.info,bel.ru##.matter-after > div > .font-bold
 56orb.ru,atas.info,bel.ru,gorod55.ru,inkazan.ru,karelinform.ru,kubanpress.ru,kursdela.biz,mkset.ru,muksun.fm,nashgorod.ru,newizv.ru,newkhakasiya.online,newsnn.ru,newstracker.ru,novostivolgograda.ru,prmira.ru,properm.ru,rosbalt.ru,rostovgazeta.ru,tagilcity.ru,transsibinfo.com,udm-info.ru,vostokmedia.com,zr.media#?#.matter-after > div:-abp-has(> div[class^="Subscribe_subscribe_"])
+softline.ru##.max-btn
 regnum.ru##.max-promo-link
 volodymyrets.city##.mc-burger-social
 baltanews.city,barnews.city,bilopillia.city,bilyayivka.city,chernihiv.city,chortkiv.city,dobronews.city,drohobych.city,energodar.city,fastivnews.city,gylyajpole.city,hadiach.city,haisyn.city,hlukhiv.city,horodok.city,izmacity.com,kagarlyk.city,kalushnews.city,kalynivka.city,kavun.city,kitsman.city,konotop.city,kremenets.city,kuma.city,lozova.city,mltpl.city,netishyn.city,nikopol.city,nizhyn.city,novakahovka.city,novograd.city,nsirogozy.city,oretsk.city,pereiaslav.city,petropavlivka.city,popasnaya.city,primorka.city,rakhiv.city,sarnynews.city,shostkanews.city,skadovsk.city,slavuta.city,starkon.city,susidy.city,svatove.city,thegard.city,tira.city,troyitske.city,volnovakha.city,volodymyrets.city,yuzhkanews.city,zhmerynka.city,zoloto.city##.mc-item-share
@@ -1721,8 +1724,6 @@ minsknews.by##.nk_soc_links
 cn.ru##.nn-like
 ngs.ru##.nn-nav-socials
 nn.by##.nn-share-info-telegram
-allcio.ru,it-weekly.ru,it-world.ru##.not_sm > .note
-allcio.ru,it-weekly.ru,it-world.ru##.not_sm > .note ~ hr
 cross.expert##.notify
 cameralabs.org##.notlabs
 takiedela.ru##.np-footer-contacts__socials
@@ -2125,7 +2126,7 @@ itc.ua,latuaitalia.ru##.sn
 rebenok.by##.sn-share-img-links
 itc.ua##.sn-widget
 piter.tv##.snet-links
-1tulatv.ru,anistar.org,astar.bz,gamer-info.com,help-wifi.com,intex-press.by,online-star.org,online-stars.org,planetanovosti.com,regions.ru,tourpom.ru,vokrugsveta.ru##.soc
+1tulatv.ru,anistar.org,astar.bz,gamer-info.com,help-wifi.com,intex-press.by,itweek.ru,online-star.org,online-stars.org,planetanovosti.com,regions.ru,tourpom.ru,vokrugsveta.ru##.soc
 vesti.kz##.soc > .h
 arpal.ua##.soc-aside
 povarenok.ru##.soc-bl-wrap
@@ -3194,7 +3195,6 @@ anticollector.biz.ua##div[data-widget-key="xfi_sidebar_social_block_widget"]
 ozon.ru##div[data-widget="webSharingButton"]
 rebenok.by##div[id$="FacebookBlock"]
 gorod24.online#?#div[id]:-abp-has(> [id^="vkwidget"])
-allcio.ru,it-weekly.ru,it-world.ru##div[id^="asd_share_buttons"]
 newkaliningrad.ru#?#div[id^="authpanel"] > div > div[class^="col-md-"]:-abp-has(> .socials)
 mac.org.ua##div[id^="barcelona-social"]
 trashbox.ru##div[id^="div_social_"]
@@ -6101,6 +6101,7 @@ lk.rt.ru##.season_theme_after_mobile
 flashscore.com.ua,flashscore.ru.com,flashscore.ua,flashscorekz.com,livescore.in,soccerstand.com##.selfPromo__box--apps
 nv.ua##.selfpromo_new
 prufy.ru##.send_news
+it-world.ru##.sender_detail--result
 avito.ru##.sendout
 u-tv.ru##.serial-page__header > .js-rennab
 sovcombank.ru##.shadow-cookie
