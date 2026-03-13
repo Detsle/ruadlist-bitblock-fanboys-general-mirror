@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: X3G/j4au+7aRx3kuA4HqFQ
-! Version: 202603110411
+! Checksum: jiQFHPnRtr1b6OxZu+2M0g
+! Version: 202603130421
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 11 Mar 2026 04:11 UTC
+! Last modified: 13 Mar 2026 04:21 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -382,7 +382,6 @@ com,ru##[data-rambler-share]
 ||s-msn.com/br/*/socialbuttonutility.js
 ||stalker-mods.clan.su/baner/vkpodpis
 ||static.euro-football.ru/old/lrvk.png
-||static.newsru.co.il/img/r_soc/
 ||tchkcdn.com/www/social-widgets/
 ||telegrafcom.api.oneall.com/socialize/
 ||telegram.org/js/telegram-widget.js$domain=app2top.ru
@@ -989,6 +988,7 @@ thepharma.media##.c-block-social
 allboxing.ru##.c-box-comment-menu > li:nth-child(2)
 delo.ua##.c-btn-shadow
 online.ua##.c-card-socials
+comnews.ru##.c-container > a.gray-icons[target="_blank"]
 dron.media#?#.c-content > ul:-abp-has(> li em [href*="://t.me/"])
 forbes.ua##.c-footer-socials
 shuba.life##.c-footer-socials__list
@@ -1131,7 +1131,7 @@ vashdosug.ru##.evt-sharing__share
 kp.kg,kp.kz,kp.md,kp.ru##.externalBlock > .left > span.title
 navitel.su##.extra_append:last-child
 47news.ru##.f-menu
-best-soft.net,prog-top.net##.f-mov-soc
+best-soft.net,hentasis1.top,prog-top.net##.f-mov-soc
 isport.ua##.f-social
 sports.kz##.f-social-div
 superjob.ru##.f-test-button-share
@@ -1214,6 +1214,7 @@ vgoru.org##.footer > .container > ._grid > div:last-child > div
 znak.com##.footer > .credits:not([id]) > .credits__row
 aldebaran.ru##.footer > .socials
 nashamama.com##.footer > center
+newsru.co.il##.footer--icons--social
 hvylya.net##.footer--links
 7days.ru##.footer-7days__social
 funpay.com##.footer-block-social
@@ -1388,6 +1389,7 @@ uazmi.org##.header-nav-bottom
 penza-press.ru##.header-row__social
 pravdatutnews.com##.header-sma
 tulapressa.ru##.header-soc
+vg-news.ru##.header-soc-block
 livemaster.ru##.header-soc-icons
 fnvolga.ru,football.ua,golos.ua,hi-tech.ua,ixbt.games,liganews.net,likeni.ru,mediaryazan.ru,moirebenok.ua,ostro.org,smolensk-i.ru,tlt.ru,tulasmi.ru,tvoymalysh.com.ua,vladnews.ru##.header-social
 smartpress.by##.header-social a[href][target="_blank"]
@@ -1501,6 +1503,7 @@ nn.ru##.js-ngs-share-button
 drive2.ru##.js-page .offer .c-share__label
 focus.ua##.js-post-share
 interesnoevmire.ru,ladyclub.org##.js-share-link
+pdalife.com.ua,pdalife.to##.js-sharing
 xcom-shop.ru##.js-sidebar-social-link
 rbc.ru##.js-social-likes
 vlast.kz##.js-subscribe
@@ -2154,6 +2157,7 @@ zorbasmedia.ru##.soc-links-author
 vikna.tv##.soc-media
 fakty.com.ua##.soc-media-footer
 psm7.com##.soc-mob-menu
+vg-news.ru##.soc-pub
 oka.fm##.soc-search-block > a[href][target="blank"]
 anitokyo.tv,anitokyo1.top##.soc-share
 okna.ua##.soc-share-block-wrapper
@@ -5090,7 +5094,6 @@ proekt.media##.alerts
 gecid.com##.alogo > .lleft ~ *
 artlebedev.ru##.als-cookie-button
 telegraf.news##.ancr-sticky
-newsru.co.il##.andr
 meteonova.ru##.android
 userstyles.org##.android_button_banner
 userstyles.org##.android_button_button
@@ -6574,6 +6577,7 @@ sibnet.ru##a[href*="tankmaster.sibnet.ru"]
 topwar.ru##a[href*="vk.cc"]
 uatv.ua##a[href="#subscr"]
 thetruestory.news##a[href="/app"]
+hentasis1.top##a[href="/donat.html"]
 hromadske.radio##a[href="/donate"]
 kingisepp-today.ru,xn----etbbecbrbp5ahkja1ae7v.xn--p1ai##a[href="/fin/"]
 meteopost.com##a[href="/info/Donate/"]
