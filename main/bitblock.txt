@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: o33a14iIo2E0SdJmpXSK8w
-! Version: 202603150441
+! Checksum: TIr8GX9YCTmLukqBKo8wxA
+! Version: 202603170431
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 15 Mar 2026 04:41 UTC
+! Last modified: 17 Mar 2026 04:31 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -2822,6 +2822,7 @@ horoscopes.rambler.ru##[data-horo-new*=":share:"]
 iphones.ru##[data-id="externalpostlist"]
 mediazona.ca,zona.media##[data-js-selector="show-social-list"]
 vgolos.ua##[data-key="index_in_lviv"]
+avito.ru##[data-marker="footer"] a[href^="http"]:not([href*="avito.ru"])
 softonic.ru#?#[data-meta="page-footer"] div:-abp-has(> ul [data-meta="facebook"])
 rbc.ru#?#[data-metronome-unit="article"] > .card-wrapper:-abp-has(> p > strong > a[href^="https://t.me/"])
 esports.ru##[data-name="footer/socials"]
@@ -5528,6 +5529,8 @@ fb.ru##.feature--inner
 playground.ru##.features-slider > .features-slider-main-item-big ~ .features-slider-item
 pikabu.ru##.feed-games-carousel
 ok.ru#?#.feed-list > .feed-w:-abp-has(.feed_label:-abp-contains(Промо))
+ok.ru#?#.feed-list > .feed-w:-abp-has(> .feed .feed_h_heading:-abp-contains(Может быть интересно))
+ok.ru#?#.feed-list > .feed-w:-abp-has(> .feed .feed_label:-abp-contains(Может быть интересно))
 vc.ru#?#.feed:not([data-feed-more-url*="/promo/"]) .feed__chunk > .feed__item:-abp-has(> .content-feed--promo)
 mixed.news##.feed_adv
 vk.com##.feed_friends_recomm
@@ -5710,6 +5713,7 @@ lenta.com##.js-cookie-usage-notice-wrapper
 yarnews.net##.js-email-subscribe:not([data-mode="news"])
 xcom-shop.ru##.js-footer-store-link
 rbc.ru,rbcrealty.ru,sportrbc.ru##.js-forecast
+avito.ru#?#.js-item-view-main > div[class]:-abp-has(> div div[style^="background:"] img[src*="_resale_"])
 piotrovsky.store##.js-popup-cookie
 e1.ru##.js-push-type
 rbc.ru,sportrbc.ru##.js-rbcslider-multi-news
@@ -7844,6 +7848,7 @@ prom.ua#@#img[alt="facebook"]
 /amp-user-notification-
 /amp-web-push-0.1.js
 /assets/www/notification.
+/bildirimtr-sw.js
 /build/push.js
 /checkPush.js
 /content/js/push.js
@@ -8226,6 +8231,7 @@ prom.ua#@#img[alt="facebook"]
 ! ||staq-cdn.com/grow/$third-party
 ||api-push.com^$third-party
 ||azureedge.net/js/cookie_notificacao.min.js
+||bildirim.com.tr^$third-party
 ||bildirimat.com^$third-party
 ||bildirnet.com^$third-party
 ||braze.com^$third-party
@@ -18846,7 +18852,7 @@ adme.media#@#.article-social
 niedziela.pl#@#.article-social-btn
 drive.ru#@#.article-social-container
 petsmart.com#@#.article-social-sharing
-forbes.kz,wylecz.to#@#.article__social
+forbes.kz,vogue.ua,wylecz.to#@#.article__social
 agbi.com#@#.article__socials
 nbcnews.com#@#.article_share
 merlininkazani.com#@#.author-share
