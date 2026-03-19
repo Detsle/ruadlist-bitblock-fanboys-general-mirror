@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: TIr8GX9YCTmLukqBKo8wxA
-! Version: 202603170431
+! Checksum: 9oA60VrWYymtp49yE+KGTw
+! Version: 202603190431
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 17 Mar 2026 04:31 UTC
+! Last modified: 19 Mar 2026 04:31 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -322,7 +322,6 @@ com,ru##[data-rambler-share]
 ! *** ruadlist:bitblock/social_specific_block.txt ***
 /files/tgparser/*$subdocument,domain=armeniasputnik.am|sputnik-abkhazia.info|sputnik-abkhazia.ru|sputnik-georgia.com|sputnik-georgia.ru|sputnik-news.ee|sputnik-ossetia.com|sputnik-ossetia.ru|sputnik-tj.com|sputnik.az|sputnik.by|sputnik.kg|sputnik.kz|sputnik.md|sputniknews-uz.com|sputniknews.cn|sputniknews.com|sputniknews.gr
 /plusone.js$domain=play.google.com
-/share.js$domain=vesti.ru
 /social-networks/*$domain=rbc.ru|sportrbc.ru
 /ulightbox/$domain=aperock.ucoz.ru
 /uploads/*.jpg|$third-party,image,domain=defileb.com|fplay.online|hovels.info|likelol.online|miradres.com|playep.pro|playy.online|plplayer.online|plwork.net|sorb.info|toplay.biz|ttutu.biz
@@ -752,6 +751,7 @@ gazeta.ua##.article-footer .pull-right
 tvoymalysh.com.ua##.article-footer-instagram
 tvoymalysh.com.ua##.article-footer-share-title
 championat.com,championat.ru##.article-footer__title
+ngzt.ru##.article-footer__wrap-social
 arbatmedia.kz##.article-info > .angry-grid > div[id^="item"] ~ div[id^="item"]
 studopedia.ru##.article-info-share-wrapper > .icons
 arbatmedia.kz#?#.article-info:-abp-has(> .angry-grid > div[id^="item"]:first-child > .article__button_soc)
@@ -785,7 +785,6 @@ nv.ua##.article__footer_share
 autonews.ru,rbcautonews.ru##.article__header__channel
 autonews.ru,rbc.ru,rbcautonews.ru,rbcrealty.ru,sportrbc.ru##.article__header__share-block
 kurkul.com##.article__info_bottom__social
-vesti.ru##.article__max-details
 novyny.pro##.article__option_share
 unian.info,unian.net,unian.ua##.article__share-btn
 officelife.media##.article__share-canal
@@ -828,7 +827,6 @@ siliconrus.com##.b-article__social
 tut.by##.b-articleshare
 ukranews.com##.b-aside__socials
 asiapoisk.com##.b-blog_social
-auto.vesti.ru##.b-doc__share
 tochka.by##.b-foot-social
 primpress.ru##.b-footer__links > div[class^="offset"]
 svpressa.ru##.b-footer__social-container
@@ -931,7 +929,6 @@ gameguru.ru##.blockquote-telegram
 blog.rt.ru##.blog-footer__social-media
 travelask.ru##.blog-post__share
 blog.mycredit.ua##.blog-sidebar
-vesti.ru##.blog_wrapper
 readmanga.ru##.bloghash-socials-menu
 fishki.net##.bloglinks
 vinbazar.com#?#.body_description p:-abp-has(> a[href^="https://t.me/"])
@@ -1556,7 +1553,6 @@ imtw.ru##.links_coc
 inforuss.info,lentaruss.ru##.links_tel
 car.ru##.list-car-social-gray
 cont.ws##.live-channel-notification
-vesti.ru##.live_container
 championat.ru##.livejournal
 litlib.net##.lk-share
 site-of-thrones.com##.login-social
@@ -1679,7 +1675,6 @@ cta.ru##.navbar_top_smm
 the-cinema.online##.navi > li > a[href*="://vk.com/thecinema"]
 rbc.ua##.navi-share
 harpersbazaar.com.ua##.navi_sub_item
-vesti.ru##.navigation__social
 mobile-review.com##.navmenu__social
 yadi.sk##.nb-share__button.ns-action
 hi.ru##.nd_share_block
@@ -1725,7 +1720,6 @@ pravda.com.ua##.news_social_buttons
 kinometro.ru##.newsend-sots
 glavred.info,glavred.net##.newsfeed__item.d-flex
 unian.net##.newsfeed__list > .newsfeed__item.align-items-center
-vesti.ru##.newsfooter > em
 kursk-izvestia.ru##.newsimg_soc
 shostka.info##.ni-share
 minsknews.by##.nk_soc_links
@@ -2121,7 +2115,6 @@ peopletalk.ru##.site__socials
 autopilot.ru,kommersant.ru,myweekend.ru##.site_menu__social
 alllyr.ru#?#.slick-slide:-abp-has(> .div_flex)
 friday.ru##.slide-share
-vesti.ru##.slide_anons
 47news.ru##.sline > a
 tnua.info##.slink
 caravan.kz##.sm-list
@@ -2261,14 +2254,14 @@ mybrazz.club,prokazan.ru##.social-lines
 overclockers.ru##.social-link
 polissia.news##.social-link a[rel="nofollow"]
 nv.ua##.social-link-circle
-animelayer.ru,astera.ru,autostadt.su,b-glife.ru,babla.ru,belkagomel.by,bidbaits.ru,bigkyiv.com.ua,bio-lessons.ru,cyberscore.live,delfi.lt,delfi.lv,domodedovoriamo.ru,dostyp.com.ua,energyfm.ru,glavnoe.in.ua,gmk.center,gtavicecity.ru,interfax.com.ua,intermedia.ru,klinriamo.ru,kolomnariamo.ru,korolevriamo.ru,krasnogorskriamo.ru,kulturologia.ru,lada.kz,likefm.ru,lubertsyriamo.ru,minprom.ua,mukachevo.net,mytischiriamo.ru,news24.in.ua,novadoba.com.ua,odessamedia.net,podolskriamo.ru,podolyaka.com,podolyaka.ru,poebuilds.ru,radiozenit.ru,recept.ua,reporter64.ru,reutovriamo.ru,riamo.ru,riamobalashiha.ru,ruwiki.ru,schelkovoriamo.ru,sergposadriamo.ru,serpuhovriamo.ru,snob.ru,solnechnogorskriamo.ru,sportarena.ua,sportkp.ru,sports.ru,sq.com.ua,te.ua,the-geek.ru,theageoffootball.com,theblueprint.ru,tvcenter.ru,tvr.by,utyug.info,varianty.lviv.ua,varta1.com.ua,vashsad.ua,vsezdorovo.com,warhead.su,wotpack.ru,zakarpatpost.net,zazloo.ru,zhukovskiyriamo.ru##.social-links
+animelayer.ru,astera.ru,autostadt.su,b-glife.ru,babla.ru,belkagomel.by,bidbaits.ru,bigkyiv.com.ua,bio-lessons.ru,cyberscore.live,delfi.lt,delfi.lv,domodedovoriamo.ru,dostyp.com.ua,energyfm.ru,glavnoe.in.ua,gmk.center,gtavicecity.ru,interfax.com.ua,intermedia.ru,klinriamo.ru,kolomnariamo.ru,korolevriamo.ru,krasnogorskriamo.ru,kulturologia.ru,lada.kz,likefm.ru,lubertsyriamo.ru,minprom.ua,mukachevo.net,mytischiriamo.ru,news24.in.ua,novadoba.com.ua,odessamedia.net,podolskriamo.ru,podolyaka.com,podolyaka.ru,poebuilds.ru,radiozenit.ru,recept.ua,reporter64.ru,reutovriamo.ru,riamo.ru,riamobalashiha.ru,ruwiki.ru,schelkovoriamo.ru,sergposadriamo.ru,serpuhovriamo.ru,snob.ru,solnechnogorskriamo.ru,sportarena.ua,sportkp.ru,sports.ru,sq.com.ua,te.ua,the-geek.ru,theageoffootball.com,theblueprint.ru,tvcenter.ru,tvr.by,utyug.info,varianty.lviv.ua,varta1.com.ua,vashsad.ua,vesti.ru,vsezdorovo.com,warhead.su,wotpack.ru,zakarpatpost.net,zazloo.ru,zhukovskiyriamo.ru##.social-links
 agroreview.com##.social-links a[href^="http"]
 mybrazz.club##.social-links-left
 azbyka.ru##.social-links__tg
 azbyka.ru##.social-links__vb
 ctnews.ru##.social-links_title
 bizagro.com.ua,buhplatforma.com.ua,dzplatforma.com.ua,medplatforma.com.ua,oblikbudget.com.ua,oplatforma.com.ua,pro-op.com.ua,prokadry.com.ua,samaragovorit.ru##.social-list
-championat.com,championat.ru,tengrinews.kz,ukrinform.ua##.social-media
+championat.com,championat.ru,tengrinews.kz,ukrinform.ua,vesti.ru##.social-media
 kopilkasovetov.com##.social-media-area
 prokuzbass.ru##.social-media-buttons
 vesti.az##.social-media-wrap
@@ -2628,7 +2621,6 @@ sport.ua##.viber
 yapolitic.ru##.video-opis-knop
 ren.tv##.video-player__sharing
 regnum.ru##.video-share-wrapper
-vesti.ru##.video_top_inner
 gdz-raketa.ru##.vidget
 rusvesna.su#?#.view-header > span:-abp-has(> b > [href*="://web.telegram.org"])
 mmo13.ru##.view-social
@@ -2780,7 +2772,7 @@ stopgame.ru##[class*="_sg-socials--footer"] > li > *
 7days.ru##[class*="button-social_telegramm"]
 www.kinopoisk.ru##[class*="footer"] > [class*="social-"]
 gorodche.ru##[class*="footer-bottom-social"]
-pg11.ru,pg12.ru,pg13.ru,pg21.ru,prochepetsk.ru,prodzer.ru,progorod33.ru,progorod43.ru,progorod58.ru,progorod59.ru,progorod62.ru,progorod76.ru,progorodnn.ru,progoroduhta.ru##[class*="footer_ftrSocialList"]
+newskrasnodar.ru,pg02.ru,pg11.ru,pg12.ru,pg13.ru,pg21.ru,pg37.ru,pg46.ru,pgn21.ru,pgr76.ru,prochepetsk.ru,prodzer.ru,progorod33.ru,progorod43.ru,progorod58.ru,progorod59.ru,progorod62.ru,progorod76.ru,progorodnn.ru,progoroduhta.ru,prosaratov.ru,usolie.info,vladivostoktimes.ru,youtvnews.com##[class*="footer_ftrSocialList"]
 manutd.ru##[class*="new_graphic soc_"]
 ohotniki.ru##[class*="preview__social"]
 jpgazeta.ru##[class*="share_save_widget"]
@@ -2899,6 +2891,7 @@ mgazeta.com##a.topline-item[href^="https:"][target="_blank"]
 video.matchtv.ru##a.vjs-link[href^="https://t.me/"]
 litvek.com##a.vs
 subota.online##a.w-btn[target="_blank"]
+progorod62.ru##a[aria-label="Вконтакте"]
 sportrg.ru##a[class*="ArticleContentBtn_tg_"]
 rg.ru##a[class*="_socialItem"]
 avito.ru##a[class*="styles-module-root_shape_"]
@@ -3143,7 +3136,7 @@ tribuna.com##div[class^="_footer__social-media"]
 tribuna.com##div[class^="_shared-socia-buttons"]
 t-j.ru##div[class^="_sharer_"]
 stopgame.ru##div[class^="_youtube-promo_"]
-hightech.plus,pg11.ru,pg12.ru,pg13.ru,pg21.ru,prochepetsk.ru,prodzer.ru,progorod33.ru,progorod43.ru,progorod58.ru,progorod76.ru,progorodnn.ru,progoroduhta.ru##div[class^="article-social"]
+hightech.plus,newskrasnodar.ru,pg02.ru,pg11.ru,pg12.ru,pg13.ru,pg21.ru,pg37.ru,pg46.ru,pgn21.ru,pgr76.ru,prochepetsk.ru,prodzer.ru,progorod33.ru,progorod43.ru,progorod58.ru,progorod76.ru,progorodnn.ru,progoroduhta.ru,prosaratov.ru,usolie.info,vladivostoktimes.ru,youtvnews.com##div[class^="article-social"]
 yamal-media.ru##div[class^="article_ShareBlockWrapper"]
 greenpost.ua##div[class^="article_share_side_"]
 unn.ua##div[class^="button-plate_wrap_"]
@@ -3180,7 +3173,7 @@ iz.ru##div[class^="share_bottom"]
 glavagronom.ru##div[class^="socIcons"]
 buzulukday.ru,cybersport.ru,nsday.ru,orenday.ru,perevolockday.ru,saltday.ru,sorochinskday.ru##div[class^="social"]
 hightech.plus##div[class^="social-buttons"]
-pg11.ru,pg12.ru,pg13.ru,pg21.ru,prochepetsk.ru,prodzer.ru,progorod33.ru,progorod43.ru,progorod58.ru,progorod76.ru,progorodnn.ru,progoroduhta.ru##div[class^="social-list-subscribe"]
+newskrasnodar.ru,pg02.ru,pg11.ru,pg12.ru,pg13.ru,pg21.ru,pg37.ru,pg46.ru,pgn21.ru,pgr76.ru,prochepetsk.ru,prodzer.ru,progorod33.ru,progorod43.ru,progorod58.ru,progorod76.ru,progorodnn.ru,progoroduhta.ru,prosaratov.ru,usolie.info,vladivostoktimes.ru,youtvnews.com##div[class^="social-list-subscribe"]
 sovsport.ru##div[class^="social-media-buttons-module"]
 nn.ru##div[class^="social-widget"]
 timeweb.cloud##div[class^="socialBlock-"]
@@ -3315,6 +3308,11 @@ dorognoe.ru##img[src="https://a.dorognoe.ru/181114/mediaplus/16022/60461.jpg"]
 dorognoe.ru##img[src="https://a.dorognoe.ru/191113/mediaplus/16022/61669.jpg"]
 expert.com.ua##img[title^="кнопка"][alt^="HiTech.Expert "]
 sud.ua#?#li > .b-news-item:-abp-has(> .b-news-item-info > h3 > a[href*="://t.me/"])
+prochepetsk.ru,progorod43.ru##li > a[class^="nav_"][href*="https://max.ru/"]
+prochepetsk.ru,progorod43.ru##li > a[class^="nav_"][href*="https://t.me/"]
+pg12.ru,pg21.ru,prodzer.ru,progorod33.ru,progorodnn.ru##li > a[class^="sub-menu_"][href*="https://max.ru/"]
+pg12.ru,pg21.ru,pgn21.ru,progorod58.ru,progorodnn.ru,progoroduhta.ru,usolie.info##li > a[class^="sub-menu_"][href*="https://t.me/"]
+pg12.ru,pg21.ru,pgn21.ru,prodzer.ru,progorod33.ru,progorod58.ru,progorodnn.ru,progoroduhta.ru,usolie.info##li > a[class^="sub-menu_"][href*="https://vk.com/"]
 argumenti.ru#?#li:-abp-has(> a[href^="https://t.me/"])
 ctc.ru##li[class="hsi-item"]
 78.ru##li[class^="social-block_"]
@@ -3358,7 +3356,7 @@ ren.tv#?#p:-abp-has(> [href*="://max.ru/"])
 forklog.com#?#p:-abp-has(> a[href*="//telegram.me/"])
 onliner.by#?#p:-abp-has(> a[href*="://t.elegram.ru"])
 kp.ru#?#p:-abp-has(> a[href^="https://max.ru/"])
-2bitcoins.ru,carakoom.com,cheline.com.ua,click-or-die.ru,cursorinfo.co.il,dailylviv.com,domodedovoriamo.ru,fakty.ua,forklog.com,ghall.com.ua,hardwareluxx.ru,klinriamo.ru,kolomnariamo.ru,korolevriamo.ru,kp40.ru,krasnogorskriamo.ru,lubertsyriamo.ru,mytischiriamo.ru,nsn.fm,opentv.media,podolskriamo.ru,reutovriamo.ru,ria-m.tv,riamo.ru,riamobalashiha.ru,schelkovoriamo.ru,sergposadriamo.ru,serpuhovriamo.ru,solnechnogorskriamo.ru,sportkp.ru,stb.ua,vikna.tv,zhukovskiyriamo.ru#?#p:-abp-has(> a[href^="https://t.me/"])
+2bitcoins.ru,carakoom.com,cheline.com.ua,click-or-die.ru,cursorinfo.co.il,dailylviv.com,domodedovoriamo.ru,fakty.ua,forklog.com,ghall.com.ua,hardwareluxx.ru,klinriamo.ru,kolomnariamo.ru,korolevriamo.ru,kp40.ru,krasnogorskriamo.ru,lubertsyriamo.ru,mytischiriamo.ru,nsn.fm,opentv.media,podolskriamo.ru,progorod59.ru,progoroduhta.ru,reutovriamo.ru,ria-m.tv,riamo.ru,riamobalashiha.ru,schelkovoriamo.ru,sergposadriamo.ru,serpuhovriamo.ru,solnechnogorskriamo.ru,sportkp.ru,stb.ua,vikna.tv,zhukovskiyriamo.ru#?#p:-abp-has(> a[href^="https://t.me/"])
 blitz.if.ua#?#p:-abp-has(> a[href^="https://web.telegram.org/"])
 agroxxi.ru,championat.com,championat.ru#?#p:-abp-has(> b > [href^="https://t.me/"])
 obozrevatel.com#?#p:-abp-has(> b > em > a[href*="://t.me/"])
@@ -3380,7 +3378,7 @@ tvoemisto.tv#?#p:-abp-has(> span > strong > em > a)
 tochka.net#?#p:-abp-has(> strong > a[href*="facebook.com/"])
 auto.bigmir.net#?#p:-abp-has(> strong > a[href^="http://t.me/"])
 mk.ru#?#p:-abp-has(> strong > a[href^="https://max.ru/"])
-2bitcoins.ru,bereza.by,bizagro.com.ua,brestcity.com,champion.com.ua,cheline.com.ua,dumka.poltava.ua,inpoland.net.pl,mediasat.info,osnmedia.ru,pik.net.ua,ratel.kz#?#p:-abp-has(> strong > a[href^="https://t.me/"])
+2bitcoins.ru,bereza.by,bizagro.com.ua,brestcity.com,champion.com.ua,cheline.com.ua,dumka.poltava.ua,inpoland.net.pl,mediasat.info,osnmedia.ru,pg11.ru,pik.net.ua,ratel.kz#?#p:-abp-has(> strong > a[href^="https://t.me/"])
 epravda.com.ua,pravda.com.ua,sportkp.ru,uaprom.info#?#p:-abp-has(> strong > em > a[href*="://t.me/"])
 growhow.in.ua#?#p:-abp-has(> strong > span a[href^="https://t.me/"])
 kanalukraina.tv#?#p:-abp-has(> strong ~ a[href*="tg://resolve"])
@@ -3478,8 +3476,6 @@ fatcatslim.ru##.entry-share
 porjati.net##.fb-like
 ictv.ua##.footer_social
 kg-portal.ru##.fp-share
-woman365.ru##.main__content-share-btns
-woman365.ru##.mc-share-toggle
 megogo.net##.megogo_view_share
 fatcatslim.ru##.navbar-social
 audioportal.su,vsthouse.ru##.pluso
@@ -4398,7 +4394,6 @@ _app_promo$domain=7themes.su|wallscloud.net
 ||karelia.ru/widget_spoiler.js$third-party
 ||kidstaff.com.ua/ajax/kid_informers.
 ||kino-sayt.net/Frame.swf
-||kinobanda.net^*/images/heder.swf
 ||kinogo.*/kinogo.prm*.js
 ||kinoteatr.ru/cgi-bin/banner
 ||kinoteatr.ru/upload/*branding
@@ -4578,7 +4573,6 @@ _app_promo$domain=7themes.su|wallscloud.net
 ||uxfeedback-cdn.s3.yandex.net/_static/widget/widget.js
 ||v.obozrevatel.ua/*/?autoplay=true&mute=true
 ||vc.ru/static/special/yota-stratum/
-||vesti.ru/js/push/
 ||vesti.uz/wp-content/plugins/snow-flurry/
 ||vikna.if.ua/assets/js/jquery.cookie.js
 ||vitatv.com.ua/sites/default/files/info_images/google-news.
@@ -4909,7 +4903,6 @@ fishki.net###privacypolicy
 mind.ua###progressBar
 mmo13.ru###promo
 vk.com###public_market
-vesti.ru###push-notification-pop-up
 trinixy.ru###pushOffer
 comments.ua###push_info
 inforesist.org###push_notificationBlock
@@ -4981,7 +4974,6 @@ sovetromantica.com###subscribe_button
 ria.ru###subscriber
 mobilluck.com.ua###subscripepopup
 village.com.ua###subscription_digest
-vc.ru###surfingbird-block
 severpost.ru###telka
 profwebsit.ru###templatemo_banner_wrapper
 serveradmin.ru###text-html-widget-13
@@ -5206,7 +5198,6 @@ tolknews.ru##.b-news_aggr
 unn.com.ua##.b-notice-msg
 allsoft.ru##.b-popup-overlay_subscription
 takiedela.ru##.b-post__help
-vc.ru##.b-push-subscribe-wrapper
 podolyaka.ru##.b-r > .commentsin ~ *
 bookdream.ru,booksreed.ru,electrobooks.ru,lit-web.net,litruso.ru,my-lib.ru,novkniga.ru,skanbooks.ru,x-libri.ru##.b-r--after_content > noindex
 kingisepp-today.ru,xn----etbbecbrbp5ahkja1ae7v.xn--p1ai##.b-side-col-vip-ks
@@ -5423,7 +5414,6 @@ regnum.news,regnum.ru##.cookies-notice-container
 2ip.io,2ip.ru##.cookies-notification
 ruwiki.ru##.cookies-terms
 3ona51.com##.cookiesAccept
-doctorpiter.ru,marieclaire.ru,maximonline.ru,mydecor.ru,parents.ru,psychologies.ru,starhit.ru,the-day.ru,thegirl.ru,vokrugsveta.ru,woman.ru##.cookiesPopup
 rt.com##.cookies__banner
 ren.tv##.cookies__panel
 novosti.dn.ua##.cookies_accept
@@ -5493,8 +5483,6 @@ gnatkovsky.com.ua##.donts
 silver.ru##.download-app-button-wrapper
 translate.ru##.download-mobile
 starhit.ru##.ds-subscribe
-vc.ru##.dstr-fl
-vc.ru##.dstr-unit
 dni24.com##.dtop
 car.ru##.dzen
 khl.ru##.e-header_apps
@@ -5510,7 +5498,6 @@ fotostrana.ru##.entertainment-pack_banner_holder
 wakanim.tv##.episode_streaming > div > p[style="color:#fff;text-align:center"]
 eagleplatform.com##.eplayer-backgroung-suggest-lenta
 espanarusa.com##.eula-popup
-vc.ru##.events_widget
 vimeo.com##.explore_module-hero
 megazakaz.com##.exponea-banner
 radiokp.ru##.external-app-link
@@ -5629,7 +5616,6 @@ bigkyiv.com.ua,bykvu.com##.google-news-block
 49000.com.ua##.google-news-section
 belretail.by##.google-play
 pravda.com.ua##.google_banner
-topvideo.tj##.google_play
 site.ua##.grid > .news-hover ~ div:not(.news-hover)
 gamebomb.ru##.grid-100p-301-rc > .container[style^="background-color"]
 116.ru,14.ru,161.ru,164.ru,173.ru,178.ru,26.ru,29.ru,35.ru,43.ru,45.ru,48.ru,51.ru,53.ru,56.ru,59.ru,60.ru,63.ru,68.ru,71.ru,72.ru,74.ru,76.ru,86.ru,89.ru,93.ru,chita.ru,e1.ru,ircity.ru,izh1.ru,mgorsk.ru,msk1.ru,ngs.ru,ngs22.ru,ngs24.ru,ngs42.ru,ngs55.ru,ngs70.ru,nn.ru,sochi1.ru,sterlitamak1.ru,tolyatty.ru,ufa1.ru,v1.ru,vladivostok1.ru,voronezh1.ru,ya62.ru#?#.gridMinHeight:-abp-has(> div > div > section > div:empty)
@@ -5694,8 +5680,6 @@ nation-news.ru##.interactive_block
 aif.ru##.interesting
 syl.ru##.intext
 bitcoinmagazine.ua##.intext-promo-store
-vc.ru##.island--company_entries
-vc.ru##.island--vacancies_entry
 sportrbc.ru##.item-sportrecs
 chizhik.club##.jNtZja
 metrofitness.ru##.jPanelModule
@@ -6046,7 +6030,6 @@ www.sport.ru##.push-subscribe-notice
 mk.ru##.push-suggest
 tsargrad.tv##.push-suggest__popup
 ukr.media##.push_btn
-vc.ru##.push_offer
 24tv.ua##.pwa-install-banner
 aeza.net##.qHRoC
 boxrec.com##.qc-cmp2-container
@@ -6141,7 +6124,6 @@ newsroom.kh.ua#?#.sidebar-widget:-abp-has(> div > .newsletter)
 processer.media##.sidebar-wrap
 mayday.rocks##.sidebar.column
 1cloud.ru##.sidebar__banner
-vc.ru##.sidebar__footer__icons
 jakondo.ru##.sidebar__item_donation
 lifeha.ru##.sidebar__tit
 habr.com##.sidebar_right > #companies_rating
@@ -6177,7 +6159,6 @@ soft.sibnet.ru##.soft-footer__subscribe
 zr.ru##.sp-form-outer
 europaplustv.com##.spec-box[onclick*="europaplustv.com"]
 mel.fm##.special-group-card-wrapped
-vc.ru##.special-job-teaser
 eda.ru##.special-projects
 podolyaka.ru##.spoiler-box
 bhf.io##.sponsor-banner
@@ -6357,11 +6338,9 @@ backingtrackx.com##.up-top1
 sfr.gov.ru##.user-data-processing-wrapper
 aniliberty.top,anilibria.top##.v-carousel
 aniliberty.top,anilibria.top##.v-carousel + div.d-flex
-vc.ru##.vacancies_widget
 liga.net##.vakansii-block-article
 obozrevatel.com##.verifiedInfo
 itc.ua##.verticalPageNav
-topvideo.tj##.video-holder > .echo
 24v.tv##.video-rating-wrap
 dynamo.kiev.ua##.video-scroll
 sports.ru##.video-supertop
@@ -6550,7 +6529,6 @@ authedu.mosreg.ru,myschool.mos.ru,school.mos.ru,uchebnik.mos.ru##[style^="positi
 kingisepp-today.ru,xn----etbbecbrbp5ahkja1ae7v.xn--p1ai##[title="appstore"]
 kingisepp-today.ru,xn----etbbecbrbp5ahkja1ae7v.xn--p1ai##[title="googleplay"]
 aniu.ru##a.help.sempai
-vc.ru##a.sidebar-item[href^="/courses"]
 video.matchtv.ru##a.vjs-link[href^="https://matchtv.ru/subscriptions"]
 mywebpc.ru##a[alt="donate"]
 doramaland.plus##a[class^="banner-preview-"]
@@ -6715,7 +6693,7 @@ postimees.ee##div.cookie-container
 agents.media#?#div:-abp-has(> #trigger_donate)
 korsars.pro#?#div:-abp-has(> .med > [src*="://yoomoney.ru/"])
 dailystorm.ru#?#div:-abp-has(> .notice)
-dnpr.com.ua,gorodovoy.ru,mc.today,mir24.tv,nashemisto.dp.ua,shuba.life,teknoblog.ru#?#div:-abp-has(> a[href^="https://news.google.com/publications/"])
+dnpr.com.ua,gorodovoy.ru,kirov.online,mc.today,mir24.tv,nashemisto.dp.ua,shuba.life,teknoblog.ru#?#div:-abp-has(> a[href^="https://news.google.com/publications/"])
 fontanka.ru#?#div:-abp-has(> div > [href^="https://news.google.com/publications/"])
 ampercar.com#?#div:-abp-has(> em > a[href^="https://news.google.com/publications/"])
 tvrain.tv##div[app-widget="usersection"]
@@ -6826,7 +6804,6 @@ ib.online.gpb.ru#?#div[class^="gpb_internet_bank"][class*=" gpb_internet_bank"]:
 avito.ru##div[class^="items-banner-"]
 liga.net##div[class^="marketing-block-"]
 hightech.plus##div[class^="moneyTeaser"]
-pg11.ru,pg12.ru,pg13.ru,pg21.ru,prochepetsk.ru,prodzer.ru,progorod33.ru,progorod43.ru,progorod58.ru,progorod59.ru,progorod62.ru,progorod76.ru,progorodnn.ru,progoroduhta.ru##div[class^="notifycation_notifycation_"]
 meshok.net##div[class^="privacyAlert_"]
 avito.ru##div[class^="seller-safety-seller"]
 ctrs.com.ua##div[class^="sidePopupContainer"]
