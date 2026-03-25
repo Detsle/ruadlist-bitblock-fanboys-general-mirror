@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: c6M9rFzJ5kpy7L4p+qyfSg
-! Version: 202603230441
+! Checksum: 6FfHjE72ruEUafmfnC8zPQ
+! Version: 202603250431
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 23 Mar 2026 04:41 UTC
+! Last modified: 25 Mar 2026 04:31 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -632,7 +632,6 @@ nta.ua###telega
 pl.com.ua,vesti.uz###telegram
 autonews.co.ua,informpskov.ru###telegramButton
 agents.media###telegramModal
-sibnet.ru###telegram_push
 od-news.com###telegram_subscribe
 evtifeev.com###text-14
 te4h.ru###text-4
@@ -1864,6 +1863,7 @@ filmhd1080.me##.psoc
 sc2tv.ru##.publication-shares
 diletant.media##.publication__sidebar-inner_socials
 infoselection.ru##.pull-right.brands
+sibnet.ru##.push
 xn--90aivcdt6dxbc.xn--p1ai##.push-social
 odnaminyta.com##.py-6 > h3,.py-6 > h3 + .flex
 nya.sh##.q > .bottom
@@ -2839,6 +2839,7 @@ kp.kg,kp.kz,kp.md,kp.ru##[data-test-id="Menu_MenuSocials"]
 adme.media##[data-test-id="join-us"]
 banki.ru##[data-test="flexbox"] > div[data-test="tooltip"]:nth-child(2)
 fontanka.ru##[data-test="report-news"] > div > div > ul
+sportsdzen.ru##[data-testid="share-button"]
 eurosport.ru##[data-testid="share-icons"]
 maanimo.com##[data-text-after="Мы в социальных сетях"]
 ngnovoros.ru##[data-tip="Репост в соцсети"]
@@ -5628,6 +5629,7 @@ lib.rus.ec##.lsp-overlay
 tribuna.kr.ua##.ltteleg-overlay
 psm7.com##.m-cookies
 premier.one##.m-notifications-container
+gazeta.press,gazeta.ru##.m_articles
 marieclaire.ru,maximonline.ru,vokrugsveta.ru##.magazine__links
 psychologies.ru##.magazine__links-block
 zorbasmedia.ru##.mail
@@ -6791,6 +6793,7 @@ amurmedia.ru,angarskmedia.ru,chitamedia.su,chukotkamedia.ru,eaomedia.ru,irkutskm
 auto.ru##li[class^="PersonalizedFeedUgcLogbookItem-"]
 thetruestory.news#?#main > div:-abp-has(> div > a[href="/cookies"])
 novayagazeta.ru#?#main > div:-abp-has(> svg[height][width="10000"])
+fontanka.ru#?#main div:-abp-has(> a[href] > div[class^="number_"])
 bbc.com#?#main[role="main"] > figure:-abp-has(> div img[alt*="еклама"])
 bbc.com#?#main[role="main"] > figure:-abp-has(> div img[alt*="еклама"]) + div
 bbc.com#?#main[role="main"] > figure:-abp-has(> div img[alt*="еклама"]) + div + figure
