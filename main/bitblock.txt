@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 6FfHjE72ruEUafmfnC8zPQ
-! Version: 202603250431
+! Checksum: hP+HnSEhL63Q8ERy/wnIbA
+! Version: 202603270441
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 25 Mar 2026 04:31 UTC
+! Last modified: 27 Mar 2026 04:41 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -637,8 +637,9 @@ evtifeev.com###text-14
 te4h.ru###text-4
 serveradmin.ru###text-html-widget-4
 virtualbrest.ru###text_news + noindex
-animestars.org,astars.club,mangabuff.ru###tg-banner
+animesss.com,animesss.tv###tg-banner
 shadowcore.ru###tg-btn
+mangabuff.ru###tg-prompt
 flcksbr.top,flicksbar.fun,flicksbar.info,flicksbar.mom###tgWrapper
 navkolokino.com###the_share
 disqus.com###thread-share-bar
@@ -768,7 +769,7 @@ dengi.ua##.article-shares
 volodymyrets.city##.article-slider-img-gallery-social
 4mama.ua##.article-social-header
 www.sport.ru##.article-social-imgs
-vedomosti.ru##.article-tools__tool--telegram
+vedomosti.ru##.article-tools__tool--social
 1prime.ru##.article__aggr
 mk.ru#?#.article__body p:-abp-has(> a[href^="https://max.ru/"])
 progroshi.news,proukraine.news##.article__btn
@@ -2373,7 +2374,7 @@ servernews.ru##.soclink
 1743.ru,gts.tv,newkaliningrad.ru,ntsk.ru,orki.ru,orsk.ru##.soclinks
 gamer-info.com##.soclogin
 cxid.info##.soclogos > a:not([id]):not(:last-child)
-animestars.org,astars.club##.socm
+animesss.com,animesss.tv##.socm
 dailylviv.com##.socmeregi
 dni24.com##.socmob
 dostfilms.info,dostfilms.site,enovosty.com##.socnet
@@ -2546,7 +2547,7 @@ www.vashsad.ua#?#.title_solitary:-abp-has(> div:-abp-contains(Мы в соцсе
 rtvi.com##.tlg-block
 fishki.net##.tlg-btn_p
 maxhdrezka-download.com##.tlg-msg
-animestars.org,astars.club##.tlgm
+animesss.com,animesss.tv##.tlgm
 mmatoday.info##.tlgrm
 i-ua.tv##.tm-article > .uk-margin-medium
 habr.com#?#.tm-company-widgets > .tm-block:-abp-has(> div > div[id^="widget-social-"])
@@ -2742,6 +2743,7 @@ hospodar.ua##[action-data="telegram"]
 dracon-zet.ru#?#[align="center"]:-abp-has(> div[align="center"] > .ya-share2)
 lelang.su##[alt="Поделись с друзьями"]
 xsport.ua##[aria-label*="social link"]
+garant.ru##[aria-label*="ГАРАНТ в "]
 kiev24.ua,kyiv24.com##[aria-label="Facebook"]
 vladday.ru##[aria-label="Footer Navigation - Social Links"]
 vsaduidoma.com##[aria-label="Left Sidebar Sidebar"] > .widget > .widget-first
@@ -3276,7 +3278,7 @@ av.by#?#h4:-abp-has(> strong > noindex > a[href^="https://t.me/"])
 tverlife.ru#?#h5:-abp-contains(/поделись/i)
 mignews.com#?#h6:-abp-contains(/мы на facebook|поделиться/i)
 zenit-fk.ru##h6[class="posts__title text-center mb-4"]
-ura.news##header a[href^="https://max.ru/"]
+ura.news,vedomosti.ru##header a[href^="https://max.ru/"]
 tvc.ru##header nav > a[class*=" bg-icon-"][target="_blank"]
 armeniasputnik.am,sputnik-abkhazia.info,sputnik-abkhazia.ru,sputnik-georgia.com,sputnik-georgia.ru,sputnik-news.ee,sputnik-ossetia.com,sputnik-ossetia.ru,sputnik-tj.com,sputnik.az,sputnik.by,sputnik.kg,sputnik.kz,sputnik.md,sputniknews-uz.com,sputniknews.cn,sputniknews.com,sputniknews.gr##iframe[src*="/files/tgparser/"]
 me3.com.ua##iframe[src*="/plugins/likebox."]
@@ -5573,7 +5575,6 @@ e1.ru##.js-banner-right-fixed
 gastronom.ru##.js-bother
 focus.ua##.js-cat-required
 my.kaspersky.com##.js-cookie-notification-banner
-kommersant.ru,myweekend.ru##.js-cookie-popup
 lenta.com##.js-cookie-usage-notice-wrapper
 yarnews.net##.js-email-subscribe:not([data-mode="news"])
 xcom-shop.ru##.js-footer-store-link
