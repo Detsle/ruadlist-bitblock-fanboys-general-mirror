@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ZF6VOxzDKXW2yZKKXQQ/lw
-! Version: 202603290451
+! Checksum: szxgHqYPgkdsRaxdF07hWg
+! Version: 202603310451
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 29 Mar 2026 04:51 UTC
+! Last modified: 31 Mar 2026 04:51 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1658,6 +1658,7 @@ rau.ua##.nav-block__socialmedia
 most-dnepr.info##.nav-item-socials
 bykvu.com##.nav-link-social
 anime-free.ru##.nav-link[title^="Мы в "]
+allbasketball.org##.nav-social
 nashemisto.dp.ua##.nav-socials
 kisameev.ru##.nav-tabs > li ~ li
 kinoafisha.info##.navBlock_social
@@ -2782,6 +2783,7 @@ cn.ru##[class*="socnets"]
 mash.ru##[class*="styles_shares_"]
 hromadske.radio##[class^="FollowBanner"]
 ainews.kz,hromadske.radio,rodina-history.ru##[class^="Footer_socials"]
+mir24.tv,newizv.ru##[class^="Socials_socials"]
 meduza.io##[class^="Toolbar-module_list"] > [class^="Toolbar-module_item"]:nth-child(-n+3)
 rg.ru##[class^="UmbrellaSocial_root_"]
 t-j.ru##[class^="_socials_"]
@@ -2932,7 +2934,7 @@ life.ru##a[href^="https://wa.me"]
 moirebenok.ua##a[href^="https://web.telegram.org/"]
 blog.eva.ua##a[href^="https://www.instagram.com/"] > picture
 martrending.ru##a[href^="https://yandex.ru/chat/"]
-66.ru,auto.ru,car.ru,interfax.ru,kakoysegodnyaprazdnik.ru,kavkaz-uzel.eu,myanianime.ru,online-fix.me,pythontutor.ru,xn--80aaiebcrjcibi8adgdtsm9z.xn--p1ai##a[href^="tg://resolve"]
+66.ru,auto.ru,car.ru,interfax.ru,kakoysegodnyaprazdnik.ru,kavkaz-uzel.eu,myanianime.ru,pythontutor.ru,xn--80aaiebcrjcibi8adgdtsm9z.xn--p1ai##a[href^="tg://resolve"]
 armtorg.ru##a[itemprop="sameAs"][rel="noreferrer nofollow"]
 gazeta.uz##a[onclick*="TelegramChannel"]
 toptracker.ru##a[onclick^="content_share"]
@@ -3105,7 +3107,7 @@ news.finance.ua##div[class^="ArticleShares"]
 auto.ru##div[class^="CardActions-"] > .HoveredTooltip__trigger:nth-child(2)
 igromania.ru,kanobu.ru##div[class^="CommonInnerHeader_header_pagetitle_right"] > [class] ~ div
 kanobu.ru##div[class^="Copyright_social_"] > a[target="_blank"]
-mir24.tv##div[class^="FooterTopSection_actions__subscribe"]
+mir24.tv##div[class^="FooterTopSection_TopSection__actions"]
 daily.afisha.ru##div[class^="Footer_Social"]
 uchi.ru##div[class^="Footer_footer__social"]
 tribuna.com##div[class^="Footer_footer__social-media"]
@@ -3130,7 +3132,6 @@ tribuna.com##div[class^="SharedSocialButtons"]
 tass.ru##div[class^="SocialLinks_wrapper"]
 daily.afisha.ru##div[class^="SocialPlate_Container"]
 atas.info,bel.ru##div[class^="Socials"]
-newizv.ru##div[class^="Socials_socials"]
 rg.ru##div[class^="StoryContentMainShare_root_"]
 start.rt.ru##div[class^="StyledFooterInfoBlockSocialIcons-"]
 atas.info,bel.ru##div[class^="Subscribe_subscribe"]
@@ -5252,6 +5253,7 @@ howdyho.net##.container > .special
 slavyanskaya-kultura.ru##.containerban
 comedy-radio.ru##.content > .slider
 internet-technologies.ru#?#.content > div:-abp-has(> div div > iframe[src*="://yoomoney.ru/"])
+player.cdnvideohub.com##.content-blocked-overlay
 zn.ua##.content-btn.yellow
 habr.com##.content-list > .content-list__item_news-block
 habr.com##.content-list > .content-list__item_post:not([id^="post"])
@@ -6416,7 +6418,6 @@ freesoft.ru##a[href*="/yandex-browser.html"]
 finobzor.ru,politobzor.net,warfiles.ru##a[href*="://auction.vo-media.ru/"]
 itcrowd.top##a[href*="://donate.stream/"]
 theins.ru##a[href*="://donate.theins.ru/"]
-online-fix.me##a[href*="://ko-fi.com/"]
 tvrain.tv##a[href*="DONAT"]
 www.rambler.ru##a[href*="_promo-widget_"]
 advetime.ru##a[href*="adveshop.com"]
@@ -6448,7 +6449,6 @@ lifeha.ru##a[href="https://lifeha.ru/kursi-pro"]
 lifehacker.ru##a[href="https://redirect.appmetrica.yandex.com/serve/892107163701433566"]
 fastpic.org##a[href="https://static.fastpic.ru/FastPicUploader.apk"]
 ua-electro.com##a[href="https://ua-electro.com/podpiska/"]
-mir24.tv##a[href="https://www.tiktok.com/@mir24tv"] > img
 www.ukr.net##a[href][id$="op"][style]
 mk.ru##a[href][style*="/banners/subscribe-banner"]
 torrentfx.ru##a[href^="/go"][target="_blank"]
@@ -6605,7 +6605,6 @@ lockobank.ru##div[class^="CookiesBanner"]
 kuper.ru##div[class^="CookiesConcent_"]
 meduza.io##div[class^="EmailSubscription-module-root"]
 meduza.io##div[class^="Footer"][class*="form"]
-mir24.tv##div[class^="FooterTopSection_actions__download"]
 daily.afisha.ru##div[class^="Footer_App"]
 www.afisha.ru##div[class^="Footer_apps"]
 www.afisha.ru##div[class^="Footer_aside"]
@@ -19214,7 +19213,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.rss-footer
 ##.widget_rssiconwidget
 !
-!! ---------- Scroll to top ----------
 !
 ###ArrowToTop
 ###BackToTop
