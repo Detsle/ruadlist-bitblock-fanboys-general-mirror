@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: g4187+1CEeq+BsiNVls6qg
-! Version: 202604010502
+! Checksum: QgWvYKrOPE+9SF8Ki/v0zg
+! Version: 202604030442
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 01 Apr 2026 05:02 UTC
+! Last modified: 03 Apr 2026 04:42 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1749,7 +1749,6 @@ downradar.ru##.one-half > #rating ~ div[style]
 moniheal.com##.one-news__footer-right
 relax-fm.ru##.one-news__share-content
 moniheal.com##.one-news__subheader-right
-get-tune.cc,mp3iq.com##.oneradioblock-share_block
 iplayer.info##.onesongblock-end
 bombardir.ru##.online-sharing
 depo.ua#?#.openPost-more:-abp-has(> p > a[href*="facebook.com"])
@@ -4249,7 +4248,6 @@ _app_promo$domain=7themes.su|wallscloud.net
 ||doramalive.news/images/app.
 ||doroga.ua/Handlers/BannerObjectHandler.
 ||drive2.ru/assets/_*/widget.js|$script,domain=drive2.com|drive2.ru
-||dsp-rambler.ru/tpl/Branding/$domain=kinoteatr.ru
 ||eagleplatform.com/api/filters/*/suggest.json
 ||effect.habr.com/a
 ||egida.by/js/snow/
@@ -4309,6 +4307,7 @@ _app_promo$domain=7themes.su|wallscloud.net
 ||kidstaff.com.ua/ajax/kid_informers.
 ||kino-sayt.net/Frame.swf
 ||kinogo.*/kinogo.prm*.js
+||kinoteatr.ru/application/views/special_banners/
 ||kinoteatr.ru/cgi-bin/banner
 ||kinoteatr.ru/upload/*branding
 ||kp.*/adaptive/push/
@@ -6776,6 +6775,7 @@ computer76.ru##iframe[data-src^="https://forms.yandex.ru/"]
 forums.ati.su,loads.ati.su,tm.ati.su,trucks.ati.su##iframe[src*="//news.ati.su/external/last-news/"]
 currenttime.tv##iframe[src*="/a/signup-sidebar-widget/"]
 epochtimes.com.ua##iframe[src*="/sinoptik.html"]
+kinoteatr.ru##iframe[src*="/special_banners/"]
 ntop.tv##iframe[src*="://banner.ntop.tv/"]
 ipic.su##iframe[src*="://discordapp.com/widget?id="]
 2baksa.ws,adventuretime.ru,anime-free.ru,hardwareluxx.ru,internet-technologies.ru,kisameev.ru,nowa.cc,podolyaka.ru,trymobile.ru##iframe[src*="://yoomoney.ru/"]
@@ -7044,6 +7044,7 @@ mail.ru,~media-golos.mail.ru,sportmail.ru##[data-logger="AudioPlayer"]
 ~e.mail.ru,mail.ru##[data-module="Subscription"]
 news.mail.ru,sportmail.ru##[data-module="TrackBlocks"] table > tbody > tr > td:nth-child(3):last-child
 cloud.mail.ru##[data-qa-tooltip="goto-attaches-promo-tip"]
+cloud.mail.ru##[data-qa-tooltip][class*="_closable-"]
 news.mail.ru##[data-reactroot] [data-qa^="MoreList"] > div > div:first-child:not(:only-child)
 e.mail.ru,octavius.mail.ru##[id^="octavius-notify-"]
 news.mail.ru#?#aside div[style^="min-height:"]:-abp-has([data-logger="SubscribeButton"])
@@ -7054,12 +7055,15 @@ cloud.mail.ru#?#body > #react-modals:-abp-has(> div > [class*="WhatsNewDialog"])
 ~e.mail.ru,mail.ru##body > .tooltip > .tooltip__box
 mail.ru##body > .zeropixel ~ * .balloon
 mail.ru##body > .zeropixel ~ * div .eventbar
+cloud.mail.ru##body > div[id^="cloud-"][class^="index_"]
 ~e.mail.ru,mail.ru,sportmail.ru##body > div[style="top: 8px; left: 120px;"]
+cloud.mail.ru##div[class*="Promo"][class*="Sidebarinfo__root-"]
 cloud.mail.ru##div[class*="Space__root_marketingPromo"] > div[class^="Space__payment"]
 cloud.mail.ru##div[class*="Space__root_marketingPromo"] div[class^="Space__subscriptions"]
 e.mail.ru,octavius.mail.ru##div[class*="layout"] .promo-block-letter
 mail.ru##div[class*="recommendation-link-container"]
 cloud.mail.ru##div[class^="AsidePromoModal__root"]
+cloud.mail.ru##div[class^="MainPage__spacePromo_"] div[class^="SingleSpace__buttonWrapper-"]
 cloud.mail.ru,doc.mail.ru##div[class^="Snackbars__root"]
 cloud.mail.ru##div[class^="TrialPromo__root-"]
 cloud.mail.ru##div[class^="ViewerHeader__marketingPromoButton"]
@@ -7239,6 +7243,7 @@ dzen.ru#?#div[id] > div[id]:-abp-has(> div[style="visibility: visible;"])
 yandex.by,yandex.kz,yandex.ru,yandex.uz##div[id^="BlogPost"][data-state*="/promo/popup/"]
 dzen.ru##div[popup-getfocusable-id]
 yandex.by,yandex.kz,yandex.ru,yandex.uz#?#header:-abp-has(.serp-user__registration-link) ~ .Modal .ImagesViewer-Container .Share-Item ~ [class]
+mail.yandex.ru,mail.yandex.*###js-neuroexpert-button
 mail.yandex.ru,mail.yandex.*##.mail-Done-Promo-Container
 mail.yandex.ru,mail.yandex.*##.mail-YandexPlus-Renderer
 mail.yandex.ru,mail.yandex.*##.promoPanel
@@ -18501,6 +18506,8 @@ _social_footer_
 ##share-action
 ##span[title="Condividi"]
 ##span[title="Share this article"]
+! future plc
+###utility-bar__google-button
 ! malayalam.indiatoday.in,aajtak.in,bangla.aajtak.in
 ##.rhs-fixwhtsapp
 ! https://www.sbnation.com/blogs
