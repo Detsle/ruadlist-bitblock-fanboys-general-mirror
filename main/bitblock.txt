@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: QgWvYKrOPE+9SF8Ki/v0zg
-! Version: 202604030442
+! Checksum: ULCU6m7PVFXn1/Cz+FaUWw
+! Version: 202604050451
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 03 Apr 2026 04:42 UTC
+! Last modified: 05 Apr 2026 04:51 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -966,6 +966,7 @@ hevcclub.com##.btn-outline-vk
 rubryka.com,ruwiki.ru##.btn-share
 volodymyrets.city##.btn-sm
 channel4it.com,roskomsvoboda.org,sports.ru##.btn-social
+meteovesti.ru##.btn-social-icon
 sports.ru##.btn-social-share
 superkarate.ru##.btn-social-wrapper
 audioknigi-online.ru##.btn-vk
@@ -1978,7 +1979,7 @@ filmstvclub.net##.serial-socials
 chudesniesovetiki.site##.sgwindow_socialicons
 online-mult.net##.sh_pt
 zi.ua##.shar-title
-024.by,1743.ru,1prime.ru,4pda.to,allnews.kz,amurmedia.ru,angarskmedia.ru,belarus-news.by,bibliofond.ru,bigkyiv.com.ua,brovary.net.ua,businessman.ru,chehov-vid.ru,chitamedia.su,chukotkamedia.ru,chytomo.com,city-n.ru,currenttime.tv,dentalmagazine.ru,disgustingmen.com,doramax.org,dron.media,dzr.by,eaomedia.ru,edimdoma.ru,europaplus.ru,fixygen.ua,gameguru.ru,goha.ru,govoritmoskva.ru,grodnonews.by,gts.tv,hdkinoteatr.com,hitfm.ru,inforesist.org,interior.ru,irkutskmedia.ru,izhlife.ru,kamchatkamedia.ru,karaosha.ru,kinorium.com,kirov.online,krasnodarmedia.su,krasnoyarskmedia.ru,kravira.by,krymr.com,ktv-ray.ru,kurgan.ru,kurs.com.ua,m24.ru,magadanmedia.ru,maximum.ru,mlyn.by,mos-holidays.ru,most.tv,multiurok.ru,mydocx.ru,nakhodka.media,native-english.ru,nauka.ua,naukatv.ru,navigator-kirov.ru,nii-rf.ru,novostiplanety.ru,novostirostov.ru,ntsk.ru,obozrevatel.com,omskmedia.su,online-timer.ru,orki.ru,orsk.ru,ostro.org,overclockers.ua,parlament.ua,peterburgmedia.ru,pkzsk.info,point.md,priamurmedia.ru,primadonna.media,primamedia.ru,prokuzbass.ru,rbc.ua,ria.ru,roskomsvoboda.org,runews24.ru,rusonline.org,sakhalinmedia.ru,sdamgia.ru,sevastopolmedia.ru,sfera.fm,sharij.net,sinkovskoe.ru,skillbox.ru,sochimedia.su,sport-tv.by,sq.com.ua,stavropol.media,stolicamedia.ru,studopedia.su,sverhestestvennoe.club,svoboda.org,syl.ru,tele.ru,tet.tv,topradio.me,tutu.ru,tvzvezda.ru,u-tv.ru,ukr.net,ukraina.ru,ulanmedia.ru,upl.uz,ussurmedia.ru,varianty.lviv.ua,vellisa.ru,vgtimes.com,vgtimes.ru,vlast.kz,voxpopuli.kz,vringe.com,vz.ru,walkingdead.club,yakutiamedia.ru##.share
+024.by,1743.ru,1prime.ru,4pda.to,allnews.kz,amurmedia.ru,angarskmedia.ru,belarus-news.by,bibliofond.ru,bigkyiv.com.ua,brovary.net.ua,businessman.ru,chehov-vid.ru,chitamedia.su,chukotkamedia.ru,chytomo.com,city-n.ru,currenttime.tv,dentalmagazine.ru,disgustingmen.com,doramax.org,dron.media,dzr.by,eaomedia.ru,edimdoma.ru,europaplus.ru,fixygen.ua,gameguru.ru,goha.ru,govoritmoskva.ru,grodnonews.by,gts.tv,hdkinoteatr.com,hitfm.ru,inforesist.org,interior.ru,irkutskmedia.ru,izhlife.ru,kamchatkamedia.ru,karaosha.ru,kinorium.com,kirov.online,krasnodarmedia.su,krasnoyarskmedia.ru,kravira.by,krymr.com,ktv-ray.ru,kurgan.ru,kurs.com.ua,m24.ru,magadanmedia.ru,maximum.ru,mlyn.by,mos-holidays.ru,most.tv,multiurok.ru,mydocx.ru,nakhodka.media,native-english.ru,nauka.ua,naukatv.ru,navigator-kirov.ru,nii-rf.ru,novostiplanety.ru,novostirostov.ru,ntsk.ru,obozrevatel.com,omskmedia.su,online-timer.ru,orki.ru,orsk.ru,ostro.org,overclockers.ua,parlament.ua,peterburgmedia.ru,pkzsk.info,point.md,priamurmedia.ru,primadonna.media,primamedia.ru,prokuzbass.ru,rbc.ua,reshuent.ru,ria.ru,roskomsvoboda.org,runews24.ru,rusonline.org,sakhalinmedia.ru,sdamgia.ru,sevastopolmedia.ru,sfera.fm,sharij.net,sinkovskoe.ru,skillbox.ru,sochimedia.su,sport-tv.by,sq.com.ua,stavropol.media,stolicamedia.ru,studopedia.su,sverhestestvennoe.club,svoboda.org,syl.ru,tele.ru,tet.tv,topradio.me,tutu.ru,tvzvezda.ru,u-tv.ru,ukr.net,ukraina.ru,ulanmedia.ru,upl.uz,ussurmedia.ru,varianty.lviv.ua,vellisa.ru,vgtimes.com,vgtimes.ru,vlast.kz,voxpopuli.kz,vringe.com,vz.ru,walkingdead.club,yakutiamedia.ru##.share
 my.kaspersky.com##.share > :not(.share-link)
 liwihelp.com##.share > a[onclick*="sharer"]
 milknews.ru##.share-aside
@@ -2233,6 +2234,7 @@ newsland.com##.social-card
 nn.ru##.social-cont
 banki24.by,russian.rt.com,stmods.org,xenforo.info##.social-container
 okino.ua##.social-customize
+meteovesti.ru##.social-descr
 pravda.ru##.social-desktop
 agronews.ua##.social-element
 politros.com##.social-foot-title
@@ -2488,7 +2490,7 @@ online-knigi.com##.telegram-chanel
 1kr.ua##.telegram-chat
 new-magazine.ru##.telegram-feed
 htmlweb.ru##.telegram-groupe
-championat.asia##.telegram-link
+championat.asia,meteovesti.ru##.telegram-link
 1tv.od.ua##.telegram-link-block
 uaspectr.com##.telegram-notification
 368.media##.telegram-promo
@@ -2922,7 +2924,7 @@ tribun.com.ua##a[href^="/redirects/banner.php"][title="Телеграм Кана
 rusnext.ru##a[href^="http://www.odnoklassniki.ru/group/"]
 eva.ru,mediasat.info,molbuk.ua,orenburg.media,radiosvoboda.org,rivnenews.com.ua##a[href^="https://invite.viber.com/"]
 livecars.ru,livesport.ru##a[href^="https://share.yandex.ru/"]
-112.ua,1istochnik.ru,2playmusic.net,3mv.ru,66.ru,7days.ru,a7d.com.ua,afisha.ru,agronews.ua,amic.ru,anibests.ru,anidubpro.ru,animedub.ru,animegid.online,animelayer.ru,animevost.club,anistars.ru,apostrophe.ua,app2top.ru,argumenti.ru,armyinform.com.ua,auto.ru,autonews.ru,autosaratov.ru,autosport.com.ru,banki.ru,bdg.by,bhub.com.ua,bigkyiv.com.ua,book-audio.com,brassic.info,brestcity.com,bryansknovosti.ru,bst.bratsk.ru,bzh.life,cherkasy.live,click-or-die.ru,comss.ru,coop-land.ru,dailylviv.com,daxshat.site,delfi.lt,depo.ua,dev.ua,devby.io,dni.ru,dorama.land,doramaland.plus,dostyp.com.ua,e5450.com,ecology.md,elevatorist.com,enovosty.com,epizod.life,factornews.ru,fast-fiml.ru,fast-torrent.club,fast-torrent.ru,fast-torrent.su,ferra.ru,filmhd1080.me,filmpotok.ru,footlive.top,game2day.ru,gazeta.press,gazeta.ru,glavred.info,glavred.net,gofrag.ru,golos.ua,gorodkiev.com.ua,govoritmoskva.ru,guidesgame.ru,hdru.net,incrypted.com,informator.ua,inkorr.com,iptvmaster.ru,itech.co.ua,itorrents-igruha.net,itorrents-igruha.org,izvestia.kiev.ua,kg.ua,kiev24.ua,kino.video,kinogo-net.la,kinomax.pro,kinomuch.ru,kluchikipro.ru,ko.com.ua,kolizhanka.com.ua,kolo.news,kop.net.ua,kp40.ru,kratko.plus,kyiv24.com,libertycity.net,libertycity.ru,likefm.ru,litehd.tv,litlib.net,liveresult.ru,livesport.ws,lostfilmstv.com,lrepacks.net,maanimo.com,martrending.ru,mediasat.info,mel.fm,memepedia.ru,mignews.com,mil-lnr.su,mir24.tv,mk.ru,mloads.com,mult-fan.tv,mykino.site,myslo.ru,mywebpc.ru,nakanune.ru,napensii.ua,nashe.ru,nbnews.com.ua,nebeda.net,neg.by,nevnov.ru,newfood.media,newsru.co.il,newsua.one,ngp-ua.info,nn.by,noi.md,novozybkov.su,noworries.news,oblast-te.com.ua,okna.ua,omskregion.info,onlinetrade.ru,orenburg.media,overclockers.ua,pb.wtf,pervyi-tv.online,photar.ru,pickfilm.ru,pirat.one.piratbit.fun,piratbit.org,piratbit.pw,piratbit.top,poiskvps.ru,poltavawave.com.ua,pravda.com.ua,pravda.if.ua,privatfinance.com,proagro.com.ua,profidom.com.ua,progolovne.ck.ua,pronomad.ru,province.ru,prufy.ru,radiojazzfm.ru,radioultra.ru,rbc.ua,remontka.pro,ringside24.com,ritsatv.ru,rivne.media,rockfm.ru,rsload.net,rusnext.ru,russia-tv.online,sara-fun.com,selezen.club,selezen.net,selezen.org,setafi.com,sil.media,slukh.media,smolensk-i.ru,sms24.info,sms24.me,softportal.com,soundpark.best,sovsport.ru,spletnik.ru,sports.kz,stadion.uz,sudostroenie.info,superagronom.com,supernatural.watch,t4.com.ua,tasix.me,techtoday.in.ua,tehnowar.ru,topfile.tj,transkarpatia.net,trmzk.ru,tvmag.ru,ua-electro.com,uakino.best,uaprom.info,unian.info,unian.net,unian.ua,uzmov.net,vechirniy.kyiv.ua,vedomosti.ru,veleto.ru,vidak.icu,virtualbrest.ru,vixim.ru,vokrug.tv,volyn.com.ua,webtous.ru,weukraine.tv,winzoro.net,wz.lviv.ua,yap.ru,yaplakal.com,yummybest.ru,zapoem.com,zfilm-hd.org,zfilm1977.site,zfilme-hd1.site,zhinka.tv,zver.uz##a[href^="https://t.me/"]
+112.ua,1istochnik.ru,2playmusic.net,3mv.ru,66.ru,7days.ru,a7d.com.ua,afisha.ru,agronews.ua,amic.ru,anibests.ru,anidubpro.ru,animedub.ru,animegid.online,animelayer.ru,animevost.club,anistars.ru,apostrophe.ua,app2top.ru,argumenti.ru,armyinform.com.ua,auto.ru,autonews.ru,autosaratov.ru,autosport.com.ru,banki.ru,bdg.by,bhub.com.ua,bigkyiv.com.ua,book-audio.com,brassic.info,brestcity.com,bryansknovosti.ru,bst.bratsk.ru,bzh.life,cherkasy.live,click-or-die.ru,comss.ru,coop-land.ru,dailylviv.com,daxshat.site,delfi.lt,depo.ua,dev.ua,devby.io,dni.ru,dorama.land,doramaland.plus,dostyp.com.ua,e5450.com,ecology.md,elevatorist.com,enovosty.com,epizod.life,factornews.ru,fast-fiml.ru,fast-torrent.club,fast-torrent.ru,fast-torrent.su,ferra.ru,filmhd1080.me,filmpotok.ru,footlive.top,game2day.ru,gazeta.press,gazeta.ru,glavred.info,glavred.net,gofrag.ru,golos.ua,gorodkiev.com.ua,govoritmoskva.ru,guidesgame.ru,hdru.net,incrypted.com,informator.ua,inkorr.com,iptvmaster.ru,itech.co.ua,itorrents-igruha.net,itorrents-igruha.org,izvestia.kiev.ua,kg.ua,kiev24.ua,kino.video,kinogo-net.la,kinomax.pro,kinomuch.ru,kluchikipro.ru,ko.com.ua,kolizhanka.com.ua,kolo.news,kop.net.ua,kp40.ru,kratko.plus,kyiv24.com,libertycity.net,libertycity.ru,likefm.ru,litehd.tv,litlib.net,liveresult.ru,livesport.ws,lostfilmstv.com,lrepacks.net,maanimo.com,martrending.ru,mediasat.info,mel.fm,memepedia.ru,meteovesti.ru,mignews.com,mil-lnr.su,mir24.tv,mk.ru,mloads.com,mult-fan.tv,mykino.site,myslo.ru,mywebpc.ru,nakanune.ru,napensii.ua,nashe.ru,nbnews.com.ua,nebeda.net,neg.by,nevnov.ru,newfood.media,newsru.co.il,newsua.one,ngp-ua.info,nn.by,noi.md,novozybkov.su,noworries.news,oblast-te.com.ua,okna.ua,omskregion.info,onlinetrade.ru,orenburg.media,overclockers.ua,pb.wtf,pervyi-tv.online,photar.ru,pickfilm.ru,pirat.one.piratbit.fun,piratbit.org,piratbit.pw,piratbit.top,poiskvps.ru,poltavawave.com.ua,pravda.com.ua,pravda.if.ua,privatfinance.com,proagro.com.ua,profidom.com.ua,progolovne.ck.ua,pronomad.ru,province.ru,prufy.ru,radiojazzfm.ru,radioultra.ru,rbc.ua,remontka.pro,ringside24.com,ritsatv.ru,rivne.media,rockfm.ru,rsload.net,rusnext.ru,russia-tv.online,sara-fun.com,selezen.club,selezen.net,selezen.org,setafi.com,sil.media,slukh.media,smolensk-i.ru,sms24.info,sms24.me,softportal.com,soundpark.best,sovsport.ru,spletnik.ru,sports.kz,stadion.uz,sudostroenie.info,superagronom.com,supernatural.watch,t4.com.ua,tasix.me,techtoday.in.ua,tehnowar.ru,topfile.tj,transkarpatia.net,trmzk.ru,tvmag.ru,ua-electro.com,uakino.best,uaprom.info,unian.info,unian.net,unian.ua,uzmov.net,vechirniy.kyiv.ua,vedomosti.ru,veleto.ru,vidak.icu,virtualbrest.ru,vixim.ru,vokrug.tv,volyn.com.ua,webtous.ru,weukraine.tv,winzoro.net,wz.lviv.ua,yap.ru,yaplakal.com,yummybest.ru,zapoem.com,zfilm-hd.org,zfilm1977.site,zfilme-hd1.site,zhinka.tv,zver.uz##a[href^="https://t.me/"]
 cheline.com.ua##a[href^="https://t.me/"] > img
 kp.kg,kp.kz,kp.md,kp.ru##a[href^="https://t.me/"][rel="noopener noreferrer"]
 orelgrad.ru##a[href^="https://tele.click/"]
@@ -3010,6 +3012,7 @@ opennet.me,opennet.ru##aside > table > tbody > tr > td[align="right"][width="20%
 itsider.com.ua##aside div[class*="kpvmzjg"]
 vcrti.com.ua##aside#gkInset
 bessarabiainform.com#?#aside:-abp-has(> .execphpwidget > iframe[src*="facebook.com"])
+meteovesti.ru#?#b:-abp-contains(Поделиться новостью)
 gta.com.ua#?#b:-abp-contains(Поделиться:)
 kp.kg,kp.kz,kp.md,kp.ru#?#body > #app [data-gtm-el="content-body"] > p:-abp-has(> a[href*="/t.me/"])
 kp.kg,kp.kz,kp.md,kp.ru#?#body > #app div:-abp-has(> a[href^="https://invite.viber.com/"])
@@ -3394,6 +3397,7 @@ tvzvezda.ru#?#pjsdiv[id^="oframe"] pjsdiv:-abp-has(path[d^="M11.6051377"])
 narutoplanet.ru##pjsdiv[style^="position: absolute; left: 677px; top: 31px; opacity: 1; font-size: 14px; line-height: 1em;"]
 rudub.*##.details__share-list
 rudub.*##body > section[class*="section details"] .details__tor__bg > div a[style^="display: block;"]
+meteovesti.ru#?#section > .row > div:-abp-has(> .telegram-link)
 hardwareluxx.ru#?#section > aside:-abp-has(> [id^="vk_like"])
 amur.info##section > div > div[style="float: left; padding-top: 15px;"]
 tverlife.ru#?#section:-abp-has(> .footer_social)
@@ -4425,7 +4429,6 @@ _app_promo$domain=7themes.su|wallscloud.net
 ||s.rbk.ru/*/images/live-tv-plug.gif
 ||safezone.cc/*/mr/christmasgarlandtwo/
 ||samlab.ws/qr$image,domain=driveroff.net|samlab.ws
-||sdamgia.ru/notifications?ajax$xmlhttprequest
 ||search.4shared.com/q/1|$popup,domain=4shared.com
 ||securitylab.ru/js/cpb.js
 ||seonews.ru/files/html/sub-mailing-popup
@@ -5753,7 +5756,7 @@ gameru.net##.noad
 2ip.ua##.nobanner
 on.od.ua##.notes-right
 dailystorm.ru,kinoafisha.info,nullcms.ru##.notice
-reshu.by,reshuent.kz,sdamgia.ru##.notice_win
+reshuent.ru,sdamgia.ru##.notice_win
 probiv.in,probiv.one##.notices--floating
 qna.habr.com##.notices-container
 cnews.ru,cubiq.ru,inforesist.org##.notification
@@ -6539,7 +6542,6 @@ super.ru##body > div[class^="styles_wrapper_"]
 exelab.ru##body > div[id^="bnr"]
 lumpics.ru##body > div[style="min-height: 0px;"]
 chaynikam.info,lifter.com.ua##body > div[style^="position: fixed;"]
-reshu.by,reshuent.kz,sdamgia.ru##body > div[style^="text-align: left; position: fixed; bottom: 0px; left: 0px; z-index: 10000"]
 rabota.ua##body > form > div[class^="ui-"]:not([id])
 forum.ru-board.com##body > form > p[align="center"]
 seeyoupage.ru##body > iframe[id^="_pn_"]
@@ -7196,6 +7198,7 @@ afisha.yandex.ru,afisha.yandex.*##.yabs_type_banners
 afisha.yandex.ru,afisha.yandex.*##div[data-component="AfishaApp"]
 afisha.yandex.ru,afisha.yandex.*##div[data-component="FooterSubscribe"]
 afisha.yandex.ru,afisha.yandex.*##div[data-component="SubscriptionPopup"]
+afisha.yandex.ru,afisha.yandex.*##div[data-test-id="subscriptionPopup.root"]
 dzen.ru##article[class*="ad-campaign-qr-banner"]
 yandex.by,yandex.kz,yandex.ru,yandex.uz##body > .serp-user__promo-popup
 yandex.by,yandex.kz,yandex.ru,yandex.uz##body > div[class^="popup"][class*="promo"][class*="video-player"]
@@ -7340,6 +7343,7 @@ mail.yandex.ru,mail.yandex.*##[id^="js-mail-layout-content-header"] > .message-l
 mail.yandex.ru,mail.yandex.*##div#js-layout-inner[class^="PageLayout-m__main--"][id="js-layout-inner"] ~ div[style*="overscroll-behavior: none;"]
 translate.yandex.ru,translate.yandex.*##.side-block > div
 vk.com,vk.ru,vkvideo.ru##vk-video-player div[class^="PauseSuggestionsSlider"]
+||auto.ru/_crpd/$xmlhttprequest
 ||dzen.ru/zen-partner/$third-party
 ||livejournal.com/*_*_*_*_*_*_*_*_*_$xmlhttprequest
 ||mail.yandex.*/u2709/$script,~third-party
@@ -7347,6 +7351,7 @@ vk.com,vk.ru,vkvideo.ru##vk-video-player div[class^="PauseSuggestionsSlider"]
 ||translate.yandex.*/_crpd/
 ||ya.ru/portal/feed?
 ||yandex-realty.naydex.net^$script
+||yandex.*/maps/_crpd/$xmlhttprequest
 !#endif
 !
 ! - Youtube -
@@ -18656,7 +18661,6 @@ _social_footer_
 ||weibo.com/staticjs/weiboshare.html$third-party
 ||widget.weibo.com^$third-party
 ||widget.whatshelp.io^$third-party
-||widgets.getpocket.com^$third-party
 ||widgets.wp.com/likes/$third-party
 ||wykop.pl/dataprovider/diggerwidget/$third-party
 ||xing-share.com^$third-party
