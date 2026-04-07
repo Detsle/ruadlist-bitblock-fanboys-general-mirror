@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ULCU6m7PVFXn1/Cz+FaUWw
-! Version: 202604050451
+! Checksum: i7Y2kiGesxsjrBH01L1tUQ
+! Version: 202604070451
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 05 Apr 2026 04:51 UTC
+! Last modified: 07 Apr 2026 04:51 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -198,7 +198,7 @@ ru##[data-ns-portal] button[aria-label="Добавить в закладки"]
 ru##[data-ns-portal] div[class*=" uiArticleBlockLinks_"]
 ru##[data-ns-portal] div[class^="blockSocial_"]
 ru##[data-ns-portal] div[class^="contactBlock_"][class*=" socialBlock_"]
-com,ru##[data-rambler-share]
+com,ru,ua##[data-rambler-share]
 ##[data-rd-type="rd-post-view-social"]
 ##[data-test-id="share-button-copyLink"]
 ##[data-test-id="share-button-odnoklassniki"]
@@ -2776,7 +2776,7 @@ stopgame.ru##[class*="_sg-socials--footer"] > li > *
 7days.ru##[class*="button-social_telegramm"]
 www.kinopoisk.ru##[class*="footer"] > [class*="social-"]
 gorodche.ru##[class*="footer-bottom-social"]
-myliski.ru,newskrasnodar.ru,newtambov.ru,pg02.ru,pg11.ru,pg12.ru,pg13.ru,pg21.ru,pg37.ru,pg46.ru,pgn21.ru,pgr76.ru,prochepetsk.ru,prodzer.ru,progorod33.ru,progorod43.ru,progorod58.ru,progorod59.ru,progorod62.ru,progorod76.ru,progorodnn.ru,progoroduhta.ru,prosaratov.ru,usolie.info,vladivostoktimes.ru,youtvnews.com##[class*="footer_ftrSocialList"]
+lipetsknews.ru,myliski.ru,newskrasnodar.ru,newtambov.ru,pg02.ru,pg11.ru,pg12.ru,pg13.ru,pg21.ru,pg37.ru,pg46.ru,pgn21.ru,pgr76.ru,prochepetsk.ru,prodzer.ru,progorod33.ru,progorod43.ru,progorod58.ru,progorod59.ru,progorod62.ru,progorod76.ru,progorodnn.ru,progoroduhta.ru,prosaratov.ru,usolie.info,vladivostoktimes.ru,youtvnews.com##[class*="footer_ftrSocialList"]
 manutd.ru##[class*="new_graphic soc_"]
 ohotniki.ru##[class*="preview__social"]
 jpgazeta.ru##[class*="share_save_widget"]
@@ -2807,7 +2807,7 @@ xn--80aaae1cn1aw5e.xn--p1ai##[data-bazooka]
 teleport2001.ru##[data-block-plugin-id="system_menu_block:social"]
 newsland.com##[data-block-type="social-card"]
 yandex.ru##[data-c^="click.social/pageName="]
-avtorambler.com,rambler.ru##[data-cerber^="footer::social_button"]
+avtorambler.com,rambler.ru,rambler.ua##[data-cerber^="footer::social_button"]
 comments.rambler.ru##[data-comments*="share_popup"]
 ctc.ru##[data-cy="social-links"]
 gdetraffic.com##[data-gcat="social_link"]
@@ -3142,7 +3142,7 @@ tribuna.com##div[class^="_footer__social-media"]
 tribuna.com##div[class^="_shared-socia-buttons"]
 t-j.ru##div[class^="_sharer_"]
 stopgame.ru##div[class^="_youtube-promo_"]
-hightech.plus,myliski.ru,newskrasnodar.ru,newtambov.ru,pg02.ru,pg11.ru,pg12.ru,pg13.ru,pg21.ru,pg37.ru,pg46.ru,pgn21.ru,pgr76.ru,prochepetsk.ru,prodzer.ru,progorod33.ru,progorod43.ru,progorod58.ru,progorod76.ru,progorodnn.ru,progoroduhta.ru,prosaratov.ru,usolie.info,vladivostoktimes.ru,youtvnews.com##div[class^="article-social"]
+hightech.plus,lipetsknews.ru,myliski.ru,newskrasnodar.ru,newtambov.ru,pg02.ru,pg11.ru,pg12.ru,pg13.ru,pg21.ru,pg37.ru,pg46.ru,pgn21.ru,pgr76.ru,prochepetsk.ru,prodzer.ru,progorod33.ru,progorod43.ru,progorod58.ru,progorod76.ru,progorodnn.ru,progoroduhta.ru,prosaratov.ru,usolie.info,vladivostoktimes.ru,youtvnews.com##div[class^="article-social"]
 yamal-media.ru##div[class^="article_ShareBlockWrapper"]
 greenpost.ua##div[class^="article_share_side_"]
 unn.ua##div[class^="button-plate_wrap_"]
@@ -3179,7 +3179,7 @@ iz.ru##div[class^="share_bottom"]
 glavagronom.ru##div[class^="socIcons"]
 buzulukday.ru,cybersport.ru,nsday.ru,orenday.ru,perevolockday.ru,saltday.ru,sorochinskday.ru##div[class^="social"]
 hightech.plus##div[class^="social-buttons"]
-myliski.ru,newskrasnodar.ru,newtambov.ru,pg02.ru,pg11.ru,pg12.ru,pg13.ru,pg21.ru,pg37.ru,pg46.ru,pgn21.ru,pgr76.ru,prochepetsk.ru,prodzer.ru,progorod33.ru,progorod43.ru,progorod58.ru,progorod76.ru,progorodnn.ru,progoroduhta.ru,prosaratov.ru,usolie.info,vladivostoktimes.ru,youtvnews.com##div[class^="social-list-subscribe"]
+lipetsknews.ru,myliski.ru,newskrasnodar.ru,newtambov.ru,pg02.ru,pg11.ru,pg12.ru,pg13.ru,pg21.ru,pg37.ru,pg46.ru,pgn21.ru,pgr76.ru,prochepetsk.ru,prodzer.ru,progorod33.ru,progorod43.ru,progorod58.ru,progorod76.ru,progorodnn.ru,progoroduhta.ru,prosaratov.ru,usolie.info,vladivostoktimes.ru,youtvnews.com##div[class^="social-list-subscribe"]
 sovsport.ru##div[class^="social-media-buttons-module"]
 nn.ru##div[class^="social-widget"]
 timeweb.cloud##div[class^="socialBlock-"]
@@ -3316,8 +3316,8 @@ sud.ua#?#li > .b-news-item:-abp-has(> .b-news-item-info > h3 > a[href*="://t.me/
 prochepetsk.ru,progorod43.ru##li > a[class^="nav_"][href*="https://max.ru/"]
 prochepetsk.ru,progorod43.ru##li > a[class^="nav_"][href*="https://t.me/"]
 pg12.ru,pg21.ru,prodzer.ru,progorod33.ru,progorodnn.ru##li > a[class^="sub-menu_"][href*="https://max.ru/"]
-pg12.ru,pg21.ru,pgn21.ru,progorod58.ru,progorodnn.ru,progoroduhta.ru,usolie.info##li > a[class^="sub-menu_"][href*="https://t.me/"]
-myliski.ru,pg12.ru,pg21.ru,pgn21.ru,prodzer.ru,progorod33.ru,progorod58.ru,progorodnn.ru,progoroduhta.ru,usolie.info##li > a[class^="sub-menu_"][href*="https://vk.com/"]
+lipetsknews.ru,pg12.ru,pg21.ru,pgn21.ru,progorod58.ru,progorodnn.ru,progoroduhta.ru,usolie.info##li > a[class^="sub-menu_"][href*="https://t.me/"]
+lipetsknews.ru,myliski.ru,pg12.ru,pg21.ru,pgn21.ru,prodzer.ru,progorod33.ru,progorod58.ru,progorodnn.ru,progoroduhta.ru,usolie.info##li > a[class^="sub-menu_"][href*="https://vk.com/"]
 argumenti.ru#?#li:-abp-has(> a[href^="https://t.me/"])
 ctc.ru##li[class="hsi-item"]
 78.ru##li[class^="social-block_"]
@@ -6349,7 +6349,7 @@ my.ua##[data-policy-wrapper]
 levik.blog,livejournal.com,olegmakarenko.ru,periskop.su,shakko.ru,shiro-kino.ru,vadimrazumov.ru##[data-react-rcm-block]
 ozon.ru#?#[data-replace-layout-path] > [data-widget="container"] > [data-widget="island"]:-abp-has(> div > [data-widget="seasonWidget"])
 mail.google.com##[data-rp-onramp-input]
-anilib.me,animelib.org,hentailib.me,hentailib.org,mangalib.me,mangalib.org,ranobelib.me##[data-scroll-content] > a[href="https://app.lib.social/app2.html"]
+anilib.me,animelib.org,hentailib.me,hentailib.org,mangalib.me,mangalib.org,ranobelib.me,shlib.life,yaoilib.net##[data-scroll-content] > a[href="https://app.lib.social/app2.html"]
 fosshub.com##[data-section-content-type="donate"]
 remanga.org##[data-sentry-source-file="reader-ad.tsx"]
 trychatgpt.ru##[data-sidebar="footer"]
@@ -7295,6 +7295,7 @@ e.mail.ru,octavius.mail.ru#@##app-canvas .layout__overflow-container > .slot
 mail.ru###grid .allow-overflow
 mail.ru###grid .widget__container .tgbv-wrapper
 mail.ru###grid:not(.grid) .widget__container ~ .widget__container > div:not([class*=" "])
+www.kinopoisk.ru###modal-root > [class^="styles_root_"] ~ div:not([class^="styles_modal_"]):not([class^="styles_overlay_"])
 cloud.mail.ru#?##react-modals:-abp-has(a[href^="https://vk.cc/"])
 dzen.ru###ya-dist
 ya.ru,yandex.by,yandex.kz,yandex.ru,yandex.uz##.AdvMastHead
@@ -7318,8 +7319,6 @@ dzen.ru##.video-card-ads
 e.mail.ru,octavius.mail.ru#?#.vkuiPopoutRoot:-abp-has(a[href^="https://vk.cc/"])
 mail.ru##.widget-uber-wrapper
 dzen.ru##.zen-page .content div[class*="__bannerMain"]
-/^https?:\/\/dzen\.ru\/[^\s]{2100,}$/$script,domain=dzen.ru
-/^https?:\/\/strm\.yandex\.ru\/get\/[^\s]{1300,}$/$xmlhttprequest,domain=dzen.ru|naydex.net
 @@||ad.mail.ru/adp/*=resplash&$xmlhttprequest,domain=mail.ru
 @@||an.yandex.ru/mapuid/yandex/|$image,domain=auto.ru
 @@||shedevrum.ai^$generichide
@@ -7328,15 +7327,19 @@ dzen.ru##.zen-page .content div[class*="__bannerMain"]
 @@||www.drive2.ru^$generichide
 @@||yandex.ru/ads/system/context.js|$xmlhttprequest,domain=auto.ru|drive2.ru|shedevrum.ai
 @@||yastatic.net/partner-code-bundles/*/*.js|$xmlhttprequest,domain=auto.ru|drive2.ru
+www.kinopoisk.ru##[data-container="outer"]
 ~e.mail.ru,mail.ru,~octavius.mail.ru##body > :not(div[style*=" -"]) .mailru-visibility-check
 dzen.ru#?#div:-abp-has(> .mg-grid__item_type_card > div[class*="loader_animated"])
 ya.ru,yandex.by,yandex.kz,yandex.ru,yandex.uz##div[class*="Serp"] div[class$="-Incut"][style^="margin-bottom:"]
 ya.ru,yandex.by,yandex.kz,yandex.ru,yandex.uz##div[class*="Viewer"] div[class$="-Incut"][style^="margin-bottom:"]
 dzen.ru##div[class*="column_myTarget"]
 e.mail.ru,octavius.mail.ru##div[class*="layout"] .letter-list-item-adv
+www.kinopoisk.ru#?#div[class][style][id]:-abp-has(> iframe[src*="kinopoisk-ru.clstorage.net/"])
 dzen.ru##div[class^="article-"][class*="-placeholder__root"]
 mail.ru##div[class^="tg"][class*="-wrapper "]
+www.kinopoisk.ru##div[class^="toaster-container"]
 mail.ru##div[id^="mailru"]
+www.kinopoisk.ru##iframe[src*="kinopoisk-ru.clstorage.net/"]
 mail.*##.tv-widget [class^="vk-video"]
 mail.*##.tv-widget [class^="vk-video"] {remove:true;}
 mail.yandex.ru,mail.yandex.*##[id^="js-mail-layout-content-header"] > .message-list-banner-portal + div:not([class*="message"]):not(:last-child)
@@ -7345,12 +7348,14 @@ translate.yandex.ru,translate.yandex.*##.side-block > div
 vk.com,vk.ru,vkvideo.ru##vk-video-player div[class^="PauseSuggestionsSlider"]
 ||auto.ru/_crpd/$xmlhttprequest
 ||dzen.ru/zen-partner/$third-party
+||kinopoisk-ru.clstorage.net/$subdocument,domain=www.kinopoisk.ru
 ||livejournal.com/*_*_*_*_*_*_*_*_*_$xmlhttprequest
 ||mail.yandex.*/u2709/$script,~third-party
 ||ok.ru/web-api/*/hobby/getMailRuHobbyFeedScriptSrc$domain=mail.ru
 ||translate.yandex.*/_crpd/
 ||ya.ru/portal/feed?
 ||yandex-realty.naydex.net^$script
+||yandex-tv.naydex.net^$script
 ||yandex.*/maps/_crpd/$xmlhttprequest
 !#endif
 !
@@ -7539,7 +7544,7 @@ goodgame.ru,ngs.ru#@#.subscribe-popup
 mos.ru#@#.subscription-block
 askona.ru#@#.to_top
 floristics.info#@#.totop
-ahen.me,doramatv.live,doramatv.one,doramatv.ru,ekabu.ru,findanime.ru,grouple.co,librebook.me,livelib.ru,mintmanga.one,mose.su,online-mult.net,readmanga.io,selflib.me,selfmanga.live,soccer.ru,usagi.one#@#.twitter
+ahen.me,doramatv.live,doramatv.one,doramatv.ru,ekabu.ru,findani.me,findanime.me,findanime.ru,grouple.co,librebook.me,livelib.ru,mintmanga.one,mose.su,online-mult.net,readmanga.io,selflib.me,selfmanga.live,soccer.ru,usagi.one#@#.twitter
 coub.com#@#.viewer__sharing
 coub.com#@#.viewer__sharing__item
 coub.com#@#.viewer__sharing__items
