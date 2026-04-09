@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: i7Y2kiGesxsjrBH01L1tUQ
-! Version: 202604070451
+! Checksum: dLwccSS0iKDgZCSL5pUW2w
+! Version: 202604090451
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 07 Apr 2026 04:51 UTC
+! Last modified: 09 Apr 2026 04:51 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1603,6 +1603,7 @@ s13.ru##.megasocial
 freetp.org,freetp.ru##.menu > a[title*="FreeTP"]
 football-ukraine.com##.menu > li > noindex
 pb.wtf,pirat.one,piratbit.fun,piratbit.org,piratbit.top##.menu > li ~ li[class*="top_menu  "]
+babyblog.ru##.menu-footer > a[href^="https:"]:not([href*="babyblog.ru/"])
 processer.media##.menu-icon-fb
 processer.media##.menu-icon-insta
 processer.media##.menu-icon-tw
@@ -2227,7 +2228,7 @@ nikopolnews.net,unian.info,unian.net,unian.ua##.social-btn-bottom
 gismeteo.ru##.social-btns-wrapper
 gamestatus.info,wotpack.ru##.social-button
 regions.ru##.social-button-desktop
-66.ru,aforismo.ru,bst.bratsk.ru,click-or-die.ru,coolotvet.ru,football.ua,gizchina.net,gmk.center,kulturologia.ru,mse02.ru,om1.ru,pay-day.ru,publy.ru,qafqazinfo.az,tehnobzor.ru,tribun.com.ua##.social-buttons
+66.ru,aforismo.ru,bst.bratsk.ru,click-or-die.ru,coolotvet.ru,dynamomania.com,football.ua,gizchina.net,gmk.center,kulturologia.ru,mse02.ru,om1.ru,pay-day.ru,publy.ru,qafqazinfo.az,tehnobzor.ru,tribun.com.ua##.social-buttons
 freehat.cc##.social-buttons > * > *
 bfm.ru##.social-buttons > a
 newsland.com##.social-card
@@ -3749,6 +3750,7 @@ _userbar_$image
 ##.usersig img
 ##.youtube_box
 ru##[data-ns-portal] [data-bell-btn] > div[class*="animated"]
+ru##[data-ns-portal] [data-test="top-comment-user"] > .textBox_hjmay > .username_hjmay > div[class^="wrapper_"] > div[class^="wrapper_"]
 ru##[data-ns-portal] div[class^="mobileApps_"]
 ##[href*="gismeteo.ua"] ~ .gsInformer
 ~getpocket.com##a[href*="//getpocket.com/edit?"]
@@ -5773,6 +5775,7 @@ smartpress.by##.noty_layout
 doramaland.plus##.now-ru-banner
 ntv.ru##.ntv-survey
 forum.ru-board.com##.ny-lights
+dtf.ru,vc.ru##.oZtbmgrg
 olx.ua##.observe-search-banner
 okino.ua##.on-story-tags_subscribe
 moniheal.com##.one-news__banner--bottom
