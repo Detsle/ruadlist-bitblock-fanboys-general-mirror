@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: LtYPOISC3uOTkP4fSBcUxA
-! Version: 202604250452
+! Checksum: hopkNTzIiEjtmJnntD9ETA
+! Version: 202604270531
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 25 Apr 2026 04:52 UTC
+! Last modified: 27 Apr 2026 05:31 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -967,6 +967,7 @@ studio21.ru##.bsa-twitter
 dnepr.info##.btn-ads-fix
 kinokordon.net#?#.btn-danger:-abp-has(> [src="https://yastatic.net/share2/share.js"])
 ibb.co##.btn-like
+castbox.fm#?#.btn-list-item:-abp-has(.btn-list-item-text:-abp-contains(SHARE))
 modfarm.ru##.btn-outline-facebook
 hevcclub.com##.btn-outline-telegram
 hevcclub.com##.btn-outline-vk
@@ -3365,6 +3366,7 @@ metarating.com.ua,meta-ratings.kz,metaratings.ru,metaratings.*##div[class^="Soci
 metarating.com.ua,meta-ratings.kz,metaratings.ru,metaratings.*##div[class^="Subscribe-module-"]
 proxima.net.ua##nav .text-center .dropdown-toggle
 ixbt.com##nav > .grid > .lg\:inline-flex
+kp.ru##nav > [href^="https://max.ru/"]
 www.ixbt.com##nav div[class^="menu-"] ~ div.hidden
 uznayvse.ru##nav[aria-label="Социальные сети"]
 prichernomorie.com.ua##nobr
@@ -3959,7 +3961,6 @@ ru##[data-ns-portal] div[class^="mobileApps_"]
 ||marker.ru^$third-party
 ||meteofox.com^$third-party
 ||meteonova.ru/flashinformer/
-||meteoprog.ua^$third-party
 ||newportal.com.ua/informer/$domain=~newportal.com.ua
 ||newsfiber.com^$third-party
 ||noteru.com/banner/
@@ -5378,6 +5379,7 @@ ficbook.net##.discount
 anistar.org,astar.bz,online-star.org,online-stars.org##.dle-popup-confirm
 vsetop.org##.dle_b_donat
 processer.media##.dmca-badge
+kp.ru##.dneEin
 pleer.ru##.dobro
 kommersant.ru##.doc_footer__subscribe
 nikopolnews.net##.dodatok
@@ -7092,6 +7094,7 @@ cloud.mail.ru#?#body > #react-modals:-abp-has(> div > [class*="WhatsNewDialog"])
 mail.ru##body > .zeropixel ~ * .balloon
 mail.ru##body > .zeropixel ~ * div .eventbar
 cloud.mail.ru##body > div[id^="cloud-"][class^="index_"]
+cloud.mail.ru##body > div[id^="wsconf-"][class^="index_"]
 ~e.mail.ru,mail.ru,sportmail.ru##body > div[style="top: 8px; left: 120px;"]
 cloud.mail.ru##div[class*="Promo"][class*="Sidebarinfo__root-"]
 cloud.mail.ru##div[class*="Space__root_marketingPromo"] > div[class^="Space__payment"]
