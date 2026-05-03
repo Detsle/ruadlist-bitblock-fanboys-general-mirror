@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: p1WO2yWCpXsEAmAQ5BIGNQ
-! Version: 202605010542
+! Checksum: XjQ2CXCPc5OPHG7AGc3Jew
+! Version: 202605030531
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 01 May 2026 05:42 UTC
+! Last modified: 03 May 2026 05:31 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -2062,6 +2062,7 @@ redheadsound.studio##.side-block.first + .side-block > div[class^="side-block__"
 comx.life#?#.side-block:-abp-has(> .soc-channels)
 psychologies.ru##.side-block_soc-tabs
 gadgetstyle.com.ua#?#.side-blok:-abp-has(.twitter-timeline )
+kniga-online.com##.side-box.tabs-box
 coldfilm.biz#?#.side-box:-abp-has(#vk_groups)
 kinohype.me#?#.side-box:-abp-has(> .side-bc > .vk)
 ng72.ru##.side-right .divider
@@ -2494,7 +2495,7 @@ banki.ua##.telegatestbox
 bfm.ru,business-gazeta.ru,city-n.ru,fakty.ua,frankmedia.ru,gordonua.com,gorodkiev.com.ua,hvylya.net,kinogo.biz,kinoukr.com,meteonova.ru,mi100.info,novostivmire.com,sakhaday.ru,seralityt.online,serialstuts.online,sfera.fm,sport.ua,uaserials.com,uaserials.my,usionline.com,vseseriipodriad.ru,womanhit.ru,zaborona.com,zn.ua##.telegram
 rsload.net,securitylab.ru,spot.uz,uatv.ua##.telegram-block
 anifap.com,anifap.xyz,proglib.io##.telegram-btn
-km.ru##.telegram-button
+km.ru,kniga-online.com##.telegram-button
 informburo.kz##.telegram-card
 online-knigi.com##.telegram-chanel
 1kr.ua##.telegram-chat
@@ -5693,6 +5694,7 @@ mastergrad.com##.master-compitition
 riatomsk.ru##.master-notice
 khl.ru##.mastercard
 sports.ru##.material-list__item[data-control="Common.AnalyticsWatch"]
+fishki.net##.max-button
 baltanews.city,barnews.city,bilopillia.city,bilyayivka.city,chernihiv.city,chortkiv.city,dobronews.city,drohobych.city,energodar.city,fastivnews.city,gylyajpole.city,hadiach.city,haisyn.city,hlukhiv.city,horodok.city,izmacity.com,kagarlyk.city,kalushnews.city,kalynivka.city,kavun.city,kitsman.city,konotop.city,kremenets.city,kuma.city,lozova.city,mltpl.city,netishyn.city,nikopol.city,nizhyn.city,novakahovka.city,novograd.city,nsirogozy.city,oretsk.city,pereiaslav.city,petropavlivka.city,popasnaya.city,primorka.city,rakhiv.city,sarnynews.city,shostkanews.city,skadovsk.city,slavuta.city,starkon.city,susidy.city,svatove.city,thegard.city,tira.city,toretsk.city,troyitske.city,volnovakha.city,volodymyrets.city,yuzhkanews.city,zhmerynka.city,zoloto.city##.mc-yt-link
 nbnews.com.ua##.mc4wp-form
 detector.media##.md_banner_zone
