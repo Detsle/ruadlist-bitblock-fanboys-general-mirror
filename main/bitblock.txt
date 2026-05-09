@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: VvvBSvWzaiLpYn8WRdVCQA
-! Version: 202605070531
+! Checksum: 3oIXSRuRkX2eaOJlffu2Bw
+! Version: 202605090521
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 07 May 2026 05:31 UTC
+! Last modified: 09 May 2026 05:21 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -4946,7 +4946,7 @@ ati.su##.-f-mobile-apps-desktop
 autostat.ru##.Block-subscribe
 meduza.io##.BlockCensorship-module-root
 www.ogorod.ru##.BottomPanel-root
-vk.com##.CatalogBlock__header_promo_banners
+vk.com,vk.ru##.CatalogBlock__header_promo_banners
 kaktus.media##.CompanyArticles
 apteka.ru##.CookieNotify
 forbes.ru##.DnvB1
@@ -7304,6 +7304,7 @@ tv.yandex.ru,tv.yandex.*##.tv-teaser
 ya.ru,yandex.*#?#.dist-overlay__popup
 ya.ru,yandex.*#?#.simple-popup__overlay_shown
 ya.ru,yandex.*#?#.simple-popup__overlay_shown_true
+ya.ru,yandex.ru,yandex.*##.HeaderFormSearchThemesSection
 yandex.ru,yandex.*##.discovery-home-component
 yandex.ru,yandex.*##.map-controls__additional-button a[href^="https://yandex."][style*="-promo-button-"]
 yandex.ru,yandex.*##.map-controls__bottom-extension-slot
@@ -7371,6 +7372,7 @@ mail.yandex.ru,mail.yandex.*##div#js-layout-inner[class^="PageLayout-m__main--"]
 translate.yandex.ru,translate.yandex.*##.side-block > div
 vk.com,vk.ru,vkvideo.ru##vk-video-player div[class^="PauseSuggestionsSlider"]
 ||auto.ru/_crpd/$xmlhttprequest
+||docviewer.yandex.*/*/*/$script,~third-party
 ||dzen.ru/zen-partner/$third-party
 ||kinopoisk-ru.clstorage.net/$subdocument,domain=www.kinopoisk.ru
 ||livejournal.com/*_*_*_*_*_*_*_*_*_$xmlhttprequest
