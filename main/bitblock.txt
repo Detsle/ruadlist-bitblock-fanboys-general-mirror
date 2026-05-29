@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: FmnhOiFgyytpNj2nr9Oi8g
-! Version: 202605270641
+! Checksum: 5AGHBrS2KVOtx4c51kQMxw
+! Version: 202605290631
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 27 May 2026 06:41 UTC
+! Last modified: 29 May 2026 06:31 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1160,7 +1160,7 @@ dnl.com.ua##.fa-twitter-square
 arminfo.info,drupal.ru,it-here.ru,radioradar.net##.fa-vk
 drupal.ru##.fa-youtube
 biathlon.com.ua##.fa_icons
-mobile-review.com,mykyivregion.com.ua,spot.uz,www.eg.ru##.fab
+mobile-review.com,mykyivregion.com.ua,ringside24.com,spot.uz,www.eg.ru##.fab
 gnatkovsky.com.ua##.fab-action-button
 meteonova.ru##.facebook
 dnl.com.ua,dnl.dn.ua,zi.ua##.facebook-area
@@ -2888,7 +2888,7 @@ factorio.su##[id^="vkapi_"]
 amurmedia.ru,angarskmedia.ru,chitamedia.su,chukotkamedia.ru,eaomedia.ru,irkutskmedia.ru,kamchatkamedia.ru,krasnodarmedia.su,krasnoyarskmedia.ru,magadanmedia.ru,nakhodka.media,novostirostov.ru,omskmedia.su,peterburgmedia.ru,priamurmedia.ru,primadonna.media,primamedia.ru,sakhalinmedia.ru,sevastopolmedia.ru,sochimedia.su,stavropol.media,stolicamedia.ru,ulanmedia.ru,ussurmedia.ru,yakutiamedia.ru##[id^=header] a[href^="https://t.me/"]
 kaskad.tv#?#[itemprop="articleBody"] + div .uk-first-column:-abp-has(> a[href^="https://vk.com/"])
 lb.ua##[itemprop="articleBody"] > div[style^="font-weight: bold; text-align: center; text-transform: uppercase; background-color:"]
-nation-news.ru#?#[itemprop="articleBody"] > p:-abp-has(> a[href^="https://t.me/"])
+nation-news.ru,slovoidilo.ua#?#[itemprop="articleBody"] > p:-abp-has(> a[href^="https://t.me/"])
 kommersant.ru#?#[itemprop="articleBody"] > p:-abp-has(> b > a[href^="https://t.me/"])
 vp.donetsk.ua#?#[itemprop="articleBody"] > p:-abp-has(> em a[href^="https://t.me/"])
 expert.ru#?#[itemprop="articleBody"] > p:-abp-has(> i > a[href^="https://t.me/"])
@@ -2974,7 +2974,7 @@ aniu.ru##a[title="Наша группа вконтакте"]
 1kr.ua##a[title^="Instagram"]
 interfax.ru.interfax.ru,sport-interfax.ru##a[title^="Интерфакс в "]
 forbes.ru##a[title^="Подпишитесь на нас"]
-baby.ru,fm-app.ru,tvapp.su,yootv.ru##a[title^="Телеграм"]
+baby.ru##a[title^="Телеграм"]
 360.ru##a[type="button"][style^="--icon-color:"]
 afisha.yandex.ru,afisha.yandex.*##div[data-component="Footer_Socials"]
 allcarz.ru,gazeta.spb.ru,liveball.my,liveball.uno,liveball.*,liveball8.ml,repost.uz,runews24.ru,yarnews.net##.tg
@@ -3052,7 +3052,6 @@ uaprom.info##body > #header
 exzerry.com##body > #links > div[align="center"]
 on.od.ua##body > .clear > a[href^="https://t.me/"]
 players.com.ua#?#body > .ct-section:-abp-has(> div > .ct-div-block > .ct-link[href="https://t.me/playersua"])
-slovoidilo.ua##body > a[href*="://telegram.me/"]
 aniu.ru##body > a[href*="://vk.com/"]
 riamo.ru##body > div > footer > div > div:last-child
 ura.news##body > div > ul + button
@@ -3247,6 +3246,7 @@ work.ua##div[id^="telegramSubscribe"]
 nsn.fm##div[itemprop="datePublished"] ~ [itemprop="author"] ~ div > button
 pleer.ru##div[itemtype="//schema.org/Product"] > #comment ~ .image
 cheezu.ru##div[jello-component="sharer"]
+slovoidilo.ua##div[style*="/home/telegram-"]
 novafilm.tv##div[style*="40px;"]:last-child
 my-calend.ru##div[style="background: #f6f6f6; padding: 12px; margin: 0 0 12px;"]
 newsmsk.com##div[style="height: 120px; width: 240px;"]
@@ -3383,6 +3383,7 @@ artfile.ru#?#noindex:-abp-has(> a[href*="share"])
 euro-football.ru#?#noindex:-abp-has(> center > a[href*="://vk.com/"])
 fontanka.ru#?#noindex:-abp-has(> div > p a[href^="https://t.me/"])
 agrarii-razom.com.ua#?#noindex:-abp-has(> em > a[href*="://t.me/"])
+dynamo.kiev.ua##p > [href^="https://telegram.me/"] > strong
 gamegpu.com##p > a[href^="https://t.me/"] > img[alt*="telegram"]
 gamegpu.com##p > a[href^="https://t.me/"] > span
 appleinsider.ru#?#p > code:-abp-has(> a[href^="https://max.ru/"])
@@ -4227,6 +4228,7 @@ _app_promo$domain=7themes.su|wallscloud.net
 ||androidphone.su/wp-content/themes/ribbon/game$object
 ||api.1plus1.video/*/recommendation_projects/
 ||api.acquisition-gwe.plus.kinopoisk.ru/api/*/offers$xmlhttprequest,domain=www.kinopoisk.ru
+||api.lenta.ru/*/topics/all?limit=10&filter[type]=Topic::News
 ||api.vp.rambler.ru/api/v*/records/byFilter|$xmlhttprequest
 ||apihost.ru/js/function.js|$script,domain=apihost.ru
 ||assets.teinon.net/assets/dist/5112.$domain=ficbook.net
@@ -5719,7 +5721,6 @@ pb.wtf,pirat.one,piratbit.fun,piratbit.org,piratbit.top##.message-box
 animego.online##.message-info
 minfin.com.ua##.mfz-footer--store
 coolhouses.ru##.mini_others_bar
-lenta.ru##.missed-news
 newsru.co.il##.mob
 footballhd.ru##.mob_link_gl
 investing.com##.mobile
@@ -6988,6 +6989,7 @@ www.kinopoisk.ru##div[class*="styles_promoPopover"]
 www.kinopoisk.ru##div[class^="promo"][style^="bottom:"]
 www.kinopoisk.ru##div[class^="styles_contentSlot_"] [class*="style_buttonPlus"]
 www.kinopoisk.ru##div[class^="styles_header"] > div[class^="styles_root"] > div[class^="styles_progress"]
+www.kinopoisk.ru##div[class^="styles_header_"] div[data-tid="ab7930e0"]
 www.kinopoisk.ru##div[class^="styles_main"] div[class^="styles_header"] > div[class*=" styles_withPosters_"]
 www.kinopoisk.ru##div[class^="styles_onlineCaption"]
 www.kinopoisk.ru##div[class^="styles_overlaySlot"] > span > a[href*="/watch/"]
@@ -6997,6 +6999,7 @@ www.kinopoisk.ru##div[class^="styles_posterWrapper"] > [class^="styles_overlaySl
 www.kinopoisk.ru##div[class^="styles_posterWrapper"] > [class^="styles_overlaySlot"] > span[class^="styles_nameplate"]
 www.kinopoisk.ru##div[class^="styles_root__"] > div[style^="min-width:"] ~ div[class^="styles_blockClassName"]
 www.kinopoisk.ru##div[class^="styles_sidebarContainer"] a[href^="https://www.kinopoisk.ru/special/"]
+www.kinopoisk.ru##div[class^="styles_streamingShowcaseBlock_"]
 www.kinopoisk.ru##div[class^="styles_watchOnlineBlock"] > div:not([class])
 www.kinopoisk.ru##div[class^="styles_watchOnlineBlock"] > div[class=""]
 www.kinopoisk.ru##div[class^="styles_watchOnlineBlock"] > div[class^="styles_subscription"]
@@ -7313,7 +7316,7 @@ market.yandex.ru,market.yandex.*##div[data-zone-name="promoSection"]
 market.yandex.ru,market.yandex.*##div[data-zone-name="vendorProductLinePromo"]
 market.yandex.ru,market.yandex.*##div[id$="recommendationRoll"]
 market.yandex.ru,market.yandex.*#?#.SerpLayout > [id*="serpLayout"]:-abp-has(> [data-apiary-widget-name] > [data-zone-name="madvIncut"])
-meteum.ai,yandex.ru,yandex.*##div[class^="AppPromo"][class*="_container_"]
+meteum.ai,yandex.ru,yandex.*##div[class*="AppPromo"][class*="_container_"]
 meteum.ai,yandex.ru,yandex.*##footer > [class^="AppFooterLinks_links_"] > div:last-child
 metrika.yandex.ru,metrika.yandex.*##body > .metrika-app
 taxi.yandex.ru,taxi.yandex.*##.BannerGo__wrap
@@ -7381,6 +7384,7 @@ dzen.ru##div[class*="column_myTarget"]
 e.mail.ru,octavius.mail.ru##div[class*="layout"] .letter-list-item-adv
 www.kinopoisk.ru#?#div[class][style][id]:-abp-has(> iframe[src*="kinopoisk-ru.clstorage.net/"])
 dzen.ru##div[class^="article-"][class*="-placeholder__root"]
+www.kinopoisk.ru##div[class^="styles_pending_"][class*=" styles_height250_"]
 mail.ru##div[class^="tg"][class*="-wrapper "]
 www.kinopoisk.ru##div[class^="toaster-container"]
 mail.ru##div[id^="mailru"]
