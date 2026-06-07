@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: CQmNxbkPfxiwpvBkfutRBg
-! Version: 202606050641
+! Checksum: 33Xi6VPO1eHDj4whLwcL8g
+! Version: 202606070641
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 05 Jun 2026 06:41 UTC
+! Last modified: 07 Jun 2026 06:41 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -19774,7 +19774,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.scroll-up-button-wrapper
 ##.scroll-up-cta
 ##.scroll2top
-##.scrollToTop
+##.scrollToTop:not(.dropdown-content-wrapper)
 ##.scrollToTopBtn
 ##.scrollToTopButton
 ##.scrollToTopLink
@@ -20399,7 +20399,6 @@ skadden.com#@#.back-to-top:not(body):not(html)
 realme.com#@#.btn-back-to-top
 skadden.com#@#.js-back-to-top
 midori-japan.co.jp#@#.js-scroll-top:not(html):not(body)
-sagepub.com#@#.scrollToTop
 skadden.com#@#a[href="#back-to-top"]
 ! *** easylist:fanboy-addon/fanboy_annoyance_allowlist.txt ***
 ! fanboy_annoyance_allowlist.txt
