@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 33Xi6VPO1eHDj4whLwcL8g
-! Version: 202606070641
+! Checksum: HhTCnHFkGGWDFSnl67F0WQ
+! Version: 202606090621
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 07 Jun 2026 06:41 UTC
+! Last modified: 09 Jun 2026 06:21 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -910,6 +910,7 @@ liveresult.ru#?#.bg-light:-abp-has(.icon-favorite-on)
 kosht.media##.bg-mint
 woman.ua##.bl-share
 ruwest.ru##.blk-socials
+habinfo.ru##.block-external
 avtoradio.ru##.block-menu-snet > .icon-set
 autosport.com.ru,lgoty-vsem.ru,tehnikoved.ru##.block-share
 censor.net##.block-share-link
@@ -1517,6 +1518,7 @@ uaserial.com##.js-tiktok
 kurs.if.ua##.js_post-content > .has-text-align-center
 aniliberty.top,anilibria.top##.justify-md-end > a.v-btn[target="_blank"]
 jut-su.net##.jutsu-page__share
+habinfo.ru##.k-box-share
 cinema-24.tv##.kikadz
 km.ru##.km-shares
 igromania.ru#?#.knb-footer-links:-abp-has([target="_blank"])
@@ -1764,7 +1766,7 @@ depo.ua#?#.openPost-more:-abp-has(> p > a[href*="facebook.com"])
 depo.ua##.openPost-social
 politikus.ru##.order-first .nav-link
 kulturologia.ru##.other-channel
-moe-belgorod.ru,moe-kursk.ru,moe-lipetsk.ru,moe-online.ru,moe-tambov.ru,prokuzbass.ru##.other-channels
+habinfo.ru,moe-belgorod.ru,moe-kursk.ru,moe-lipetsk.ru,moe-online.ru,moe-tambov.ru,prokuzbass.ru##.other-channels
 2day.kh.ua##.our-soc-network
 cvnews.cv.ua,ifnews.org.ua,lvnews.org.ua,rvnews.rv.ua,tenews.org.ua,uanews.org.ua##.our-social-box-show
 traveller-eu.ru##.our_groups
@@ -2317,6 +2319,7 @@ nevnov.ru##.social1
 ogolosha.ua##.socialAbuse-box .h3__heading
 obozrevatel.com##.socialBlockSubscribe
 newkaliningrad.ru##.socialComments
+todaykhv.ru##.socialGrpoupWrap
 forbes.kz##.socialLink__block
 founder.ua##.socialNetworks-2
 kuban24.tv##.socialShareNew
@@ -2434,6 +2437,8 @@ pikabu.ru##.story-block_type_text > p > a[href^="https://t.me/"]
 newsvl.ru##.story__outside-comments-link
 autosaratov.ru##.story__rating-share
 pikabu.ru##.story__share
+dvnovosti.ru##.story__telegram-link
+dvnovosti.ru##.story__vk-link
 cikavosti.com##.stream-item-above-post-content
 zn.ua##.stream-page-show > .blue_stream
 utorrentfilmi.fun,utorrentfilmi.ru,utorrentmusic.ru#?#.string:-abp-has(> .ya-share2)
@@ -2850,6 +2855,8 @@ sheensay.ru##[data-pr^="Поделиться"]
 yoomoney.ru##[data-qa="social-icons"]
 livejournal.com##[data-rd-type="rd-post-view-social"]
 ozon.ru##[data-replace-layout-path] > [data-replace-layout-path]:first-child ~ div:last-child > div:only-child > button.undefined
+smi2.ru##[data-sentry-component="MaxWidget"]
+smi2.ru##[data-sentry-component="SocialBlock"]
 dfm.ru,hitfm.ru,maximum.ru,montecarlo.ru,rusradio.ru##[data-sentry-element="ShareImage"]
 tsn.ua##[data-share-container]
 mediazona.ca,zona.media##[data-share-id]
@@ -2866,6 +2873,7 @@ kp.kg,kp.kz,kp.ru,md.kp.media##[data-test-id="Menu_MenuSocials"]
 adme.media##[data-test-id="join-us"]
 banki.ru##[data-test="flexbox"] > div[data-test="tooltip"]:nth-child(2)
 fontanka.ru##[data-test="report-news"] > div > div > ul
+smi2.ru##[data-testid*="share-btn"]
 sportsdzen.ru##[data-testid="share-button"]
 eurosport.ru##[data-testid="share-icons"]
 maanimo.com##[data-text-after="Мы в социальных сетях"]
@@ -2991,6 +2999,7 @@ www.ukr.net##article > .im > .im-tl-bk:first-child[style]
 anidubpro.ru,anilibriadub.ru,animesvosts.ru,anistarfan.ru,softbox.life,studiobandoz.ru,yummybest.ru##article > .page__player ~ center a
 newstula.ru##article > .post-content + div[style^="border:"]
 gta-gaming.ru#?#article > .publMain:-abp-has(.ya-share2)
+khabara.ru##article > .short2
 coop-land.ru##article > .social ~ .center
 coop-land.ru##article > .social ~ .text-center
 coop-land.ru##article > .social ~ center
@@ -6388,6 +6397,7 @@ ozon.ru#?#[data-replace-layout-path] > [data-widget="container"] > [data-widget=
 mail.google.com##[data-rp-onramp-input]
 anilib.me,animelib.org,hentailib.me,hentailib.org,mangalib.me,mangalib.org,ranobelib.me,shlib.life,yaoilib.net##[data-scroll-content] > a[href="https://app.lib.social/app2.html"]
 fosshub.com##[data-section-content-type="donate"]
+smi2.ru##[data-sentry-component="Upload"]
 remanga.org##[data-sentry-source-file="reader-ad.tsx"]
 trychatgpt.ru##[data-sidebar="footer"]
 ictvukraine.tv,obozrevatel.com,zahid-sad.com##[data-storage-item*="cookiename_"]
@@ -7990,6 +8000,8 @@ prom.ua#@#img[alt="facebook"]
 ##.ntfc_overlay
 ##.ntfc_popup
 ##.oi-notify
+##.onesignal-customlink-container
+##.onesignal-slidedown-container
 ##.page__notifications
 ##.perfecty-push-dialog-container
 ##.pnfpb-push-subscribe-icon
@@ -19148,8 +19160,6 @@ _backToTop.
 ##.ntfc_overlay
 ##.ntfc_popup
 ##.onesignal-bell-container
-##.onesignal-customlink-container
-##.onesignal-slidedown-container
 ##.partage_reseaux_sociaux
 ##.pin-it-btn-wrapper
 ##.plista-suggestions
@@ -19955,6 +19965,8 @@ dashboard.razorpay.com#@##credential_picker_container
 ||cdn.to2.net/sdk/$third-party
 ||celebjihad.com^$third-party
 ||civicscience.com/widget/jspoll/$third-party
+||config.config-factory.com^
+||config.content-settings.com^
 ||connect.ekomi.de^$third-party
 ||contentexchange.me^$third-party
 ||contextly.com^$third-party
