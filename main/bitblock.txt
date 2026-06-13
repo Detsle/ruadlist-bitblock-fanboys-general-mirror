@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 8H2Gj5TfsWNLDbDIUkbjbw
-! Version: 202606110712
+! Checksum: bIQvWlTXmCTbhBUL7IK3Jg
+! Version: 202606130621
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 11 Jun 2026 07:12 UTC
+! Last modified: 13 Jun 2026 06:21 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -848,6 +848,7 @@ sibdepo.ru##.b-icons-social
 m24.ru##.b-material-share-block
 m24.ru##.b-matierial__tg
 sud.ua##.b-menu-links
+sport-express.net,sport-express.ru##.b-menuTabs_social
 primpress.ru##.b-navbar-header2__icons-bg > a[href][target="_blank"]
 crowdrepublic.ru##.b-nets_share
 podrobnosti.ua##.b-news-share
@@ -1291,6 +1292,7 @@ onlinetrade.ru##.footer__linksline__smo
 praca.by#?#.footer__menu > .menu__items:-abp-has(> .social-networks-portal)
 vtimes.io#?#.footer__menu > ul > li:-abp-has(> ul > li > .share-icons)
 career.habr.com##.footer__section--social
+rayon.in.ua##.footer__soc-list
 epravda.com.ua##.footer__social
 mydiv.net##.footer__social-buttons
 nezavisim.tv##.footer__social-icons
@@ -1522,6 +1524,7 @@ habinfo.ru##.k-box-share
 cinema-24.tv##.kikadz
 km.ru##.km-shares
 igromania.ru#?#.knb-footer-links:-abp-has([target="_blank"])
+euro-football.ru##.last-news-widget__item > a[rel="nofollow"] > img
 nim.ru##.last.one_fourth
 forum.finance.ua#?#.lastnewszag:-abp-has([href*="facebook.com"])
 eadaily.com##.latest-block > .side-announcement
@@ -1712,6 +1715,7 @@ novafilm.tv##.news-entry > div:last-child
 aum.news##.news-footer-default
 penzainform.ru##.news-foother
 media.az##.news-inner__follow
+galka.if.ua##.news-links-social
 anistar.org,astar.bz,online-star.org,online-stars.org##.news-list-vk
 armyinform.com.ua##.news-section_items > li.link[style*="background:"]
 mirf.ru##.news-share-btn
@@ -1724,7 +1728,7 @@ svoboda.te.ua##.newsSingle-soc
 inoprosport.ru##.news__block_social_wrap
 relax-fm.ru##.news__socials
 cursorinfo.co.il##.news_comment_teleg_facebook
-trueua.info##.news_feed-telegram
+trueua.info##.news_feed-social
 tulapressa.ru##.news_image_social
 crimea-news.com##.news_info > .tags
 chas.cv.ua##.news_portal_social_media
@@ -2017,6 +2021,7 @@ agrarii-razom.com.ua##.share-social__wrapper
 metronews.ru##.share-tools-top
 fc-zenit.ru##.share-tooltip
 informator.ua##.share-trigger
+akzent.zp.ua##.share-trigger-wrapper
 biqle.org,biqle.ru##.share42init_wrapper
 voennoedelo.com##.shareBtnsContainer
 embed.rg.ru##.shareContent
@@ -2292,7 +2297,6 @@ newsbryansk.ru##.social-network-block
 rbc.ru##.social-networks
 lux.fm##.social-networks-block-wrapper
 lostfilm.download,lostfilm.life,lostfilm.one,lostfilm.pro,lostfilm.space,lostfilm.today,lostfilm.tv,lostfilm.tw,lostfilm.uno,lostfilm.win,lostfilmtv.site,lostfilmtv.uno,lostfilmtv2.site,lostfilmtv3.site,lostfilmtv5.site##.social-pane
-rayon.in.ua##.social-publicationbody
 5.ua##.social-share
 lumpics.ru##.social-share-category
 fraza.com##.social-share-p-wrapper
@@ -2325,6 +2329,7 @@ founder.ua##.socialNetworks-2
 kuban24.tv##.socialShareNew
 24molnia.com,4eva.ru,darada.co,herbeauty.co,prozoro.net.ua,radarmedia.net##.socialWidgetButton
 sports.kz##.social_ a[title^="SPORTS.KZ"]
+ua-football.com##.social__buttons
 relax-fm.ru##.social__tab
 kinoafisha.ua##.social__tabs
 vm.ru##.social_article
@@ -3798,12 +3803,12 @@ ru##[data-ns-portal] div[class^="mobileApps_"]
 ##[href*="gismeteo.ua"] ~ .gsInformer
 ~getpocket.com##a[href*="//getpocket.com/edit?"]
 ~prytulafoundation.org##a[href*="://prytulafoundation.org/"] > img
-~google.com##a[href*="google.com/preferences/source?q="][class][target="_blank"]
+~google.com##a[href*="google.com/preferences/source?"][class][target="_blank"]
 ~whatsapp.com##a[href^="https://api.whatsapp.com/send?text="]
 ~bank.gov.ua##a[href^="https://bank.gov.ua/"][href*="-arm"][style*="background-image:"]
 ~bank.gov.ua##a[href^="https://bank.gov.ua/"][href*="na-potrebi-armiyi"] > img
 ~bank.gov.ua##a[href^="https://bank.gov.ua/"][href*="na-potrebi-armiyi"][style*="stop"]
-~google.com##a[href^="https://profile.google.com/"][class][target="_blank"]
+~google.com##a[href^="https://profile.google.com/"][target="_blank"]
 ~whatsapp.com##a[href^="whatsapp://send"]
 ##app-cookie-consent-popup
 ##body #cookie-policy
@@ -5542,6 +5547,7 @@ iz.ru##.get_news_link
 itorrents-igruha.net,itorrents-igruha.org##.global-container > .content-right-column > div[style^="display:"]
 armeniasputnik.am,sputnik-abkhazia.info,sputnik-abkhazia.ru,sputnik-georgia.com,sputnik-georgia.ru,sputnik-news.ee,sputnik-ossetia.com,sputnik-ossetia.ru,sputnik-tj.com,sputnik.az,sputnik.by,sputnik.kg,sputnik.kz,sputnik.md,sputniknews-uz.com,sputniknews.cn,sputniknews.com,sputniknews.gr##.global-fade
 1kr.ua##.global-support
+ua-football.com##.gn-subscribe-wrapper
 facenews.ua##.gnews
 fast-fiml.ru,fast-torrent.club,fast-torrent.ru,fast-torrent.su,filmpotok.ru,kinomuch.ru,nebeda.net,pickfilm.ru,veleto.ru,vixim.ru##.go_to_bug
 24tv.ua,comments.ua,enovosty.com,expert.in.ua,kyiv.media,proshokino.com.ua##.google-news
@@ -5550,6 +5556,7 @@ bigkyiv.com.ua,bykvu.com##.google-news-block
 24tv.ua##.google-news-link
 49000.com.ua##.google-news-section
 belretail.by##.google-play
+ukranews.com##.google-preferred
 pravda.com.ua##.google_banner
 site.ua##.grid > .news-hover ~ div:not(.news-hover)
 gamebomb.ru##.grid-100p-301-rc > .container[style^="background-color"]
@@ -5573,6 +5580,7 @@ hi-tech.ua##.header-login
 meestposhta.com.ua##.header-promo
 officelife.media##.header-top__subs
 stopcor.org##.headerMobileMenu_donate
+rayon.in.ua##.headerTop__nav-support
 dtf.ru,vc.ru##.header__app
 finbalance.com.ua##.header__bottom > .app
 andro-news.com##.header__buy
@@ -5794,6 +5802,7 @@ lifehacker.ru##.newsletter-subscription-form
 s-info.ru##.newsletter-widget
 3dnews.ru##.newybtn
 serveradmin.ru##.njt-nofi-container-content
+rayon.in.ua##.no-ads > .banner
 ranobe-novels.ru##.no-ads-link
 web.skype.com##.noFocusOutline > div > div > div > div > div > div > div[style="position: relative; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: stretch; align-self: stretch; background-color: rgba(241, 241, 244, 0.5); border-color: rgb(255, 255, 255); border-width: 2px; border-style: solid;"]
 seeyoupage.ru##.no_ampr
@@ -5981,7 +5990,6 @@ iz.ru##.recommendation-block-header
 championat.com,championat.ru##.recommender-block
 c-s.net.ua##.reg_mess_bg
 usba.com.ua##.region-footer > [id^="block-nasikontakti"] > .field > p ~ *
-rayon.in.ua##.region-header__form
 spr.ru##.reklamalink
 eurosport.ru##.related-content-story
 forum.ixbt.com##.reply_premium
