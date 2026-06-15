@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: bIQvWlTXmCTbhBUL7IK3Jg
-! Version: 202606130621
+! Checksum: bbvbWbLyxN+D/tqyyHuUNQ
+! Version: 202606150821
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 13 Jun 2026 06:21 UTC
+! Last modified: 15 Jun 2026 08:21 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -106,6 +106,7 @@ _vkontakte.png
 ##.embed-button-share
 ##.episode_likes
 ##.f-soc
+##.fa-share-alt
 ##.facebook
 ##.fb-like-block
 ##.fb_iframe_widget:not(.fb-post):not(.fb-video)
@@ -1148,13 +1149,13 @@ sports.kz##.f-social-div
 superjob.ru##.f-test-button-share
 superjob.ru##.f-test-option-Podelitsya
 makler.md##.fFoc
+playua.net##.f_about__socials
 allfight.ru##.f_social
 littleone.com##.f_socico
 arminfo.info,che.cn.ua,dnl.dn.ua,it-here.ru,nnovosti.info##.fa-facebook
 dnl.com.ua##.fa-facebook-square
 dnl.dn.ua##.fa-instagram
 arminfo.info##.fa-pinterest
-agronews.ua##.fa-share-alt
 kinoblin.ru,kulturologia.ru,serialai.ru##.fa-share-nodes
 animaunt.org,it-here.ru##.fa-telegram
 arminfo.info##.fa-twitter
@@ -1374,6 +1375,7 @@ buhgalter.com.ua,buhgalter911.com##.groups-item-telegram
 medialeaks.ru##.gshare__list
 rbclifemedia.ru#?#.gutter-b:-abp-has(> .social-sharing)
 free-kassa.ru##.h-soc
+playua.net##.h-social
 gagadget.com#?#.h2:-abp-has(> small:-abp-contains(/Поделиться|Розпов/))
 vse42.ru#?#.h3:-abp-contains(Мы в соцсетях)
 topcor.org##.h3fb-comments
@@ -1464,6 +1466,7 @@ konkurent.ua##.ico_share
 kurs.if.ua##.icon-like::before
 animedia.tv##.icon-menu-share
 livelib.ru,mymsk.online##.icon-share
+playua.net##.icon-share-b
 ilenta.com##.icon-social
 byxatab.com##.icon-telegram-plane
 byxatab.com##.icon-vk
@@ -2237,7 +2240,6 @@ radioromantika.ru##.social-block__container
 mc.today##.social-blue
 edabez.ru,nsn.net.ua##.social-bottom
 eadaily.com,toneto.net,zn.ua##.social-box
-ukrlib.com.ua##.social-box-item
 ficbook.net,keenetic.ru,patrol.police.gov.ua,speka.ua##.social-btn
 nikopolnews.net,unian.info,unian.net,unian.ua##.social-btn-bottom
 gismeteo.ru##.social-btns-wrapper
@@ -2261,7 +2263,7 @@ smotrim.ru##.social-groups
 zi.ua##.social-header-icos
 4eva.ru,darada.co##.social-header-wrap
 bragazeta.ru,hronikers.com##.social-icon
-2ip.ua,365days.ru,4pda.to,autosport.com.ru,broadcast.net.ua,cheline.com.ua,dorognoe.ru,fight.ru,footballtransfer.com.ua,inforesist.org,keenetic.ru,kravira.by,kuhnyatv.ru,mac.org.ua,mymusictv.ru,regnum.news,regnum.ru,rivnenews.com.ua,serveradmin.ru,spbit.ru,study.ru,sumy.ua,tvhdl.ru,vechirniy.kyiv.ua##.social-icons
+2ip.ua,365days.ru,4pda.to,autosport.com.ru,broadcast.net.ua,cheline.com.ua,dorognoe.ru,fight.ru,footballtransfer.com.ua,inforesist.org,keenetic.ru,kravira.by,kuhnyatv.ru,mac.org.ua,mymusictv.ru,regnum.ru,rivnenews.com.ua,serveradmin.ru,spbit.ru,study.ru,sumy.ua,tvhdl.ru,vechirniy.kyiv.ua##.social-icons
 deita.ru##.social-icons-bar > a
 sports.ru##.social-icons-big.likes
 1news.com.ua,d1.ua,flightsim.su,newxboxone.ru##.social-icons-item
@@ -3219,6 +3221,7 @@ iz.ru##div[class^="share_bottom"]
 78.ru##div[class^="sharing-row_container_"]
 glavagronom.ru##div[class^="socIcons"]
 buzulukday.ru,cybersport.ru,nsday.ru,orenday.ru,perevolockday.ru,saltday.ru,sorochinskday.ru##div[class^="social"]
+ukrlib.com.ua##div[class^="social-box-item"]
 hightech.plus##div[class^="social-buttons"]
 lipetsknews.ru,myliski.ru,newskrasnodar.ru,newtambov.ru,pg02.ru,pg11.ru,pg12.ru,pg13.ru,pg21.ru,pg37.ru,pg46.ru,pgn21.ru,pgr76.ru,prochepetsk.ru,prodzer.ru,progorod33.ru,progorod43.ru,progorod58.ru,progorod76.ru,progorodnn.ru,progoroduhta.ru,prosaratov.ru,usolie.info,vladivostoktimes.ru,youtvnews.com##div[class^="social-list-subscribe"]
 sovsport.ru##div[class^="social-media-buttons-module"]
@@ -5353,7 +5356,6 @@ t2.ru##.cookies-confirmation-popover
 sipnet.net##.cookies-message-panel
 online-samsung.ru##.cookies-message-wrap
 poltava.ua##.cookies-notice
-regnum.news,regnum.ru##.cookies-notice-container
 2ip.io,2ip.ru##.cookies-notification
 3ona51.com##.cookiesAccept
 rt.com##.cookies__banner
@@ -5702,6 +5704,7 @@ peterburg2.ru##.main-announce > img[src*="/subscribe."] ~ div
 cont.ws##.main-click-banner
 levik.blog,livejournal.com,olegmakarenko.ru,periskop.su,shakko.ru,shiro-kino.ru,vadimrazumov.ru##.main-footer__apps
 sports.ru##.main-footer__top-position
+playua.net##.main-nav__top-menu a[href="https://playua.net/dopomogty-proektu/"]
 myfin.by##.main-nav_sub-link--app
 playground.ru##.main-navigation > li > .spec-link > img
 inoriginal.net##.main-sub-slider
@@ -5900,6 +5903,7 @@ noteru.com##.popup_subscribe
 sinara.ru##.popups-cookies
 aniliberty.top,anilibria.top##.position-relative[style^="min-height:"] > .v-row
 yellosoft-club.ru##.positpred
+playua.net##.post-bmac
 livejournal.com##.post-card--selfpromo
 lifehacker.ru##.post-collection__container
 vokrug.tv##.post-detail-content > .read-more__block
@@ -6187,7 +6191,7 @@ meta.ua##.subscriptions
 playmaker24.ru##.subscrite-widget-wrap
 recept.ua##.subsribe
 mk.ru##.suggest_push
-pimpletv.ru,tribun.com.ua##.support
+pimpletv.ru,tribun.com.ua,ukrlib.com.ua##.support
 tribun.com.ua##.support-button-wrapper
 glavred.info,glavred.net##.support-gl-btn
 noob-club.ru##.support-nc
@@ -6340,6 +6344,7 @@ kaifolog.ru##.yandexh,.yandexh + .atextbox
 yesasia.ru##.yesasia_subscribe
 bfm.ru##.youtube
 liga.net##.youtube-block
+ukrlib.com.ua##.youtuber
 livesport.ru##.zz_cars_twin
 0calc.es,0calc.fr,0calc.in,0calc.ru,0rechner.de,nu.nl,web2.0calc.com,web2.0calc.ru##[action="/cookieconsent"]
 mbclub.ru##[alt="Клубный сервис"]
