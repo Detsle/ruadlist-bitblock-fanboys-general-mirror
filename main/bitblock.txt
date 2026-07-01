@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: wNms2HvnjhlohkNuKkR8Jg
-! Version: 202606290702
+! Checksum: NFpMGhqTQhsyIgpYQ9X/CQ
+! Version: 202607010651
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 29 Jun 2026 07:02 UTC
+! Last modified: 01 Jul 2026 06:51 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1113,7 +1113,6 @@ sports.ru##.document-share-button
 doramy.club##.doramvk
 newformat.info##.dpsp-share-text
 2x2.su##.dropdown
-ag.ru##.dropdown_sharing
 starhit.ru##.ds-footer__social-icons
 libertycity.net,libertycity.ru##.dsc
 khl.ru##.e-header_social
@@ -1358,7 +1357,6 @@ anidub.vip,anidubonline.com##.fwidget.counter
 uazmi.org##.fx-grid-subscribe
 agronomy.com.ua##.g-social
 368.media##.g-telegram
-ag.ru##.game-social-links
 fullsee.site##.gf-social-buttons
 ligazakon.net##.globalsinglepage_body_share
 ligazakon.net##.globalsinglepage_socials
@@ -5585,6 +5583,7 @@ radojuva.com.ua##.header-image-container
 besplatnyeprogrammy.net##.header-inner > .pull-right
 hi-tech.ua##.header-login
 meestposhta.com.ua##.header-promo
+hdrezka.pl##.header-subscr-btn
 officelife.media##.header-top__subs
 stopcor.org##.headerMobileMenu_donate
 rayon.in.ua##.headerTop__nav-support
@@ -6659,7 +6658,6 @@ rskrf.ru##div[class*="subscribeBlock"]
 gdekluet.ru##div[class*="ui-widget"]
 mashina.kg##div[class="download-app-header top-header"]
 bazar.kg,house.kg##div[class="footer-cont footer-top"]
-ag.ru##div[class="header__main-coin"]
 urologypro.ru##div[class="su-eb visible"]
 kp.kg,kp.kz,kp.ru,md.kp.media#?#div[class]:-abp-has(> div[class] > div[class] > input[type="email"])
 delfi.ee##div[class^="C-modal"]
@@ -7498,6 +7496,7 @@ market.yandex.*##div[data-zone-name="morda_context"] > div > div:nth-child(-n+2)
 vk.*##body.anonym > #box_layer_bg:style(display: none !important)
 vk.*##body.anonym > #box_layer_wrap.scroll_fix_wrap:has(> #box_layer [aria-modal="true"][role="dialog"] .vkuiButton__in):style(display: none !important)
 vk.*##body.anonym[style*="overflow:"]:style(overflow-y: auto !important)
+www.kinopoisk.*##a[href^="https://books.yandex.ru/"][href*="=selfpromo_bookmate"]:style(pointer-events: none !important)
 www.kinopoisk.*##div[class^="styles_sidebarContainer_"] > div[style^="position: sticky; top:"]:style(top: 0 !important)
 www.kinopoisk.*##header[style*="--header-height:"][style*="px"] > .header-navigation:style(margin-top: 0 !important)
 www.kinopoisk.*##header[style*="--header-height:"][style*="px"] > div > img:style(display: none !important)
