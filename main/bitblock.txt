@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: EVllecUEwvL2yBBsgwdRZw
-! Version: 202607030602
+! Checksum: gXfoKPXETY/LcW734F5/oQ
+! Version: 202607050612
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 03 Jul 2026 06:02 UTC
+! Last modified: 05 Jul 2026 06:12 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -253,6 +253,7 @@ com,ru,ua##[data-rambler-share]
 ~vk.com##a[href^="https://vk.com/share.php"]
 ~vk.ru##a[href^="https://vk.ru/share.php"]
 ~vk.com##a[href^="https://vkontakte.ru/share.php"]
+##a[href^="https://x.com/intent/post?"]
 ##a[href^="https://x.com/intent/tweet/?"]
 ##a[href^="https://x.com/intent/tweet?"]
 ~twitter.com,~x.com##a[href^="https://x.com/share"]
@@ -1848,7 +1849,7 @@ informator.ua##.post__author-social
 mi100.info##.post__bot
 pravda.com.ua#?#.post__comments:-abp-has(> .fb-comments)
 odessa.online##.post__footer-share
-eurointegration.com.ua,istpravda.com.ua,odessa.online,pravda.com.ua##.post__social
+businessua.com,eurointegration.com.ua,istpravda.com.ua,odessa.online,pravda.com.ua##.post__social
 epravda.com.ua,eurointegration.com.ua##.post__social__item
 epravda.com.ua,eurointegration.com.ua,pravda.com.ua##.post__statistic > .post__comments
 eurointegration.com.ua##.post__subscribe_bottom
@@ -2602,7 +2603,7 @@ mybryansk.ru##.topLine
 russian7.ru##.topSoc
 eurointegration.com.ua##.top__social__item
 bugaga.ru##.top_links > .rss > a[href^="http"]:not([href*="//bugaga.ru"])
-sportanalytic.com##.top_options
+businessua.com,sportanalytic.com##.top_options
 kp40.ru##.top_social_links
 allboxing.ru##.top_social_links > li:not(.auth-profile)
 ixbt.com##.topic-footer-panel-soc
@@ -3032,7 +3033,6 @@ yummy-ani.me,yummy-anime.ru,yummyani.me##aside .ban_ner
 sichnews.ua##aside .is-layout-flow > h2:first-child
 kriminal.net.ua#?#aside .widget:-abp-has(> .body > .widget_html_block > [src*="facebook"])
 yummy-ani.me,yummy-anime.ru,yummyani.me##aside > #recommends
-businessua.com##aside > #vedomosti_block ~ #vedomosti_block
 fakty.com.ua##aside > .aside-title:first-child
 winitpro.ru##aside > .block-search
 motogon.ru##aside > .block:nth-child(2)
@@ -3393,7 +3393,6 @@ ixbt.market#?#nav a:-abp-has([id^="icon/social/"])
 www.ixbt.com##nav div[class^="menu-"] ~ div.hidden
 uznayvse.ru##nav[aria-label="Социальные сети"]
 prichernomorie.com.ua##nobr
-businessua.com##noindex > .g-icon
 bin.ua##noindex > a[onclick*="_in_text"]
 artfile.ru#?#noindex:-abp-has(> a[href*="share"])
 euro-football.ru#?#noindex:-abp-has(> center > a[href*="://vk.com/"])
@@ -5128,7 +5127,6 @@ lifeha.ru##.b-attention
 takiedela.ru##.b-banner-help
 buhgalter911.com##.b-calendar__gp
 primpress.ru##.b-channels
-businessua.com##.b-commentswrapper
 m24.ru##.b-cookies-window
 sputnik.ru##.b-cover__box > .b-panel
 bigmir.net##.b-disclaimer
@@ -6616,7 +6614,6 @@ diets.ru,gameguru.ru,kulina.ru,wotsite.net##body > noindex
 mobiset.ru##body > noindex > #clickDiv
 forum.ru-board.com##body > p[align="center"]
 pb.wtf,pirat.one,piratbit.fun,piratbit.org,piratbit.top##body > span[style*="background"]
-vk.com##body.anonym div[class^="vkitTwoColumnLayoutNarrow__root"] > div > section:has(.vkuiHorizontalCell__host)
 instagram.com#?#body[style="overflow: hidden;"] > #react-root ~ div[class*=" "][class$=" "][role="presentation"]:-abp-has(div:-abp-contains(Войдите, чтобы продолжить))
 kak-prosto.net##br + br
 kp.ru##button[data-background-color="blue"][data-is-small-on-mobile]
@@ -6750,7 +6747,6 @@ parlament.ua##div[class^="subscribe-text-block"]
 okko.tv##div[class^="toast-list_containerDown"]
 avito.ru##div[class^="top-banner-root-"]
 userstyles.org#?#div[class^="us-stylecard--"]:-abp-has(> .fallbackDiv)
-vk.com##div[class^="vkitFooterBanner"]
 bibliofond.ru##div[class^="widget-promo"]
 shotam.info##div[class^="wp-block-ugb-"],div[class^="wp-block-ugb-"] + div
 t-j.ru##div[data-analytics="banner"]
@@ -6797,6 +6793,7 @@ livejournal.com##div[lj-widget-promo]
 livejournal.com##div[ng-if="popupCtrl.shouldShow"]
 silver.ru##div[role="alert"]
 mail.google.com##div[role="banner"][aria-labelledby]
+vk.com,vk.ru##div[role="feed"] > article > div:not([data-post-id]) > section
 avtorambler.com,rambler.ru#?#div[style*="300px"]:-abp-has(> div > [data-quiz-id])
 muz.ru##div[style*="400px;"][style$="240px;"]
 sil.media##div[style*="max-width"][style*="728px"][style*="height:"]
@@ -7126,6 +7123,7 @@ mail.ru##body > .zeropixel ~ * div .eventbar
 cloud.mail.ru##body > div[id^="cloud-"][class^="index_"]
 cloud.mail.ru##body > div[id^="wsconf-"][class^="index_"]
 ~e.mail.ru,mail.ru,sportmail.ru##body > div[style="top: 8px; left: 120px;"]
+sportmail.ru##div[article-item-type="conversionlink"]
 cloud.mail.ru##div[class*="Promo"][class*="Sidebarinfo__root-"]
 cloud.mail.ru##div[class*="Space__root_marketingPromo"] > div[class^="Space__payment"]
 cloud.mail.ru##div[class*="Space__root_marketingPromo"] div[class^="Space__subscriptions"]
