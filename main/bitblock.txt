@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: gXfoKPXETY/LcW734F5/oQ
-! Version: 202607050612
+! Checksum: pGtMQe7exCae56G3WiEFLQ
+! Version: 202607070622
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 05 Jul 2026 06:12 UTC
+! Last modified: 07 Jul 2026 06:22 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -786,6 +786,7 @@ vokrug.tv##.article__buttons
 pravda-nn.ru##.article__channel-description
 dev.ua,devby.io#?#.article__container > p:-abp-has(> a[href^="https://t.me/"])
 gismeteo.ru##.article__ctrls
+euro-football.ru##.article__footer-links
 nv.ua##.article__footer__additional_share
 kanalukraina.tv##.article__footer_messenger
 nv.ua##.article__footer_share
@@ -1478,6 +1479,7 @@ life.pravda.com.ua#?#.img-wrap:-abp-has(> div > [href^="https://bit.ly"])
 dizelyator.ru##.imgsoc
 incrypted.com##.incrypted-post-author__socials
 dev.ua#?#.incut:-abp-has(> .card > .card__info > .card__body > [href^="https://t.me/"])
+kommersant.ru#?#.incut:-abp-has(> .tg-appeal)
 drive.ru##.index-news-ext > h3
 sc2tv.ru##.index-social
 krymr.com##.infgraphicsAttach
@@ -1917,6 +1919,7 @@ rusvesna.su##.region-footer-message > .block > table
 rt.ru##.region-footer-social
 rz.com.ua##.region-social-top
 calorizator.ru#?#.region[id^="content-"] > .block:-abp-has(#vk_comments)
+kommersant.ru##.region_announce
 lostfilm.info##.relative > #vk_groups ~ div[style*="#FFF"]
 www.khl.ru##.rep-o-share
 appstudio.org##.repost td:not(.atropos)
@@ -2374,7 +2377,7 @@ blokino.org##.socialknopka
 novosti.dn.ua##.sociall
 glianec.com,rebenok.by##.sociallike
 electrotests.ru,tests24.su##.socialmedia
-101.ru,1news.az,acmc.ua,agents.media,agrotimes.ua,avtovzglyad.ru,bitcoinmagazine.ua,cherkasy.live,comedy-radio.ru,dumka.media,edyna.media,forbes.kz,fraza.com,gotennis.ru,hdrezka.inc,infox.ru,kanaldim.tv,komersant.ua,korrespondent.net,ku66.ru,kurs.if.ua,lifehacker.ru,mgazeta.com,mi100.info,mos-holidays.ru,muz-tv.ru,nashbryansk.ru,nevnov.ru,new-magazine.ru,nsp.ru,overclockers.ua,paperpaper.ru,podillyanews.com,poltava.ua,pravo.by,realnoevremya.ru,regnum.ru,relax-fm.ru,report.az,retail.ru,rezka.biz,rozetked.me,securitymedia.org,sknews.net,speka.ua,stopcor.org,teleprogramma.org,thegirl.ru,turkrutv.net,tvoemisto.tv,uatv.ua,usionline.com,virtualbrest.ru,womanhit.ru##.socials
+101.ru,1news.az,5koleso.ru,acmc.ua,agents.media,agrotimes.ua,avtovzglyad.ru,bitcoinmagazine.ua,cherkasy.live,comedy-radio.ru,dumka.media,edyna.media,forbes.kz,fraza.com,gotennis.ru,hdrezka.inc,infox.ru,kanaldim.tv,komersant.ua,korrespondent.net,ku66.ru,kurs.if.ua,lifehacker.ru,mgazeta.com,mi100.info,mos-holidays.ru,muz-tv.ru,nashbryansk.ru,nevnov.ru,new-magazine.ru,nsp.ru,overclockers.ua,paperpaper.ru,podillyanews.com,poltava.ua,pravo.by,realnoevremya.ru,regnum.ru,relax-fm.ru,report.az,retail.ru,rezka.biz,rozetked.me,securitymedia.org,sknews.net,speka.ua,stopcor.org,teleprogramma.org,thegirl.ru,turkrutv.net,tvoemisto.tv,uatv.ua,usionline.com,virtualbrest.ru,womanhit.ru##.socials
 73online.ru##.socials > div > a[rel="nofollow"]
 kinonews.ru##.socials > ul
 gotennis.ru##.socials-a
@@ -2550,7 +2553,7 @@ sobesednik.ru#?#.text-right:-abp-contains(поделиться:)
 vgolos.ua##.text-telegram
 neftegaz.ru##.text-wrap > .about_post_with_bottom_soc ~ h2
 spacegid.com##.text_share
-autopilot.ru##.tg-appeal
+autopilot.ru,kommersant.ru##.tg-appeal
 liga.net##.tg-block
 inkorr.com##.tg-box
 08sportbar.online,777sportba.com,777sportba.org,barsportbar.com,channels247.net,file-mods.ru,goool7.ws,mangabuff.ru,modss1.com,newinform.com,s7yours.com,sbautumn.com,sport365hd.net,sport7.biz,sportbarchik88.com,sporting7.pw,sporting77.com,spotless365.net##.tg-button
@@ -2992,7 +2995,7 @@ forbes.ru##a[title^="Подпишитесь на нас"]
 baby.ru##a[title^="Телеграм"]
 360.ru##a[type="button"][style^="--icon-color:"]
 afisha.yandex.ru,afisha.yandex.*##div[data-component="Footer_Socials"]
-allcarz.ru,gazeta.spb.ru,liveball.my,liveball.uno,liveball.*,liveball8.ml,repost.uz,runews24.ru,yarnews.net##.tg
+allcarz.ru,gazeta.spb.ru,liveball.my,liveball.uno,liveball.*,repost.uz,runews24.ru,yarnews.net##.tg
 dp.ru##app-article-social-discussion
 bet.ua##app-follow-us
 football24.ua##app-news-share
@@ -4912,6 +4915,7 @@ driveroff.net,samlab.ws###soft-new center > b ~ br
 gismeteo.ru###soft-promo
 igra-prestoloff.cx#?##sp-right > .sp-inner > .module:-abp-has([href*="://donate.podari-zhizn.ru"])
 kino-teatr.ru###special_block
+playground.ru###steamPollSuggestion
 pronomad.ru###sticky-bar
 expert.ru###sub-form
 asienda.ru###sub-weekly-popup
@@ -6145,7 +6149,7 @@ kubnews.ru##.subscribe-channel
 ichip.ru##.subscribe-content
 autosport.com.ru##.subscribe-email-telegram
 vokrug.tv##.subscribe-false-bg
-chita.ru,gmk.center##.subscribe-form
+5koleso.ru,chita.ru,gmk.center##.subscribe-form
 amurmedia.ru,angarskmedia.ru,chitamedia.su,chukotkamedia.ru,eaomedia.ru,irkutskmedia.ru,kamchatkamedia.ru,krasnodarmedia.su,krasnoyarskmedia.ru,magadanmedia.ru,nakhodka.media,novostirostov.ru,omskmedia.su,peterburgmedia.ru,priamurmedia.ru,primadonna.media,primamedia.ru,sakhalinmedia.ru,sevastopolmedia.ru,sochimedia.su,stavropol.media,stolicamedia.ru,ulanmedia.ru,ussurmedia.ru,yakutiamedia.ru##.subscribe-form--footer
 thepublic.info##.subscribe-form-wrap
 vn.ru##.subscribe-form-wrapper
