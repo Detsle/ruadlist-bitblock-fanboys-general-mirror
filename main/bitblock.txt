@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: esV4QKgvlvNYIuZyjyWBDA
-! Version: 202607110521
+! Checksum: 14WTFbo3+eWI9McKRfanRg
+! Version: 202607130542
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 11 Jul 2026 05:21 UTC
+! Last modified: 13 Jul 2026 05:42 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -216,7 +216,7 @@ com,ru,ua##[data-rambler-share]
 ##[onclick^="Share."]
 ##[onclick^="window.open('http://ok.ru/dk?st.cmd=addShare"]
 ##[onclick^="window.open('http://www.facebook.com/share.php?"]
-##[title="Выбрать соцсеть для шаринга"]
+ru##[title="Выбрать соцсеть для шаринга"]
 ~ok##a[href*="connect.ok.ru/dk?st.cmd="][href*="share"]
 ~twitter.com##a[href*="http://twitter.com/share"]
 ~livejournal.com##a[href*="livejournal.com/update.bml"]
@@ -369,6 +369,7 @@ com,ru,ua##[data-rambler-share]
 ||obninsk.name/script/sosal.
 ||om1.ru/localStorage/custom_upload/soc_icons/
 ||opennet.*/facebook.gif
+||opennet.*/img/mastodon.png
 ||opennet.*/img/telegram2.png
 ||opennet.*/img/vkontakte.gif
 ||opennet.*/twitter.png
@@ -942,6 +943,7 @@ blog.mycredit.ua##.blog-sidebar
 readmanga.ru##.bloghash-socials-menu
 fishki.net##.bloglinks
 vinbazar.com#?#.body_description p:-abp-has(> a[href^="https://t.me/"])
+pro-books.ru##.book-share-card__trigger
 readli.net##.book-socials
 knizhnik.org##.book__share
 game-monitor.com##.bookmark
@@ -1256,6 +1258,7 @@ glavred.info,glavred.net##.footer-nav__socials
 footboom1.com##.footer-navigation__socials
 myjane.ru##.footer-ok
 pr-cy.ru##.footer-page__social
+prostomob.com#?#.footer-right:-abp-has(> .footer-socials)
 penza-press.ru##.footer-row__social
 zdorovia.com.ua##.footer-searchform
 coop-land.ru##.footer-sidebar-column.right > .footer-column-title
@@ -1537,6 +1540,7 @@ forum.finance.ua#?#.lastnewszag:-abp-has([href*="facebook.com"])
 eadaily.com##.latest-block > .side-announcement
 anime-bit.ru#?#.layer_box_center_blocks_right:-abp-has(> #vk_groups)
 www.goha.ru##.layout-footer-body__socials-icon
+dsgners.ru##.layout-sidebar_left a[title="telegram"]
 nta.ua##.leave-comment
 asienda.ru##.left-socials
 chernomorets.odessa.ua##.left-widget
@@ -2503,7 +2507,6 @@ gzt-sv.ru##.td-header__social
 potokmedia.ru##.td-is-sticky + .td-is-sticky > .wpb_wrapper > .td_block_wrap:first-child
 potokmedia.ru##.td-is-sticky + .td-is-sticky > .wpb_wrapper > .td_block_wrap:first-child + .wpb_wrapper
 root-nation.com##.td-is-sticky .td_block_title
-prostomob.com#?#.td-is-sticky > .wpb_wrapper > .vc_row_inner:-abp-has(> div .tdb_single_post_share)
 botanichka.ru##.td-social-icon-wrap
 sochi24.tv##.tdb_header_date ~ div a[target="_blank"]
 mediasat.info##.tdc_zone > #tdi_8
@@ -2853,7 +2856,6 @@ dtf.ru,vc.ru##[data-gtm-click*="Share "][data-gtm-click*=" Telegram"]
 kp.kg,kp.kz,kp.ru,md.kp.media##[data-gtm-social-footer]
 kp.kg,kp.kz,kp.ru,md.kp.media##[data-gtm-social-menu]
 kp.kg,kp.kz,kp.ru,md.kp.media##[data-gtm-social]
-banki.ru##[data-gtm-view*="view_share_"]
 author.today##[data-hint="Поделиться"]
 horoscopes.rambler.ru##[data-horo-new*=":share:"]
 iphones.ru##[data-id="externalpostlist"]
@@ -3189,6 +3191,7 @@ tass.ru##div[class^="SocialBlock_wrapper_"]
 tass.ru##div[class^="SocialLinks_wrapper"]
 daily.afisha.ru##div[class^="SocialPlate_Container"]
 atas.info,bel.ru##div[class^="Socials"]
+sravni.ru##div[class^="Socials_module_container_"]
 rg.ru##div[class^="StoryContentMainShare_root_"]
 start.rt.ru##div[class^="StyledFooterInfoBlockSocialIcons-"]
 atas.info,bel.ru##div[class^="Subscribe_subscribe"]
@@ -3256,6 +3259,7 @@ citilink.ru##div[data-meta-name="IconLinks__socials"]
 newizv.ru##div[data-slug="matter_before_sharing"] + div
 adme.media##div[data-test-id^="share-button-"]
 ivi.ru##div[data-test="share_button"]
+banki.ru##div[data-test="tooltip"] div[role="button"]
 anticollector.biz.ua##div[data-widget-key="xfi_sidebar_social_block_widget"]
 ozon.ru##div[data-widget="webSharingButton"]
 rebenok.by##div[id$="FacebookBlock"]
@@ -3362,6 +3366,7 @@ kakoysegodnyaprazdnik.ru,xn--80aaiebcrjcibi8adgdtsm9z.xn--p1ai##img[src*="/vk_gr
 dontimes.news##img[src*="/wp-content/uploads/sb/"]
 shazoo.ru##img[src*="_shazoo-telegram.png"]
 opennet.me,opennet.ru##img[src="/img/facebook.gif"]
+opennet.me,opennet.ru##img[src="/img/mastodon.png"]
 opennet.me,opennet.ru##img[src="/img/telegram2.png"]
 opennet.me,opennet.ru##img[src="/img/vkontakte.gif"]
 opennet.me,opennet.ru##img[src="/twitter.png"]
@@ -4437,6 +4442,7 @@ _app_promo$domain=7themes.su|wallscloud.net
 ||on.od.ua/balls.
 ||ont.by/tv/js/*fancybox$script,stylesheet
 ||onvix.tv/beta/promo$third-party
+||opennet.*/img/rss.png
 ||overclockers.ru/static/img/bg_early.gif
 ||overclockers.ru/webservice/getPipPlace?
 ||ozone.ru/assets/*/cms-cookie-bubble.
@@ -5678,6 +5684,7 @@ inforesist.org##.lang-modal
 iu.ru##.layout > div[class^="style_modal__"]
 www.goha.ru##.layout-footer-body__18plus-icon
 vkusnoitochka.ru##.layout-layer-notifications-cookie-wrapper
+dsgners.ru##.layout-sidebar_left a[title="youtube"]
 lib.rus.ec##.lb-pay__overlay
 no-steamserv.ru##.lc_area
 dfm.ru,hitfm.ru,maximum.ru,montecarlo.ru,rusradio.ru##.leading-none > a
@@ -6580,6 +6587,7 @@ livejournal.com##article[id^="b-friendstimes-item-ad-"]
 app2top.ru##aside > [class^="vacancies"]
 zarlit.com##aside > nav ~ div
 kino-teatr.ua##aside a[href^="https://play.google.com/"]
+opennet.me,opennet.ru##aside small > [href="https://wiki.opennet.ru/RSS"]
 vcrti.com.ua##aside#gkSidebar
 vedomosti.ru##aside.article__sidebar
 disgustingmen.com##aside.widget
@@ -6695,6 +6703,7 @@ daily.afisha.ru##div[class^="Layout_Layout"] > a > div
 igromania.ru,kanobu.ru##div[class^="LinkingButtonsOfArticle_root__"]
 auto.ru##div[class^="MatchApplicationBanner-"]
 loads.ati.su##div[class^="Media_container"]
+sravni.ru##div[class^="MobileApp_module_wrapper_"]
 hromadske.radio##div[class^="ModalBanner"]
 diletant.media##div[class^="NavStyles__News-sc-"]
 rg.ru##div[class^="NewsFeed_adsTop_"] > div
@@ -6869,6 +6878,7 @@ chastnik-m.ru##img[alt="баннер"]
 habr.com##img[src*="habrastorage.org/getpro/habr/branding/"]
 tapochek.net##img[src*="images/rss_"]
 fakty.ua##img[src="/images/korabl-idi-hahuy.jpg"]
+opennet.me,opennet.ru##img[src="/img/rss.png"]
 rz.com.ua##img[src="/sites/default/files/baneri/samolechenie.jpg"]
 flightsim.su##li > [title="Поддержать FlightSim"]
 amurmedia.ru,angarskmedia.ru,chitamedia.su,chukotkamedia.ru,eaomedia.ru,irkutskmedia.ru,kamchatkamedia.ru,krasnodarmedia.su,krasnoyarskmedia.ru,magadanmedia.ru,nakhodka.media,novostirostov.ru,omskmedia.su,peterburgmedia.ru,priamurmedia.ru,primadonna.media,primamedia.ru,sakhalinmedia.ru,sevastopolmedia.ru,sochimedia.su,stavropol.media,stolicamedia.ru,ulanmedia.ru,ussurmedia.ru,yakutiamedia.ru##li.wsapp
@@ -7361,6 +7371,7 @@ ya.ru,yandex.ru,yandex.*##.distr-splashscreen
 ya.ru,yandex.ru,yandex.*##.i-bem.distro
 ya.ru,yandex.ru,yandex.*##.i-bem.footer_distro_yes
 ya.ru,yandex.ru,yandex.*##[class*="Distr"][class*="Splash"]
+ya.ru,yandex.ru,yandex.*##div[class*="DistributionOnboarding"]
 ya.ru,yandex.ru,yandex.*##div[class^="DistrSmartbanner"]
 ya.ru,yandex.ru,yandex.*##main.serp > .Root > div[class*="_layout_flat"]:not(.DistrPopup)
 ya.ru,yandex.ru,yandex.*#?#.dist-overlay__popup
