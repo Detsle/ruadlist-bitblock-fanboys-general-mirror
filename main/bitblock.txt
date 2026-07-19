@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: mTax0Xt5bQvOHV89O0qyrg
-! Version: 202607170521
+! Checksum: h5POGYcOZUOhKXAOs0G42Q
+! Version: 202607190521
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 17 Jul 2026 05:21 UTC
+! Last modified: 19 Jul 2026 05:21 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -740,6 +740,7 @@ russia.ru##.append-other-applecations
 lk.rt.ru##.application-footer_superfooter_social
 tnt-online.ru##.apps-list
 zn.ua##.archive-main-btns a[href*="://t.me/"]
+interfax.com.ua##.art-follow
 narutoplanet.ru#?#.art-layout-cell > .art-block:-abp-has(> .art-blockcontent > div > a[href^="https://t.me/"])
 cheklab.ru##.art-postcontent > .buttons
 wtftime.ru##.art-telegram-container
@@ -1302,6 +1303,7 @@ dyvys.info#?#.footer__part:-abp-has(> .rounded-socials)
 career.habr.com##.footer__section--social
 rayon.in.ua##.footer__soc-list
 epravda.com.ua##.footer__social
+zn.ua##.footer__social-box
 mydiv.net##.footer__social-buttons
 nezavisim.tv##.footer__social-icons
 fx.co##.footer__social-network
@@ -1731,7 +1733,6 @@ penzainform.ru##.news-foother
 media.az##.news-inner__follow
 galka.if.ua##.news-links-social
 anistar.org,astar.bz,online-star.org,online-stars.org##.news-list-vk
-armyinform.com.ua##.news-section_items > li.link[style*="background:"]
 mirf.ru##.news-share-btn
 1istochnik.ru##.news-sidebar-social
 1kr.ua,trueua.info##.news-social
@@ -2131,7 +2132,6 @@ modsgaming.ru#?#.sidebox:-abp-has(> .inner .soc-atd)
 grodno24.com##.similar-social
 dyvys.info##.simple-socials > li
 v-variant.com.ua##.single-bottom__socials-title
-armyinform.com.ua##.single-content ~ a[href] > [style*="background: linear-gradient"]
 rubryka.com##.single-page__info-inner > div[style^="padding:"]
 rubryka.com##.single-page__social
 nabat.news##.single-sharing
@@ -2221,7 +2221,7 @@ cisoclub.ru##.soc_icons
 dostfilms.org##.soc_knopki_pod_pleerom
 psm7.com,soel.ru##.soc_line
 newsomsk.ru##.soc_link_in_head
-24warez.ru,finobzor.ru,politobzor.net,telegraf.in.ua,tverigrad.ru,warfiles.ru##.soc_links
+24warez.ru,finobzor.ru,musictor.ru,politobzor.net,telegraf.in.ua,tverigrad.ru,warfiles.ru##.soc_links
 arenda.az,zaxid.net,zorbasmedia.ru##.soc_list
 zaxid.net##.soc_list_for_news
 zorbasmedia.ru##.soc_list_header
@@ -5781,6 +5781,7 @@ regfile.ru##.modal-backdrop
 texterra.ru##.modal-cookie
 interfax.ru##.modal__but_subscribe
 youtebem.com##.more-stories.right
+armyinform.com.ua##.mou
 detector.media##.msb_form
 ex-press.by##.msg-subscribe
 detector.media##.msg_cooky_blk
@@ -5908,6 +5909,7 @@ kinoliza.net##.pometka
 uma.media##.pony-warnings-container
 stolichki.ru##.pop-coockie
 stolichki.ru##.pop-coockie + .fancybox-container
+evribiont.xyz##.pop18
 gdz.ru,megaresheba.ru,spishi.fun##.popUp-subscribe
 calltouch.ru##.poppup-blocked
 vgoru.org##.popup--support
@@ -7336,6 +7338,8 @@ mail.yandex.ru,mail.yandex.*##.mail-Done-Promo-Container
 mail.yandex.ru,mail.yandex.*##.mail-YandexPlus-Renderer
 mail.yandex.ru,mail.yandex.*##.promoPanel
 mail.yandex.ru,mail.yandex.*##.search-result__item_type_neuro-promo
+mail.yandex.ru,mail.yandex.*##[data-test-id="promofullscreen"]
+mail.yandex.ru,mail.yandex.*##[data-testid="aside_promo_carousel_banner"] > div
 mail.yandex.ru,mail.yandex.*##div[class*="MobileAppPromo-"]
 mail.yandex.ru,mail.yandex.*##div[class^="Banner-m__root"]
 market.yandex.ru,market.yandex.*##.main > noindex:first-of-type
@@ -7455,6 +7459,7 @@ mail.yandex.ru,mail.yandex.*##[id^="js-mail-layout-content-header"] > .message-l
 mail.yandex.ru,mail.yandex.*##div#js-layout-inner[class^="PageLayout-m__main--"][id="js-layout-inner"] ~ div[style*="overscroll-behavior: none;"]
 translate.yandex.ru,translate.yandex.*##.side-block > div
 vk.com,vk.ru,vkvideo.ru##vk-video-player div[class^="PauseSuggestionsSlider"]
+yandex.ru,yandex.*##[class*="Money_"] [class]:empty
 ||auto.ru/_crpd/$xmlhttprequest
 ||docviewer.yandex.*/*/*/$script,~third-party
 ||dzen.ru/zen-partner/$third-party
@@ -7465,9 +7470,11 @@ vk.com,vk.ru,vkvideo.ru##vk-video-player div[class^="PauseSuggestionsSlider"]
 ||translate.yandex.*/_crpd/
 ||ya.ru/portal/_crpd/$xmlhttprequest
 ||ya.ru/portal/feed?
+||yandex-pogoda.static-storage.net^$script
 ||yandex-realty.naydex.net^$script
 ||yandex-tv.naydex.net^$script
 ||yandex.*/maps/_crpd/$xmlhttprequest
+||yandex.*/weather/_cry/$xmlhttprequest
 !#endif
 !
 ! - Youtube -
@@ -20037,7 +20044,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||cre.ma^$third-party
 ||ctctcdn.com/js/signup-form-widget/$third-party
 ||curator.io^$third-party
-||cursors-4u.net^$third-party
+||cursors-4u.net^$third-party,domain=~cursors-4u.com
 ||cxpublic.com^$third-party
 ||d.provenexpert.net^$third-party
 ||d15r06k2ko210l.cloudfront.net^
