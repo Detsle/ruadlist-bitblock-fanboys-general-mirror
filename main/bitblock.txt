@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: hr4NhPlxaBLfVR0PZFZUdQ
-! Version: 202608030602
+! Checksum: IhvYI25eoHSBW+srYH8QYw
+! Version: 202608050515
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 03 Aug 2026 06:02 UTC
+! Last modified: 05 Aug 2026 05:15 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -731,7 +731,6 @@ animego.cv##.alert-primary
 topwar.ru#?#.alert_in:-abp-has(> div > p > strong > a[href^="https://t.me/"])
 inopressa.ru##.alignright .alignleft > div[style^="height: 120px"]
 life.ru##.amp-footer--wrapper > .amp-left-block ~ li
-filmix.date,filmix.life,filmix.my,filmix.pub,filmix.tech,filmix.zone##.android-telegram-main
 kinoafisha.info##.anonsHeader_chat
 tv3.ru##.app-footer--social
 tv3.ru##.app-header--social
@@ -1835,6 +1834,7 @@ sports.ru,tribuna.com##.poll-share
 sports.ru##.poll-widget__share
 kurufin.ru##.polotno + .add1
 720hd.club##.pon
+popcake.news##.popcake-max-banner-wrap
 peterburg2.ru##.popover-container
 lelang.su##.popular2
 theins.ru##.popup > div > nav ~ ul
@@ -2562,7 +2562,7 @@ likeni.ru##.text-page-social
 hospodar.ua##.text-post > div > a[class="  "]
 motorpage.ru##.text-right > a[class^="sc-"]
 sobesednik.ru#?#.text-right:-abp-contains(поделиться:)
-vgolos.ua##.text-telegram
+rzd-partner.ru,vgolos.ua##.text-telegram
 neftegaz.ru##.text-wrap > .about_post_with_bottom_soc ~ h2
 spacegid.com##.text_share
 autopilot.ru,kommersant.ru##.tg-appeal
@@ -3302,6 +3302,7 @@ biqle.org,biqle.ru##div[title="Поделиться"]
 site.ua##div[x-data*="facebook"]
 autonews.ru,gsminfo.com.ua#?#em > strong:-abp-has(> a[href^="https://t.me/"])
 fanserial.*,fanserial.сс,1fanserials.ru,myfanserial.net##.novelty-banner
+filmix.*,filmix.gg,filmix.date,filmix.life,filmix.pub,filmix.tech##.android-telegram-main
 zmi.ck.ua##footer .b1
 zmi.ck.ua##footer .b2
 ctv7.ru##footer .btn_soc
@@ -4715,7 +4716,6 @@ rsload.net#?##dle-content > .short:-abp-has(> .short-top > h2 > a > .fa)
 rsload.net#?##dle-content > .short:-abp-has(> .short-top a[href*="oleg-prognoz.html"])
 rsload.net#?##dle-content > .short:-abp-has(> .short-top a[href^="https://rsload.net/news/"][href*="skidk"])
 rsload.net#?##dle-content > .short:-abp-has(> .short-top a[href^="https://rsload.net/soft/obzor/"])
-filmix.date,filmix.life,filmix.my,filmix.pub,filmix.tech,filmix.zone###dle-content > article ~ div a[href$="/pro.html"]
 anitube.in.ua###dle-content > noindex
 lols.ru###dle-content td[style="padding-left:20px;"] > noindex
 varianty.lviv.ua###donate-popup
@@ -6852,6 +6852,7 @@ kirov-portal.ru#?#div[style]:-abp-has(> div[style] > a[href="/news/akcii/"])
 outlook.live.com##div[tabindex][role="region"][aria-label] > div + div > div > .ms-FocusZone ~ div[class]:not([role]) > button
 youla.ru#?#div[width="0.25"]:-abp-has(> div > a[href*=".com/"][href*="/app"][title][target="_blank"])
 socportal.info##div[x-lazyload*="g-ytsubscribe"]
+filmix.*,filmix.gg,filmix.date,filmix.life,filmix.pub,filmix.tech###dle-content > article ~ div a[href$="/pro.html"]
 vinnitsa.info##footer + div[class] + div[class]
 nplus1.ru##footer > .fixed
 sport-tv.by##footer > .nav > .bottom > .right
@@ -7051,6 +7052,7 @@ www.kinopoisk.ru##a[href^="https://yandex.ru/alice/"][class*="banner"]
 www.kinopoisk.ru##body[class*="styles_body"] > .ReactModalPortal
 www.kinopoisk.ru##div[class*=" styles_rootPlus"] > div > div[class^="styles_upperFrame__"]
 www.kinopoisk.ru##div[class*=" styles_rootPlus"] > div[class^="styles_frameContainer__"]
+www.kinopoisk.ru##div[class*="style_presentationVisible_"]
 www.kinopoisk.ru##div[class*="styles_basicInfoSection"] div[class^="styles_header_"] > div[class^="styles_root_"] > div[class^="styles_blockTitle_"]
 www.kinopoisk.ru##div[class*="styles_basicInfoSection"] div[class^="styles_header_"] > div[class^="styles_root_"] > div[class^="styles_book_"]
 www.kinopoisk.ru##div[class*="styles_buyButtons"]
@@ -7472,7 +7474,7 @@ www.kinopoisk.ru##iframe[src*="kinopoisk-ru.clstorage.net/"]
 mail.*##.tv-widget [class^="vk-video"]
 mail.*##.tv-widget [class^="vk-video"] {remove:true;}
 mail.yandex.ru,mail.yandex.*##[id^="js-mail-layout-content-header"] > .message-list-banner-portal + div:not([class*="message"]):not(:last-child)
-mail.yandex.ru,mail.yandex.*##div#js-layout-inner[class^="PageLayout-m__main--"][id="js-layout-inner"] ~ div[style*="overscroll-behavior: none;"]
+mail.yandex.ru,mail.yandex.*##div#js-layout-inner[class^="PageLayout-m__main--"][id="js-layout-inner"] ~ div[data-testid]
 translate.yandex.ru,translate.yandex.*##.side-block > div
 vk.com,vk.ru,vkvideo.ru##vk-video-player div[class^="PauseSuggestionsSlider"]
 yandex.ru,yandex.*##[class*="Money_"] [class]:empty
@@ -7676,7 +7678,7 @@ goodgame.ru,ngs.ru#@#.subscribe-popup
 mos.ru#@#.subscription-block
 askona.ru#@#.to_top
 floristics.info#@#.totop
-ahen.me,doramatv.live,doramatv.one,doramatv.ru,ekabu.ru,findani.me,findanime.me,findanime.ru,grouple.co,librebook.me,livelib.ru,mintmanga.one,mose.su,online-mult.net,readmanga.io,selflib.me,selfmanga.live,soccer.ru,usagi.one#@#.twitter
+ahen.me,allhen.online,doramatv.live,doramatv.one,doramatv.ru,ekabu.ru,findani.me,findanime.me,findanime.ru,grouple.co,librebook.me,livelib.ru,mintmanga.com,mintmanga.one,mose.rocks,online-mult.net,readmanga.io,readmanga.ru,selflib.me,selfmanga.live,soccer.ru,usagi.one,zazaza.me#@#.twitter
 coub.com#@#.viewer__sharing
 coub.com#@#.viewer__sharing__item
 coub.com#@#.viewer__sharing__items
