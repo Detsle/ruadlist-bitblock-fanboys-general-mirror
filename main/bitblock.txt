@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: IhvYI25eoHSBW+srYH8QYw
-! Version: 202608050515
+! Checksum: 4il8N9gao0tjqzhQePNjAA
+! Version: 202608070433
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 05 Aug 2026 05:15 UTC
+! Last modified: 07 Aug 2026 04:33 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -4240,7 +4240,7 @@ ru##[data-ns-portal] div[class^="mobileApps_"]
 /min/js/pages/push.js$script,~third-party,domain=armeniasputnik.am|sputnik-abkhazia.info|sputnik-georgia.com|sputnik-news.ee|sputnik-ossetia.com|sputnik-tj.com|sputnik.az|sputnik.by|sputnik.kg|sputnik.kz|sputniknews-uz.com
 /pum-site-styles-$stylesheet,domain=lhealth.info
 /push.js$script,domain=mail.ru
-/topics/all?limit=10&filter[type]=topic::news$domain=lenta.news|lenta.ru
+/topics/all?limit=10&filter*=Topic::News$xmlhttprequest,domain=lenta.news|lenta.ru
 /web/vk_video_promo_block.$domain=vk.com|vk.ru
 /wp-content/plugins*popup-builder/*$domain=blackwot.ru|shotam.info
 /wp-content/plugins/icegram/*$domain=mos-holidays.ru
@@ -6396,6 +6396,7 @@ lelang.su##[alt="Пожертвовать"]
 fosshub.com##[aria-label="Advertisement"]
 ixbt.com##[aria-label="cookieconsent"]
 point.md##[aria-label="scroll to top button"]
+gemini.google.com##[aria-label="Опрос"]
 bbc.com##[aria-labelledby="recommendations-heading"]
 bbc.com##[aria-labelledby^="message-banner-"]
 rutube.ru##[class*="Player"] div[class*="disclaimer"]
@@ -6608,6 +6609,7 @@ www.ukr.net#?#article > section:-abp-has(> div > div > a[href*="://drive.google.
 rambler.ru#?#article div:-abp-has(> div > [id^="rcmw-container-"])
 sports.ru#?#article.piwikTrackContent:-abp-has(a[href^="https://trbna.co/"])
 sports.ru#?#article.piwikTrackContent:-abp-has(span:-abp-contains(Спецпроект))
+pikabu.ru##article:not([data-author-name="PikabuGames"]) ~ article[data-author-name="PikabuGames"]
 livejournal.com##article[class*="entryunit--feedpromo"]
 rambler.ru#?#article[id][class] > div:first-child > div:first-child + div > div:only-child > div:first-child + div:last-child:-abp-has(> div > div:empty)
 livejournal.com##article[id^="b-friendstimes-item-ad-"]
@@ -7356,6 +7358,7 @@ mail.yandex.ru,mail.yandex.*##.promoPanel
 mail.yandex.ru,mail.yandex.*##.search-result__item_type_neuro-promo
 mail.yandex.ru,mail.yandex.*##[data-test-id="promofullscreen"]
 mail.yandex.ru,mail.yandex.*##[data-testid="aside_promo_carousel_banner"] > div
+mail.yandex.ru,mail.yandex.*##div[class*=" CornerPopup_body_"]
 mail.yandex.ru,mail.yandex.*##div[class*="MobileAppPromo-"]
 mail.yandex.ru,mail.yandex.*##div[class^="Banner-m__root"]
 mail.yandex.ru,mail.yandex.*##div[class^="SpaceInformer-m_"] > a.Orb-Button_view_brand
