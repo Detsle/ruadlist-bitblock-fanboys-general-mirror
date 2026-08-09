@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 4il8N9gao0tjqzhQePNjAA
-! Version: 202608070433
+! Checksum: 9AI7kBch/1ssRocB8+zXiA
+! Version: 202608090402
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 07 Aug 2026 04:33 UTC
+! Last modified: 09 Aug 2026 04:02 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -7405,6 +7405,7 @@ ya.ru,yandex.ru,yandex.*##.distr-splashscreen
 ya.ru,yandex.ru,yandex.*##.i-bem.distro
 ya.ru,yandex.ru,yandex.*##.i-bem.footer_distro_yes
 ya.ru,yandex.ru,yandex.*##[class*="Distr"][class*="Splash"]
+ya.ru,yandex.ru,yandex.*##a[href*="=distribution-banks"][href*="utm_campaign"]
 ya.ru,yandex.ru,yandex.*##div[class*="DistributionOnboarding"]
 ya.ru,yandex.ru,yandex.*##div[class^="DistrSmartbanner"]
 ya.ru,yandex.ru,yandex.*##div[id^="Distribution"]
@@ -7843,6 +7844,7 @@ prom.ua#@#img[alt="facebook"]
 /fcmPush.js
 /FeedifySW.js
 /flying_push.js
+/gr-push-notifications/assets/js/push-front.js
 /ilabspush.min.js
 /inpl.webpush.js
 /jquery-notification.js
@@ -8441,8 +8443,8 @@ mobi24.net#@#a[href^="http://www.mobi24.net/"]
 mobi24.net#@#a[href^="https://www.mobi24.net/"]
 ! *** easylist:fanboy-addon/fanboy_notifications_allowlist.txt ***
 ! fanboy_notifications_allowlist.txt
-@@||bostonherald.com^*/webpush.js$script,~third-party
 @@||braze.com/api/$domain=dairyqueen.com|deezer.com
+@@||budzetobywatelski.pl/themes/site/js/webpush.js$~third-party
 @@||creator.klarna.com/plugins/onesignal-cordova-plugin/www/onesignal.js$~third-party
 @@||fortnitedb.com/js/v3/oneSignal.js$~third-party
 @@||inevent.com/js/wizard/pushNotification.js$script,~third-party
@@ -13657,7 +13659,6 @@ _social_footer_
 ##.header-social-facebook
 ##.header-social-icons
 ##.header-social-insta
-##.header-social-item
 ##.header-social-link
 ##.header-social-links
 ##.header-social-list
