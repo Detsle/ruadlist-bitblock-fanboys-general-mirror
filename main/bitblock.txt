@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 9AI7kBch/1ssRocB8+zXiA
-! Version: 202608090402
+! Checksum: MQPT23sWdQ6lnPm84ZdP6g
+! Version: 202608110352
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 09 Aug 2026 04:02 UTC
+! Last modified: 11 Aug 2026 03:52 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1285,6 +1285,7 @@ mmatoday.info##.footer-wrapper-social
 zakon.kz##.footerBottom .links
 kuban24.tv##.footerInfo .icons
 spot.uz#?#.footerNav:-abp-has(> .censor)
+eapteka.ru##.footerSocialList
 168.ru#?#.footer__block:-abp-has(> .footer__social)
 ren.tv##.footer__body__social
 openmedia.io##.footer__box > .footer__nav ~ .footer__nav
@@ -1479,6 +1480,7 @@ byxatab.com##.icon-vk
 kinomania.kz##.icon_bar
 whl.khl.ru##.iconbar > .icons > a[href*="khl.ru/"] ~ a:not([href*="khl.ru/"] )
 autopilot.ru,kommersant.ru,myweekend.ru##.iconbox__item--share
+tv21.ru##.icons.justify-right > a[target="_blank"]
 mobiledevice.ru##.icons_bar_placeholder
 life.pravda.com.ua#?#.img-wrap:-abp-has(> div > [href^="https://bit.ly"])
 dizelyator.ru##.imgsoc
@@ -2301,7 +2303,7 @@ matematika-doma.org##.social-links-module
 azbyka.ru##.social-links__tg
 azbyka.ru##.social-links__vb
 ctnews.ru##.social-links_title
-bizagro.com.ua,buhplatforma.com.ua,dzplatforma.com.ua,medplatforma.com.ua,oblikbudget.com.ua,oplatforma.com.ua,pro-op.com.ua,prokadry.com.ua,samaragovorit.ru##.social-list
+abnews.ru,bizagro.com.ua,buhplatforma.com.ua,dzplatforma.com.ua,medplatforma.com.ua,oblikbudget.com.ua,oplatforma.com.ua,pro-op.com.ua,prokadry.com.ua,samaragovorit.ru##.social-list
 championat.com,championat.ru,tengrinews.kz,ukrinform.ua,vesti.ru##.social-media
 kopilkasovetov.com##.social-media-area
 prokuzbass.ru##.social-media-buttons
@@ -2725,7 +2727,7 @@ bigmir.net#?#.widget:-abp-has(> .widget-socials)
 kubikus.top#?#.widget:-abp-has(> .ya-share2)
 liveresult.ru#?#.widget:-abp-has(> a[href^="https://vk.com/"])
 topgir.com.ua##.widget_bam_social_list_widget
-1progs.ru,actual.today,ampercar.com,moi-gribi.ru,notorgames.net,oblast-te.com.ua,russkiiyazyk.ru,vsepredohraniteli.ru##.widget_custom_html
+1progs.ru,actual.today,ampercar.com,moi-gribi.ru,notorgames.org,oblast-te.com.ua,russkiiyazyk.ru,vsepredohraniteli.ru##.widget_custom_html
 bizagro.com.ua##.widget_fbw_id
 bereza.by##.widget_heateor_sss_follow
 18000.com.ua,novadoba.com.ua##.widget_home_social_links
@@ -6418,7 +6420,6 @@ hromadske.radio##[class^="PatreonBanner"]
 meduza.io##[class^="SaveMeduza"]
 igromania.ru##[class^="SubscribeForm_subscribe_"]
 igromania.ru##[class^="YoutubeChannel_channel_"]
-stopgame.ru##[class^="_boosty_"]
 silver.ru##[class^="button-subscribe_news"]
 svoi.ru##[class^="component__StyledCookieBanner"]
 byxatab.com##[class^="donat_block"]
@@ -6746,6 +6747,7 @@ rg.ru##div[class^="Subscribe_formSub"]
 premium.mts.ru##div[class^="ToastRoot_wrapper_"]
 meduza.io##div[class^="TopBar-"][class*="root"]
 rg.ru##div[class^="Umbrella_newsletterSubscribe_"]
+stopgame.ru##div[class^="_boosty-and-patreon_"]
 stopgame.ru#?#div[class^="_content"] > p:-abp-has(> a[href*="boosty"])
 tribuna.com##div[class^="_footer__apps"]
 stopgame.ru##div[class^="_podcast-container_"]
@@ -7162,15 +7164,19 @@ mail.ru,~media-golos.mail.ru,sportmail.ru##[data-logger="AudioPlayer"]
 ~e.mail.ru,mail.ru##[data-module="StickyPanel.TopButton"]
 ~e.mail.ru,mail.ru##[data-module="Subscription"]
 news.mail.ru,sportmail.ru##[data-module="TrackBlocks"] table > tbody > tr > td:nth-child(3):last-child
+cloud.mail.ru##[data-qa-id="ai-photo-generation-promo-banner"]
 cloud.mail.ru##[data-qa-tooltip="goto-attaches-promo-tip"]
 cloud.mail.ru##[data-qa-tooltip][class*="_closable-"]
 news.mail.ru##[data-reactroot] [data-qa^="MoreList"] > div > div:first-child:not(:only-child)
 e.mail.ru,octavius.mail.ru##[data-test-id="category-feedback-plate"]
 e.mail.ru,octavius.mail.ru##[id^="octavius-notify-"]
 news.mail.ru#?#aside div[style^="min-height:"]:-abp-has([data-logger="SubscribeButton"])
-cloud.mail.ru#?#body > #react-modals:-abp-has(> div > [class*="Offer"])
-cloud.mail.ru#?#body > #react-modals:-abp-has(> div > [class*="Quota"])
-cloud.mail.ru#?#body > #react-modals:-abp-has(> div > [class*="WhatsNewDialog"])
+cloud.mail.ru##body > #react-modals > div > [class*="Offer"]
+cloud.mail.ru##body > #react-modals > div > [class*="Quota"]
+cloud.mail.ru##body > #react-modals > div > [class*="WhatsNewDialog"]
+cloud.mail.ru#?#body > #react-modals:-abp-has(> div:only-child > [class*="Offer"])
+cloud.mail.ru#?#body > #react-modals:-abp-has(> div:only-child > [class*="Quota"])
+cloud.mail.ru#?#body > #react-modals:-abp-has(> div:only-child > [class*="WhatsNewDialog"])
 ~e.mail.ru,mail.ru##body > .grid .logo__promo-tooltip
 ~e.mail.ru,mail.ru##body > .tooltip > .tooltip__box
 mail.ru##body > .zeropixel ~ * .balloon
