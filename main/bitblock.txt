@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: MQPT23sWdQ6lnPm84ZdP6g
-! Version: 202608110352
+! Checksum: 0hR36YbZ5C572fj/X4Y7gA
+! Version: 202608130431
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 11 Aug 2026 03:52 UTC
+! Last modified: 13 Aug 2026 04:31 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -2083,8 +2083,6 @@ torrents-soft.ru#?#.sid > .card:-abp-has(> center > a[href^="https://vk.com/"])
 weaponland.ru##.side > .bookmark
 foto.ua##.side-banner-social
 newdeaf.top##.side-bc > a#ng-padding[target="_blank"]
-redheadsound.studio##.side-block.first
-redheadsound.studio##.side-block.first + .side-block > div[class^="side-block__"]
 comx.life#?#.side-block:-abp-has(> .soc-channels)
 psychologies.ru##.side-block_soc-tabs
 gadgetstyle.com.ua#?#.side-blok:-abp-has(.twitter-timeline )
@@ -2168,7 +2166,7 @@ itc.ua,latuaitalia.ru##.sn
 rebenok.by##.sn-share-img-links
 itc.ua##.sn-widget
 piter.tv##.snet-links
-1tulatv.ru,anistar.org,astar.bz,gamer-info.com,help-wifi.com,itweek.ru,online-star.org,online-stars.org,planetanovosti.com,regions.ru,tourpom.ru,vokrugsveta.ru##.soc
+1tulatv.ru,anistar.org,astar.bz,gamer-info.com,help-wifi.com,itweek.ru,online-star.org,online-stars.org,planetanovosti.com,redheadsound.studio,regions.ru,tourpom.ru,vokrugsveta.ru##.soc
 vesti.kz##.soc > .h
 arpal.ua##.soc-aside
 povarenok.ru##.soc-bl-wrap
@@ -2821,7 +2819,7 @@ stopgame.ru##[class*="_sg-socials--footer"] > li > *
 7days.ru##[class*="button-social_telegramm"]
 www.kinopoisk.ru##[class*="footer"] > [class*="social-"]
 gorodche.ru##[class*="footer-bottom-social"]
-lipetsknews.ru,myliski.ru,newskrasnodar.ru,newtambov.ru,pg02.ru,pg11.ru,pg12.ru,pg13.ru,pg21.ru,pg37.ru,pg46.ru,pgn21.ru,pgr76.ru,prochepetsk.ru,prodzer.ru,progorod33.ru,progorod43.ru,progorod58.ru,progorod59.ru,progorod62.ru,progorod76.ru,progorodnn.ru,progoroduhta.ru,prosaratov.ru,usolie.info,vladivostoktimes.ru,youtvnews.com##[class*="footer_ftrSocialList"]
+lipetsknews.ru,myliski.ru,newskrasnodar.ru,newtambov.ru,ngzt.ru,pg02.ru,pg11.ru,pg12.ru,pg13.ru,pg21.ru,pg37.ru,pg46.ru,pgn21.ru,pgr76.ru,prochepetsk.ru,prodzer.ru,progorod33.ru,progorod43.ru,progorod58.ru,progorod59.ru,progorod76.ru,progorodnn.ru,progoroduhta.ru,prosaratov.ru,usolie.info,vladivostoktimes.ru,youtvnews.com##[class*="footer_ftrSocialList"]
 manutd.ru##[class*="new_graphic soc_"]
 ohotniki.ru##[class*="preview__social"]
 jpgazeta.ru##[class*="share_save_widget"]
@@ -3005,7 +3003,7 @@ aniu.ru##a[title="Наша группа вконтакте"]
 shkolazhizni.ru##a[title="Сообщество «ШколаЖизни.ру» ВКонтакте"]
 interface31.ru##a[title="Телеграм"]
 1kr.ua##a[title^="Instagram"]
-interfax.ru.interfax.ru,sport-interfax.ru##a[title^="Интерфакс в "]
+interfax.ru,sport-interfax.ru##a[title^="Интерфакс в "]
 forbes.ru##a[title^="Подпишитесь на нас"]
 baby.ru##a[title^="Телеграм"]
 360.ru##a[type="button"][style^="--icon-color:"]
@@ -3021,6 +3019,7 @@ football24.ua##app-socials
 lux.fm##app-socials-block
 24tv.ua,sport24.ua##app-subscription-banner
 zab.ru,zab.tv##article .zab-social ~ div > .text
+progorod62.ru##article > .gap-3
 www.ukr.net##article > .im > .im-tl-bk:first-child[style]
 anidubpro.ru,anilibriadub.ru,animesvosts.ru,anistarfan.ru,softbox.life,studiobandoz.ru,yummybest.ru##article > .page__player ~ center a
 newstula.ru##article > .post-content + div[style^="border:"]
@@ -3041,6 +3040,7 @@ tvc.ru##article > header > div > div:nth-child(2)
 comments.ua,nazhyvo.kyiv.ua#?#article > p:-abp-has(> a[href^="https://t.me/"])
 ont.by#?#article > p:-abp-has(> a[href^="https://zen.yandex.ru/"])
 zmi.ck.ua#?#article > strong:-abp-has(> a[href^="https://t.me/"])
+progorod62.ru#?#article div:-abp-has(> p + div > button ~ button ~ button)
 gamegpu.com#?#article p[style="text-align: center;"]:-abp-has(> strong:-abp-contains(/ сетях/i))
 gamegpu.com##article table[style="margin-left: auto; margin-right: auto;"]
 mybryansk.ru##article ~ .socShare + h2
@@ -3210,7 +3210,7 @@ tribuna.com##div[class^="_footer__social-media"]
 tribuna.com##div[class^="_shared-socia-buttons"]
 t-j.ru##div[class^="_sharer_"]
 stopgame.ru##div[class^="_youtube-promo_"]
-hightech.plus,lipetsknews.ru,myliski.ru,newskrasnodar.ru,newtambov.ru,pg02.ru,pg11.ru,pg12.ru,pg13.ru,pg21.ru,pg37.ru,pg46.ru,pgn21.ru,pgr76.ru,prochepetsk.ru,prodzer.ru,progorod33.ru,progorod43.ru,progorod58.ru,progorod76.ru,progorodnn.ru,progoroduhta.ru,prosaratov.ru,usolie.info,vladivostoktimes.ru,youtvnews.com##div[class^="article-social"]
+hightech.plus,lipetsknews.ru,myliski.ru,newskrasnodar.ru,newtambov.ru,ngzt.ru,pg02.ru,pg11.ru,pg12.ru,pg13.ru,pg21.ru,pg37.ru,pg46.ru,pgn21.ru,pgr76.ru,prochepetsk.ru,prodzer.ru,progorod33.ru,progorod43.ru,progorod58.ru,progorod76.ru,progorodnn.ru,progoroduhta.ru,prosaratov.ru,usolie.info,vladivostoktimes.ru,youtvnews.com##div[class^="article-social"]
 yamal-media.ru##div[class^="article_ShareBlockWrapper"]
 greenpost.ua##div[class^="article_share_side_"]
 mayaksbor.ru##div[class^="d-news-comments-share"]
@@ -3245,7 +3245,7 @@ glavagronom.ru##div[class^="socIcons"]
 buzulukday.ru,cybersport.ru,nsday.ru,orenday.ru,perevolockday.ru,saltday.ru,sorochinskday.ru##div[class^="social"]
 ukrlib.com.ua##div[class^="social-box-item"]
 hightech.plus##div[class^="social-buttons"]
-lipetsknews.ru,myliski.ru,newskrasnodar.ru,newtambov.ru,pg02.ru,pg11.ru,pg12.ru,pg13.ru,pg21.ru,pg37.ru,pg46.ru,pgn21.ru,pgr76.ru,prochepetsk.ru,prodzer.ru,progorod33.ru,progorod43.ru,progorod58.ru,progorod76.ru,progorodnn.ru,progoroduhta.ru,prosaratov.ru,usolie.info,vladivostoktimes.ru,youtvnews.com##div[class^="social-list-subscribe"]
+lipetsknews.ru,myliski.ru,newskrasnodar.ru,newtambov.ru,ngzt.ru,pg02.ru,pg11.ru,pg12.ru,pg13.ru,pg21.ru,pg37.ru,pg46.ru,pgn21.ru,pgr76.ru,prochepetsk.ru,prodzer.ru,progorod33.ru,progorod43.ru,progorod58.ru,progorod76.ru,progorodnn.ru,progoroduhta.ru,prosaratov.ru,usolie.info,vladivostoktimes.ru,youtvnews.com##div[class^="social-list-subscribe"]
 sovsport.ru##div[class^="social-media-buttons-module"]
 unn.ua##div[class^="social-module_"]
 nn.ru##div[class^="social-widget"]
@@ -3388,7 +3388,7 @@ prochepetsk.ru,progorod43.ru##li > a[class^="nav_"][href*="https://max.ru/"]
 prochepetsk.ru,progorod43.ru##li > a[class^="nav_"][href*="https://t.me/"]
 pg12.ru,pg21.ru,prodzer.ru,progorod33.ru,progorodnn.ru##li > a[class^="sub-menu_"][href*="https://max.ru/"]
 lipetsknews.ru,pg12.ru,pg21.ru,pgn21.ru,progorod58.ru,progorodnn.ru,progoroduhta.ru,usolie.info##li > a[class^="sub-menu_"][href*="https://t.me/"]
-lipetsknews.ru,myliski.ru,pg12.ru,pg21.ru,pgn21.ru,prodzer.ru,progorod33.ru,progorod58.ru,progorodnn.ru,progoroduhta.ru,usolie.info##li > a[class^="sub-menu_"][href*="https://vk.com/"]
+lipetsknews.ru,myliski.ru,ngzt.ru,pg12.ru,pg21.ru,pgn21.ru,prodzer.ru,progorod33.ru,progorod58.ru,progorodnn.ru,progoroduhta.ru,usolie.info##li > a[class^="sub-menu_"][href*="https://vk.com/"]
 argumenti.ru#?#li:-abp-has(> a[href^="https://t.me/"])
 ctc.ru##li[class="hsi-item"]
 78.ru##li[class^="social-block_"]
@@ -5618,7 +5618,6 @@ hdrezka.pl##.header-subscr-btn
 officelife.media##.header-top__subs
 stopcor.org##.headerMobileMenu_donate
 rayon.in.ua##.headerTop__nav-support
-dtf.ru,vc.ru##.header__app
 finbalance.com.ua##.header__bottom > .app
 andro-news.com##.header__buy
 mil.in.ua##.header__support
@@ -6094,6 +6093,7 @@ online-fix.me##.sidebar > .text-center ~ div[class="sidebar-block"]
 lavnik.net#?#.sidebar > .widget_list_mag_wp_300px:-abp-has(> .img-300 > .Subscribe_button)
 geniusmarketing.me##.sidebar > .widget_search ~ .widget_text
 freakenergy.ru##.sidebar > div > noindex
+dtf.ru,vc.ru##.sidebar-apps-promo
 pikabu.ru##.sidebar-block-links__footer
 pikabu.ru##.sidebar-block-links__group ~ .sidebar-block-links__group
 rempc.by##.sidebar-block.banner
@@ -6107,6 +6107,7 @@ processer.media##.sidebar-wrap
 mayday.rocks##.sidebar.column
 1cloud.ru##.sidebar__banner
 jakondo.ru##.sidebar__item_donation
+dtf.ru,vc.ru##.sidebar__recommendations-notice
 lifeha.ru##.sidebar__tit
 interface31.ru##.sidebar_inner > div[class="widget"]
 habr.com##.sidebar_right > #companies_rating
@@ -6241,7 +6242,6 @@ unian.info,unian.net,unian.ua##.support-post
 unian.info,unian.net,unian.ua##.support-post__btn
 wotspeak.org##.support-section
 unian.info,unian.net,unian.ua##.support-unian
-dtf.ru,vc.ru##.support[href="/donate"]
 thepage.ua##.support_material
 kaifolog.ru##.svkfbgp
 seasonvar.ru##.svnotify
@@ -7368,6 +7368,7 @@ mail.yandex.ru,mail.yandex.*##div[class*=" CornerPopup_body_"]
 mail.yandex.ru,mail.yandex.*##div[class*="MobileAppPromo-"]
 mail.yandex.ru,mail.yandex.*##div[class^="Banner-m__root"]
 mail.yandex.ru,mail.yandex.*##div[class^="SpaceInformer-m_"] > a.Orb-Button_view_brand
+ya.ru##main > div > div[data-hydration-id]
 market.yandex.ru,market.yandex.*##.main > noindex:first-of-type
 market.yandex.ru,market.yandex.*##.n-entrypoint-carousel
 market.yandex.ru,market.yandex.*##[data-apiary-widget-name*="/RecomMediaAdv"]
