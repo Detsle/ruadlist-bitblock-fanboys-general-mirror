@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: JyLQWhvbmO5ehwEf8PIEeg
-! Version: 202608190321
+! Checksum: DfxxvAb3CHvLACseotebQA
+! Version: 202608210322
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 19 Aug 2026 03:21 UTC
+! Last modified: 21 Aug 2026 03:22 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -2534,6 +2534,7 @@ informburo.kz##.telegram-card
 online-knigi.com##.telegram-chanel
 1kr.ua##.telegram-chat
 new-magazine.ru##.telegram-feed
+2ip.io,2ip.ru##.telegram-float-banner
 htmlweb.ru##.telegram-groupe
 championat.asia,meteovesti.ru##.telegram-link
 1tv.od.ua##.telegram-link-block
@@ -2805,7 +2806,7 @@ xn----7sbbeeptbfadjdvm5ab9bqj.xn--p1ai##[aria-label="Баннер соцсети
 rg.ru##[aria-label="Наш Telegram"]
 mivmeste.info##[aria-label="Панель соцсетей"]
 uznayvse.ru##[aria-label="Поделиться в социальных сетях"]
-2gis.by,2gis.kz,2gis.ru,domclick.ru,fishki.net,kanobu.ru,ozon.ru,tass.ru,wink.ru##[aria-label="Поделиться"]
+2gis.by,2gis.kz,2gis.ru,domclick.ru,fishki.net,kanobu.ru,tass.ru,wink.ru##[aria-label="Поделиться"]
 rutube.ru##[aria-label="Присоединяйтесь в социальных сетях"]
 afisha.ru##[aria-label="Социальные сети"]
 limehd.tv##[aria-label^="social-"]
@@ -3324,6 +3325,7 @@ tsn.ua##footer > .l-container > .grid.uppercase > .md\:col-span-4
 sport-tv.by##footer > .nav > .top > .right
 www.ixbt.com##footer > .sm\:flex-row
 thetruestory.news##footer > a.framed[target="_blank"]
+www.ozon.ru##footer > div > div > button
 ura.news##footer > div > section:last-child > div:first-child
 tvc.ru#?#footer > div:-abp-has(> div > nav > a[class*=" bg-icon-"][target="_blank"])
 116.ru,14.ru,161.ru,164.ru,173.ru,178.ru,26.ru,29.ru,35.ru,43.ru,45.ru,48.ru,51.ru,53.ru,56.ru,59.ru,60.ru,63.ru,68.ru,71.ru,72.ru,74.ru,76.ru,86.ru,89.ru,93.ru,chita.ru,e1.ru,ircity.ru,izh1.ru,mgorsk.ru,msk1.ru,ngs.ru,ngs22.ru,ngs24.ru,ngs42.ru,ngs55.ru,ngs70.ru,nn.ru,sochi1.ru,sterlitamak1.ru,tolyatty.ru,ufa1.ru,v1.ru,vladivostok1.ru,voronezh1.ru,ya62.ru#?#footer > div:-abp-has(> section > h4:-abp-contains(Мы в соцсетях))
@@ -3335,9 +3337,6 @@ uznayvse.ru##footer a.ds_icon_button
 dline-media.com##footer a[href$="media"][target="_blank"]
 banki.ru##footer a[target="_blank"][rel][data-title]
 zaycev.net##footer a[target="_blank"][title^="Официальн"]
-ozon.ru##footer a[title="Telegram"]
-ozon.ru##footer a[title="VK"]
-ozon.ru##footer a[title="Одноклассники"]
 theins.ru##footer div > nav ~ ul
 obukhiv.info#?#footer div:-abp-has(> a[href*="://t.me/"])
 eda.ru#?#footer div:-abp-has(> div > [title="vkontakte"])
@@ -4690,6 +4689,7 @@ thequestion.ru###content > .informer
 moya-planeta.ru###content > .white_header_text
 it-actual.ru###content > article ~ :not(article):not(.zap):not(#comments):not(#nav-below)
 galas.te.ua###content > table
+www.ozon.ru###contentScrollPaginator[class^="search_"] > [class^="search_"] ~ [class^="search_"][style^="min-height:"] [data-widget="island"]
 7ya.ru###content_container > div[class*="specprojects"]
 aeroexpress.ru###coockiesInfoOuter
 genesis-mining.ru,gopractice.ru,inscience.news,life.com.by,proglib.io###cookie
@@ -5921,6 +5921,7 @@ syzran-small.ru,xn----7sbabwosghnf8al4lkj7b.xn--p1ai##.podpis
 akkordam.ru##.podpiska
 smotret-multfilmi.net##.podpleer-title-google
 1cloud.ru##.policy
+ruweb.net##.policy-alert__wrapper
 bhub.com.ua##.policy-cookies
 emu-land.net##.policy-validation
 kinoliza.net##.pometka
@@ -6827,6 +6828,8 @@ olx.kz,olx.ua,olx.uz##div[data-testid="cookies-overlay__container"]
 cnc3018.ru##div[data-widget-key="donate"]
 ozon.ru##div[data-widget="objectBannerList"]
 ozon.ru##div[data-widget="skuBrandShelf"]
+www.ozon.ru##div[data-widget="webPdpGrid"] [data-widget^="tileGridDesktop"]
+www.ozon.ru##div[data-widget="webPdpGrid"] [data-widget^="tileScrollDesktop"]
 ozon.ru##div[data-widget^="bannerCarousel"]:not([style="height:500px;"])
 smolnarod.ru##div[id*="add_"][id*="_news"]
 semestr.online,semestr.ru#?#div[id^="Math"][id$="Block"] > div:-abp-has(> #closecookie)
@@ -7490,7 +7493,7 @@ www.kinopoisk.ru##iframe[src*="kinopoisk-ru.clstorage.net/"]
 mail.*##.tv-widget [class^="vk-video"]
 mail.*##.tv-widget [class^="vk-video"] {remove:true;}
 mail.yandex.ru,mail.yandex.*##[id^="js-mail-layout-content-header"] > .message-list-banner-portal + div:not([class*="message"]):not(:last-child)
-mail.yandex.ru,mail.yandex.*##div#js-layout-inner[class^="PageLayout-m__main--"][id="js-layout-inner"] ~ div[data-testid]
+mail.yandex.ru,mail.yandex.*##div#js-layout-inner[class^="PageLayout-m__main--"][id="js-layout-inner"] ~ [class]
 translate.yandex.ru,translate.yandex.*##.side-block > div
 vk.com,vk.ru,vkvideo.ru##vk-video-player div[class^="PauseSuggestionsSlider"]
 yandex.ru,yandex.*##[class*="Money_"] [class]:empty
@@ -8280,6 +8283,7 @@ prom.ua#@#img[alt="facebook"]
 ||ntvsw.com^$third-party
 ||partishion.com^$third-party
 ||pathlime.com^$third-party
+||poosh.wizzo.media^
 ||popmechanic.ru^$third-party
 ||propush.net^$third-party
 ||pt.appirits.com^$third-party
@@ -15231,6 +15235,7 @@ _social_footer_
 ##.qw_social
 ##.r-footer--social
 ##.r-likes-wrapper
+##.r-toggle--share
 ##.r1-share
 ##.r7twitter-title
 ##.ra-share
@@ -17844,6 +17849,7 @@ _social_footer_
 ##.tgla7-share
 ##.th-sharecounts
 ##.tha__socialItem
+##.thb-share-product
 ##.thb-social-links-container
 ##.thb-social-top
 ##.the-social-links
@@ -18673,6 +18679,7 @@ _social_footer_
 ##img[alt="Connect with us on Facebook"]
 ##img[alt="Connect with us on LinkedIn"]
 ##img[alt="Connect with us on Twitter"]
+##r-btn--share
 ##share-action
 ##span[title="Condividi"]
 ##span[title="Share this article"]
