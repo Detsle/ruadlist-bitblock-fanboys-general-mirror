@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: i87v4eSUKDt7Us+ArEt4Ug
-! Version: 202608250322
+! Checksum: 8Qi/wWyrV8Rpaj1TpmS/5w
+! Version: 202608271302
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 25 Aug 2026 03:22 UTC
+! Last modified: 27 Aug 2026 13:02 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -981,6 +981,7 @@ meteovesti.ru##.btn-social-icon
 sports.ru##.btn-social-share
 superkarate.ru##.btn-social-wrapper
 rutgames.net,torrents.ws##.btn-telegram
+ecology-of.ru##.btn-top-like
 audioknigi-online.ru,rutgames.net,torrents.ws##.btn-vk
 amurmedia.ru,angarskmedia.ru,chitamedia.su,chukotkamedia.ru,eaomedia.ru,irkutskmedia.ru,kamchatkamedia.ru,krasnodarmedia.su,krasnoyarskmedia.ru,magadanmedia.ru,nakhodka.media,novostirostov.ru,omskmedia.su,peterburgmedia.ru,priamurmedia.ru,primadonna.media,primamedia.ru,sakhalinmedia.ru,sevastopolmedia.ru,sochimedia.su,stavropol.media,stolicamedia.ru,ulanmedia.ru,ussurmedia.ru,yakutiamedia.ru##.btn_fly_share
 frankivchany.if.ua##.button-plus
@@ -2258,15 +2259,16 @@ fireman.club##.social-block-bottom
 oxu.az##.social-block2 > p
 oxu.az##.social-block2 > ul > li > :not(.print-btn)
 radioromantika.ru##.social-block__container
+radioromantika.ru##.social-block__paragraph
 mc.today##.social-blue
 edabez.ru,nsn.net.ua##.social-bottom
 eadaily.com,toneto.net,zn.ua##.social-box
 ficbook.net,keenetic.ru,patrol.police.gov.ua,speka.ua##.social-btn
 nikopolnews.net,unian.info,unian.net,unian.ua##.social-btn-bottom
 gismeteo.ru##.social-btns-wrapper
-gamestatus.info,wotpack.ru##.social-button
+ecology-of.ru,gamestatus.info,wotpack.ru##.social-button
 regions.ru##.social-button-desktop
-66.ru,bst.bratsk.ru,click-or-die.ru,coolotvet.ru,dynamomania.com,football.ua,gizchina.net,gmk.center,kulturologia.ru,mse02.ru,om1.ru,pay-day.ru,publy.ru,qafqazinfo.az,tehnobzor.ru,tribun.com.ua##.social-buttons
+66.ru,bst.bratsk.ru,click-or-die.ru,coolotvet.ru,dynamomania.com,ecology-of.ru,football.ua,gizchina.net,gmk.center,kulturologia.ru,mse02.ru,om1.ru,pay-day.ru,publy.ru,qafqazinfo.az,tehnobzor.ru,tribun.com.ua##.social-buttons
 freehat.cc##.social-buttons > * > *
 bfm.ru##.social-buttons > a
 newsland.com##.social-card
@@ -2296,7 +2298,7 @@ onliner.by,www.film.ru##.social-likes
 allgoodmood.ru##.social-likes-bottom
 fishki.net,rusplt.ru##.social-line
 mybrazz.club,prokazan.ru##.social-lines
-overclockers.ru##.social-link
+overclockers.ru,waifucards.app##.social-link
 polissia.news##.social-link a[rel="nofollow"]
 nv.ua##.social-link-circle
 animelayer.ru,astera.ru,autostadt.su,b-glife.ru,babla.ru,belkagomel.by,bidbaits.ru,bigkyiv.com.ua,bio-lessons.ru,cyberscore.live,delfi.lt,delfi.lv,dostyp.com.ua,energyfm.ru,glavnoe.in.ua,gmk.center,gtavicecity.ru,interfax.com.ua,intermedia.ru,kulturologia.ru,lada.kz,likefm.ru,minprom.ua,mukachevo.net,news24.in.ua,novadoba.com.ua,odessamedia.net,podolyaka.com,podolyaka.ru,poebuilds.ru,radiozenit.ru,recept.ua,reporter64.ru,retrofm.ru,ruwiki.ru,snob.ru,sportarena.ua,sportkp.ru,sports.ru,sq.com.ua,te.ua,the-geek.ru,theageoffootball.com,theblueprint.ru,tvcenter.ru,tvr.by,utyug.info,varianty.lviv.ua,varta1.com.ua,vashsad.ua,vesti.ru,vsezdorovo.com,warhead.su,wotpack.ru,zakarpatpost.net,zazloo.ru##.social-links
@@ -2394,7 +2396,7 @@ blokino.org##.socialknopka
 novosti.dn.ua##.sociall
 glianec.com,rebenok.by##.sociallike
 electrotests.ru,tests24.su##.socialmedia
-101.ru,1news.az,5koleso.ru,acmc.ua,agents.media,agrotimes.ua,avtovzglyad.ru,bitcoinmagazine.ua,cherkasy.live,comedy-radio.ru,dumka.media,edyna.media,forbes.kz,fraza.com,gotennis.ru,hdrezka.inc,infox.ru,kanaldim.tv,komersant.ua,korrespondent.net,ku66.ru,kurs.if.ua,lifehacker.ru,mgazeta.com,mi100.info,mos-holidays.ru,muz-tv.ru,nashbryansk.ru,nevnov.ru,new-magazine.ru,nsp.ru,overclockers.ua,paperpaper.ru,podillyanews.com,poltava.ua,pravo.by,realnoevremya.ru,regnum.ru,relax-fm.ru,report.az,retail.ru,rezka.biz,rozetked.me,securitymedia.org,sknews.net,speka.ua,stopcor.org,teleprogramma.org,thegirl.ru,turkrutv.net,tvoemisto.tv,uatv.ua,usionline.com,virtualbrest.ru,womanhit.ru##.socials
+101.ru,1news.az,5koleso.ru,acmc.ua,agents.media,agrotimes.ua,avtovzglyad.ru,bitcoinmagazine.ua,cherkasy.live,comedy-radio.ru,dumka.media,edyna.media,forbes.kz,fraza.com,gotennis.ru,hdrezka.inc,infox.ru,kanaldim.tv,komersant.ua,korrespondent.net,ku66.ru,kurs.if.ua,lifehacker.ru,mgazeta.com,mi100.info,mos-holidays.ru,muz-tv.ru,nashbryansk.ru,nevnov.ru,new-magazine.ru,nsp.ru,overclockers.ua,paperpaper.ru,podillyanews.com,poltava.ua,pravo.by,radioromantika.ru,realnoevremya.ru,regnum.ru,relax-fm.ru,report.az,retail.ru,rezka.biz,rozetked.me,securitymedia.org,sknews.net,speka.ua,stopcor.org,teleprogramma.org,thegirl.ru,turkrutv.net,tvoemisto.tv,uatv.ua,usionline.com,virtualbrest.ru,womanhit.ru##.socials
 73online.ru##.socials > div > a[rel="nofollow"]
 kinonews.ru##.socials > ul
 gotennis.ru##.socials-a
@@ -2443,7 +2445,7 @@ armflot.ru#?#.sp-column > .sp-module:-abp-has(#vk_groups)
 broadcast.net.ua##.sp-column > footer
 fakty.com.ua##.sp-read-social
 kinofilm.co##.sp_insta
-3m2.ua,blackwot.ru,ukrhealth.net,weukraine.tv##.spc-social
+3m2.ua,blackwot.ru,portaltele.com.ua,ukrhealth.net,weukraine.tv##.spc-social
 pixelinform.com,sysidka.com##.spc-social-block
 5.ua##.spec-block
 slavinfo.dn.ua##.sppb-addon-social-media
@@ -2951,6 +2953,7 @@ dom2line.ru##a.fa[href^="http"]:not([href*="://dom2line.ru/"])
 zab.ru,zab.tv##a.header-e[target="_blank"]
 orelgrad.ru##a.mmb-floating-button[href^="https://max.ru/"]
 dzen.ru,sportsdzen.ru##a.news-story-block__link ~ div > div:not([class])
+radiosputnik.ru##a.radiosputnik-fixed-video-label
 peterburg2.ru##a.rl__btn[target="_blank"]
 uazmi.org##a.tgch-card-footer
 mgazeta.com##a.topline-item[href^="https:"][target="_blank"]
@@ -2999,6 +3002,7 @@ martrending.ru##a[href^="https://yandex.ru/chat/"]
 66.ru,auto.ru,car.ru,interfax.ru,kakoysegodnyaprazdnik.ru,kavkaz-uzel.eu,myanianime.ru,pythontutor.ru,xn--80aaiebcrjcibi8adgdtsm9z.xn--p1ai##a[href^="tg://resolve"]
 armtorg.ru##a[itemprop="sameAs"][rel="noreferrer nofollow"]
 gazeta.uz##a[onclick*="TelegramChannel"]
+kino-teatr.ru##a[onclick*="footer_"][target="_blank"]
 toptracker.ru##a[onclick^="content_share"]
 qiq.ws##a[onclick^="return addSoc"]
 aimp.ru##a[target="_blank"] > img[src*="/images/logo-"]
@@ -3465,7 +3469,7 @@ tochka.net#?#p:-abp-has(> strong > a[href*="facebook.com/"])
 auto.bigmir.net#?#p:-abp-has(> strong > a[href^="http://t.me/"])
 mk.ru#?#p:-abp-has(> strong > a[href^="https://max.ru/"])
 2bitcoins.ru,bereza.by,bizagro.com.ua,brestcity.com,champion.com.ua,cheline.com.ua,dumka.poltava.ua,inpoland.net.pl,mediasat.info,myliski.ru,newtambov.ru,osnmedia.ru,pg11.ru,pik.net.ua,ratel.kz#?#p:-abp-has(> strong > a[href^="https://t.me/"])
-epravda.com.ua,pravda.com.ua,sportkp.ru,uaprom.info#?#p:-abp-has(> strong > em > a[href*="://t.me/"])
+epravda.com.ua,pravda.com.ua,sportkp.ru,sud.ua,uaprom.info#?#p:-abp-has(> strong > em > a[href*="://t.me/"])
 growhow.in.ua#?#p:-abp-has(> strong > span a[href^="https://t.me/"])
 kanalukraina.tv#?#p:-abp-has(> strong ~ a[href*="tg://resolve"])
 bst.bratsk.ru,prm.ua#?#p:-abp-has(> strong ~ a[href^="https://t.me/"])
@@ -4561,8 +4565,6 @@ _app_promo$domain=7themes.su|wallscloud.net
 ||tim-fm.tim.ua/mp3|$domain=prk.city
 ||tinypass.com^$third-party,domain=obozrevatel.com
 ||tnt-online.ru/accept_cookie.js
-||tproger.ru/_nuxt/CookieNotify.
-||tproger.ru/_nuxt/WidgetDigestSubscribe.
 ||track24.ru/newyear/
 ||tranceshop.ru^$image,domain=psy-music.ru
 ||tsargrad.tv/js/fly-news.js
@@ -5116,6 +5118,7 @@ konkurent.ua##.applications
 calend.ru##.apps
 peers.tv##.apps-mobile
 peers.tv##.apps-smart
+radioromantika.ru##.apps__container
 vk.com,vk.ru##.apps_feedRightAppsBlock
 partnerkin.com##.apps_icons
 yk-news.kz##.apps_links
@@ -7059,6 +7062,7 @@ www.kinopoisk.ru##.kinopoisk-header-suggest-item__sidebar-container
 www.kinopoisk.ru##.media-page-layout__trailer-promo
 www.kinopoisk.ru#?#.media-post-setka-inner-html > [data-ui-id="post"] > p > em.stk-reset:-abp-contains(на Кинопоиске в Плюсе)
 www.kinopoisk.ru##.styles_root__HSrFS
+www.kinopoisk.ru##.styles_visible__dortm
 widgets.kinopoisk.ru,www.kinopoisk.ru##:not([class*="styles_watchOnlineButtonPurchased"]):not([class*="watch-online-button"]) > [class*="watch-online-button"]
 www.kinopoisk.ru##[class*="branding-yandex-plus-button"]
 www.kinopoisk.ru##[class*="styles_plusDesktopBranding"]
