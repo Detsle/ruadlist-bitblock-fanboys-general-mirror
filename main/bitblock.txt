@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: l/0bChaU/9AI4hQf4dOKhA
-! Version: 202608290911
+! Checksum: GxW1R1V2paLnni8OXu1UjQ
+! Version: 202608310842
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 29 Aug 2026 09:11 UTC
+! Last modified: 31 Aug 2026 08:42 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1664,6 +1664,7 @@ nazhyvo.kyiv.ua,pryluky.club##.mg-social
 orelgrad.ru#?#.mh-sidebar > .widget_text:-abp-has(> .textwidget > #vk_groups)
 theuk.one##.mini-social-buttons
 cubiq.ru##.mks_social_widget_ul
+liveinternet.ru##.mm-share
 vgorodekirove.ru##.mob_hide > .ai_c
 gamer-mods.ru##.mod-social-links
 kyiv-independent.com,wallnews.org##.modsocfooter
@@ -4866,6 +4867,7 @@ che.cn.ua#?##ot-right .ot-mod-outer:-abp-has(#SinoptikInformer)
 autoclub-cerato.ru###outer_forum
 addons.opera.com,lockerz.com###overlay
 texterra.ru###overlay-default
+it-actual.ru###page > footer > div
 forum.awd.ru###page-body > p:nth-child(-n+3)
 wezom.com.ua###page-layout-id > footer ~ div
 callfilter.app###pageContent a[href^="https://play.google.com/store/apps/"]
@@ -6407,6 +6409,7 @@ yesasia.ru##.yesasia_subscribe
 bfm.ru##.youtube
 liga.net##.youtube-block
 ukrlib.com.ua##.youtuber
+it-actual.ru##.zap:not(.add)
 livesport.ru##.zz_cars_twin
 0calc.es,0calc.fr,0calc.in,0calc.ru,0rechner.de,nu.nl,web2.0calc.com,web2.0calc.ru##[action="/cookieconsent"]
 mbclub.ru##[alt="Клубный сервис"]
@@ -6928,6 +6931,7 @@ tapochek.net##img[src*="images/rss_"]
 fakty.ua##img[src="/images/korabl-idi-hahuy.jpg"]
 opennet.me,opennet.ru##img[src="/img/rss.png"]
 rz.com.ua##img[src="/sites/default/files/baneri/samolechenie.jpg"]
+it-actual.*##+js(remove-node-text, #text, /Пожертвование сайту IT-Actual.ru|cбор пожертвований осуществляется через сервис/)
 flightsim.su##li > [title="Поддержать FlightSim"]
 amurmedia.ru,angarskmedia.ru,chitamedia.su,chukotkamedia.ru,eaomedia.ru,irkutskmedia.ru,kamchatkamedia.ru,krasnodarmedia.su,krasnoyarskmedia.ru,magadanmedia.ru,nakhodka.media,novostirostov.ru,omskmedia.su,peterburgmedia.ru,priamurmedia.ru,primadonna.media,primamedia.ru,sakhalinmedia.ru,sevastopolmedia.ru,sochimedia.su,stavropol.media,stolicamedia.ru,ulanmedia.ru,ussurmedia.ru,yakutiamedia.ru##li.wsapp
 auto.ru##li[class^="PersonalizedFeedUgcLogbookItem-"]
@@ -7598,11 +7602,37 @@ www.kinopoisk.*##html[style*="--header-height:"][style*="px"]:style(--header-hei
 tass.ru##div[class^="DesktopLayout_sticky_in_column_"]
 !#endif
 !
-! - "Тяжёлая артиллерия" против хитрой рекламы --------------------------------
+! - Оперативные исправления --------------------------------
 ! *** ruadlist:bitblock/magic.txt ***
-! Данные правила относятся к категории "медленных" и потенциально слишком
-! общих, а потому либо вовсе не подходят для основной подписки, либо требуют
-! некоторой предварительной обкатки.
+! Эта секция содержит оперативные исправления
+! которые невозможно применить в uBOL до выхода новой версии
+! ----
+@@||g.alicdn.com/AWSC/fireyejs/*/fireyejs.js|$script,domain=aliexpress.ru
+fastpic.org,~new.fastpic.org##+js(remove-node-text, script, 'return;try')
+liveinternet.ru##+js(prevent-addEventListener, load, AdvManager)
+||crmared.com^$document
+||dsazfk.com^$document
+||dteifi.com^$document
+||dtxelz.com^$document
+||dtyvtj.com^$document
+||epicgameshubham.com^$document
+||eprdl.online^$document
+||exoclocks.com^$document
+||goddess-game.com^$document
+||gptgirlfriend.online^$document
+||insta-cams.com^$document
+||metricaops.com^$document
+||myallz.com^$document
+||ouraidream.com^$document
+||ourdream.ai^$document
+||redirectthisclick.com^$document
+||rttrk.com^$document
+||sexselector.com^$document
+||singleflirt.com^$document
+||spxxxtube.com^$document
+||thtrck.com^$document
+||trackinginwtd.pro^$document
+||vividkink.com^$document
 !
 ! - Филиал Adblock Warning Removal List ---------------------------------------
 ! Сюда попадают аккуратно оформленные и не выбивающиеся из общего оформления
