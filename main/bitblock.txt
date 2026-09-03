@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: wHv2LDomyVEmWg6qmNUkQw
-! Version: 202609010751
+! Checksum: 2eZsvgZhy+Bdilzxz4jqmw
+! Version: 202609030642
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 01 Sep 2026 07:51 UTC
+! Last modified: 03 Sep 2026 06:42 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -6695,6 +6695,7 @@ rambler.ru##circle[stroke-dashoffset]
 stroki.mts.ru##cookie-agreement
 1cont.ru##cookies-notice
 xuk.mobi##div > .center > noindex
+autonews.ru,rbcautonews.ru##div.app-link
 agents.media#?#div:-abp-has(> #trigger_donate)
 korsars.pro#?#div:-abp-has(> .med > [src*="://yoomoney.ru/"])
 dailystorm.ru#?#div:-abp-has(> .notice)
@@ -7520,6 +7521,7 @@ yandex.ru,yandex.*##[class*="Money_"] [class]:empty
 ||auto.ru/_crpd/$xmlhttprequest
 ||docviewer.yandex.*/*/*/$script,~third-party
 ||dzen.ru/zen-partner/$third-party
+||it-actual.ru/wp-content/themes/iconic-one/js/lcr.js
 ||kinopoisk-ru.clstorage.net/$subdocument,domain=www.kinopoisk.ru
 ||livejournal.com/*_*_*_*_*_*_*_*_*_$xmlhttprequest
 ||mail.yandex.*/u2709/$script,~third-party
@@ -7609,24 +7611,20 @@ tass.ru##div[class^="DesktopLayout_sticky_in_column_"]
 ! Эта секция содержит оперативные исправления
 ! которые невозможно применить в uBOL до выхода новой версии
 ! ----
-fastpic.org,~new.fastpic.org##+js(abort-on-stack-trace, EventTarget, inlineScript)
-fastpic.org,~new.fastpic.org##+js(abort-on-stack-trace, document.onclick, inlineScript)
-fastpic.org,~new.fastpic.org##+js(abort-on-stack-trace, onclick, inlineScript)
-liveinternet.ru##+js(prevent-addEventListener, load, AdvManager)
-fastpic.org,~new.fastpic.org##+js(remove-node-text, script, 'return;try')
-fastpic.org,~new.fastpic.org##+js(set-constant, HTMLHtmlElement.prototype.onclick, noopFunc)
+.link/6p80h?$third-party,xmlhttprequest
+/splash.php?*fastpic$document
+=*=*fastpic$document
 @@||g.alicdn.com/AWSC/fireyejs/*/fireyejs.js|$script,domain=aliexpress.ru
+fastpic.org,~new.fastpic.org##+js(abort-on-stack-trace, Event.prototype.preventDefault, inlineScript)
+liveinternet.ru##+js(prevent-addEventListener, load, AdvManager)
 ||crmared.com^$document
-||dsazfk.com^$document
-||dteifi.com^$document
-||dtxelz.com^$document
-||dtyvtj.com^$document
 ||epicgameshubham.com^$document
 ||eprdl.online^$document
 ||exoclocks.com^$document
 ||goddess-game.com^$document
 ||gptgirlfriend.online^$document
 ||insta-cams.com^$document
+||lustgoddess.com^$document
 ||metricaops.com^$document
 ||myallz.com^$document
 ||ouraidream.com^$document
@@ -7641,6 +7639,8 @@ fastpic.org,~new.fastpic.org##+js(set-constant, HTMLHtmlElement.prototype.onclic
 ||trytracklink.com^$document
 ||unsightly-reserve.com^$document
 ||vividkink.com^$document
+||vveu.*.link/$third-party,media
+||vvru.*.link/$third-party,media
 !
 ! - Филиал Adblock Warning Removal List ---------------------------------------
 ! Сюда попадают аккуратно оформленные и не выбивающиеся из общего оформления
@@ -14005,6 +14005,7 @@ _social_footer_
 ##.iconsocial
 ##.icos-social
 ##.id-Amp-socialShare
+##.id-Story-googleFollowButton
 ##.idc-share
 ##.idvl-socs-tools
 ##.idz-social-icon
