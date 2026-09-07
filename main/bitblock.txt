@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 44Y2SuB0Mw/E90c9n/MU3g
-! Version: 202609050702
+! Checksum: PUura0yCf5tX0Vj63yX/IA
+! Version: 202609070721
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 05 Sep 2026 07:02 UTC
+! Last modified: 07 Sep 2026 07:21 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1294,7 +1294,6 @@ iphones.ru##.footer__line-menu_social
 soft2u.ru##.footer__link--vk
 onlinetrade.ru##.footer__linksline__smo
 praca.by#?#.footer__menu > .menu__items:-abp-has(> .social-networks-portal)
-vtimes.io#?#.footer__menu > ul > li:-abp-has(> ul > li > .share-icons)
 dyvys.info#?#.footer__part:-abp-has(> .rounded-socials)
 career.habr.com##.footer__section--social
 rayon.in.ua##.footer__soc-list
@@ -4841,7 +4840,6 @@ stulchik.net###myModal
 pcportal.org###n_ov
 ihavebook.org###navbar-donate
 2x2.su###news_score_form
-moscowtimes.eu,moscowtimes.ru###newsletter
 sberometer.ru###newslinebox
 mult-fan.tv###noVip
 fb.ru###notice-holder
@@ -5358,8 +5356,8 @@ vse42.ru#?#.content-switcher:-abp-has(> .content-switcher__title:-abp-contains(�
 softportal.com##.contentWrap > .st-browser__page ~ div[id][style]
 novyny.live##.content__subscribe
 kinoteatr.ru##.content_right_banner
-moscowtimes.eu,moscowtimes.ru,vtimes.io##.contribute-bar
-moscowtimes.eu,moscowtimes.ru##.contribute-teaser
+themoscowtimes.com##.contribute-bar
+themoscowtimes.com##.contribute-teaser
 doramalive.news##.control-disclaimer
 avk.ua##.coocie-pop
 informator.ua##.coockies
@@ -5554,8 +5552,9 @@ incrypted.com##.footer-top-part__col-2
 ridus.ru##.footerActions
 travelask.ru##.footer__app
 latifundist.com,zemliak.com##.footer__flex-wrap
+themoscowtimes.com##.footer__form
 holod.media##.footer__help
-moscowtimes.eu,moscowtimes.ru##.footer__menu > .row-flex > li ~ li
+themoscowtimes.com##.footer__menu > .row-flex > li ~ li
 lifehacker.ru##.footer__menu-list > :not(:first-child):not(:last-child)
 banki.ru##.footer__mobile-apps-block-wrapper
 mil.in.ua,tvmag.ru##.footer__subscribe
@@ -6124,7 +6123,7 @@ interface31.ru##.sidebar_inner > div[class="widget"]
 habr.com##.sidebar_right > #companies_rating
 ktonanovenkogo.ru##.sidebar_top
 siver.com.ua#?#.sidebox > .sidetitle:-abp-has(> span:-abp-contains(/погода/i))
-izhlife.ru,vtimes.io##.signup-form
+izhlife.ru##.signup-form
 teplica-exp.ru##.similar-info > .title_for_corousel
 gsminfo.com.ua##.single-body > .code-block
 newssky.com.ua##.single-content > .single-entry-summary ~ :not(:last-child)
@@ -6257,6 +6256,7 @@ thepage.ua##.support_material
 kaifolog.ru##.svkfbgp
 seasonvar.ru##.svnotify
 transkarpatia.net##.sw-video.side-widget
+fishki.net##.swg-follow-block
 moniheal.com##.swiper-slide-news
 tv2.today##.t-grid-push-item
 66.ru,om1.ru##.t-i-agree
@@ -6704,7 +6704,6 @@ znanija.com##div[class*=" Tooltip-module__brn-tooltip-box--"][class*="-start-arr
 homecredit.ru##div[class*="BlockCookies-"]
 domclick.ru##div[class*="CookieAlert"]
 sberindex.ru##div[class*="Layout__cookiePanel"]
-rbc.ru##div[class*="PartnersNews_wrapper"]
 citilink.ru##div[class*="PersonalDataConfirm"]
 24smi.org#?#div[class*="__col"]:-abp-has(> .subscription)
 lifehacker.ru#?#div[class*="container"] div[class*="article-card__"]:-abp-has(> [class*="article-card"] .lh-article-card-meta__promo)
@@ -7607,7 +7606,8 @@ tass.ru##div[class^="DesktopLayout_sticky_in_column_"]
 .link/6p80h?$third-party,xmlhttprequest
 /splash.php?*fastpic$document
 =*=*fastpic*%$document
-fastpic.org,~new.fastpic.org##+js(abort-on-stack-trace, Event.prototype.preventDefault, inlineScript)
+fastpic.org,~new.fastpic.org##+js(abort-on-stack-trace, Event.prototype.preventDefault, /blob|injectedScript|inlineScript/)
+fastpic.org,~new.fastpic.org##+js(prevent-navigation, /^(?:https?:)?\/\/(?!(?:[^\/]+\.)?fastpic\.org(?:[\/:]|$))/)
 ||crmared.com^$document
 ||epicgameshubham.com^$document
 ||eprdl.online^$document
@@ -7899,6 +7899,7 @@ prom.ua#@#img[alt="facebook"]
 /build/push.js
 /checkPush.js
 /content/js/push.js
+/fcm-notifications.js
 /fcmPush.js
 /FeedifySW.js
 /flying_push.js
@@ -15735,14 +15736,6 @@ _social_footer_
 ##.share-new
 ##.share-newsvine
 ##.share-nl
-##.share-on
-##.share-on-link
-##.share-on-title
-##.share-on-whsp
-##.share-open-button
-##.share-open-modal
-##.share-opera
-##.share-or
 ##.share-pannel
 ##.share-pictures-overlay
 ##.share-pin
@@ -15796,7 +15789,6 @@ _social_footer_
 ##.share-sticky--buttons
 ##.share-story
 ##.share-story-container
-##.share-story-mobile__engagement
 ##.share-stuff
 ##.share-tags
 ##.share-telegram
@@ -16025,10 +16017,7 @@ _social_footer_
 ##.share__twitter
 ##.share__wrapper
 ##.share__youtube
-##.share_and_discuss_box
 ##.share_area
-##.share_area_item
-##.share_arti_srevamp
 ##.share_article
 ##.share_article_icons
 ##.share_bar
@@ -16342,10 +16331,6 @@ _social_footer_
 ##.sharing-buttons-set
 ##.sharing-container
 ##.sharing-counters
-##.sharing-div
-##.sharing-element-facebook
-##.sharing-element-mail
-##.sharing-element-twitter
 ##.sharing-facebook
 ##.sharing-fb
 ##.sharing-google-plus
@@ -16405,7 +16390,6 @@ _social_footer_
 ##.sharing_buttons
 ##.sharing_container
 ##.sharing_controls
-##.sharing_furniture
 ##.sharing_label
 ##.sharing_links
 ##.sharing_menu
@@ -16495,7 +16479,6 @@ _social_footer_
 ##.sidebar-twitter
 ##.sidebarFollow
 ##.sidebarSocial
-##.sidebar__header--twitter
 ##.sidebar__share
 ##.sidebar__share-options-list
 ##.sidebar__sharing
@@ -16504,7 +16487,6 @@ _social_footer_
 ##.sidebar_social
 ##.sidebar_socialmediabox
 ##.sidebar_socials
-##.sidebarbox__facebook_fan_counter
 ##.sidebarsharer
 ##.sidebarsocial
 ##.sidebartwitter
@@ -16524,13 +16506,9 @@ _social_footer_
 ##.simplesocialbuttons
 ##.simplesocialbuttons_inline
 ##.single-article-social
-##.single-article__social__bottom
-##.single-aside-social-wrap
 ##.single-fb-share
 ##.single-item-share
 ##.single-meta-sharing
-##.single-post-meta-data__social-sharing
-##.single-post-meta-info-share
 ##.single-post-share
 ##.single-post-share-box-container
 ##.single-post-sharing-button
@@ -16592,8 +16570,6 @@ _social_footer_
 ##.site-footer__social-links
 ##.site-footer__social-list
 ##.site-footer__socials
-##.site-head-social--small
-##.site-header-nav__social-icon
 ##.site-header-social
 ##.site-header__article-share
 ##.site-header__share
@@ -16610,7 +16586,6 @@ _social_footer_
 ##.site-nav-social-items
 ##.site-nav-social-twitter
 ##.site-nav-social-youtube
-##.site-navigation__right-social
 ##.site-share-button
 ##.site-share-buttons-container
 ##.site-share-placeholder
@@ -16638,9 +16613,6 @@ _social_footer_
 ##.sitewide-header-social
 ##.sitewide-social-media
 ##.siu_socialmedia_2
-##.sky-component-social-share
-##.sl-fb-sharer-button
-##.slate-footer__follow-slate
 ##.slickshare
 ##.slide-desc-share
 ##.slide-share-container
@@ -16652,9 +16624,6 @@ _social_footer_
 ##.slideshow-share
 ##.slideshow-share-buttons
 ##.slideshow__header-share
-##.slim-header--social-icons
-##.sm-marketing-social
-##.sm-page-widget-sociallinks
 ##.sm-share-follow
 ##.sm-share-social-buttons
 ##.sm-social-links-horizontal
@@ -16803,21 +16772,13 @@ _social_footer_
 ##.social-button-row
 ##.social-button-small
 ##.social-button-wrapper
-##.social-button-wrapper-underpost
-##.social-button1
 ##.social-button__wrapper
-##.social-buttons--content
-##.social-buttons--content-before
-##.social-buttons--follow
-##.social-buttons--uk
 ##.social-buttons-bottom
 ##.social-buttons-compact
 ##.social-buttons-contact
 ##.social-buttons-container
 ##.social-buttons-float
 ##.social-buttons-footer
-##.social-buttons-global__facebook
-##.social-buttons-global__twitter
 ##.social-buttons-home
 ##.social-buttons-left
 ##.social-buttons-module
@@ -17211,7 +17172,6 @@ _social_footer_
 ##.social-tools-wrapper
 ##.social-tools-wrapper-bottom
 ##.social-tooltip
-##.social-top-barz
 ##.social-top-btn
 ##.social-top-icos
 ##.social-track
@@ -17229,10 +17189,6 @@ _social_footer_
 ##.social-wrap-box
 ##.social-wrap-outer
 ##.social-wrp
-##.social.kiosk
-##.social.social-facebook
-##.social.social-twitter
-##.social.social-youtube
 ##.socialActions
 ##.socialActionsBottom
 ##.socialActionsTop
