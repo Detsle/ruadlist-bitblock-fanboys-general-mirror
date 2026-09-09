@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: PUura0yCf5tX0Vj63yX/IA
-! Version: 202609070721
+! Checksum: pmZBJq4xeQoMQX8n1sPnBg
+! Version: 202609090721
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 07 Sep 2026 07:21 UTC
+! Last modified: 09 Sep 2026 07:21 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1084,6 +1084,7 @@ economistua.com##.cp-slidein-popup-container
 ukrsport.pro##.cs-follow
 ukrsport.pro##.cs-social
 banker.ua##.cs_telegram-container
+rbc.ru##.cta-social-block
 topgir.com.ua##.custom-html-widget > blockquote
 informator.ua#?#.custom-widget:-abp-has([href^="https://invite.viber.com/"])
 informator.ua#?#.custom-widget:-abp-has([href^="https://t.me/"])
@@ -6530,6 +6531,8 @@ authedu.mosreg.ru,myschool.mos.ru,school.mos.ru,uchebnik.mos.ru##[style^="positi
 kingisepp-today.ru,xn----etbbecbrbp5ahkja1ae7v.xn--p1ai##[title="appstore"]
 kingisepp-today.ru,xn----etbbecbrbp5ahkja1ae7v.xn--p1ai##[title="googleplay"]
 aniu.ru##a.help.sempai
+kinonews.ru##a.kinonews-wide-box[href="/donate/"]
+kinonews.ru##a.kinonews-wide-box[href="/donate/"] + hr
 video.matchtv.ru##a.vjs-link[href^="https://matchtv.ru/subscriptions"]
 verstka.media##a.vm-home-b-item-inner[href="https://verstkasupport.media"]
 mywebpc.ru##a[alt="donate"]
@@ -7603,35 +7606,8 @@ tass.ru##div[class^="DesktopLayout_sticky_in_column_"]
 ! Эта секция содержит оперативные исправления
 ! которые невозможно применить в uBOL до выхода новой версии
 ! ----
-.link/6p80h?$third-party,xmlhttprequest
-/splash.php?*fastpic$document
-=*=*fastpic*%$document
-fastpic.org,~new.fastpic.org##+js(abort-on-stack-trace, Event.prototype.preventDefault, /blob|injectedScript|inlineScript/)
-fastpic.org,~new.fastpic.org##+js(prevent-navigation, /^(?:https?:)?\/\/(?!(?:[^\/]+\.)?fastpic\.org(?:[\/:]|$))/)
-||crmared.com^$document
-||epicgameshubham.com^$document
-||eprdl.online^$document
-||exoclocks.com^$document
-||goddess-game.com^$document
-||gptgirlfriend.online^$document
-||insta-cams.com^$document
-||lustgoddess.com^$document
-||metricaops.com^$document
-||myallz.com^$document
-||ouraidream.com^$document
-||ourdream.ai^$document
-||redirectthisclick.com^$document
-||rttrk.com^$document
-||sexselector.com^$document
-||singleflirt.com^$document
-||spxxxtube.com^$document
-||thtrck.com^$document
-||trackinginwtd.pro^$document
-||trytracklink.com^$document
-||unsightly-reserve.com^$document
-||vividkink.com^$document
-||vveu.*.link/$third-party,media
-||vvru.*.link/$third-party,media
+liveball.*##+js(prevent-addEventListener, DOMContentLoaded, start)
+liveball.*##[data-noclick]
 !
 ! - Филиал Adblock Warning Removal List ---------------------------------------
 ! Сюда попадают аккуратно оформленные и не выбивающиеся из общего оформления
