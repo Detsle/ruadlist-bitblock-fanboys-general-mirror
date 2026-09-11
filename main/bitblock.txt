@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: pmZBJq4xeQoMQX8n1sPnBg
-! Version: 202609090721
+! Checksum: /RWYoQ8KC+giCBKRLE+Jww
+! Version: 202609110721
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 09 Sep 2026 07:21 UTC
+! Last modified: 11 Sep 2026 07:21 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -883,6 +883,7 @@ svpressa.ru##.b-top-header__socials
 gov-murman.ru##.b1t-soir-gdc-hl
 hvylya.net##.b__share--buttons
 politeka.net##.b__share-buttons
+gazeta.press,gazeta.ru##.b_header-social
 actualcomment.ru##.b_top__sitename_socnet
 reporter.ua##.banner > a[href^="https://t.me/"]
 vgoru.org##.banner--telegram
@@ -910,6 +911,7 @@ kosht.media##.bg-mint
 woman.ua##.bl-share
 ruwest.ru##.blk-socials
 habinfo.ru##.block-external
+ixbt.com##.block-market-social
 avtoradio.ru##.block-menu-snet > .icon-set
 autosport.com.ru,lgoty-vsem.ru,tehnikoved.ru##.block-share
 censor.net##.block-share-link
@@ -5037,12 +5039,10 @@ vkvideo.ru##.VideoOwnerInfo
 vkvideo.ru##.VideoQuickLogin
 audi-club.ru##.XenAdvShop
 instagram.com##.ZUqME.N9d2H
-2gis.by,2gis.kz,2gis.ru##._1jefphjl
 alfadirect.ru##._2QU59
 superjob.ru##._2hVB_
 lenta.news,lenta.ru##._branded.emoji-bar
 doctorpiter.ru,marieclaire.ru,maximonline.ru,mcmaison.ru,parents.ru,psychologies.ru,the-day.ru,thegirl.ru,vokrugsveta.ru,woman.ru##._hb-promo
-2gis.by,2gis.kz,2gis.ru##._nlniiu
 abw.by##.a100-widget
 darnytsia.ua##.a_aui_auj
 itc.ua##.about-noa
@@ -7474,6 +7474,7 @@ e.mail.ru,octavius.mail.ru##.layout__column_right-indented
 e.mail.ru,octavius.mail.ru##.layout__letter-content > .react-async
 e.mail.ru,octavius.mail.ru#@#.letter-list-item-adv
 mail.ru#@#.mailru-visibility-check
+www.kinopoisk.ru##.media-news__sidebar-col
 dzen.ru#?#.mg-grid__item_type_card:-abp-has(> div[class*="loader_animated"])
 dzen.ru#?#.news-app__heading:-abp-has(> h1:-abp-contains(Реклама))
 mail.ru#@#.tgb-wrapper
@@ -7606,8 +7607,22 @@ tass.ru##div[class^="DesktopLayout_sticky_in_column_"]
 ! Эта секция содержит оперативные исправления
 ! которые невозможно применить в uBOL до выхода новой версии
 ! ----
+fastpic.org,~new.fastpic.org##+js(abort-on-stack-trace, HTMLAnchorElement.prototype.dispatchEvent, /blob|injectedScript|inlineScript/)
+2gis.by,2gis.kz,2gis.ru##._1nnq5pzj
+2gis.by,2gis.kz,2gis.ru##._fh8krf5
+.html$third-party,popup,domain=fastpic.org|~new.fastpic.org
+/splash.php?*fHBvcE1hZ2lj$document
+/splash.php?*fastpic$document
+=*=*fastpic*%$document
+link.softoroom.org##[href^="https://softoroom.org/link/jump.php"]
+fastpic.org,~new.fastpic.org##a[href*="/big/"]:remove-attr(target)
+fastpic.org,~new.fastpic.org##a[href*="/fullview/"]:remove-attr(target)
+www.kinopoisk.ru##div[class^="app__"] > div:not([class*="media"]):not([class*="content"]):first-child > div:first-child:style(min-height: 0 !important)
+www.kinopoisk.ru##div[class^="app__"] > div:not([class*="media"]):not([class*="content"]):first-child:style(min-height: 0 !important)
 liveball.*##+js(prevent-addEventListener, DOMContentLoaded, start)
-liveball.*##[data-noclick]
+liveball.*##[data-noclick]:not(#player_block)
+||lu-games.com^$document
+||redirectthisclick.com^$document
 !
 ! - Филиал Adblock Warning Removal List ---------------------------------------
 ! Сюда попадают аккуратно оформленные и не выбивающиеся из общего оформления
