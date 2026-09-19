@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 7VGy2flOtME9Ry4tlpEUQw
-! Version: 202609170751
+! Checksum: H2KGfD/SYUIupLn959RyhQ
+! Version: 202609190722
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 17 Sep 2026 07:51 UTC
+! Last modified: 19 Sep 2026 07:22 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -3603,7 +3603,7 @@ hcdn.online##.vjs-share-button
 khl.ru##.vjs-share-control
 list-org.com##.vk
 list-org.com##.vkl
-24smi.org,electric-house.ru,givekey.ru,ph4.ru,raskraska.com,ru-skript.ru,www.kinopoisk.ru##.ya-share2
+24smi.org,electric-house.ru,givekey.ru,ph4.ru,raskraska.com,ru-skript.ru##.ya-share2
 audioportal.su,audioskazki.net,html-template.ru,rustreams.ru##.yashare-auto-init
 fishki.net##[data-social]
 mk.ru,raskraska.com,spec-komp.com##div[id^="vk_groups"]
@@ -7078,6 +7078,7 @@ www.kinopoisk.ru##.kinopoisk-header-suggest-item__sidebar-container
 www.kinopoisk.ru##.media-page-layout__trailer-promo
 www.kinopoisk.ru#?#.media-post-setka-inner-html > [data-ui-id="post"] > p > em.stk-reset:-abp-contains(на Кинопоиске в Плюсе)
 www.kinopoisk.ru##.styles_root__HSrFS
+www.kinopoisk.ru##.styles_visible__dortm[class*=" styles_noClick"]
 widgets.kinopoisk.ru,www.kinopoisk.ru##:not([class*="styles_watchOnlineButtonPurchased"]):not([class*="watch-online-button"]) > [class*="watch-online-button"]
 www.kinopoisk.ru##[class*="branding-yandex-plus-button"]
 www.kinopoisk.ru##[class*="styles_plusDesktopBranding"]
@@ -7619,15 +7620,23 @@ tass.ru##div[class^="DesktopLayout_sticky_in_column_"]
 ! Эта секция содержит оперативные исправления
 ! которые невозможно применить в uBOL до выхода новой версии
 ! ----
+fastpic.org#?##mainContainer:-abp-has(a[href*="/big/"] > img:not([src])) a[href*="html?info=1"]
+fastpic.org#?##mainContainer:-abp-has(a[href*="/fullview/"] > img:not([src])) a[href*="html?info=1"]
 agroreview.com,agroweek.com##+js(abort-on-property-read, AWB)
+fastpic.org,~new.fastpic.org##+js(abort-on-property-read, MouseEvent)
+fastpic.org,~new.fastpic.org##+js(abort-on-property-read, document.dispatchEvent)
 agroreview.com,agroweek.com##.awb-slot
-.link/jal559hv?$third-party,xmlhttprequest
+.link/yh1eo0l?$third-party,xmlhttprequest
 dtf.ru,vc.ru##.sidebar__section-content > a[href^="https://edu.vc.ru/"]
 vk.com,vk.ru#?#.vkuiGroup__modeCard > [role="feed"] > article:-abp-has(> [data-post-id] [data-testid="post-header"] > div:nth-child(2) > div + div > div span)
 /^https?:\/\/stratege\.ru\/misc\/[a-z0-9]{25,}/$image,domain=stratege.ru
+/fastpic\.org\/(view|fullview|vie%77|fullvie%77)/$csp=img-src *.fastpic.org fastpic.org static.fastpic.ru
 /tmp-new/js/kgi.js$domain=kinogo.my|kinogohd.im|kinogomy.net|kinogoua.net
 mt.today##a.background
 mt.today##div[class$="-only"][style]
+||krasnomaga.link^$third-party
+||rubakaka.org^$third-party
+||vertiguzha.link^$third-party
 !
 ! - Филиал Adblock Warning Removal List ---------------------------------------
 ! Сюда попадают аккуратно оформленные и не выбивающиеся из общего оформления
@@ -18637,6 +18646,7 @@ _social_footer_
 ##a[href^="https://www.pinterest.com/pin/create/link/"]
 ##a[href^="https://www.reddit.com/submit?"]
 ##a[href^="https://x.com/intent/follow?screen_name="]
+##a[href^="https://x.com/share?"]
 ##a[href^="whatsapp://send?text="]
 ##a[rel="share-on-facebook"]
 ##a[rel="share-on-twitter"]
