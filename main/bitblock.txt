@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: BUebrjkdRWxazTNXnILHyA
-! Version: 202609210803
+! Checksum: qhQyJ6V+2fia1YBjp1BehA
+! Version: 202609230752
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 21 Sep 2026 08:03 UTC
+! Last modified: 23 Sep 2026 07:52 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -2403,7 +2403,7 @@ blokino.org##.socialknopka
 novosti.dn.ua##.sociall
 glianec.com,rebenok.by##.sociallike
 electrotests.ru,tests24.su##.socialmedia
-101.ru,1news.az,5koleso.ru,acmc.ua,agents.media,agrotimes.ua,avtovzglyad.ru,bitcoinmagazine.ua,cherkasy.live,comedy-radio.ru,dumka.media,edyna.media,forbes.kz,fraza.com,gotennis.ru,hdrezka.inc,infox.ru,kanaldim.tv,komersant.ua,korrespondent.net,ku66.ru,kurs.if.ua,lifehacker.ru,mgazeta.com,mi100.info,mos-holidays.ru,muz-tv.ru,nashbryansk.ru,nevnov.ru,new-magazine.ru,nsp.ru,overclockers.ua,paperpaper.ru,podillyanews.com,poltava.ua,pravo.by,radioromantika.ru,realnoevremya.ru,regnum.ru,relax-fm.ru,report.az,retail.ru,rezka.biz,rozetked.me,securitymedia.org,sknews.net,speka.ua,stopcor.org,teleprogramma.org,thegirl.ru,turkrutv.net,tvoemisto.tv,uatv.ua,usionline.com,virtualbrest.ru,womanhit.ru##.socials
+101.ru,1news.az,5koleso.ru,acmc.ua,agents.media,agrotimes.ua,avtovzglyad.ru,bitcoinmagazine.ua,cherkasy.live,comedy-radio.ru,dumka.media,edyna.media,forbes.kz,fraza.com,gotennis.ru,hdrezka.inc,infox.ru,kanaldim.tv,komersant.ua,korrespondent.net,ku66.ru,kurs.if.ua,kyivpost.com,lifehacker.ru,mgazeta.com,mi100.info,mos-holidays.ru,muz-tv.ru,nashbryansk.ru,nevnov.ru,new-magazine.ru,nsp.ru,overclockers.ua,paperpaper.ru,podillyanews.com,poltava.ua,pravo.by,radioromantika.ru,realnoevremya.ru,regnum.ru,relax-fm.ru,report.az,retail.ru,rezka.biz,rozetked.me,securitymedia.org,sknews.net,speka.ua,stopcor.org,teleprogramma.org,thegirl.ru,turkrutv.net,tvoemisto.tv,uatv.ua,usionline.com,virtualbrest.ru,womanhit.ru##.socials
 73online.ru##.socials > div > a[rel="nofollow"]
 kinonews.ru##.socials > ul
 gotennis.ru##.socials-a
@@ -2412,6 +2412,7 @@ novayagazeta.ru##.socials-block-style
 game2day.ru##.socials-net
 kinonews.ru##.socials-new
 k1news.ru##.socials-random-wrap
+kyivpost.com##.socials-share
 kino.tricolor.tv##.socials-share-block
 avtovzglyad.ru##.socials-subscription
 cryptonewsua.com,eadaily.com##.socials-wrapper
@@ -2556,7 +2557,7 @@ nauka.ua##.telegram-sticky-wrapper
 hdcubik.net,lseria.net##.telegram-sub
 minprom.ua,nv.ua##.telegram-subscribe
 liga.net##.telegram-toast
-levik.blog,livejournal.com,olegmakarenko.ru,periskop.su,shakko.ru,vadimrazumov.ru##.telegram-userpromo
+livejournal.com,olegmakarenko.ru,periskop.su,shakko.ru,vadimrazumov.ru##.telegram-userpromo
 dev.ua,devby.io,inform.zp.ua,sakh.com##.telegram-widget
 detaly.co.il,israelinfo.co.il##.telegram-wrap
 dron.media##.telegramBanner
@@ -5171,7 +5172,6 @@ kinoafisha.info##.article_footer_more > .article_channels
 simhost.org##.article_subscrblock
 ostro.org#?#.articles > .action:-abp-has(> [href*="/donate"])
 kursk-izvestia.ru##.articles > article ~ noindex ~ p > strong
-pimpletv.me##.articles_i
 shazoo.ru##.aside > .grid
 sports.ru#?#.aside-news-list__item:-abp-has(a[href^="https://trbna.co/"])
 comments.ua##.atlanta
@@ -5188,7 +5188,7 @@ primpress.ru##.b-channels
 m24.ru##.b-cookies-window
 sputnik.ru##.b-cover__box > .b-panel
 bigmir.net##.b-disclaimer
-levik.blog,livejournal.com,olegmakarenko.ru,periskop.su,shakko.ru,shiro-kino.ru,vadimrazumov.ru##.b-discoverytimes-wrapper
+livejournal.com,olegmakarenko.ru,periskop.su,shakko.ru,shiro-kino.ru,vadimrazumov.ru##.b-discoverytimes-wrapper
 animego.ong##.b-dwnapp
 livejournal.com##.b-fader
 banki.ua##.b-fb-overlay
@@ -5200,7 +5200,7 @@ bigmir.net##.b-informer-social
 nnm-club.me,nnmclub.ro,nnmclub.to##.b-magic-forest
 gagadget.com##.b-magicblock
 temaretik.com##.b-modal-aligner
-levik.blog,livejournal.com,olegmakarenko.ru,periskop.su,shakko.ru,vadimrazumov.ru##.b-msgsystem-wrapper
+livejournal.com,olegmakarenko.ru,periskop.su,shakko.ru,vadimrazumov.ru##.b-msgsystem-wrapper
 tolknews.ru##.b-news_aggr
 allsoft.ru##.b-popup-overlay_subscription
 takiedela.ru##.b-post__help
@@ -5536,6 +5536,7 @@ autopilot.ru,kommersant.ru##.fixed_bottom
 kisameev.ru##.fixed_cookie
 nalog.ru##.fixed_shortcut_vc
 informator.ua##.flex.post__subscribe-banner
+kyivpost.com##.flipboard-button
 ichip.ru##.float-subscribe
 playground.ru##.float-teaser
 searchengines.guru##.float-vertical-panel
@@ -5764,7 +5765,7 @@ finzz.ru##.mailing
 peterburg2.ru##.main-announce > img[src*="/subscribe."]
 peterburg2.ru##.main-announce > img[src*="/subscribe."] ~ div
 cont.ws##.main-click-banner
-levik.blog,livejournal.com,olegmakarenko.ru,periskop.su,shakko.ru,shiro-kino.ru,vadimrazumov.ru##.main-footer__apps
+livejournal.com,olegmakarenko.ru,periskop.su,shakko.ru,shiro-kino.ru,vadimrazumov.ru##.main-footer__apps
 sports.ru##.main-footer__top-position
 playua.net##.main-nav__top-menu a[href="https://playua.net/dopomogty-proektu/"]
 myfin.by##.main-nav_sub-link--app
@@ -5959,7 +5960,7 @@ forum.awd.ru##.popup-bg-wrapp
 pikabu.ru##.popup-button-promo
 svscompany.ru##.popup-policy
 vnukovo.ru##.popup-rating-fixbutton
-levik.blog,livejournal.com,olegmakarenko.ru,periskop.su,shakko.ru,shiro-kino.ru,vadimrazumov.ru##.popup-suggestion
+livejournal.com,olegmakarenko.ru,periskop.su,shakko.ru,shiro-kino.ru,vadimrazumov.ru##.popup-suggestion
 sports.ru##.popup.team-popup
 sports.ru##.popup[data-control="Common.Compulsion"]
 pikabu.ru##.popup[style*="top: auto;"][style*="bottom: 16px;"][style*="position: fixed;"]
@@ -6263,7 +6264,6 @@ meta.ua##.subscriptions
 playmaker24.ru##.subscrite-widget-wrap
 recept.ua##.subsribe
 mk.ru##.suggest_push
-pimpletv.me,tribun.com.ua,ukrlib.com.ua##.support
 tribun.com.ua##.support-button-wrapper
 glavred.info,glavred.net##.support-gl-btn
 noob-club.ru##.support-nc
@@ -6487,7 +6487,7 @@ poltavawave.com.ua##[data-platform]
 my.ua##[data-policy-wrapper]
 5ka.ru##[data-qa="cookies"]
 livejournal.com,periskop.su,shakko.ru##[data-react-mark-10k-subscribers]
-levik.blog,livejournal.com,olegmakarenko.ru,periskop.su,shakko.ru,shiro-kino.ru,vadimrazumov.ru##[data-react-rcm-block]
+livejournal.com,olegmakarenko.ru,periskop.su,shakko.ru,shiro-kino.ru,vadimrazumov.ru##[data-react-rcm-block]
 ozon.ru#?#[data-replace-layout-path] > [data-widget="container"] > [data-widget="island"]:-abp-has(> div > [data-widget="seasonWidget"])
 mail.google.com##[data-rp-onramp-input]
 anilib.me,animelib.org,hentailib.me,hentailib.org,mangalib.me,mangalib.org,ranobelib.me,shlib.life,yaoilib.net##[data-scroll-content] > a[href="https://app.lib.social/app2.html"]
@@ -6924,6 +6924,7 @@ google-cloud.services,spac.me,spaces.im,spcs.bio,strip2.co,strip2.*,usersporn.co
 itechua.com,uamotors.com.ua#?#h4:-abp-has(> span a[href^="https://news.google.com/publications/"])
 ozon.ru##header + [data-replace-layout-path] [style="height:32px;"]
 elitesnooker.com##header > span[id]
+livejournal.com,olegmakarenko.ru,periskop.su,shakko.ru,shiro-kino.ru,vadimrazumov.ru##header a[class^="InteractiveStripe-"]
 v-variant.com.ua##header a[href$="/membership/"]
 trychatgpt.ru##header button[class*="from-[#"]
 azbooki.ru,engisys.ru,zip1000.ru##html > div[style^="color: rgb"]
@@ -6986,6 +6987,8 @@ podillyanews.com#?#p:-abp-has(> i > a[href^="https://news.google.com/publication
 techblogua.com#?#p:-abp-has(> span > mark > a[href^="https://news.google.com/publications/"])
 benzin-price.ru##p:first-child + p > table[align="center"]
 pikabu.*##.snowflakes-container {remove:true;}
+pimpletv.ru,pimpletv.*##.articles_i
+pimpletv.ru,pimpletv.*,tribun.com.ua,ukrlib.com.ua##.support
 thebell.io##privacy-consent-widget
 rozetka.com.ua##rz-top-page-banner
 hardwareluxx.ru##section > aside ~ aside:nth-child(-n+4)
@@ -7634,10 +7637,12 @@ agroreview.com,agroweek.com##+js(abort-on-property-read, AWB)
 xsport.ua#?#.MuiBox-root:-abp-has(> .MuiStack-root + .MuiStack-root [rel*="sponsored"])
 agroreview.com,agroweek.com##.awb-slot
 sportarena.ua##.category__advertisement
-.link/yh1eo0l?$third-party,xmlhttprequest
+.link/nrybn33j9e?$third-party,xmlhttprequest
+.link/zy6mjntx3ds?$third-party,xmlhttprequest
 dtf.ru,vc.ru##.sidebar__section-content > a[href^="https://edu.vc.ru/"]
-vk.com,vk.ru#?#.vkuiGroup__modeCard > [role="feed"] > article:-abp-has(> [data-post-id] [data-testid="post-header"] > div:nth-child(2) > div + div > div span)
+vk.com,vk.ru#?#.vkuiGroup__modeCard > [role="feed"] > article:-abp-has(> [data-post-id] [data-testid="post-header"] > div:nth-child(2) > div + div > div span[data-role])
 /tmp-new/js/kgi.js$domain=kinogo.my|kinogohd.im|kinogomy.net|kinogoua.net
+tribuna.com##[data-menu-mainsections="casino"]
 mt.today##a.background
 livetvstream.pro,me,online##body > #localpp[onclick*="window.open"]
 livetvstream.pro,me,online##body[bgcolor] > #adbtm
@@ -7645,14 +7650,23 @@ livetvstream.pro,me,online##body[bgcolor] > div[id="ads"][style^="position: abso
 livetvstream.pro,me,online##body[bgcolor] > div[id^="iframe-container"]
 mt.today##div[class$="-only"][style]
 tribuna.com#?#div[class$="match_layout__left_column__main"] > div:-abp-has([href*="/betting/"])
+tribuna.com##div[class*="_match_page__chat_odds_wrapper"]
+tribuna.com##div[class*="_tournament-branding__empty-block"]
 tribuna.com#?#div[class^="MatchLayout-module__"][class$="__match_layout"] > [data-test]:-abp-has([href*="/betting/"])
+tribuna.com##div[class^="_tournaments-header__hero_"]
 livetv.sx#?#table[bgcolor] > tbody > tr > td[bgcolor]:-abp-has(.odb)
+||aj2663.bid^$third-party
+||eugeniy.org^$third-party
+||evropidar.org^$third-party
 ||fontmenice.com^$third-party
 ||ii.apl*.me/js/pop.js|$script
 ||ii.apl*.online/js/pop.js|$script
 ||ii.apl*.pro/js/pop.js|$script
 ||krasnomaga.link^$third-party
+||morozovnya.link^$third-party
+||nevalyashka.link^$third-party
 ||rubakaka.org^$third-party
+||strashnokrivo.org^$third-party
 ||vertiguzha.link^$third-party
 !
 ! - Филиал Adblock Warning Removal List ---------------------------------------
@@ -18644,6 +18658,7 @@ _social_footer_
 ##a[href^="https://simpleshare.io/go?"]
 ##a[href^="https://t.me/share/url?"]
 ##a[href^="https://telegram.me/share/url?"]
+##a[href^="https://threads.net/intent/post?text="]
 ##a[href^="https://twitter.com/intent/tweet?"]
 ##a[href^="https://twitter.com/intent/user?screen_name="]
 ##a[href^="https://wa.me/?text="]
