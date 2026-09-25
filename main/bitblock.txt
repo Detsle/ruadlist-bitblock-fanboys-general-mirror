@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: qhQyJ6V+2fia1YBjp1BehA
-! Version: 202609230752
+! Checksum: YX0tU4Iobq0VVdJkFsrySA
+! Version: 202609250802
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 23 Sep 2026 07:52 UTC
+! Last modified: 25 Sep 2026 08:02 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1545,6 +1545,8 @@ habinfo.ru##.k-box-share
 cinema-24.tv##.kikadz
 km.ru##.km-shares
 igromania.ru#?#.knb-footer-links:-abp-has([target="_blank"])
+shelter.in.ua##.l-post button.border
+shelter.in.ua##.l-post ul > li > .grid a.transition-colors[target="_blank"]
 euro-football.ru##.last-news-widget__item > a[rel="nofollow"] > img
 nim.ru##.last.one_fourth
 forum.finance.ua#?#.lastnewszag:-abp-has([href*="facebook.com"])
@@ -2043,6 +2045,7 @@ uteka.ru##.share-link
 livemaster.ru##.share-link-list *
 smartpress.by##.share-links
 matematika-doma.org##.share-links-module
+ren.tv##.share-network
 defence-ua.com,risu.ua##.share-news
 24tv.ua##.share-news-block
 kinokrad.my##.share-on-player
@@ -2529,6 +2532,7 @@ potokmedia.ru##.td-is-sticky + .td-is-sticky > .wpb_wrapper > .td_block_wrap:fir
 potokmedia.ru##.td-is-sticky + .td-is-sticky > .wpb_wrapper > .td_block_wrap:first-child + .wpb_wrapper
 root-nation.com##.td-is-sticky .td_block_title
 botanichka.ru##.td-social-icon-wrap
+root-nation.com##.tdb-author-social
 sochi24.tv##.tdb_header_date ~ div a[target="_blank"]
 mediasat.info##.tdc_zone > #tdi_8
 photar.ru##.tdm-popup-modal-open
@@ -2952,6 +2956,7 @@ kino.video,tasix.me##[onclick^="OpenShareWindow"]
 www.eg.ru##[onclick^="sh1"]
 livelib.ru##[onclick^="ub_share"]
 quiz.rambler.ru#?#[role="radiogroup"][aria-activedescendant] ~ div[style]:-abp-has(> div > .rambler-share)
+mirf.ru##[share-ic]
 readovka.news##[src="https://readovka.news/wp-content/themes/rd/img/banner.png"]
 planetanovosti.com##[title="Vkontakte"]
 conversion.im##[title="facebook"]
@@ -3043,6 +3048,7 @@ lux.fm##app-social-share-block
 football24.ua##app-socials
 lux.fm##app-socials-block
 24tv.ua,sport24.ua##app-subscription-banner
+shelter.in.ua##article .ms-auto > button
 zab.ru,zab.tv##article .zab-social ~ div > .text
 progorod62.ru##article > .gap-3
 www.ukr.net##article > .im > .im-tl-bk:first-child[style]
@@ -3122,6 +3128,7 @@ dzen.ru##button[aria-label="Поделиться"]
 auto.ru##button[class*="ShareButton"]
 56orb.ru,atas.info,bel.ru,gorod55.ru,inkazan.ru,karelinform.ru,kubanpress.ru,kursdela.biz,mkset.ru,muksun.fm,nashgorod.ru,newizv.ru,newkhakasiya.online,newsnn.ru,newstracker.ru,novostivolgograda.ru,prmira.ru,properm.ru,rosbalt.ru,rostovgazeta.ru,tagilcity.ru,transsibinfo.com,udm-info.ru,vostokmedia.com,zr.media##button[class^="LeftcolSocials"]
 frontend.vh.yandex.ru##button[data-control-name="share"]
+shelter.in.ua##button[data-state="closed"]
 culture.ru##button[title="Поделиться"]
 dachnye-sovety.ru#?#center:-abp-has(> .uptolike-buttons)
 m-zh.ru#?#center:-abp-has(> .ya-share2)
@@ -3188,7 +3195,6 @@ milnavigator.com.ua##div[class*="sfsi_"]
 99px.ru##div[class*="shareicon"]
 pravda.if.ua##div[class*="social-container"]
 direct.farm#?#div[class*="social-info_action"][class*="wrapper"]:-abp-has([class*="share-button"])
-ren.tv##div[class*="socialButtonsWrapper"]
 stratege.ru##div[class*="social_box"]
 novy.tv##div[class*="social_links"]
 www.kinopoisk.ru##div[class*="styles_sidebar"] > a[href][target="_blank"] > img
@@ -3357,6 +3363,7 @@ culture.ru##footer > div:first-child > div > div:last-child > div > div:last-chi
 hardwareluxx.ru#?#footer > h4:-abp-contains(Социальные сети)
 litr.cc##footer > section ~ section
 uznayvse.ru##footer a.ds_icon_button
+shelter.in.ua##footer a.transition-colors[target="_blank"]
 v-variant.com.ua##footer a[aria-label$=" link"][target="_blank"]
 dline-media.com##footer a[href$="media"][target="_blank"]
 banki.ru##footer a[target="_blank"][rel][data-title]
@@ -5030,7 +5037,6 @@ smpbank.ru##.E_KUV0ozvj
 vk.ru##.FeaturesDisabledBanner
 vk.com,vk.ru##.FeedBlockWrap
 meduza.io##.Footer-module-app
-ren.tv##.Footer_2LPPF > .news-delimiter
 myshows.me##.Footer__apps
 meduza.io##.InfoPanel-informer
 sinoptik.ua##.ItOHEpcj
@@ -6389,7 +6395,7 @@ videoculinary.ru#?#.widget:-abp-has(> [class^="youtube_banner"])
 andro-news.com#?#.widget:-abp-has(> div > .subscribe)
 andro-news.com##.widget__content .google-play
 newformat.info##.widget__subscribe
-gsett.ru##.widget_custom_html
+geekcity.ru,gsett.ru##.widget_custom_html
 125region.ru#?#.widget_custom_html:-abp-has(> .textwidget > [id*="meteonova"])
 volyninfa.com.ua#?#.widget_custom_html:-abp-has(> div > #SinoptikInformer)
 hackware.ru,kali.tool##.widget_email-subscribers-form
@@ -6724,14 +6730,13 @@ tvrain.tv##div[app-widget="usersection"]
 deepl.com##div[aria-describedby="callout-subtitle-chromeExtensionPromo"]
 ren.tv##div[class*=" InformationBlockBtm_"]
 znanija.com##div[class*=" Tooltip-module__brn-tooltip-box--"][class*="-start-arrow-only--"]
+ren.tv##div[class*=" customButtonsWrapper_"]
 homecredit.ru##div[class*="BlockCookies-"]
 domclick.ru##div[class*="CookieAlert"]
 sberindex.ru##div[class*="Layout__cookiePanel"]
 citilink.ru##div[class*="PersonalDataConfirm"]
 24smi.org#?#div[class*="__col"]:-abp-has(> .subscription)
 lifehacker.ru#?#div[class*="container"] div[class*="article-card__"]:-abp-has(> [class*="article-card"] .lh-article-card-meta__promo)
-ren.tv##div[class*="dzenFoxButtonsContainer"]
-ren.tv##div[class*="dzenFoxButtonsContainer"] + .news-delimiter
 vk.com,vk.ru##div[class*="egalRecommendations"]
 agroxxi.ru##div[class*="gsubs"]
 ntop.tv##div[class*="header-banner"]
@@ -7079,6 +7084,7 @@ shiza-project.com##ul[class*="transparent-btns"]
 !
 ! Kinopoisk
 www.kinopoisk.ru###editorial-format-block + div[style^="min-width:"][style*="1px"]
+www.kinopoisk.ru###modal-container > [class*="styles_visible_"][class*=" styles_noClick"]
 www.kinopoisk.ru###person-filmography-graph ~ div a[class*="style_buttonPlus"]
 www.kinopoisk.ru###popover-root > div > [class*=" styles_withChevronOn"]
 www.kinopoisk.ru###streaming-promo-block + [style^="min-width:"][style*="1px"]
@@ -7090,7 +7096,6 @@ www.kinopoisk.ru##.kinopoisk-header-suggest-item__sidebar-container
 www.kinopoisk.ru##.media-page-layout__trailer-promo
 www.kinopoisk.ru#?#.media-post-setka-inner-html > [data-ui-id="post"] > p > em.stk-reset:-abp-contains(на Кинопоиске в Плюсе)
 www.kinopoisk.ru##.styles_root__HSrFS
-www.kinopoisk.ru##.styles_visible__dortm[class*=" styles_noClick"]
 widgets.kinopoisk.ru,www.kinopoisk.ru##:not([class*="styles_watchOnlineButtonPurchased"]):not([class*="watch-online-button"]) > [class*="watch-online-button"]
 www.kinopoisk.ru##[class*="branding-yandex-plus-button"]
 www.kinopoisk.ru##[class*="styles_plusDesktopBranding"]
@@ -7613,6 +7618,8 @@ www.google.*##^script:has-text(cookieUpdateConsentUrl)
 forum.ru-board.*##body:style(padding-top: 0 !important)
 market.yandex.*##div[data-zone-name="morda_context"] > div > div:nth-child(-n+2) > div[data-tid] > div[class] > div[class]:not([data-tid]) > div[class]:not([data-tid]):first-child + div:style(width: inherit !important)
 market.yandex.*##div[data-zone-name="morda_context"] > div > div:nth-child(-n+2) > div[data-tid] > div[class] > div[class]:not([data-tid]) > div[class]:not([data-tid]):first-child:style(padding-right: unset !important; width: inherit !important; max-width: 100% !important)
+unian.*##.content-column .home-top-block > .main-unit {margin-bottom:12px;margin-right:0;width:100%;}
+unian.*##.content-column .home-top-block > .main-unit:style(margin-bottom: 12px !important; margin-right: 0 !important; width: 100% !important)
 vk.*##body.anonym > #box_layer_bg:style(display: none !important)
 vk.*##body.anonym > #box_layer_wrap.scroll_fix_wrap:has(> #box_layer [aria-modal="true"][role="dialog"] .vkuiButton__in):style(display: none !important)
 vk.*##body.anonym[style*="overflow:"]:style(overflow-y: auto !important)
@@ -7637,14 +7644,14 @@ agroreview.com,agroweek.com##+js(abort-on-property-read, AWB)
 xsport.ua#?#.MuiBox-root:-abp-has(> .MuiStack-root + .MuiStack-root [rel*="sponsored"])
 agroreview.com,agroweek.com##.awb-slot
 sportarena.ua##.category__advertisement
-.link/nrybn33j9e?$third-party,xmlhttprequest
-.link/zy6mjntx3ds?$third-party,xmlhttprequest
 dtf.ru,vc.ru##.sidebar__section-content > a[href^="https://edu.vc.ru/"]
 vk.com,vk.ru#?#.vkuiGroup__modeCard > [role="feed"] > article:-abp-has(> [data-post-id] [data-testid="post-header"] > div:nth-child(2) > div + div > div span[data-role])
-/tmp-new/js/kgi.js$domain=kinogo.my|kinogohd.im|kinogomy.net|kinogoua.net
+shelter.in.ua##[data-ad-pushed]
 tribuna.com##[data-menu-mainsections="casino"]
+shelter.in.ua##[style="height: 250px; opacity: 0;"]
 mt.today##a.background
 livetvstream.pro,me,online##body > #localpp[onclick*="window.open"]
+fcportables.com#?#body > div[id][class]:-abp-has([src*="/chp-ads-block-detector/")
 livetvstream.pro,me,online##body[bgcolor] > #adbtm
 livetvstream.pro,me,online##body[bgcolor] > div[id="ads"][style^="position: absolute;"]
 livetvstream.pro,me,online##body[bgcolor] > div[id^="iframe-container"]
@@ -7655,17 +7662,29 @@ tribuna.com##div[class*="_tournament-branding__empty-block"]
 tribuna.com#?#div[class^="MatchLayout-module__"][class$="__match_layout"] > [data-test]:-abp-has([href*="/betting/"])
 tribuna.com##div[class^="_tournaments-header__hero_"]
 livetv.sx#?#table[bgcolor] > tbody > tr > td[bgcolor]:-abp-has(.odb)
+!
+! запросы
+.link/$third-party,domain=tazaromikaz.link
+.link/y6jt3d?$third-party,xmlhttprequest
+/tmp-new/js/kgi.js$domain=kinogo.my|kinogohd.im|kinogomy.net|kinogoua.net
 ||aj2663.bid^$third-party
 ||eugeniy.org^$third-party
 ||evropidar.org^$third-party
 ||fontmenice.com^$third-party
+||greatekran.org^$third-party
 ||ii.apl*.me/js/pop.js|$script
 ||ii.apl*.online/js/pop.js|$script
 ||ii.apl*.pro/js/pop.js|$script
+||kinzazaza.org^$third-party
 ||krasnomaga.link^$third-party
+||leningrib.org^$third-party
 ||morozovnya.link^$third-party
 ||nevalyashka.link^$third-party
+||pizzahuizza.org^$third-party
+||ritsatv.ru/PLAYER/antiblok.js
 ||rubakaka.org^$third-party
+||shaloburda.link^$third-party
+||skovorodnya.link^$third-party
 ||strashnokrivo.org^$third-party
 ||vertiguzha.link^$third-party
 !
@@ -16686,6 +16705,7 @@ _social_footer_
 ##.sns-section
 ##.sns-share
 ##.sns-share-area
+##.sns-share-area2
 ##.sns-share-icon
 ##.sns-share02
 ##.sns-sharing
@@ -18647,6 +18667,7 @@ _social_footer_
 ##a[href^="https://facebook.com/share.php?u="]
 ##a[href^="https://facebook.com/sharer.php?"]
 ##a[href^="https://google.com/preferences/source?q="]
+##a[href^="https://mastodonshare.com/?text="]
 ##a[href^="https://news.ycombinator.com/submitlink?"]
 ##a[href^="https://nitter.poast.org/share?"]
 ##a[href^="https://open.sns.ymcart.com/mgr?"]
