@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: H4at8KlbHznXDTH8KGW86g
-! Version: 202610050932
+! Checksum: uVVEOjvCNAiZr9DseqNX6g
+! Version: 202610070912
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 05 Oct 2026 09:32 UTC
+! Last modified: 07 Oct 2026 09:12 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -2171,6 +2171,7 @@ caravan.kz##.sm-list
 glavred.info,glavred.net##.sm-right .main-title:not([href]),.subscribe
 glas.ru,sm.news##.small-slide__social
 kolobok.ua,tv.ua##.smedia
+pressindex.ru#?#.smkparp-box:-abp-has(> .smkparp-box > [data-social])
 academic.ru##.smm
 gazeta.uz##.smm-subscription-telegram
 nkj.ru##.smmsp
@@ -2819,7 +2820,7 @@ xn----7sbbeeptbfadjdvm5ab9bqj.xn--p1ai##[aria-label="Баннер соцсети
 rg.ru##[aria-label="Наш Telegram"]
 mivmeste.info##[aria-label="Панель соцсетей"]
 uznayvse.ru##[aria-label="Поделиться в социальных сетях"]
-2gis.by,2gis.kz,2gis.ru,domclick.ru,fishki.net,kanobu.ru,tass.ru,wink.ru##[aria-label="Поделиться"]
+2gis.by,2gis.kz,2gis.ru,domclick.ru,fishki.net,kanobu.ru,tass.ru,video.sports.ru,wink.ru##[aria-label="Поделиться"]
 rutube.ru##[aria-label="Присоединяйтесь в социальных сетях"]
 afisha.ru##[aria-label="Социальные сети"]
 limehd.tv##[aria-label^="social-"]
@@ -4637,6 +4638,7 @@ _app_promo$domain=7themes.su|wallscloud.net
 ||youtube.com/embed/?enablejsapi=1&origin=*3dnews.*&widgetid=1$subdocument,domain=3dnews.ru
 ||youtube.com/get_endscreen?
 ||youtube.com^*modestbranding$subdocument,domain=depo.ua|igromania.ru
+||yummyanime.tv/*/app-banner
 ||zahid-sad.com/tilda-blocks-page*.min.js
 ||zaxid.net/assets/lib/pushSubscription.js
 ||zona.media/banner/modal
@@ -7641,11 +7643,13 @@ tass.ru##div[class^="DesktopLayout_sticky_in_column_"]
 ! Эта секция содержит оперативные исправления
 ! которые невозможно применить в uBOL до выхода новой версии
 ! ----
+tabor.ru##+js(set-cookie-reload, cookie_accepted, 1)
+minsknews.by##.widget_wp_ad_widget
+vk.com,vk.ru##[class*="onversationsBar"]
+vk.com,vk.ru##[data-testid="feed_main_container"] > div > section
 epscape.*##+js(prevent-setTimeout, shouldShowPrompt)
 epscape.*##.fixed.backdrop-blur-sm
 epscape.*##.otk-slot
-minsknews.by##.widget_wp_ad_widget
-tabor.ru##+js(set-cookie-reload, cookie_accepted, 1)
 !
 ! запросы
 .link/$third-party,domain=gorodyshka.link|perepolokha.link|player.temptcdn.com|tazaromikaz.link
