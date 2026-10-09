@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: uVVEOjvCNAiZr9DseqNX6g
-! Version: 202610070912
+! Checksum: 1n6t6GcQDN+85nAjuDl5pA
+! Version: 202610090932
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 07 Oct 2026 09:12 UTC
+! Last modified: 09 Oct 2026 09:32 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -860,6 +860,7 @@ om1.ru##.b-popup-auth-social-networks
 sobaka.ru##.b-post-view__section--social-groups
 sobaka.ru##.b-post-view__share
 kingisepp-today.ru,xn----etbbecbrbp5ahkja1ae7v.xn--p1ai#?#.b-projects > .b-projects__grid:-abp-has(> #fb-root)
+podolyaka.ru##.b-r--after_content
 utro.ru##.b-repost
 sibdepo.ru##.b-section--comments
 19rusinfo.ru##.b-services-menu
@@ -3503,7 +3504,7 @@ epravda.com.ua,pravda.com.ua,sportkp.ru,sud.ua,uaprom.info#?#p:-abp-has(> strong
 growhow.in.ua#?#p:-abp-has(> strong > span a[href^="https://t.me/"])
 kanalukraina.tv#?#p:-abp-has(> strong ~ a[href*="tg://resolve"])
 bst.bratsk.ru,prm.ua#?#p:-abp-has(> strong ~ a[href^="https://t.me/"])
-mobile-review.com#?#p:-abp-has(> strong:-abp-contains(/Мы в социальных сетях|Поделиться/))
+mobile-review.com,snookerist.ru#?#p:-abp-has(> strong:-abp-contains(/Мы в социальных сетях|Поделиться/))
 sud.ua#?#p:-abp-has(span a[href*="://t"][href*=".me/"])
 acmc.ua#?#p[style="text-align: justify;"]:-abp-has(> span ~ span)
 winreviewer.com##p[style="text-align:center; padding 30px; background-color: #1A1A1A; color: #FFFFFF"]
@@ -4630,7 +4631,7 @@ _app_promo$domain=7themes.su|wallscloud.net
 ||yastatic.net^*/zen-lib/$domain=tv.yandex.by|tv.yandex.kz|tv.yandex.ru|tv.yandex.uz
 ||yatv.ru/storage/userdata/*/banner_
 ||yatv.ru/storage/userdata/*/page_background_
-||yoomoney.ru^$subdocument,domain=adventuretime.ru|anime-free.ru|cnc3018.ru|hardwareluxx.ru|hdd.by|internet-technologies.ru|kisameev.ru|korsars.pro|nowa.cc|podolyaka.ru|trymobile.ru
+||yoomoney.ru^$subdocument,domain=adventuretime.ru|anime-free.ru|cnc3018.ru|hardwareluxx.ru|hdd.by|internet-technologies.ru|kisameev.ru|korsars.pro|nowa.cc|trymobile.ru
 ||yougame.biz/js/xf/notice.
 ||youhack.vip/pic/TRUMP-
 ||youtube.com/embed/*autoplay=1*sports.ru&widgetid$subdocument,domain=sports.ru
@@ -4734,7 +4735,6 @@ livelib.ru###cookies-agree
 vtb.ru###cookies-box
 vk.com###cookies_policy_wrap
 spectrsad.com###cooks
-vk.com###covid_banner
 3dnews.ru###currencyTicker
 techblogua.com###custom_html-2
 forums.overclockers.ru###datebar
@@ -4774,6 +4774,7 @@ sheensay.ru###fb-email
 f-igri.ru###fbgamecat
 fb.ru###feed
 3dnews.ru###feed-to-top
+vk.com,vk.ru###feed_right_blocks_root
 kingisepp-today.ru,xn----etbbecbrbp5ahkja1ae7v.xn--p1ai###fixed_overlay_top
 besplatnyeprogrammy.net###fixedcontainer_fixed
 webmoney.ru###flake
@@ -5211,8 +5212,9 @@ livejournal.com,olegmakarenko.ru,periskop.su,shakko.ru,vadimrazumov.ru##.b-msgsy
 tolknews.ru##.b-news_aggr
 allsoft.ru##.b-popup-overlay_subscription
 takiedela.ru##.b-post__help
-podolyaka.ru##.b-r > .commentsin ~ *
 bookdream.ru,booksreed.ru,electrobooks.ru,lit-web.net,litruso.ru,my-lib.ru,novkniga.ru,skanbooks.ru,x-libri.ru##.b-r--after_content > noindex
+podolyaka.ru##.b-r--before_content
+podolyaka.ru##.b-r--before_content + .wpra-reactions-wrap
 kingisepp-today.ru,xn----etbbecbrbp5ahkja1ae7v.xn--p1ai##.b-side-col-vip-ks
 siliconrus.com##.b-sidebar-block-adv-bottom
 sobaka.ru##.b-sidebar-widget--subscribe
@@ -5661,7 +5663,6 @@ seasonvar.ru##.header_icon
 mind.ua##.header_new-bot-support
 buh.ru##.header_subscribe
 superhimik.com##.headerbar
-podolyaka.ru##.help
 azbyka.ru##.help-btn
 sport.ua##.help_zsu
 ikea.com##.hnf-banner
@@ -6944,7 +6945,7 @@ epochtimes.com.ua##iframe[src*="/sinoptik.html"]
 kinoteatr.ru##iframe[src*="/special_banners/"]
 ntop.tv##iframe[src*="://banner.ntop.tv/"]
 ipic.su##iframe[src*="://discordapp.com/widget?id="]
-adventuretime.ru,anime-free.ru,hardwareluxx.ru,internet-technologies.ru,kisameev.ru,nowa.cc,podolyaka.ru,trymobile.ru##iframe[src*="://yoomoney.ru/"]
+adventuretime.ru,anime-free.ru,hardwareluxx.ru,internet-technologies.ru,kisameev.ru,nowa.cc,trymobile.ru##iframe[src*="://yoomoney.ru/"]
 pravo.ru##iframe[src*="storage.pravo.ru/file/banner/"]
 depo.ua,igromania.ru##iframe[src^="https://www.youtube.com/embed/"][src*="modestbranding"]
 grippua.com.ua##img[alt="Google-news"]
@@ -7644,15 +7645,19 @@ tass.ru##div[class^="DesktopLayout_sticky_in_column_"]
 ! которые невозможно применить в uBOL до выхода новой версии
 ! ----
 tabor.ru##+js(set-cookie-reload, cookie_accepted, 1)
+vk.com,vk.ru#?#.vkitInternalGroupCard > [role="feed"] > article:-abp-has(> [data-post-id] [data-testid="post-header"] > div:nth-child(2) > div + div > div span[data-role])
+vk.com,vk.ru#?#.vkitInternalGroupCard > [role="feed"] > article:-abp-has(> [data-post-id] a[rel]:-abp-contains(vk.cc/))
 minsknews.by##.widget_wp_ad_widget
 vk.com,vk.ru##[class*="onversationsBar"]
 vk.com,vk.ru##[data-testid="feed_main_container"] > div > section
+snookerist.ru##div[style*="max-height:"][style*="min-height:"]
 epscape.*##+js(prevent-setTimeout, shouldShowPrompt)
 epscape.*##.fixed.backdrop-blur-sm
 epscape.*##.otk-slot
 !
 ! запросы
 .link/$third-party,domain=gorodyshka.link|perepolokha.link|player.temptcdn.com|tazaromikaz.link
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima.js,domain=jut-su.online
 ||imgkcdn.com^$third-party
 ||myagkotela.link^$third-party
 ||pepyakanew.link^$third-party
