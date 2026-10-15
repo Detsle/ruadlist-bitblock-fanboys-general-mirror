@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: RPtOUce7dDEKvep4lRM5Lw
-! Version: 202610130932
+! Checksum: ttXa70+RrYkeotfqvvtN/Q
+! Version: 202610150732
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 13 Oct 2026 09:32 UTC
+! Last modified: 15 Oct 2026 07:32 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -942,7 +942,6 @@ travelask.ru##.blog-post__share
 blog.mycredit.ua##.blog-sidebar
 sportarena.ua##.blog__social
 readmanga.ru##.bloghash-socials-menu
-fishki.net##.bloglinks
 kommersant.ru##.bmd__socials
 vinbazar.com#?#.body_description p:-abp-has(> a[href^="https://t.me/"])
 pro-books.ru##.book-share-card__trigger
@@ -1079,6 +1078,7 @@ autocentre.ua##.content-shares
 frankivchany.if.ua##.content-social
 planetanovosti.com##.content-text > strong
 spot.uz##.contentBoxR
+fishki.net##.content__figure__share__social
 ural56.ru##.content__news-detail > .banner-skrollr ~ p
 tengriauto.kz,tengrinews.kz,tengrisport.kz##.content_main_share
 animejapan.tv##.content_player ~ .content_block_b
@@ -1214,6 +1214,7 @@ www.bigmir.net##.fix310 > .stiky > .row.pb20
 parlament.ua##.fixed-social-link
 happymodern.ru##.fixed_link--telegram-group
 vtrende72.ru##.fixedbut
+fishki.net##.fk-post-tools
 kanobu.ru#?#.flex:-abp-has(> p ~ div > [aria-label="ВКонтакте"])
 47news.ru##.fline > a
 nikopolnews.net##.fly-bottom-soc
@@ -1362,6 +1363,7 @@ uaspectr.com##.ft-social
 bug.org.ua##.ftr__socbox
 finance.ua##.fua-footer__community
 finam.ru##.fui-footer__socnets
+vzsar.ru##.full > .textauthor ~ p[style="color: #999; font-weight: 900"]
 ruskinonovoe.net##.full > div[style="text-align: right;"]
 myseason.club##.full-soc-text
 pcprogs.net##.fullstory__social
@@ -2666,7 +2668,6 @@ joyreactor.cc,pornreactor.cc,reactor.cc##.uhead_share
 gamegpu.com##.uk-float-right > .uk-panel a[href^="https://"] > img
 novate.ru##.ul_top > .li_site ~ li
 com-x.life##.un-actions > a[target="_blank"]
-fishki.net##.undertopic > .imgmiddle
 korrespondent.net##.unipopup
 magnit.ru##.unit-footer-socials
 korrespondent.net#?#.unit-rubric:-abp-has(> ul > #lifacebook)
@@ -2826,7 +2827,7 @@ xn----7sbbeeptbfadjdvm5ab9bqj.xn--p1ai##[aria-label="Баннер соцсети
 rg.ru##[aria-label="Наш Telegram"]
 mivmeste.info##[aria-label="Панель соцсетей"]
 uznayvse.ru##[aria-label="Поделиться в социальных сетях"]
-2gis.by,2gis.kz,2gis.ru,domclick.ru,fishki.net,kanobu.ru,kommersant.ru,tass.ru,video.sports.ru,wink.ru##[aria-label="Поделиться"]
+2gis.by,2gis.kz,2gis.ru,domclick.ru,kanobu.ru,kommersant.ru,tass.ru,video.sports.ru,wink.ru##[aria-label="Поделиться"]
 rutube.ru##[aria-label="Присоединяйтесь в социальных сетях"]
 afisha.ru##[aria-label="Социальные сети"]
 limehd.tv##[aria-label^="social-"]
@@ -3595,10 +3596,8 @@ ru-skript.ru,xn--c1acj.xn--p1acf###vk_groups
 auto.ru##.FooterSocialLinks
 fatcatslim.ru##.about-section > .LinkList
 delfi.lv##.article-social
-fishki.net##.big-share
 alexstuff.ru##.buttons_share
 vsthouse.ru##.content-padding > font[color="Grey"]
-fishki.net##.content__figure__share__social
 kakprosto.ru##.content__share
 fatcatslim.ru##.entry-share
 porjati.net##.fb-like
@@ -3610,7 +3609,6 @@ audioportal.su,vsthouse.ru##.pluso
 fatcatslim.ru,tehnar.net.ua##.post-share
 kg-portal.ru##.section_social
 ictv.ua##.share-facebook
-fishki.net##.share_ajax
 onlinemschool.com##.share_buttons
 unrealfree.com##.sharedaddy
 fatcatslim.ru,kg-portal.ru,rafkino.com##.social
@@ -3619,7 +3617,6 @@ delfi.lv##.social-tooltip
 ficbook.net##.social-top
 root-nation.com##.td-post-sharing
 root-nation.com##.td-scroll-up
-fishki.net##.top-side-social
 paypress.ru##.top-social
 porjati.net##.twitter-share-button
 hcdn.online##.vjs-share-button
@@ -3628,7 +3625,6 @@ list-org.com##.vk
 list-org.com##.vkl
 24smi.org,electric-house.ru,givekey.ru,ph4.ru,raskraska.com,ru-skript.ru##.ya-share2
 audioportal.su,audioskazki.net,html-template.ru,rustreams.ru##.yashare-auto-init
-fishki.net##[data-social]
 mk.ru,raskraska.com,spec-komp.com##div[id^="vk_groups"]
 porjati.net##form[action="http://feedburner.google.com/fb/a/mailverify"]
 !
@@ -6190,6 +6186,7 @@ eda.ru##.special-projects
 podolyaka.ru##.spoiler-box
 bhf.io##.sponsor-banner
 goodgame.ru##.sponsors.footer-block
+playground.ru##.steam-integrated-link
 bigpicture.ru##.sticky-bar
 rbc.ru##.sticky-container > .stroke-b
 postimees.ee##.sticky-cookie
@@ -6248,6 +6245,7 @@ skillbox.ru##.subscribe-popup.open ~ .bg-modal-overlay
 interfax.com.ua##.subscribe-us
 24tv.ua##.subscribe-wrap
 tulasmi.ru##.subscribe-wrapper
+vzsar.ru##.subscribeBox
 openmedia.io##.subscribePopUp
 obozrevatel.com##.subscribePopup_wrapper
 in-dmitrov.ru,in-domodedovo.ru,in-istra.ru,in-kolomna.ru,in-korolev.ru,in-narofominsk.ru,in-reutov.ru,in-schelkovo.ru,in-vidnoe.ru,in-voskresensk.ru,inbalashikha.ru,inchehov.ru,inchernogolovka.ru,indolgoprud.ru,indubnacity.ru,inegorievsk.ru,inelgorsk.ru,inelstal.ru,infryazino.ru,inhimkicity.ru,inivanteevka.ru,inkashira.ru,inklincity.ru,inkotelniki.ru,inkrasnoarmeisk.ru,inkrasnogorsk.ru,inkrasnoznamensk.ru,inlobnya.ru,inlosinopetrovsk.ru,inlotoshino.ru,inlubertsy.ru,inluhovitsy.ru,inlytkarino.ru,inmozhaisk.ru,inmytishchi.ru,innoginsk.ru,inodintsovo.ru,inorehovo.ru,inozery.ru,inpavposad.ru,inpodolsk.ru,inprotvino.ru,inpushchino.ru,inpushkino.ru,inramenskoe.ru,inroshal.ru,inruza.ru,insergposad.ru,inserprud.ru,inserpuhov.ru,inshahovskoe.ru,inshatura.ru,insolnechnogorsk.ru,instupino.ru,intaldom.ru,involokolamsk.ru,inzaraisk.ru,inzheldor.ru,inzhukovskiy.ru,inzvenigorod.ru##.subscribe[id]
@@ -7655,9 +7653,13 @@ tass.ru##div[class^="DesktopLayout_sticky_in_column_"]
 esports.ru##aside a[target="_blank"][rel="noindex nofollow"]
 !
 ! сетевые правила
+$third-party,media,domain=player.cdnvideohub.com
 ||eykek.com^$popup
+||plusani.me^$third-party
+||radikal.host/aq*.js
 ||sparksvale.com^$popup
 ||wbbasket.ru/*/FullscreenBannerOnboardingViewModel.
+||yandex.*/ads/adfox/$third-party
 !
 ! - Филиал Adblock Warning Removal List ---------------------------------------
 ! Сюда попадают аккуратно оформленные и не выбивающиеся из общего оформления
