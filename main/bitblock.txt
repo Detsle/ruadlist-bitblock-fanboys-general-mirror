@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: M4MXyxVp5HtMIyz0heSu2Q
-! Version: 202610170702
+! Checksum: IpC6qza1mePLBt1na+vodw
+! Version: 202610190751
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 17 Oct 2026 07:02 UTC
+! Last modified: 19 Oct 2026 07:51 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1190,6 +1190,7 @@ ixbt.com##.fancybox-button--share
 ficbook.net##.fanfic-author-actions
 bhub.com.ua##.fatfooter .widget-title
 sports.ru##.favorite-social-network
+vidomo.media##.fb
 geniusmarketing.me,liga.net##.fb-comments
 4eva.ru##.fb-controls
 dilo.net.ua##.fb-page-wrap
@@ -2304,7 +2305,7 @@ ua.news##.social-group > a
 zi.ua##.social-header-icos
 4eva.ru,darada.co##.social-header-wrap
 bragazeta.ru,hronikers.com##.social-icon
-2ip.ua,365days.ru,4pda.to,autosport.com.ru,broadcast.net.ua,cheline.com.ua,dorognoe.ru,fight.ru,footballtransfer.com.ua,inforesist.org,keenetic.ru,kravira.by,kuhnyatv.ru,mac.org.ua,mymusictv.ru,regnum.ru,rivnenews.com.ua,serveradmin.ru,spbit.ru,study.ru,sumy.ua,tvhdl.ru,vechirniy.kyiv.ua##.social-icons
+2ip.ua,365days.ru,4pda.to,autosport.com.ru,broadcast.net.ua,cheline.com.ua,dorognoe.ru,fight.ru,footballtransfer.com.ua,golossokal.com.ua,inforesist.org,keenetic.ru,kravira.by,kuhnyatv.ru,mac.org.ua,mymusictv.ru,regnum.ru,rivnenews.com.ua,serveradmin.ru,spbit.ru,study.ru,sumy.ua,tvhdl.ru,vechirniy.kyiv.ua##.social-icons
 deita.ru##.social-icons-bar > a
 sports.ru##.social-icons-big.likes
 1news.com.ua,d1.ua,flightsim.su,newxboxone.ru##.social-icons-item
@@ -2496,7 +2497,7 @@ report.az##.subs-in-social
 rau.ua##.subs-social
 soccer365.com.ua,soccer365.ru##.subscr
 allgoodmood.ru,gdeichto.ru,kulturologia.ru,stopcor.org##.subscribe
-news.ru,risu.ua,rozetked.me,today.ua##.subscribe-block
+news.ru,risu.ua,rivne1.tv,rozetked.me,today.ua##.subscribe-block
 crimea-news.com##.subscribe-email
 sports.ru##.subscribe-feed
 oxu.az##.subscribe-single-block
@@ -2635,6 +2636,7 @@ ficbook.net##.top-bar-links
 zanmsk.ru##.top-bar-menu
 iblitzmods.ru##.top-bar-socials
 polissia.news##.top-header
+sn.by##.top-header-wrap > .right > a[target="_blank"]
 vesti42.ru##.top-icons-wrapper
 burninghut.ru##.top-menu__share
 oblast-te.com.ua##.top-social-area
@@ -6536,7 +6538,7 @@ sxnarod.com##[href$="?act=acquaintance"] > img[src^="/image/"]
 versia.ru##[href*="//news.google.com/publications/"]
 agents.media,dyvys.info,gsett.ru##[href*="/donate"]
 tv2.today##[href*="://donate.tv2.today/"]
-112.ua,24smi.org,360tv.news,asn.in.ua,bfm.ru,bigmir.net,bizua.org,brestcity.com,dengi.ua,dumka.media,euromd.com.ua,fontanka.ru,freezmi.io,gsminfo.com.ua,hromadske.radio,incrypted.com,inforesist.org,inkorr.com,ivona.ua,izvestia.kiev.ua,korrespondent.net,lhealth.info,lviv.ua,media.az,mir24.tv,molbuk.ua,nnews.com.ua,pixelinform.com,psm7.com,radioroks.ua,realist.online,regionews.ua,ringside24.com,root-nation.com,sho.org.ua,sportarena.ua,tenews.org.ua,ternopillive.com,trmzk.ru,tsn.ua,tv.ua,u-news.com.ua,ukrhealth.net,unian.info,unian.net,unian.ua,vesti-ua.net,yesasia.ru,ytronews.ru##[href^="https://news.google.com/publications/"]
+112.ua,24smi.org,360tv.news,asn.in.ua,bfm.ru,bigmir.net,bizua.org,brestcity.com,dengi.ua,dumka.media,euromd.com.ua,fontanka.ru,freezmi.io,golossokal.com.ua,gsminfo.com.ua,hromadske.radio,incrypted.com,inforesist.org,inkorr.com,ivona.ua,izvestia.kiev.ua,korrespondent.net,lhealth.info,lviv.ua,media.az,mir24.tv,molbuk.ua,nnews.com.ua,pixelinform.com,psm7.com,radioroks.ua,realist.online,regionews.ua,ringside24.com,root-nation.com,sho.org.ua,sportarena.ua,tenews.org.ua,ternopillive.com,trmzk.ru,tsn.ua,tv.ua,u-news.com.ua,ukrhealth.net,unian.info,unian.net,unian.ua,vesti-ua.net,vidomo.media,yesasia.ru,ytronews.ru##[href^="https://news.google.com/publications/"]
 rutube.ru,rutube.sport##[id*="Player"] div[class*="disclaimer"]
 nashaplaneta.net##[id^="flowblock"]
 gidonline.eu##[id^="iivk"]
@@ -7651,21 +7653,16 @@ tass.ru##div[class^="DesktopLayout_sticky_in_column_"]
 ! которые невозможно применить в uBOL до выхода новой версии
 !
 ! косметические правила и скриплеты
-fishki.net##+js(cookie-remover, video_autoplay_off)
-esports.ru##aside a[target="_blank"][rel="noindex nofollow"]
+gk-press.if.ua###more-articles > .auto-load
+sn.by##.banner-list
+gk-press.if.ua##.site-content .some-widgets > a
+golossokal.com.ua##.stream-item-below-post-content > .stream-title
+sn.by##.upper-top-head
+golossokal.com.ua#?#.widget_block:-abp-has(> [id*="ScriptRoot"])
+golossokal.com.ua##.widget_text
 !
 ! сетевые правила
-$third-party,media,domain=player.cdnvideohub.com
-||adsensei.ai^$third-party
-||bidderstack.com^$third-party
-||bringads.com^$third-party
-||eykek.com^$popup
-||linkssp.ru^$third-party
-||plusani.me^$third-party
-||radikal.host/aq*.js
-||sparksvale.com^$popup
-||wbbasket.ru/*/FullscreenBannerOnboardingViewModel.
-||yandex.*/ads/adfox/$third-party
+/vast.js$domain=fenixplay.xyz|noodlemagazine.com|ukdevilz.com
 !
 ! - Филиал Adblock Warning Removal List ---------------------------------------
 ! Сюда попадают аккуратно оформленные и не выбивающиеся из общего оформления
@@ -18895,6 +18892,7 @@ facebook.com#@##share_feed
 smbc-comics.com#@##sharebar
 statoquotidiano.it#@##sidebar-social
 cnbc.com#@##social-buttons-transporter
+docusign.com#@##social-share
 vitruvianthing.com#@##social2
 marktplaats.nl,mijnaegonpensioen.nl#@##socialButtons
 archiveofourown.org#@##social_media
