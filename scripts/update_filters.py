@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Refresh the combined EasyList + RU AdList filter and the existing BitBlock mirror."""
+"""Refresh the official RU AdList + EasyList mirror and the BitBlock mirror."""
 from __future__ import annotations
 
 from datetime import datetime, timezone
@@ -11,19 +11,13 @@ import urllib.request
 ROOT = Path(".")
 COMBINED_OUT = ROOT / "ruadlist+easylist.txt"
 BITBLOCK_OUT = ROOT / "main" / "bitblock.txt"
-USER_AGENT = "Detsle-Adblock-Mirror/1.0 (GitHub Actions)"
+USER_AGENT = "Detsle-Adblock-Mirror/1.1 (GitHub Actions)"
 MAX_AGE_DAYS = 30
 FUTURE_TOLERANCE_DAYS = 1
 
+# Use only the official combined list. Do not rebuild it from advblock or other
+# components; if the combined source is unavailable, preserve the last good copy.
 PRIMARY_COMBINED = "https://easylist-downloads.adblockplus.org/ruadlist+easylist.txt"
-EASYLIST_SOURCES = [
-    "https://easylist.to/easylist/easylist.txt",
-    "https://raw.githubusercontent.com/thedoggybrad/easylist-mirror/main/easylist.txt",
-]
-RUADLIST_SOURCES = [
-    "https://easylist-downloads.adblockplus.org/advblock.txt",
-    "https://raw.githubusercontent.com/thedoggybrad/easylist-mirror/main/advblock.txt",
-]
 BITBLOCK_SOURCES = [
     "https://easylist-downloads.adblockplus.org/bitblock.txt",
     "https://raw.githubusercontent.com/thedoggybrad/easylist-mirror/main/bitblock.txt",
@@ -32,8 +26,6 @@ BITBLOCK_SOURCES = [
 HEAD = "[Adblock Plus 2.0]"
 MIN_COMBINED_BYTES = 500_000
 MIN_COMBINED_LINES = 50_000
-MIN_COMPONENT_BYTES = 100_000
-MIN_COMPONENT_LINES = 10_000
 MIN_BITBLOCK_BYTES = 100_000
 MIN_BITBLOCK_LINES = 10_000
 
@@ -103,47 +95,6 @@ def fetch_first(label: str, urls: list[str], min_bytes: int, min_lines: int) -> 
     raise RuntimeError(f"All sources failed for {label}:\n  " + "\n  ".join(errors))
 
 
-def combine(easylist: str, ruadlist: str, easy_url: str, ru_url: str) -> str:
-    now = datetime.now(timezone.utc).strftime("%d %b %Y %H:%M UTC")
-    output = [
-        HEAD,
-        "! Title: RU AdList + EasyList (automatically mirrored)",
-        f"! Last modified: {now}",
-        "! Expires: 1 days (mirror refreshes every 6 hours)",
-        f"! Source: {PRIMARY_COMBINED}",
-        "! Fallback sources:",
-        f"! - EasyList: {easy_url}",
-        f"! - RU AdList: {ru_url}",
-        "! Exact duplicate lines are removed; filter rules are otherwise preserved.",
-        "!",
-        "! ==================== EasyList ====================",
-    ]
-    seen = set(output)
-    metadata_prefixes = (
-        "! checksum:", "! version:", "! title:", "! last modified:",
-        "! expires:", "! homepage:", "! license:", "! description:",
-        "! redirect:", "! syntax:",
-    )
-
-    def append_body(text: str) -> None:
-        for line in text.splitlines()[1:]:
-            if line.lower().startswith(metadata_prefixes):
-                continue
-            if line not in seen:
-                output.append(line)
-                seen.add(line)
-
-    append_body(easylist)
-    marker = "! ==================== RU AdList ===================="
-    output.extend(["!", marker])
-    seen.add("!")
-    seen.add(marker)
-    append_body(ruadlist)
-    result = "\n".join(output).rstrip() + "\n"
-    validate(result, "fallback-combined EasyList + RU AdList", MIN_COMBINED_BYTES, MIN_COMBINED_LINES)
-    return result
-
-
 def atomic_write(path: Path, text: str) -> bool:
     path.parent.mkdir(parents=True, exist_ok=True)
     if path.exists() and path.read_text(encoding="utf-8", errors="replace") == text:
@@ -158,26 +109,13 @@ def atomic_write(path: Path, text: str) -> bool:
 
 def update_combined() -> bool:
     try:
-        try:
-            text = fetch(PRIMARY_COMBINED, MIN_COMBINED_BYTES, MIN_COMBINED_LINES)
-            print(f"Combined filter obtained directly from {PRIMARY_COMBINED}")
-        except Exception as primary_error:
-            print(f"Primary combined source failed; trying component sources: {primary_error}", file=sys.stderr)
-            easylist, easy_url = fetch_first(
-                "EasyList", EASYLIST_SOURCES, MIN_COMPONENT_BYTES, MIN_COMPONENT_LINES
-            )
-            ruadlist, ru_url = fetch_first(
-                "RU AdList", RUADLIST_SOURCES, MIN_COMPONENT_BYTES, MIN_COMPONENT_LINES
-            )
-            text = combine(easylist, ruadlist, easy_url, ru_url)
-            print("Successfully assembled fallback filter from current components")
-        # Verify the exact content before replacing a prior good version.
-        validate(text, "combined filter final validation", MIN_COMBINED_BYTES, MIN_COMBINED_LINES)
+        text = fetch(PRIMARY_COMBINED, MIN_COMBINED_BYTES, MIN_COMBINED_LINES)
+        print(f"Combined filter obtained from official source: {PRIMARY_COMBINED}")
+        # Validate again before replacing the previous known-good file.
+        validate(text, PRIMARY_COMBINED, MIN_COMBINED_BYTES, MIN_COMBINED_LINES)
         return atomic_write(COMBINED_OUT, text)
     except Exception as exc:
         print(f"ERROR updating combined filter; previous file is preserved: {exc}", file=sys.stderr)
-        if not COMBINED_OUT.exists():
-            return False
         return False
 
 
@@ -195,12 +133,11 @@ def update_bitblock() -> bool:
 
 def main() -> int:
     COMBINED_OUT.parent.mkdir(parents=True, exist_ok=True)
-    updated_combined = update_combined()
-    updated_bitblock = update_bitblock()
+    update_combined()
+    update_bitblock()
     if not COMBINED_OUT.exists() and not BITBLOCK_OUT.exists():
         print("No valid filter could be downloaded and no previous copies exist.", file=sys.stderr)
         return 1
-    print(f"Update run complete. Combined changed={updated_combined}; BitBlock changed={updated_bitblock}")
     return 0
 
 
