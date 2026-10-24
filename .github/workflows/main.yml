@@ -7,8 +7,9 @@ on:
       - ".github/workflows/main.yml"
       - "scripts/update_filters.py"
   schedule:
-    # Refresh all mirrored lists every six hours.
-    - cron: "17 */6 * * *"
+    # The upstream combined list declares a 1-day refresh interval, but does
+    # not publish a fixed release time. Check once near the end of each UTC day.
+    - cron: "17 23 * * *"
   workflow_dispatch:
 
 permissions:
