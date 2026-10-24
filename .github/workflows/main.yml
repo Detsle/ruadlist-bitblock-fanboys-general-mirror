@@ -1,6 +1,11 @@
 name: Update adblock filter mirrors
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/main.yml"
+      - "scripts/update_filters.py"
   schedule:
     # Refresh all mirrored lists every six hours.
     - cron: "17 */6 * * *"
