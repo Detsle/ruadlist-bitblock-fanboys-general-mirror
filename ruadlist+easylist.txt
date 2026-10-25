@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: HQ1wSU8QmmARQdPfxTBxLw
-! Version: 202610242332
+! Checksum: gY5gC07xDfRF9hk6hoBPCw
+! Version: 202610242352
 ! Title: RU, UA, UZ, KZ+EasyList
-! Last modified: 24 Oct 2026 23:32 UTC
+! Last modified: 24 Oct 2026 23:52 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -45452,6 +45452,7 @@ browsershots.org#@#.advert_area
 ||aeffe3nhrua5hua.com^
 ||aegmdwmvhesof.website^
 ||aehjiuheifpop.online^
+||aehxuhvjdbtjw.space^
 ||aeiptbtyknklq.online^
 ||aekrfkxnlisls.site^
 ||aelegtfsocyadu.com^
@@ -83896,6 +83897,7 @@ browsershots.org#@#.advert_area
 ||thymolslaggenbowla.cfd^
 ||thymuswhimper.cfd^
 ||thyriswh.cyou^
+||thzdttylfphpn.site^
 ||thzowqlddhevp.space^
 ||thzqzvwmpxrdm.website^
 ||thzzlvjypvxex.site^
