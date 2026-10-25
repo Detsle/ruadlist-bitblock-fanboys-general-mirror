@@ -37,21 +37,28 @@ jobs:
       - name: Download, validate and update filter files
         run: python scripts/update_filters.py
 
-      - name: Create a short alias for TV Bro (once)
+      - name: Create a Russia-friendlier short alias for TV Bro
         shell: bash
         run: |
           set -u
-          if [ -s short-url.txt ]; then
-            echo "Short URL already exists: $(cat short-url.txt)"
+          existing=""
+          if [ -s short-url.txt ]; then existing="$(cat short-url.txt)"; fi
+          if [[ "$existing" =~ ^https://clck\.ru/[A-Za-z0-9]+$ ]]; then
+            echo "Yandex Clicker URL already exists: $existing"
             exit 0
           fi
-          target="https://raw.githubusercontent.com/Detsle/ruadlist-bitblock-fanboys-general-mirror/main/ruadlist+easylist.txt"
-          response="$(curl -fsSLG --data-urlencode "url=$target" "https://is.gd/create.php?format=simple" 2>/dev/null || true)"
-          if [[ "$response" =~ ^https://is\.gd/[A-Za-z0-9]+$ ]]; then
+
+          # Use jsDelivr's Fastly endpoint rather than raw.githubusercontent.com.
+          # This may improve availability in some Russian networks, but ISP access
+          # still must be checked on the actual TV/network.
+          target="https://fastly.jsdelivr.net/gh/Detsle/ruadlist-bitblock-fanboys-general-mirror@main/ruadlist+easylist.txt"
+          response="$(curl -fsSLG --data-urlencode "url=$target" "https://clck.ru/--" 2>/dev/null || true)"
+          response="$(printf '%s' "$response" | tr -d '\r\n')"
+          if [[ "$response" =~ ^https://clck\.ru/[A-Za-z0-9]+$ ]]; then
             printf '%s\n' "$response" > short-url.txt
-            echo "Created short URL: $response"
+            echo "Created Russia-friendlier short URL: $response"
           else
-            echo "Short URL provider unavailable; filter update can still continue."
+            echo "Yandex Clicker did not return a usable URL; keeping the previous alias."
           fi
 
       - name: Commit changes
