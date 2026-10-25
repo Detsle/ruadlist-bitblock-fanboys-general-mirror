@@ -7,8 +7,8 @@ on:
       - ".github/workflows/main.yml"
       - "scripts/update_filters.py"
   schedule:
-    # The upstream combined list declares a 1-day refresh interval, but does
-    # not publish a fixed release time. Check once near the end of each UTC day.
+    # Upstream says the combined list refresh interval is one day but has no
+    # fixed public release hour. Check once near the end of each UTC day.
     - cron: "17 23 * * *"
   workflow_dispatch:
 
@@ -37,14 +37,49 @@ jobs:
       - name: Download, validate and update filter files
         run: python scripts/update_filters.py
 
-      - name: Commit changes
+      - name: Create a short alias for TV Bro (once)
+        shell: bash
         run: |
-          if git diff --quiet -- ruadlist+easylist.txt main/bitblock.txt; then
-            echo "No filter changes."
+          set -u
+          if [ -s short-url.txt ]; then
+            echo "Short URL already exists: $(cat short-url.txt)"
+            exit 0
+          fi
+          target="https://raw.githubusercontent.com/Detsle/ruadlist-bitblock-fanboys-general-mirror/main/ruadlist+easylist.txt"
+          response="$(curl -fsSLG --data-urlencode "url=$target" "https://is.gd/create.php?format=simple" 2>/dev/null || true)"
+          if [[ "$response" =~ ^https://is\.gd/[A-Za-z0-9]+$ ]]; then
+            printf '%s\n' "$response" > short-url.txt
+            echo "Created short URL: $response"
+          else
+            echo "Short URL provider unavailable; filter update can still continue."
+          fi
+
+      - name: Commit changes
+        shell: bash
+        run: |
+          if git diff --quiet -- ruadlist+easylist.txt main/bitblock.txt short-url.txt; then
+            echo "No filter or short-link changes."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add ruadlist+easylist.txt main/bitblock.txt
+          git add ruadlist+easylist.txt main/bitblock.txt short-url.txt
           git commit -m "Update mirrored adblock filters: $(date -u +"%Y-%m-%d %H:%M UTC")"
-          git push origin HEAD:main
+
+          # Another user/automation may push while this job is downloading.
+          # Rebase our filter commit on the newest main before pushing.
+          for attempt in 1 2 3; do
+            git fetch origin main
+            if ! git rebase origin/main; then
+              git rebase --abort || true
+              echo "Could not rebase filter update onto origin/main." >&2
+              exit 1
+            fi
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            echo "Push raced with another update; retrying ($attempt/3)..."
+            sleep "$((attempt * 2))"
+          done
+          echo "Could not push filter update after 3 attempts." >&2
+          exit 1
