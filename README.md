@@ -4,23 +4,21 @@
 
 ## Единый список RU AdList + EasyList
 
-Короткая ссылка для ручного ввода на телевизоре: https://clck.ru/3Wg4an
-
-Короткая ссылка перенаправляет на Fastly-эндпоинт jsDelivr, который раздаёт файл из GitHub. Это альтернативный маршрут относительно raw.githubusercontent.com, но фактическую доступность в конкретной сети РФ нужно проверить на самом телевизоре.
-
+Короткая ссылка для ручного ввода на телевизоре публикуется в [short-url.txt](https://github.com/Detsle/filters-mirror/blob/main/short-url.txt). Workflow автоматически создаёт новую короткую ссылку, если изменяется адрес назначения фильтра.
 
 Основная ссылка для подписки:
 
 ```text
-https://raw.githubusercontent.com/Detsle/ruadlist-bitblock-fanboys-general-mirror/main/ruadlist+easylist.txt
+https://raw.githubusercontent.com/Detsle/filters-mirror/main/ruadlist+easylist.txt
 ```
 
-[Открыть основной фильтр](https://raw.githubusercontent.com/Detsle/ruadlist-bitblock-fanboys-general-mirror/main/ruadlist%2Beasylist.txt)
+[Открыть основной фильтр](https://raw.githubusercontent.com/Detsle/filters-mirror/main/ruadlist%2Beasylist.txt)
 
-Альтернативная ссылка через jsDelivr:
+Альтернативные CDN-адреса:
 
 ```text
-https://cdn.jsdelivr.net/gh/Detsle/ruadlist-bitblock-fanboys-general-mirror@main/ruadlist+easylist.txt
+https://fastly.jsdelivr.net/gh/Detsle/filters-mirror@main/ruadlist+easylist.txt
+https://cdn.jsdelivr.net/gh/Detsle/filters-mirror@main/ruadlist+easylist.txt
 ```
 
 ## BitBlock
@@ -28,7 +26,7 @@ https://cdn.jsdelivr.net/gh/Detsle/ruadlist-bitblock-fanboys-general-mirror@main
 BitBlock публикуется отдельно:
 
 ```text
-https://raw.githubusercontent.com/Detsle/ruadlist-bitblock-fanboys-general-mirror/main/bitblock.txt
+https://raw.githubusercontent.com/Detsle/filters-mirror/main/bitblock.txt
 ```
 
 ## Обновление
@@ -38,9 +36,9 @@ https://raw.githubusercontent.com/Detsle/ruadlist-bitblock-fanboys-general-mirro
 - GitHub Actions проверяет и обновляет зеркала ежедневно в 23:17 UTC, а также при изменении updater/workflow и по ручному запуску.
 - В заголовке официального объединённого списка указана периодичность обновления 1 день, но у издателя не обнаружено фиксированного публичного времени публикации. Поэтому зеркало проверяет источник раз в сутки ближе к концу дня UTC; фактическая задержка зависит от времени выхода новой версии и задержки GitHub Actions.
 - Перед заменой проверяются формат Adblock Plus, размер, число строк и метаданные. Если проверка не проходит, старая копия остаётся на месте.
-- BitBlock обновляется в рамках того же ежедневного запуска. При ошибке источника используется его зеркало на GitHub.
+- BitBlock обновляется в рамках того же ежедневного запуска. При ошибке официального источника используется его зеркало на GitHub.
 
-Расписание GitHub Actions может выполняться с задержкой. Доступность raw.githubusercontent.com и jsDelivr зависит от сети и провайдера; проверь ссылку непосредственно на устройстве с TV Bro.
+Расписание GitHub Actions может выполняться с задержкой. Доступность raw.githubusercontent.com и jsDelivr зависит от сети и провайдера; ссылку стоит проверить непосредственно на устройстве с TV Bro.
 
 ## Источники
 
