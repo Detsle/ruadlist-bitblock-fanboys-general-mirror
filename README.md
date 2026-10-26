@@ -4,7 +4,7 @@
 
 ## Единый список RU AdList + EasyList
 
-Короткая ссылка для ручного ввода на телевизоре публикуется в [short-url.txt](https://github.com/Detsle/filters-mirror/blob/main/short-url.txt). Workflow автоматически создаёт новую короткую ссылку, если изменяется адрес назначения фильтра.
+Короткая ссылка для ручного ввода на телевизоре: **https://clck.ru/3WhjPE**. Её актуальный адрес назначения хранится в [short-url-target.txt](https://github.com/Detsle/filters-mirror/blob/main/short-url-target.txt); workflow создаёт новую короткую ссылку, если адрес назначения изменится.
 
 Основная ссылка для подписки:
 
