@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: wiyIlAEnIWn9nJp3xr6WAg
-! Version: 202610250002
+! Checksum: m7gG92Dzfh+az5Z88ZEdUg
+! Version: 202610260102
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 25 Oct 2026 00:02 UTC
+! Last modified: 26 Oct 2026 01:02 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -7678,14 +7678,20 @@ ixbt.com#?#div[class]:-abp-has(> [data-testid="yandex-id-button"])
 !
 ! сетевые правила
 .org/$third-party,domain=gorodyshka.link|kurolesya.link|perepolokha.link|player.temptcdn.com|shortener2.link|tazaromikaz.link
+.org/vwm2zm76jr?$third-party,xmlhttprequest
+||antonshipanov.org^$third-party
 ||bystroglaza.link^$third-party
 ||dolgoruka.link^$third-party
+||genocidevreev.org^$third-party
+||gnevizada.org^$third-party
 ||konvtriko.org^$third-party
 ||kruglyashka.link^$third-party
 ||kudroshapka.link^$third-party
+||megadela.org^$third-party
 ||mudrobasa.link^$third-party
 ||pedofobnatural.org^$third-party
 ||ryabokoshka.link^$third-party
+||sablyaizgovna.org^$third-party
 ||sinebryuga.link^$third-party
 ||skorobeyka.link^$third-party
 ||smertotmikrotikov.org^$third-party
@@ -20195,6 +20201,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||foursixty.com^$third-party
 ||freetellafriend.com^$third-party
 ||frizbit.com^$third-party
+||fundraiseup.com^$third-party
 ||fwix.com^$third-party
 ||gameball.co^$third-party
 ||gatherup.com^$third-party
