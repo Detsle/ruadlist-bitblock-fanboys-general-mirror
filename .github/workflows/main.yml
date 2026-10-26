@@ -37,34 +37,37 @@ jobs:
       - name: Download, validate and update filter files
         run: python scripts/update_filters.py
 
-      - name: Create a Russia-friendlier short alias for TV Bro
+      - name: Create or refresh short alias for TV Bro
         shell: bash
         run: |
           set -u
+          target="https://fastly.jsdelivr.net/gh/Detsle/filters-mirror@main/ruadlist+easylist.txt"
           existing=""
+          existing_target=""
           if [ -s short-url.txt ]; then existing="$(cat short-url.txt)"; fi
-          if [[ "$existing" =~ ^https://clck\.ru/[A-Za-z0-9]+$ ]]; then
-            echo "Yandex Clicker URL already exists: $existing"
+          if [ -s short-url-target.txt ]; then existing_target="$(cat short-url-target.txt)"; fi
+
+          # Keep the existing short URL only when it is known to point at this exact target.
+          # After a repository rename, generate a new alias rather than relying on old redirects.
+          if [[ "$existing" =~ ^https://clck\.ru/[A-Za-z0-9]+$ ]] && [ "$existing_target" = "$target" ]; then
+            echo "Short URL already matches the current target: $existing"
             exit 0
           fi
 
-          # Use jsDelivr's Fastly endpoint rather than raw.githubusercontent.com.
-          # This may improve availability in some Russian networks, but ISP access
-          # still must be checked on the actual TV/network.
-          target="https://fastly.jsdelivr.net/gh/Detsle/ruadlist-bitblock-fanboys-general-mirror@main/ruadlist+easylist.txt"
           response="$(curl -fsSLG --data-urlencode "url=$target" "https://clck.ru/--" 2>/dev/null || true)"
           response="$(printf '%s' "$response" | tr -d '\r\n')"
           if [[ "$response" =~ ^https://clck\.ru/[A-Za-z0-9]+$ ]]; then
             printf '%s\n' "$response" > short-url.txt
-            echo "Created Russia-friendlier short URL: $response"
+            printf '%s\n' "$target" > short-url-target.txt
+            echo "Created short URL for current target: $response"
           else
-            echo "Yandex Clicker did not return a usable URL; keeping the previous alias."
+            echo "Yandex Clicker did not return a usable URL; previous short URL metadata is preserved."
           fi
 
       - name: Commit changes
         shell: bash
         run: |
-          if git diff --quiet -- ruadlist+easylist.txt main/bitblock.txt short-url.txt; then
+          if git diff --quiet -- ruadlist+easylist.txt main/bitblock.txt short-url.txt short-url-target.txt; then
             echo "No filter or short-link changes."
             exit 0
           fi
@@ -72,6 +75,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add ruadlist+easylist.txt main/bitblock.txt
           if [ -f short-url.txt ]; then git add short-url.txt; fi
+          if [ -f short-url-target.txt ]; then git add short-url-target.txt; fi
           git commit -m "Update mirrored adblock filters: $(date -u +"%Y-%m-%d %H:%M UTC")"
 
           # Another user/automation may push while this job is downloading.
