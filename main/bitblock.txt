@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: mltZCnH541MhO5MhA9ZEzw
-! Version: 202610280212
+! Checksum: Nrt8GqeR3u/HTXqI3DREww
+! Version: 202610290221
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 28 Oct 2026 02:12 UTC
+! Last modified: 29 Oct 2026 02:21 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -502,7 +502,8 @@ memesmix.net#?##main-area .module-body:-abp-has(> div > #vk_comments)
 orelgrad.ru###main-content > article ~ [role="navigation"] ~ *
 yap.ru,yaplakal.com###main-menu > a[href="https://telegram.me/yaplakal/"]
 yap.ru,yaplakal.com###main-menu > a[href^="https://max.ru/"]
-hlamer.ru,ru###main-menu[style*="krasview"] ~ div #video-counters > .visible-desktop + .counter
+hlamer.ru,ru###main-menu[style*="krasview"] ~ div #video-counters > .counter > .visible-desktop
+hlamer.ru,ru###main-menu[style*="krasview"] ~ div #video-counters > .counter > .visible-desktop + div
 pogoda.com###mapa-loc-shared
 thepage.ua###material-content > .w-full[class*="bg-grey-"]
 nim.ru###mc-login
@@ -2851,6 +2852,7 @@ uznayvse.ru##[aria-label="Поделиться в социальных сетя�
 rutube.ru##[aria-label="Присоединяйтесь в социальных сетях"]
 afisha.ru##[aria-label="Социальные сети"]
 limehd.tv##[aria-label^="social-"]
+24tv.ua##[aria-label^="Под"][aria-label$="ся"]
 mos.ru##[aria-label^="Поделиться ссылкой"]
 bbc.com#?#[aria-labelledby^="normal-collection-"]:-abp-has(> h2:-abp-contains(Мы в соцсетях))
 bbc.com##[aria-labelledby^="social-links-"]
@@ -4866,6 +4868,7 @@ smdoctors.ru###logo_box
 uainfo.org###logo_help
 forums.warforge.ru###logostrip
 fullgames.ru###main > noindex
+hlamer.ru,ru###main-menu[style*="krasview"] ~ div #vip-offer-short
 novayagazeta.ru###mainHeader a[target="_blank"]
 uniondht.org###main_content_wrap > div[id*="new"] tr > td:empty + td
 libst.ru###main_slider
@@ -7673,8 +7676,10 @@ tass.ru##div[class^="DesktopLayout_sticky_in_column_"]
 ! косметические правила и скриплеты
 russiatoday.ru###offers
 russiatoday.ru###today-media-article
+hlamer.ru,qanime.ru,sersoap.ru,smartkino.ru,zseek.ru##+js(abort-on-property-read, adOnClick)
 russiatoday.ru##.Mirtesen-root
 nikvesti.com##.adfree-strip
+24tv.ua##.banner-slot
 russiatoday.ru#?#.column__row_article-page_right:-abp-has(> .hide--partner--block)
 russiatoday.ru#?#.column__row_article-page_right:-abp-has(> [id])
 russiatoday.ru#?#.column__row_article-page_right:-abp-has(> div:empty)
@@ -7683,14 +7688,24 @@ russiatoday.ru##.external-widget
 russiatoday.ru##.follows-channel_djen
 russiatoday.ru##.hide--partner--block
 nikvesti.com##.nv-ad
+24tv.ua##.revive-block
 russiatoday.ru#?#.right-column > .aside-block:-abp-has(script)
 russiatoday.ru##.socials__link_yandex-zen
 niknews.mk.ua##.top-add
+24tv.ua##[app-ad]
+24tv.ua##[app-age-gate-card]
+24tv.ua##[app-article-fuel]
+24tv.ua##[app-article-ita]
+24tv.ua##[app-article-partner-ad]
+vk.com,vk.ru#?#[role="feed"] > article:-abp-has(> [data-post-id] [data-promo-post-hash])
+vk.com,vk.ru#?#[role="feed"] > article:-abp-has(> [data-post-id] [data-testid="post-header-coowners-title"])
+hlamer.ru,qanime.ru,sersoap.ru,smartkino.ru,zseek.ru##body:style(background-color: #596c84 !important; background-image: none !important)
 novosti-n.org,russiatoday.ru##div[class*="banner"]
 russiatoday.ru##div[class^="Popup-"]
 !
 ! сетевые правила
 ||cdn.russiatoday.com/scripts/adfox/
+||ru/content/stargate/*.gif$image,~third-party
 ||russiatoday.ru/nbc/
 ||russiatoday.ru/static/views/wMainBannerTop.
 !
